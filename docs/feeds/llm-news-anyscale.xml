@@ -50,7 +50,7 @@
       <description>完整标题：FP8 Reinforcement Learning in SkyRL: Preserving Policy Consistency Across Training and Rollout</description>
     </item>
     <item>
-      <title>射线数据中的 GPU 原生算子</title>
+      <title>Ray Data 中的 GPU 原生算子</title>
       <link>https://anyscale.com/blog/gpu-native-operators-in-ray-data</link>
       <guid isPermaLink="true">https://anyscale.com/blog/gpu-native-operators-in-ray-data</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
@@ -133,7 +133,7 @@
       <description>原文标题：Introducing the Anyscale Physical AI Skill</description>
     </item>
     <item>
-      <title>开源法学硕士：适合生产还是低质量的玩具？</title>
+      <title>开源 LLM：适合生产还是低质量的玩具？</title>
       <link>https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</link>
       <guid isPermaLink="true">https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</guid>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
@@ -196,7 +196,7 @@
       <description>原文标题：Building Context-Aware Reasoning Applications with LangChain and LangSmith</description>
     </item>
     <item>
-      <title>Llama，在开放生态系统中扩大法学硕士规模</title>
+      <title>Llama，在开放生态系统中扩大 LLM 规模</title>
       <link>https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</link>
       <guid isPermaLink="true">https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</guid>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>

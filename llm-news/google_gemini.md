@@ -10,9 +10,9 @@
 ## 全部文章（共 43 篇，按日期倒序；无日期条目列于最后）
 
 1. [Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-22-2026-1)（2026-09-22）
-2. [反重力剂09-2026](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-17-2026-1)（2026-09-17）
+2. [Antigravity 09-2026](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-17-2026-1)（2026-09-17）
 3. [Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-1)（2026-09-15）
-4. [双子座3.8 活生生的延伸思考](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2)（2026-09-15）
+4. [Gemini 3.8 Live 扩展思考](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2)（2026-09-15）
 5. [Lyria 3.5 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-03-2026-1)（2026-09-03）
 6. [Gemini 3.8 Flash 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-02-2026-1)（2026-09-02）
 7. [Agentic 视频理解](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-01-2026-1)（2026-09-01）
@@ -35,7 +35,7 @@
 24. [弃用公告](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-7)（2026-06-15）
 25. [支持视频转图片生成](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-28-2026-2)（2026-05-28）
 26. [Gemini API 中的托管式智能体](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-19-2026-2)（2026-05-19）
-27. [反重力剂](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-19-2026-3)（2026-05-19）
+27. [Antigravity](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-19-2026-3)（2026-05-19）
 28. [即将发生的重大变更](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-06-2026-1)（2026-05-06）
 29. [文件搜索](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-05-2026-1)（2026-05-05）
 30. [使用 Google 地图接地](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#10-17-2025-1)（2025-10-17）

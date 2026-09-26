@@ -76,8 +76,8 @@
 64. [Codestral 25.01](https://mistral.ai/news/codestral-2501/)（2025-01-13）
 65. [Mistral 已加入聊天](https://mistral.ai/news/mistral-chat/)（2024-11-18）
 66. [Pixtral Large](https://mistral.ai/news/pixtral-large/)（2024-11-18）
-67. [米斯特拉尔批量 API](https://mistral.ai/news/batch-api/)（2024-11-07）
-68. [米斯特拉尔审核 API](https://mistral.ai/news/mistral-moderation/)（2024-11-07）
+67. [Mistral 批量 API](https://mistral.ai/news/batch-api/)（2024-11-07）
+68. [Mistral 审核 API](https://mistral.ai/news/mistral-moderation/)（2024-11-07）
 69. [一个 Ministral，一群 Ministraux](https://mistral.ai/news/ministraux/)（2024-10-16）
 70. [发布 Pixtral 12B](https://mistral.ai/news/pixtral-12b/)（2024-09-17）
 71. [无处不在的人工智能](https://mistral.ai/news/september-24-release/)（2024-09-17）

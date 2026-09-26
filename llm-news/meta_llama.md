@@ -19,7 +19,7 @@
 7. [未来属于每个人](https://about.fb.com/news/2026/08/the-future-is-for-everyone/)（2026-08-10）
 8. [Meta 宣布与贝莱德建立新的战略合资企业，在埃尔帕索开发数据中心](https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/)（2026-07-28）
 9. [宣布人工智能眼镜影响赠款获得者：帮助人们更独立地工作、学习和生活](https://about.fb.com/news/2026/07/ai-glasses-helping-people-work-learn-live-independently/)（2026-07-27）
-10. [元人工智能不仅会思考，还会行动](https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/)（2026-07-24）
+10. [Meta AI 不仅会思考，更会行动](https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/)（2026-07-24）
 11. [推出 Facebook 验证](https://about.fb.com/news/2026/07/introducing-facebook-verified/)（2026-07-24）
 12. [介绍 Muse Spark 1.1](https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/)
 13. [重新构想独立性：Meta 的 AI 模型如何助力匹兹堡大学革新辅助机器人技术](https://ai.meta.com/blog/assistive-robotics-university-of-pittsburgh-sam-dino/)

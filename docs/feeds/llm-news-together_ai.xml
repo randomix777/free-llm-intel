@@ -30,14 +30,14 @@
       <description>原文标题：How a global fintech scaled coding agent traffic with Dedicated Model Inference</description>
     </item>
     <item>
-      <title>共同从封闭模型迁移到开源模型</title>
+      <title>从封闭模型迁移到开源模型，Together</title>
       <link>https://www.together.ai/blog/migrating-from-closed-to-open-source-models</link>
       <guid isPermaLink="true">https://www.together.ai/blog/migrating-from-closed-to-open-source-models</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <description>原文标题：Migrating from closed to open source models, Together</description>
     </item>
     <item>
-      <title>人工智能通过更多模型、实时指标和更精细的控制来扩展微调服务</title>
+      <title>Together AI 通过更多模型、实时指标和更精细的控制来扩展微调服务</title>
       <link>https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
@@ -120,7 +120,7 @@
       <description>原文标题：The production platform for open-weight AI inference</description>
     </item>
     <item>
-      <title>AI 和 Y Combinator 携手合作，为 YC 社区推出第一个专用 GPU 集群</title>
+      <title>Together AI 和 Y Combinator 携手合作，为 YC 社区推出第一个专用 GPU 集群</title>
       <link>https://www.together.ai/blog/together-yc-gpu-cluster</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-yc-gpu-cluster</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
@@ -134,7 +134,7 @@
       <description>原文标题：What does 99.9% uptime mean for inference?</description>
     </item>
     <item>
-      <title>人工智能在第 0 天推出 Thinking Machines Lab 的新模型 Inkling</title>
+      <title>Together AI 在第 0 天推出 Thinking Machines Lab 的新模型 Inkling</title>
       <link>https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
@@ -162,7 +162,7 @@
       <description>原文标题：Together AI at ICML 2026: frontier research across the full stack</description>
     </item>
     <item>
-      <title>ParallelKernelBench：前沿法学硕士还无法编写快速的多 GPU 内核</title>
+      <title>ParallelKernelBench：前沿 LLM 还无法编写快速的多 GPU 内核</title>
       <link>https://www.together.ai/blog/parallelkernelbench</link>
       <guid isPermaLink="true">https://www.together.ai/blog/parallelkernelbench</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
@@ -204,7 +204,7 @@
       <description>原文标题：Benchmarking inference at scale: coding agents</description>
     </item>
     <item>
-      <title>AI 和 Pearl 研究实验室联手降低 AI 推理成本</title>
+      <title>Together AI 和 Pearl 研究实验室联手降低 AI 推理成本</title>
       <link>https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
@@ -246,7 +246,7 @@
       <description>原文标题：From 732 bytes to nowhere: shutting down Copy Fail in production</description>
     </item>
     <item>
-      <title>共同宣布人工智能和适应合作伙伴关系</title>
+      <title>宣布 Together AI 和 Adaption 合作伙伴关系</title>
       <link>https://www.together.ai/blog/announcing-together-ai-and-adaption-partnership</link>
       <guid isPermaLink="true">https://www.together.ai/blog/announcing-together-ai-and-adaption-partnership</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
@@ -301,7 +301,7 @@
       <description>原文标题：What is an AI Native Cloud?</description>
     </item>
     <item>
-      <title>系统人工智能：使用法学硕士优化数据库查询执行</title>
+      <title>系统 AI：使用 LLM 优化数据库查询执行</title>
       <link>https://www.together.ai/blog/using-llms-to-optimize-database-query-execution</link>
       <guid isPermaLink="true">https://www.together.ai/blog/using-llms-to-optimize-database-query-execution</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
@@ -418,7 +418,7 @@
       <description>完整标题：Introducing Dedicated Container Inference: Delivering 2.6x faster inference for custom AI models</description>
     </item>
     <item>
-      <title>当你不告诉法学硕士应该怎么想时，他们会怎么想？</title>
+      <title>当你不告诉 LLM 应该怎么想时，他们会怎么想？</title>
       <link>https://www.together.ai/blog/what-llms-think</link>
       <guid isPermaLink="true">https://www.together.ai/blog/what-llms-think</guid>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
@@ -494,7 +494,7 @@
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI 和 Meta 携手合作，将 PyTorch 强化学习引入 AI 原生云</title>
+      <title>Together AI 和 Meta 携手合作，将 PyTorch 强化学习引入 AI 原生云</title>
       <link>https://www.together.ai/blog/together-ai-and-meta-partner-to-bring-pytorch-reinforcement-learning-to-the-ai-native-cloud</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-and-meta-partner-to-bring-pytorch-reinforcement-learning-to-the-ai-native-cloud</guid>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
@@ -529,7 +529,7 @@
       <description>原文标题：How to evaluate and benchmark Large Language Models (LLMs)</description>
     </item>
     <item>
-      <title>通过共线模拟和共同评估对现实世界进行动态 AI 代理测试</title>
+      <title>通过 Collinear Simulations 和 Together Evals 对现实世界进行动态 AI 代理测试</title>
       <link>https://www.together.ai/blog/collinear-simulations-together-evals</link>
       <guid isPermaLink="true">https://www.together.ai/blog/collinear-simulations-together-evals</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>

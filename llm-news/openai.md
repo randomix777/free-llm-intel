@@ -780,7 +780,7 @@
 767. [让 AI 为你的产品团队效力](https://openai.com/index/put-ai-to-work-for-your-product-team)（2024-12-09）
 768. [Vallée Duhamel 与 Sora](https://openai.com/index/sora-vallee-duhamel)（2024-12-09）
 769. [动画师 Lyndon Barrois 用 Sora 创造新世界](https://openai.com/index/sora-lyndon-barrois)（2024-12-09）
-770. [明妮·阿泰鲁和索拉](https://openai.com/index/sora-minne-atairu)（2024-12-09）
+770. [明妮·阿泰鲁和 Sora](https://openai.com/index/sora-minne-atairu)（2024-12-09）
 771. [介绍 ChatGPT Pro](https://openai.com/index/introducing-chatgpt-pro)（2024-12-05）
 772. [OpenAI o1 系统卡](https://openai.com/index/openai-o1-system-card)（2024-12-05）
 773. [OpenAI 与 Future 合作打造专业内容](https://openai.com/index/openai-and-future-partner-on-specialist-content)（2024-12-04）

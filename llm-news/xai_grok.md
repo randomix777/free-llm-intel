@@ -31,7 +31,7 @@
 20. [Gemini 企业代理平台上的 Grok 4.6](https://x.ai/news#d-2026-08-26-10)（2026-08-26）
 21. [Grok 4.6 登陆 Microsoft Foundry](https://x.ai/news/grok-4-6-microsoft-foundry)（2026-08-26）
 22. [更多计划现已包含 Grok Bot](https://x.ai/news/grok-bot-more-plans)（2026-08-26）
-23. [亚马逊基岩上的 Grok 4.6](https://x.ai/news#d-2026-08-21-11)（2026-08-21）
+23. [亚马逊 Bedrock 上的 Grok 4.6](https://x.ai/news#d-2026-08-21-11)（2026-08-21）
 24. [Grok 4.6 登陆 Gemini 企业代理平台](https://x.ai/news/grok-4-6-vertex-ai)（2026-08-21）
 25. [Grok 在网络和移动设备上构建](https://x.ai/news#d-2026-08-19-12)（2026-08-19）
 26. [GitHub Copilot 中的 Grok 4.6](https://x.ai/news#d-2026-08-19-13)（2026-08-19）
@@ -41,9 +41,9 @@
 30. [GitHub Copilot 中的 Grok 4.6](https://x.ai/news/grok-4-6-github-copilot)（2026-08-14）
 31. [Grok 机器人简介](https://x.ai/news#d-2026-08-12-15)（2026-08-12）
 32. [推出 Grok 4.6](https://x.ai/news/grok-4-6)（2026-08-12）
-33. [想象图像2.0](https://x.ai/news#d-2026-08-11-16)（2026-08-11）
+33. [Imagine Image 2.0](https://x.ai/news#d-2026-08-11-16)（2026-08-11）
 34. [推出 Grok Bot](https://x.ai/news/introducing-grok-bot)（2026-08-11）
-35. [想象视频 1.5 及参考资料](https://x.ai/news#d-2026-08-07-17)（2026-08-07）
+35. [Imagine Video 1.5 及参考资料](https://x.ai/news#d-2026-08-07-17)（2026-08-07）
 36. [全新 Imagine Image 2.0](https://x.ai/news/grok-imagine-image-2)（2026-08-07）
 37. [隆重推出 Grok Voice Think Fast 2.0](https://x.ai/news#d-2026-07-31-18)（2026-07-31）
 38. [Imagine Video 1.5 及参考引用功能](https://x.ai/news/grok-imagine-video-1-5-references)（2026-07-31）
@@ -71,15 +71,15 @@
 60. [Grok Build 现已开源](https://x.ai/news/grok-build-open-source)（2026-07-15）
 61. [语音代理生成器简介](https://x.ai/news#d-2026-07-06-30)（2026-07-06）
 62. [21 款全新旗舰 Grok 音色](https://x.ai/news/new-flagship-voices)（2026-07-06）
-63. [介绍/目标](https://x.ai/news#d-2026-07-01-31)（2026-07-01）
+63. [介绍 /goal](https://x.ai/news#d-2026-07-01-31)（2026-07-01）
 64. [推出语音代理构建器](https://x.ai/news/grok-voice-agent-builder)（2026-07-01）
-65. [数据块上的 Grok](https://x.ai/news#d-2026-06-22-32)（2026-06-22）
+65. [Databricks 上的 Grok](https://x.ai/news#d-2026-06-22-32)（2026-06-22）
 66. [介绍 /goal 功能](https://x.ai/news/introducing-goal)（2026-06-22）
 67. [Grok for Word](https://x.ai/news#d-2026-06-18-33)（2026-06-18）
-68. [亚马逊基岩上的 Grok](https://x.ai/news#d-2026-06-18-34)（2026-06-18）
+68. [亚马逊 Bedrock 上的 Grok](https://x.ai/news#d-2026-06-18-34)（2026-06-18）
 69. [Databricks 上的 Grok](https://x.ai/news/grok-databricks)（2026-06-18）
 70. [Grok for Word：使用适用于 Microsoft Word 的 Grok 插件，把笔记变成文档、为作品排版，或将网络调研资料带入 Word。](https://x.ai/news/introducing-word-addin)（2026-06-18）
-71. [Grok 想象视频 1.5](https://x.ai/news#d-2026-06-17-35)（2026-06-17）
+71. [Grok Imagine Video 1.5](https://x.ai/news#d-2026-06-17-35)（2026-06-17）
 72. [Amazon Bedrock 上的 Grok](https://x.ai/news/grok-amazon-bedrock)（2026-06-17）
 73. [PowerPoint 版 Grok](https://x.ai/news#d-2026-06-16-36)（2026-06-16）
 74. [Grok Build 中的代理仪表板](https://x.ai/news#d-2026-06-16-37)（2026-06-16）
@@ -91,11 +91,11 @@
 80. [在 Warp 中使用 Grok](https://x.ai/news/grok-warp)（2026-06-15）
 81. [Grok Imagine 1.5 预览版](https://x.ai/news#d-2026-06-11-40)（2026-06-11）
 82. [Grok Build 插件市场](https://x.ai/news/grok-plugin-marketplace)（2026-06-11）
-83. [作曲家2.5](https://x.ai/news#d-2026-06-03-41)（2026-06-03）
+83. [Composer 2.5](https://x.ai/news#d-2026-06-03-41)（2026-06-03）
 84. [Grok Imagine 1.5 预览版](https://x.ai/news/grok-imagine-1-5)（2026-06-03）
 85. [Grok 在 API 上构建 0.1](https://x.ai/news#d-2026-06-01-42)（2026-06-01）
 86. [Composer 2.5Composer 2.5 现已登陆 Grok Build，前往 /models 菜单即可体验。](https://x.ai/news/composer-2-5)（2026-06-01）
-87. [在 Kilo 代码中使用 Grok](https://x.ai/news#d-2026-05-29-43)（2026-05-29）
+87. [在 Kilo Code 中使用 Grok](https://x.ai/news#d-2026-05-29-43)（2026-05-29）
 88. [Grok Build 0.1 登陆 API](https://x.ai/news/grok-build-0-1)（2026-05-29）
 89. [Grok 构建简介](https://x.ai/news#d-2026-05-27-44)（2026-05-27）
 90. [在 Kilo Code 中使用 Grok](https://x.ai/news/grok-kilocode)（2026-05-27）
@@ -110,28 +110,28 @@
 99. [与 Anthropic 建立新的计算合作伙伴关系](https://x.ai/news#d-2026-05-15-49)（2026-05-15）
 100. [将 Grok 连接到 Hermes Agent](https://x.ai/news/grok-hermes)（2026-05-15）
 101. [Web、iOS 和 Android 中的连接器](https://x.ai/news#d-2026-05-06-50)（2026-05-06）
-102. [Grok 想象质量模式 API](https://x.ai/news#d-2026-05-06-51)（2026-05-06）
+102. [Grok Imagine 质量模式 API](https://x.ai/news#d-2026-05-06-51)（2026-05-06）
 103. [Custom Voices](https://x.ai/news#d-2026-05-06-52)（2026-05-06）
 104. [与 Anthropic 的全新算力合作](https://x.ai/news/anthropic-compute-partnership)（2026-05-06）
 105. [Web、iOS 和 Android 中的连接器](https://x.ai/news/grok-connectors)（2026-05-06）
 106. [Grok Imagine 质量模式 API](https://x.ai/news/grok-imagine-quality-mode)（2026-05-06）
-107. [Grok 语音快速思考 1.0](https://x.ai/news#d-2026-04-30-53)（2026-04-30）
+107. [Grok Voice Think Fast 1.0](https://x.ai/news#d-2026-04-30-53)（2026-04-30）
 108. [自定义声音：你的声音，你的品牌。用一段短录音克隆声音，并在 Grok Text to Speech 和 Voice Agent API 中使用。](https://x.ai/news/grok-custom-voices)（2026-04-30）
 109. [Grok 语音转文本和文本转语音 API](https://x.ai/news#d-2026-04-23-54)（2026-04-23）
 110. [推出 Grok Voice Think Fast 1.0](https://x.ai/news/grok-voice-think-fast-1)（2026-04-23）
 111. [xAI 加入 SpaceX](https://x.ai/news#d-2026-04-17-55)（2026-04-17）
 112. [Grok 语音转文本与文本转语音 API](https://x.ai/news/grok-stt-and-tts-apis)（2026-04-17）
-113. [Grok 想象 API](https://x.ai/news#d-2026-02-02-56)（2026-02-02）
+113. [Grok Imagine API](https://x.ai/news#d-2026-02-02-56)（2026-02-02）
 114. [xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。](https://x.ai/news/xai-joins-spacex)（2026-02-02）
 115. [xAI Raises $20B Series E](https://x.ai/news#d-2026-01-28-57)（2026-01-28）
-116. [Grok 想象 API](https://x.ai/news/grok-imagine-api)（2026-01-28）
+116. [Grok Imagine API](https://x.ai/news/grok-imagine-api)（2026-01-28）
 117. [Grok Business 和 Grok Enterprise 简介](https://x.ai/news#d-2026-01-06-58)（2026-01-06）
 118. [xAI 募集 $20B 完成 E 轮融资](https://x.ai/news/series-e)（2026-01-06）
-119. [Grok 集合 API](https://x.ai/news#d-2025-12-30-59)（2025-12-30）
+119. [Grok Collections API](https://x.ai/news#d-2025-12-30-59)（2025-12-30）
 120. [推出 Grok Business 和 Grok Enterprise](https://x.ai/news/grok-business)（2025-12-30）
 121. [通过人工智能支持 DOW 的使命](https://x.ai/news#d-2025-12-22-60)（2025-12-22）
 122. [Grok 语音代理 API](https://x.ai/news#d-2025-12-22-61)（2025-12-22）
-123. [Grok 集合 API](https://x.ai/news/grok-collections-api)（2025-12-22）
+123. [Grok Collections API](https://x.ai/news/grok-collections-api)（2025-12-22）
 124. [以 AI 支持 DOW 的使命](https://x.ai/news/us-gov-dept-of-war)（2025-12-22）
 125. [xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划](https://x.ai/news#d-2025-12-17-62)（2025-12-17）
 126. [Grok 语音代理 API](https://x.ai/news/grok-voice-agent-api)（2025-12-17）
@@ -139,12 +139,12 @@
 128. [xAI 与萨尔瓦多率先推出全球首个全国性 AI 教育计划：宣布与萨尔瓦多政府建立变革性合作伙伴关系](https://x.ai/news/el-salvador-partnership)（2025-12-11）
 129. [Grok 与 KSA 一起走向全球](https://x.ai/news#d-2025-11-19-64)（2025-11-19）
 130. [Grok 4.1](https://x.ai/news#d-2025-11-19-65)（2025-11-19）
-131. [Grok 4.1 快速与代理工具 API](https://x.ai/news/grok-4-1-fast)（2025-11-19）
+131. [Grok 4.1 Fast 与代理工具 API](https://x.ai/news/grok-4-1-fast)（2025-11-19）
 132. [Grok 携手 KSA 走向全球](https://x.ai/news/grok-goes-global)（2025-11-19）
 133. [借助 GSA OneGov 扩展政府 xAI](https://x.ai/news#d-2025-11-17-66)（2025-11-17）
 134. [Grok 4 Fast](https://x.ai/news#d-2025-09-25-67)（2025-09-25）
 135. [通过 GSA OneGov 扩展面向政府的 xAI](https://x.ai/news/onegov)（2025-09-25）
-136. [Grok 代码快速 1](https://x.ai/news#d-2025-09-19-68)（2025-09-19）
+136. [Grok Code Fast 1](https://x.ai/news#d-2025-09-19-68)（2025-09-19）
 137. [Grok 4 Fast 推动高性价比智能的前沿](https://x.ai/news/grok-4-fast)（2025-09-19）
 138. [宣布为政府提供 xAI](https://x.ai/news#d-2025-08-28-69)（2025-08-28）
 139. [介绍 Grok Code Fast 1](https://x.ai/news/grok-code-fast-1)（2025-08-28）

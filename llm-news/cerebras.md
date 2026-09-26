@@ -50,7 +50,7 @@
 39. [This new model is smarter than Sonnet 4.5…and 20X faster?](https://www.cerebras.ai/blog/glm-4-7-migration-guide)
 40. [GLM-4.7：创纪录速度的前沿情报 — 现已在 Cerebras 上提供](https://www.cerebras.ai/blog/glm-4-7)
 41. [2026 年：快速推理找到它的最佳位置](https://www.cerebras.ai/blog/2026Insights)
-42. [框内思考：用于高效状态跟踪的隐式链变压器](https://www.cerebras.ai/blog/thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking)
+42. [框内思考：用于高效状态跟踪的隐式链 Transformer](https://www.cerebras.ai/blog/thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking)
 43. [Jais 2：主权人工智能的蓝图](https://www.cerebras.ai/blog/jais2)
 44. [Cerebras 在 NeurIPS 2025：从预训练到推理的九篇论文](https://www.cerebras.ai/blog/cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference)
 45. [Rox × Cerebras：代理销售工作流程的实时速度](https://www.cerebras.ai/blog/rox-cerebras-real-time-speed-for-agentic-sales-workflows)

@@ -15,16 +15,16 @@
 4. [如何使用 Jev：在 TypeScript 中使用 Jev API 进行审核](https://openrouter.ai/blog/tutorials/how-to-use-jev/)（2026-09-23）
 5. [Batch API：通过捆绑请求进行半价推理](https://openrouter.ai/blog/announcements/batch-api/)（2026-09-22）
 6. [Jev 的分类准确度与前沿模型一样吗？](https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/)（2026-09-22）
-7. [什么是 Nemotron 3.5 闪电](https://openrouter.ai/blog/insights/nemotron-3-5-lightning/)（2026-09-22）
+7. [什么是 Nemotron 3.5 Lightning](https://openrouter.ai/blog/insights/nemotron-3-5-lightning/)（2026-09-22）
 8. [一周工作两小时](https://openrouter.ai/blog/insights/descript-model-evaluation-queue/)（2026-09-21）
 9. [Jev 与 LLM 法官](https://openrouter.ai/blog/tutorials/jev-vs-llm-as-a-judge/)（2026-09-21）
-10. [杰夫是什么？为开发人员解释 TypeSafe 的决策模型](https://openrouter.ai/blog/insights/what-is-jev/)（2026-09-21）
+10. [Jev 是什么？为开发人员解释 TypeSafe 的决策模型](https://openrouter.ai/blog/insights/what-is-jev/)（2026-09-21）
 11. [Jev vs LLM：何时使用决策模型而不是生成文本](https://openrouter.ai/blog/tutorials/jev-vs-llm-when-to-use-each/)（2026-09-19）
 12. [图像生成模型比较：成本、编辑、质量](https://openrouter.ai/blog/insights/image-generation-models-compared/)（2026-09-18）
 13. [在 OpenRouter 上构建可靠的工具调用代理循环](https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/)（2026-09-17）
 14. [Does DeepSeek V4 Have Vision?](https://openrouter.ai/blog/insights/deepseek-v4-vision/)（2026-09-16）
 15. [案例研究：Descript 如何将新模型从工程队列中剔除](https://openrouter.ai/blog/case-studies/descript-case-study/)（2026-09-15）
-16. [法学硕士作为法官：自动对人工智能代理的输出进行评分](https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/)（2026-09-14）
+16. [LLM 作为法官：自动对人工智能代理的输出进行评分](https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/)（2026-09-14）
 17. [OpenRouter 文本转语音：5 分钟 API 教程](https://openrouter.ai/blog/tutorials/text-to-speech/)（2026-09-11）
 18. [零数据保留 (ZDR)：对于 AI API 意味着什么](https://openrouter.ai/blog/insights/zero-data-retention/)（2026-09-11）
 19. [OpenRouter Fusion：它的工作原理以及何时使用它](https://openrouter.ai/blog/insights/fusion-explainer/)（2026-09-10）
@@ -40,7 +40,7 @@
 29. [OpenRouter 即将加入 Stripe](https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/)（2026-08-19）
 30. [了解您的 AI 使用情况：每个代理、模型和请求](https://openrouter.ai/blog/announcements/activity-dashboard/)（2026-08-17）
 31. [OpenRouter 图像生成：代码优先 API 教程](https://openrouter.ai/blog/tutorials/image-generation/)（2026-08-17）
-32. [如何通过 API 将图像发送至法学硕士（视觉指南）](https://openrouter.ai/blog/tutorials/send-image-to-llm/)（2026-08-14）
+32. [如何通过 API 将图像发送至 LLM（视觉指南）](https://openrouter.ai/blog/tutorials/send-image-to-llm/)（2026-08-14）
 33. [跨任何模型的工具调用：编写一次循环，交换模型字符串](https://openrouter.ai/blog/tutorials/tool-calling/)（2026-08-12）
 34. [实时网络搜索基准：为您的代理选择正确的引擎、深度和模型](https://openrouter.ai/blog/announcements/web-search-benchmark/)（2026-08-12）
 35. [由市场智慧提供支持的模型路由](https://openrouter.ai/blog/announcements/introducing-the-new-auto-router/)（2026-08-10）
@@ -57,7 +57,7 @@
 46. [通过一个 API 实现每种模式](https://openrouter.ai/blog/insights/every-modality-one-api/)（2026-07-16）
 47. [OpenRouter 的新面貌](https://openrouter.ai/blog/announcements/brand-refresh/)（2026-07-13）
 48. [为什么使用 OpenRouter 进行 DeepSeek](https://openrouter.ai/blog/insights/why-openrouter-for-deepseek/)（2026-07-13）
-49. [在法学硕士中选择最佳图像输入细节级别](https://openrouter.ai/blog/insights/image-detail-low-cost/)（2026-07-07）
+49. [在 LLM 中选择最佳图像输入细节级别](https://openrouter.ai/blog/insights/image-detail-low-cost/)（2026-07-07）
 50. [DeepSeek V4 Is Earning Agentic Token Share](https://openrouter.ai/blog/insights/deepseek-v4-adoption/)（2026-06-30）
 51. [重要的开放重量模型：2026 年 6 月](https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/)（2026-06-27）
 52. [OpenRouter MCP 服务器](https://openrouter.ai/blog/announcements/openrouter-mcp-server/)（2026-06-25）
@@ -70,7 +70,7 @@
 59. [如何将 SillyTavern 连接到 OpenRouter（2026 指南）](https://openrouter.ai/blog/tutorials/sillytavern-openrouter/)（2026-06-18）
 60. [Kilo Code + OpenRouter：设置、模型路由和免费模型](https://openrouter.ai/blog/tutorials/kilo-code-openrouter/)（2026-06-17）
 61. [如何将 OpenAI Codex CLI 与 OpenRouter 结合使用](https://openrouter.ai/blog/tutorials/codex-cli-openrouter/)（2026-06-17）
-62. [如何将 Claude 代码与 OpenRouter 结合使用](https://openrouter.ai/blog/tutorials/claude-code-openrouter/)（2026-06-16）
+62. [如何将 Claude Code 与 OpenRouter 结合使用](https://openrouter.ai/blog/tutorials/claude-code-openrouter/)（2026-06-16）
 63. [如何将 OpenRouter 与任何编码代理或 AI 工具结合使用](https://openrouter.ai/blog/tutorials/any-coding-agent/)（2026-06-16）
 64. [子代理：让您的模型委托繁忙的工作](https://openrouter.ai/blog/announcements/subagent-server-tool/)（2026-06-16）
 65. [免费 LLM API 比较：速率限制、模型和实际成本 (2026)](https://openrouter.ai/blog/tutorials/free-llm-apis-compared/)（2026-06-15）
@@ -117,7 +117,7 @@
 106. [GPT-5 现已上线](https://openrouter.ai/blog/announcements/gpt-5-is-now-live/)（2025-08-07）
 107. [应用程序的音频输入和 PDF URL](https://openrouter.ai/blog/announcements/audio-inputs-and-pdf-urls-for-apps/)（2025-08-04）
 108. [预设：如何跨应用程序无缝传输模型配置](https://openrouter.ai/blog/tutorials/presets-how-to-seamlessly-transfer-model-configurations-across-apps/)（2025-07-29）
-109. [新的注重隐私的提供商下降：威尼斯](https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/)（2025-07-15）
+109. [新的注重隐私的提供商下降：Venice](https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/)（2025-07-15）
 110. [Use OpenRouter Models in Cursor: Try it with Moonshot AI's Kimi K2](https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/)（2025-07-14）
 111. [我们的免费套餐更新：为每个人维持可访问的人工智能](https://openrouter.ai/blog/announcements/updates-to-our-free-tier-sustaining-accessible-ai-for-everyone/)（2025-07-10）
 112. [新隐形模型：“Cypher Alpha”](https://openrouter.ai/blog/announcements/new-stealth-model-cypher-alpha/)（2025-07-01）
@@ -132,7 +132,7 @@
 121. [隐私清晰度、新提供商、OAuth 升级以及 Gemini 获得并行工具](https://openrouter.ai/blog/announcements/privacy-clarity-new-providers-oauth-upgrade-and-gemini-gets-parallel-tools/)（2025-04-28）
 122. [通用 PDF 支持](https://openrouter.ai/blog/announcements/universal-pdf-support/)（2025-04-23）
 123. [更智能的图表、内联 SVG 和实时使用情况统计](https://openrouter.ai/blog/announcements/smarter-charts-inline-svgs-and-live-usage-accounting/)（2025-04-18）
-124. [类星体阿尔法和擎天柱阿尔法揭晓](https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/)（2025-04-14）
+124. [Quasar Alpha 和 Optimus Alpha 揭晓](https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/)（2025-04-14）
 125. [“隐形”型号：Optimus Alpha](https://openrouter.ai/blog/announcements/stealth-model-optimus-alpha/)（2025-04-10）
 126. [“隐形”模型：Quasar Alpha](https://openrouter.ai/blog/announcements/stealth-model-quasar-alpha/)（2025-04-03）
 127. [再也不用为空洞的人工智能响应付费](https://openrouter.ai/blog/announcements/never-pay-for-empty-ai-responses-again/)（2025-03-25）

@@ -151,14 +151,14 @@
     <item>
       <title>新模型 · Anthropic Claude：Claude Fable 5.1</title>
       <link>https://www.anthropic.com/news#d-2026-09-01-2</link>
-      <description>介绍Claude寓言 5.1 和Claude神话 5.1</description>
+      <description>介绍 Claude Fable 5.1 和 Claude Mythos 5.1</description>
       <guid isPermaLink="false">release-anthropic-claude fable 5.1</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>新模型 · Anthropic Claude：Claude Mythos 5.1</title>
       <link>https://www.anthropic.com/news#d-2026-09-01-2</link>
-      <description>介绍Claude寓言 5.1 和Claude神话 5.1</description>
+      <description>介绍 Claude Fable 5.1 和 Claude Mythos 5.1</description>
       <guid isPermaLink="false">release-anthropic-claude mythos 5.1</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -403,7 +403,7 @@
     <item>
       <title>新模型 · Poolside：Laguna XS 2.1</title>
       <link>https://poolside.ai/blog#d-2026-07-21-18</link>
-      <description>拉古纳 XS 2.1 简介</description>
+      <description>Laguna XS 2.1 简介</description>
       <guid isPermaLink="false">release-poolside-laguna xs 2.1</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>

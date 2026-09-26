@@ -152,7 +152,7 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>亚马逊基岩上的 Grok 4.6</title>
+      <title>亚马逊 Bedrock 上的 Grok 4.6</title>
       <link>https://x.ai/news#d-2026-08-21-11</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-21-11</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
@@ -217,11 +217,10 @@
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>想象图像2.0</title>
+      <title>Imagine Image 2.0</title>
       <link>https://x.ai/news#d-2026-08-11-16</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-11-16</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Imagine Image 2.0</description>
     </item>
     <item>
       <title>推出 Grok Bot</title>
@@ -230,7 +229,7 @@
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>想象视频 1.5 及参考资料</title>
+      <title>Imagine Video 1.5 及参考资料</title>
       <link>https://x.ai/news#d-2026-08-07-17</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-07-17</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
@@ -413,7 +412,7 @@
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>介绍/目标</title>
+      <title>介绍 /goal</title>
       <link>https://x.ai/news#d-2026-07-01-31</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-01-31</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
@@ -426,7 +425,7 @@
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>数据块上的 Grok</title>
+      <title>Databricks 上的 Grok</title>
       <link>https://x.ai/news#d-2026-06-22-32</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-22-32</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
@@ -445,7 +444,7 @@
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>亚马逊基岩上的 Grok</title>
+      <title>亚马逊 Bedrock 上的 Grok</title>
       <link>https://x.ai/news#d-2026-06-18-34</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-18-34</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
@@ -465,11 +464,10 @@
       <description>完整标题：Grok for Word：使用适用于 Microsoft Word 的 Grok 插件，把笔记变成文档、为作品排版，或将网络调研资料带入 Word。</description>
     </item>
     <item>
-      <title>Grok 想象视频 1.5</title>
+      <title>Grok Imagine Video 1.5</title>
       <link>https://x.ai/news#d-2026-06-17-35</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-17-35</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok Imagine Video 1.5</description>
     </item>
     <item>
       <title>Amazon Bedrock 上的 Grok</title>
@@ -543,11 +541,10 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>作曲家2.5</title>
+      <title>Composer 2.5</title>
       <link>https://x.ai/news#d-2026-06-03-41</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-03-41</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Composer 2.5</description>
     </item>
     <item>
       <title>Grok Imagine 1.5 预览版</title>
@@ -569,7 +566,7 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>在 Kilo 代码中使用 Grok</title>
+      <title>在 Kilo Code 中使用 Grok</title>
       <link>https://x.ai/news#d-2026-05-29-43</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-05-29-43</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
@@ -667,7 +664,7 @@
       <description>原文标题：Connectors in web, iOS, and Android</description>
     </item>
     <item>
-      <title>Grok 想象质量模式 API</title>
+      <title>Grok Imagine 质量模式 API</title>
       <link>https://x.ai/news#d-2026-05-06-51</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-05-06-51</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
@@ -698,11 +695,10 @@
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 语音快速思考 1.0</title>
+      <title>Grok Voice Think Fast 1.0</title>
       <link>https://x.ai/news#d-2026-04-30-53</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-04-30-53</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok Voice Think Fast 1.0</description>
     </item>
     <item>
       <title>自定义声音：你的声音，你的品牌。用一段短录音克隆声音，并在 Grok Text to Speech 和 Voice Ag…</title>
@@ -738,11 +734,10 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 想象 API</title>
+      <title>Grok Imagine API</title>
       <link>https://x.ai/news#d-2026-02-02-56</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-02-02-56</guid>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok Imagine API</description>
     </item>
     <item>
       <title>xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。</title>
@@ -757,7 +752,7 @@
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 想象 API</title>
+      <title>Grok Imagine API</title>
       <link>https://x.ai/news/grok-imagine-api</link>
       <guid isPermaLink="true">https://x.ai/news/grok-imagine-api</guid>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
@@ -776,11 +771,10 @@
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 集合 API</title>
+      <title>Grok Collections API</title>
       <link>https://x.ai/news#d-2025-12-30-59</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-12-30-59</guid>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok Collections API</description>
     </item>
     <item>
       <title>推出 Grok Business 和 Grok Enterprise</title>
@@ -803,7 +797,7 @@
       <description>原文标题：Grok Voice Agent API</description>
     </item>
     <item>
-      <title>Grok 集合 API</title>
+      <title>Grok Collections API</title>
       <link>https://x.ai/news/grok-collections-api</link>
       <guid isPermaLink="true">https://x.ai/news/grok-collections-api</guid>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
@@ -854,11 +848,11 @@
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 4.1 快速与代理工具 API</title>
+      <title>Grok 4.1 Fast 与代理工具 API</title>
       <link>https://x.ai/news/grok-4-1-fast</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok 4.1 Fast 与 Agent Tools API</description>
+      <description>原文标题：Grok 4.1 Fast and Agent Tools API</description>
     </item>
     <item>
       <title>Grok 携手 KSA 走向全球</title>
@@ -886,11 +880,10 @@
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 代码快速 1</title>
+      <title>Grok Code Fast 1</title>
       <link>https://x.ai/news#d-2025-09-19-68</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-09-19-68</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok Code Fast 1</description>
     </item>
     <item>
       <title>Grok 4 Fast 推动高性价比智能的前沿</title>

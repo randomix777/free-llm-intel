@@ -4,7 +4,7 @@
 
 ## 厂商博客 / 更新动态订阅源
 
-> 由 `crawler_llm_intel.py` 自动整理，最近更新：**2026-09-27 06:46:57**。
+> 由 `crawler_llm_intel.py` 自动整理，最近更新：**2026-09-27 07:02:34**。
 >
 > 各厂商的官方博客、工程文章、更新日志**单独维护在此**，不混入 README 的免费额度情报；
 > 每个厂商下方列出从官方 RSS / 博客页**实际抓取的最新文章**（标题自动汉化、附发布日期与原文链接）。
@@ -51,9 +51,9 @@
 - 📡 **本仓库自建源**（官方没有原生 RSS，标题已汉化）：[`llm-news-google_gemini.xml`](https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml)
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
   1. [Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-22-2026-1)（2026-09-22）
-  2. [反重力剂09-2026](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-17-2026-1)（2026-09-17）
+  2. [Antigravity 09-2026](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-17-2026-1)（2026-09-17）
   3. [Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-1)（2026-09-15）
-  4. [双子座3.8 活生生的延伸思考](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2)（2026-09-15）
+  4. [Gemini 3.8 Live 扩展思考](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2)（2026-09-15）
   5. [Lyria 3.5 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-03-2026-1)（2026-09-03）
   - 📄 完整文章归档（共 43 篇）：[google_gemini.md](llm-news/google_gemini.md)
 
@@ -289,8 +289,8 @@
   1. [如何用 17 美元训练你自己的 JEV](https://www.together.ai/blog/how-to-train-your-own-jev)（2026-09-23）
   2. [金丝雀部署：无需停机即可升级生产中的模型](https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime)（2026-09-22）
   3. [全球金融科技如何通过专用模型推理扩展编码代理流量](https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference)（2026-09-18）
-  4. [共同从封闭模型迁移到开源模型](https://www.together.ai/blog/migrating-from-closed-to-open-source-models)（2026-09-16）
-  5. [人工智能通过更多模型、实时指标和更精细的控制来扩展微调服务](https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls)（2026-09-11）
+  4. [从封闭模型迁移到开源模型，Together](https://www.together.ai/blog/migrating-from-closed-to-open-source-models)（2026-09-16）
+  5. [Together AI 通过更多模型、实时指标和更精细的控制来扩展微调服务](https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls)（2026-09-11）
   - 📄 完整文章归档（共 81 篇）：[together_ai.md](llm-news/together_ai.md)
 
 ### DeepInfra (deepinfra)
@@ -371,18 +371,18 @@
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
   1. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-34)（2026-07-28）
   2. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-35)（2026-07-28）
-  3. [拉古纳 XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-18)（2026-07-21）
-  4. [拉古纳 XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-19)（2026-07-21）
+  3. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-18)（2026-07-21）
+  4. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-19)（2026-07-21）
   5. [长上下文更新：Laguna XS.2 和 M.1](https://poolside.ai/blog#d-2026-07-02-20)（2026-07-02）
   - 📄 完整文章归档（共 38 篇）：[poolside.md](llm-news/poolside.md)
 
 ### Modular (原 BentoCloud/BentoML) (modular_cloud)
 - 📡 [RSS/Atom 订阅源](https://www.modular.com/blog/rss.xml)：`https://www.modular.com/blog/rss.xml`
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
-  1. [模块化：模块化 26.6：开放编译器贡献、音频生成和扩展模型支持](https://www.modular.com/blog/modular-26-6-open-compiler-contributions-audio-generation-and-expanded-model-support)（2026-09-17）
-  2. [模块化：Mojo🔥 现已开源！](https://www.modular.com/blog/mojo-open-source)（2026-08-18）
-  3. [模块化：模块化和高通：相同的代码，新的芯片](https://www.modular.com/blog/modcon-qualcomm)（2026-08-18）
-  4. [模块化：ModCon 2026：开源、开放云、开放芯片](https://www.modular.com/blog/modcon-announcements)（2026-08-18）
+  1. [Modular：Modular 26.6：开放编译器贡献、音频生成和扩展模型支持](https://www.modular.com/blog/modular-26-6-open-compiler-contributions-audio-generation-and-expanded-model-support)（2026-09-17）
+  2. [Modular：Mojo🔥 现已开源！](https://www.modular.com/blog/mojo-open-source)（2026-08-18）
+  3. [Modular：Modular 和高通：相同的代码，新的芯片](https://www.modular.com/blog/modcon-qualcomm)（2026-08-18）
+  4. [Modular：ModCon 2026：开源、开放云、开放芯片](https://www.modular.com/blog/modcon-announcements)（2026-08-18）
   5. [Modular：Modular 26.5：Mojo 1.0 来了！](https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here)（2026-08-11）
   - 📄 完整文章归档（共 100 篇）：[modular_cloud.md](llm-news/modular_cloud.md)
 
@@ -419,7 +419,7 @@
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
   1. [Mercury 2.5 简介|阅读博客](https://www.inceptionlabs.ai/blog/introducing-mercury-2-5)（2026-09-24）
   2. [Mercury 2 for Search：足够快，每个查询运行一百次阅读故事](https://www.inceptionlabs.ai/blog/mercury-2-for-search)
-  3. [更多建设者。更多吞吐量。更好的水星 2.阅读故事](https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens)
+  3. [更多建设者。更多吞吐量。更好的 Mercury 2.阅读故事](https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens)
   4. [Mercury 2：第一个足够快拿起电话的推理模型阅读故事](https://www.inceptionlabs.ai/blog/mercury-2-the-first-reasoning-model-fast-enough-to-pick-up-the-phone)
   5. [Azure Foundry 上的 Mercury 2](https://www.inceptionlabs.ai/blog/mercury-2-on-azure-foundry)
   - 📄 完整文章归档（共 12 篇）：[inception_labs.md](llm-news/inception_labs.md)
@@ -432,8 +432,8 @@
   1. [Schematron V2: Frontier HTML-to-JSON extraction at a fraction of the cost](https://inference.net/blog/#d-2026-08-05-0)（2026-08-05）
   2. [推理平台简介：监控、训练和部署自我改进的 AI 模型](https://inference.net/blog/#d-2026-04-16-1)（2026-04-16）
   3. [How Inference.net trains Specialized Language Models that cut AI costs by up to 50x](https://inference.net/blog/#d-2026-04-14-2)（2026-04-14）
-  4. [专业法学硕士：您需要的模型尚不存在](https://inference.net/blog/#d-2026-03-11-3)（2026-03-11）
-  5. [OSSAS 项目：定制法学硕士可处理 1 亿篇研究论文](https://inference.net/blog/#d-2026-02-05-4)（2026-02-05）
+  4. [专业 LLM：您需要的模型尚不存在](https://inference.net/blog/#d-2026-03-11-3)（2026-03-11）
+  5. [OSSAS 项目：定制 LLM 可处理 1 亿篇研究论文](https://inference.net/blog/#d-2026-02-05-4)（2026-02-05）
   - 📄 完整文章归档（共 9 篇）：[inference_net.md](llm-news/inference_net.md)
 
 ---

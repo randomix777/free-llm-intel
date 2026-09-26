@@ -335,7 +335,7 @@
       <description>原文标题：Is Jev as Accurate as Frontier Models at Classification?</description>
     </item>
     <item>
-      <title>[OpenRouter] 什么是 Nemotron 3.5 闪电</title>
+      <title>[OpenRouter] 什么是 Nemotron 3.5 Lightning</title>
       <link>https://openrouter.ai/blog/insights/nemotron-3-5-lightning/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/nemotron-3-5-lightning/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
@@ -521,7 +521,7 @@
       <description>原文标题：Jev vs LLM-as-a-Judge</description>
     </item>
     <item>
-      <title>[OpenRouter] 杰夫是什么？为开发人员解释 TypeSafe 的决策模型</title>
+      <title>[OpenRouter] Jev 是什么？为开发人员解释 TypeSafe 的决策模型</title>
       <link>https://openrouter.ai/blog/insights/what-is-jev/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/what-is-jev/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
@@ -656,7 +656,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
     </item>
     <item>
-      <title>[Google Gemini] 反重力剂09-2026</title>
+      <title>[Google Gemini] Antigravity 09-2026</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-17-2026-1</link>
       <guid isPermaLink="true">https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-17-2026-1</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
@@ -707,7 +707,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 26.6：开放编译器贡献、音频生成和扩展模型支持</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 26.6：开放编译器贡献、音频生成和扩展模型支持</title>
       <link>https://www.modular.com/blog/modular-26-6-open-compiler-contributions-audio-generation-and-expanded-model-support</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-26-6-open-compiler-contributions-audio-generation-and-expanded-model-support</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
@@ -856,7 +856,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml">OpenRouter</source>
     </item>
     <item>
-      <title>[Together AI] 共同从封闭模型迁移到开源模型</title>
+      <title>[Together AI] 从封闭模型迁移到开源模型，Together</title>
       <link>https://www.together.ai/blog/migrating-from-closed-to-open-source-models</link>
       <guid isPermaLink="true">https://www.together.ai/blog/migrating-from-closed-to-open-source-models</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
@@ -949,7 +949,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
     </item>
     <item>
-      <title>[Google Gemini] 双子座3.8 活生生的延伸思考</title>
+      <title>[Google Gemini] Gemini 3.8 Live 扩展思考</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2</link>
       <guid isPermaLink="true">https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
@@ -1070,7 +1070,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
     </item>
     <item>
-      <title>[OpenRouter] 法学硕士作为法官：自动对人工智能代理的输出进行评分</title>
+      <title>[OpenRouter] LLM 作为法官：自动对人工智能代理的输出进行评分</title>
       <link>https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
@@ -1138,7 +1138,7 @@
       <description>原文标题：Zero Data Retention (ZDR): What It Means for AI APIs</description>
     </item>
     <item>
-      <title>[Together AI] 人工智能通过更多模型、实时指标和更精细的控制来扩展微调服务</title>
+      <title>[Together AI] Together AI 通过更多模型、实时指标和更精细的控制来扩展微调服务</title>
       <link>https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
@@ -1769,7 +1769,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Anthropic Claude] 介绍Claude寓言 5.1 和Claude神话 5.1</title>
+      <title>[Anthropic Claude] 介绍 Claude Fable 5.1 和 Claude Mythos 5.1</title>
       <link>https://www.anthropic.com/news#d-2026-09-01-2</link>
       <guid isPermaLink="true">https://www.anthropic.com/news#d-2026-09-01-2</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
@@ -2395,7 +2395,7 @@
       <description>完整标题：FP8 Reinforcement Learning in SkyRL: Preserving Policy Consistency Across Training and Rollout</description>
     </item>
     <item>
-      <title>[Anyscale] 射线数据中的 GPU 原生算子</title>
+      <title>[Anyscale] Ray Data 中的 GPU 原生算子</title>
       <link>https://anyscale.com/blog/gpu-native-operators-in-ray-data</link>
       <guid isPermaLink="true">https://anyscale.com/blog/gpu-native-operators-in-ray-data</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
@@ -2507,7 +2507,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
     </item>
     <item>
-      <title>[xAI Grok] 亚马逊基岩上的 Grok 4.6</title>
+      <title>[xAI Grok] 亚马逊 Bedrock 上的 Grok 4.6</title>
       <link>https://x.ai/news#d-2026-08-21-11</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-21-11</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
@@ -2824,7 +2824,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Mojo🔥 现已开源！</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Mojo🔥 现已开源！</title>
       <link>https://www.modular.com/blog/mojo-open-source</link>
       <guid isPermaLink="true">https://www.modular.com/blog/mojo-open-source</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
@@ -2832,7 +2832,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化和高通：相同的代码，新的芯片</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 和高通：相同的代码，新的芯片</title>
       <link>https://www.modular.com/blog/modcon-qualcomm</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modcon-qualcomm</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
@@ -2840,7 +2840,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：ModCon 2026：开源、开放云、开放芯片</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：ModCon 2026：开源、开放云、开放芯片</title>
       <link>https://www.modular.com/blog/modcon-announcements</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modcon-announcements</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
@@ -3009,7 +3009,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[OpenRouter] 如何通过 API 将图像发送至法学硕士（视觉指南）</title>
+      <title>[OpenRouter] 如何通过 API 将图像发送至 LLM（视觉指南）</title>
       <link>https://openrouter.ai/blog/tutorials/send-image-to-llm/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/send-image-to-llm/</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
@@ -3186,13 +3186,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] 想象图像2.0</title>
+      <title>[xAI Grok] Imagine Image 2.0</title>
       <link>https://x.ai/news#d-2026-08-11-16</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-11-16</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Imagine Image 2.0</description>
     </item>
     <item>
       <title>[xAI Grok] 推出 Grok Bot</title>
@@ -3366,7 +3365,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
     </item>
     <item>
-      <title>[xAI Grok] 想象视频 1.5 及参考资料</title>
+      <title>[xAI Grok] Imagine Video 1.5 及参考资料</title>
       <link>https://x.ai/news#d-2026-08-07-17</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-07-17</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
@@ -3433,13 +3432,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-cohere.xml">Cohere</source>
     </item>
     <item>
-      <title>[Hugging Face] Baseten 上线拥抱人脸推理提供商 🔥</title>
+      <title>[Hugging Face] Baseten 上线 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/baseten</link>
       <guid isPermaLink="true">https://huggingface.co/blog/baseten</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Baseten 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Baseten on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenRouter] 管理 OpenRouter 上团队的 AI 支出</title>
@@ -3985,7 +3984,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-deepseek.xml">DeepSeek</source>
     </item>
     <item>
-      <title>[Meta Llama] 元人工智能不仅会思考，还会行动</title>
+      <title>[Meta Llama] Meta AI 不仅会思考，更会行动</title>
       <link>https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/</link>
       <guid isPermaLink="true">https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
@@ -4229,7 +4228,7 @@
       <description>原文标题：The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing</description>
     </item>
     <item>
-      <title>[Poolside] 拉古纳 XS 2.1 简介</title>
+      <title>[Poolside] Laguna XS 2.1 简介</title>
       <link>https://poolside.ai/blog#d-2026-07-21-18</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2026-07-21-18</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
@@ -4238,7 +4237,7 @@
       <description>原文标题：Introducing Laguna XS 2.1</description>
     </item>
     <item>
-      <title>[Poolside] 拉古纳 XS 2.1 简介</title>
+      <title>[Poolside] Laguna XS 2.1 简介</title>
       <link>https://poolside.ai/blog#d-2026-07-21-19</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2026-07-21-19</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
@@ -4282,7 +4281,7 @@
       <description>完整标题：qwen-image-3.0-pro：内容丰实：支持最大 4.5k token 输入，支持图中图密集信息排版，让报纸、分镜、菜单、试卷等复杂版面一次生成</description>
     </item>
     <item>
-      <title>[Together AI] AI 和 Y Combinator 携手合作，为 YC 社区推出第一个专用 GPU 集群</title>
+      <title>[Together AI] Together AI 和 Y Combinator 携手合作，为 YC 社区推出第一个专用 GPU 集群</title>
       <link>https://www.together.ai/blog/together-yc-gpu-cluster</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-yc-gpu-cluster</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
@@ -4494,7 +4493,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Together AI] 人工智能在第 0 天推出 Thinking Machines Lab 的新模型 Inkling</title>
+      <title>[Together AI] Together AI 在第 0 天推出 Thinking Machines Lab 的新模型 Inkling</title>
       <link>https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0</guid>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
@@ -4885,7 +4884,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[OpenRouter] 在法学硕士中选择最佳图像输入细节级别</title>
+      <title>[OpenRouter] 在 LLM 中选择最佳图像输入细节级别</title>
       <link>https://openrouter.ai/blog/insights/image-detail-low-cost/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/image-detail-low-cost/</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
@@ -4978,7 +4977,7 @@
       <description>原文标题：Long context update: Laguna XS.2 and M.1</description>
     </item>
     <item>
-      <title>[xAI Grok] 介绍/目标</title>
+      <title>[xAI Grok] 介绍 /goal</title>
       <link>https://x.ai/news#d-2026-07-01-31</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-01-31</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
@@ -5126,7 +5125,6 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <category>美团 LongCat</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
-      <description>原文标题：LongCat-2.0 发布 &amp;amp; 全新推出计费服务</description>
     </item>
     <item>
       <title>[StreamLake] 【优化】推理监控输入输出token卡片增加影响因子数据，用户可直接查看因子维度token消耗</title>
@@ -5371,7 +5369,7 @@
       <description>原文标题：Introducing the Unified Image API</description>
     </item>
     <item>
-      <title>[Together AI] ParallelKernelBench：前沿法学硕士还无法编写快速的多 GPU 内核</title>
+      <title>[Together AI] ParallelKernelBench：前沿 LLM 还无法编写快速的多 GPU 内核</title>
       <link>https://www.together.ai/blog/parallelkernelbench</link>
       <guid isPermaLink="true">https://www.together.ai/blog/parallelkernelbench</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
@@ -5412,7 +5410,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] 数据块上的 Grok</title>
+      <title>[xAI Grok] Databricks 上的 Grok</title>
       <link>https://x.ai/news#d-2026-06-22-32</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-22-32</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
@@ -5530,7 +5528,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
-      <title>[xAI Grok] 亚马逊基岩上的 Grok</title>
+      <title>[xAI Grok] 亚马逊 Bedrock 上的 Grok</title>
       <link>https://x.ai/news#d-2026-06-18-34</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-18-34</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
@@ -5631,13 +5629,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 想象视频 1.5</title>
+      <title>[xAI Grok] Grok Imagine Video 1.5</title>
       <link>https://x.ai/news#d-2026-06-17-35</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-17-35</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Imagine Video 1.5</description>
     </item>
     <item>
       <title>[xAI Grok] Amazon Bedrock 上的 Grok</title>
@@ -5831,7 +5828,7 @@
       <description>原文标题：Workers AI - GLM-5.2 now available on Workers AI</description>
     </item>
     <item>
-      <title>[OpenRouter] 如何将 Claude 代码与 OpenRouter 结合使用</title>
+      <title>[OpenRouter] 如何将 Claude Code 与 OpenRouter 结合使用</title>
       <link>https://openrouter.ai/blog/tutorials/claude-code-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/claude-code-openrouter/</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
@@ -6187,12 +6184,13 @@
       <description>原文标题：Building trust in enterprise AI: Together AI earns ISO 27001:2022 certification</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #55：Mojo 1.0 Beta、社区 Mojo 库和由 MAX 提供支持的实时患者对话</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #55：Mojo 1.0 Beta、社区 Mojo 库和由 MAX 提供支持的实时患者…</title>
       <link>https://www.modular.com/blog/modverse-55-mojo-1-0-beta-community-mojo-libraries-and-real-time-patient-conversations-powered-by-max</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-55-mojo-1-0-beta-community-mojo-libraries-and-real-time-patient-conversations-powered-by-max</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
       <category>Modular (原 BentoCloud/BentoML)</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
+      <description>完整标题：Modular：Modverse #55：Mojo 1.0 Beta、社区 Mojo 库和由 MAX 提供支持的实时患者对话</description>
     </item>
     <item>
       <title>[OpenAI] Nextdoor 的工程师如何用 Codex 无限制地构建</title>
@@ -6312,7 +6310,7 @@
       <description>原文标题：EU AI Act &amp; Colorado ADMT Compliance: Human Oversight for AI Agents</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：为什么 LLM 推理需要一种新型路由器 - 第 3 部分</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：为什么 LLM 推理需要一种新型路由器 - 第 3 部分</title>
       <link>https://www.modular.com/blog/why-llm-inference-needs-a-new-kind-of-router-part-3</link>
       <guid isPermaLink="true">https://www.modular.com/blog/why-llm-inference-needs-a-new-kind-of-router-part-3</guid>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
@@ -6411,13 +6409,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] 作曲家2.5</title>
+      <title>[xAI Grok] Composer 2.5</title>
       <link>https://x.ai/news#d-2026-06-03-41</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-03-41</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Composer 2.5</description>
     </item>
     <item>
       <title>[xAI Grok] Grok Imagine 1.5 预览版</title>
@@ -6669,7 +6666,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] 在 Kilo 代码中使用 Grok</title>
+      <title>[xAI Grok] 在 Kilo Code 中使用 Grok</title>
       <link>https://x.ai/news#d-2026-05-29-43</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-05-29-43</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
@@ -6737,7 +6734,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：MLSys 2026 的三大趋势</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：MLSys 2026 的三大趋势</title>
       <link>https://www.modular.com/blog/three-trends-from-mlsys-2026</link>
       <guid isPermaLink="true">https://www.modular.com/blog/three-trends-from-mlsys-2026</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
@@ -7025,7 +7022,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-aliyun_qwen.xml">通义千问 Qwen</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：为什么 LLM 推理需要一种新型路由器 - 第 2 部分</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：为什么 LLM 推理需要一种新型路由器 - 第 2 部分</title>
       <link>https://www.modular.com/blog/why-llm-inference-needs-a-new-kind-of-router-part-2</link>
       <guid isPermaLink="true">https://www.modular.com/blog/why-llm-inference-needs-a-new-kind-of-router-part-2</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
@@ -7115,7 +7112,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
     </item>
     <item>
-      <title>[Google Gemini] 反重力剂</title>
+      <title>[Google Gemini] Antigravity</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-19-2026-3</link>
       <guid isPermaLink="true">https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#05-19-2026-3</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
@@ -7175,7 +7172,7 @@
       <description>原文标题：Benchmarking inference at scale: coding agents</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：我如何使用 AI 代理构建纯 Mojo 应用程序（和 10 个库）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：我如何使用 AI 代理构建纯 Mojo 应用程序（和 10 个库）</title>
       <link>https://www.modular.com/blog/how-i-built-a-pure-mojo-app-and-10-libraries-with-ai-agents</link>
       <guid isPermaLink="true">https://www.modular.com/blog/how-i-built-a-pure-mojo-app-and-10-libraries-with-ai-agents</guid>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
@@ -7306,7 +7303,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-siliconflow.xml">SiliconFlow 硅基流动</source>
     </item>
     <item>
-      <title>[Together AI] AI 和 Pearl 研究实验室联手降低 AI 推理成本</title>
+      <title>[Together AI] Together AI 和 Pearl 研究实验室联手降低 AI 推理成本</title>
       <link>https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs</guid>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
@@ -7398,7 +7395,7 @@
       <description>原文标题：Reproducing Variance: Caching in Agentic LLM Pipelines</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：通过 AI 代理转换为 Mojo</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：通过 AI 代理转换为 Mojo</title>
       <link>https://www.modular.com/blog/translating-to-mojo-via-ai-agents</link>
       <guid isPermaLink="true">https://www.modular.com/blog/translating-to-mojo-via-ai-agents</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
@@ -7448,7 +7445,7 @@
       <description>完整标题：jina-embeddings-v5-omni: Embeddings for Text, Image, Audio and VideoOne model, four modalities: text, image, audio, video. Best-in-class omni embeddings in 1.6B and 0.9B.</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Inkwell：为什么您的推理平台与您的模型一样重要</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Inkwell：为什么您的推理平台与您的模型一样重要</title>
       <link>https://www.modular.com/blog/inkwell-why-your-inference-platform-matters-as-much-as-your-model</link>
       <guid isPermaLink="true">https://www.modular.com/blog/inkwell-why-your-inference-platform-matters-as-much-as-your-model</guid>
       <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
@@ -7558,7 +7555,7 @@
       <description>原文标题：Deploy and inference any model from HuggingFace</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：为什么 LLM 推理需要一种新型路由器 - 第 1 部分</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：为什么 LLM 推理需要一种新型路由器 - 第 1 部分</title>
       <link>https://www.modular.com/blog/why-llm-inference-needs-a-new-kind-of-router-part-1</link>
       <guid isPermaLink="true">https://www.modular.com/blog/why-llm-inference-needs-a-new-kind-of-router-part-1</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
@@ -7684,7 +7681,7 @@
       <description>原文标题：Connectors in web, iOS, and Android</description>
     </item>
     <item>
-      <title>[xAI Grok] Grok 想象质量模式 API</title>
+      <title>[xAI Grok] Grok Imagine 质量模式 API</title>
       <link>https://x.ai/news#d-2026-05-06-51</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-05-06-51</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
@@ -7860,7 +7857,7 @@
       <description>原文标题：Foundational research powering efficient inference at scale</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #54：AMD AI DevDay、新的模块化办公室和持续交付的社区</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #54：AMD AI DevDay、新的 Modular 办公室和持续交付的社区</title>
       <link>https://www.modular.com/blog/modverse-54-amd-ai-devday-new-modular-offices-and-a-community-that-keeps-shipping</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-54-amd-ai-devday-new-modular-offices-and-a-community-that-keeps-shipping</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
@@ -7894,13 +7891,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 语音快速思考 1.0</title>
+      <title>[xAI Grok] Grok Voice Think Fast 1.0</title>
       <link>https://x.ai/news#d-2026-04-30-53</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-04-30-53</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Voice Think Fast 1.0</description>
     </item>
     <item>
       <title>[xAI Grok] 自定义声音：你的声音，你的品牌。用一段短录音克隆声音，并在 Grok Text to Speech 和 Voice Ag…</title>
@@ -7939,7 +7935,7 @@
       <description>原文标题：From 732 bytes to nowhere: shutting down Copy Fail in production</description>
     </item>
     <item>
-      <title>[Together AI] 共同宣布人工智能和适应合作伙伴关系</title>
+      <title>[Together AI] 宣布 Together AI 和 Adaption 合作伙伴关系</title>
       <link>https://www.together.ai/blog/announcing-together-ai-and-adaption-partnership</link>
       <guid isPermaLink="true">https://www.together.ai/blog/announcing-together-ai-and-adaption-partnership</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
@@ -7996,13 +7992,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] DeepInfra 上线拥抱人脸推理提供商🔥</title>
+      <title>[Hugging Face] DeepInfra 上线 Hugging Face 推理提供商🔥</title>
       <link>https://huggingface.co/blog/inference-providers-deepinfra</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-deepinfra</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：DeepInfra 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：DeepInfra on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenRouter] 通过 CLI 使用 Stripe 项目创建 OpenRouter 帐户</title>
@@ -8798,7 +8794,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Frontier Coding Agent 如何在 MAX 上构建视频传播管道</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Frontier Coding Agent 如何在 MAX 上构建视频传播管道</title>
       <link>https://www.modular.com/blog/how-frontier-coding-agents-built-a-video-diffusion-pipeline-on-max</link>
       <guid isPermaLink="true">https://www.modular.com/blog/how-frontier-coding-agents-built-a-video-diffusion-pipeline-on-max</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
@@ -8910,7 +8906,7 @@
       <description>原文标题：EinsteinArena: Harnessing the collective intelligence of agents in the wild to advance science</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：TileTensor 第 1 部分 - 更安全、更高效的 GPU 内核</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：TileTensor 第 1 部分 - 更安全、更高效的 GPU 内核</title>
       <link>https://www.modular.com/blog/tiletensor-part-1-safer-more-efficient-gpu-kernels</link>
       <guid isPermaLink="true">https://www.modular.com/blog/tiletensor-part-1-safer-more-efficient-gpu-kernels</guid>
       <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
@@ -9323,7 +9319,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-aliyun_qwen.xml">通义千问 Qwen</source>
     </item>
     <item>
-      <title>[Together AI] 系统人工智能：使用法学硕士优化数据库查询执行</title>
+      <title>[Together AI] 系统 AI：使用 LLM 优化数据库查询执行</title>
       <link>https://www.together.ai/blog/using-llms-to-optimize-database-query-execution</link>
       <guid isPermaLink="true">https://www.together.ai/blog/using-llms-to-optimize-database-query-execution</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
@@ -9340,7 +9336,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-streamlake.xml">StreamLake</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：结构化 Mojo 内核第 4 部分 - 可移植性和未来之路</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：结构化 Mojo 内核第 4 部分 - 可移植性和未来之路</title>
       <link>https://www.modular.com/blog/structured-mojo-kernels-part-4-portability-and-the-road-ahead</link>
       <guid isPermaLink="true">https://www.modular.com/blog/structured-mojo-kernels-part-4-portability-and-the-road-ahead</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
@@ -9496,7 +9492,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-together_ai.xml">Together AI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #54：从 GTC 到爱丁堡，社区建设动力</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #54：从 GTC 到爱丁堡，社区建设动力</title>
       <link>https://www.modular.com/blog/modverse-54-from-gtc-to-edinburgh-a-community-building-momentum</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-54-from-gtc-to-edinburgh-a-community-building-momentum</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
@@ -9504,7 +9500,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：GPU 内核的软件流水线：第 1 部分 - 流水线问题</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：GPU 内核的软件流水线：第 1 部分 - 流水线问题</title>
       <link>https://www.modular.com/blog/software-pipelining-for-gpu-kernels-part-1-the-pipeline-problem</link>
       <guid isPermaLink="true">https://www.modular.com/blog/software-pipelining-for-gpu-kernels-part-1-the-pipeline-problem</guid>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
@@ -9562,7 +9558,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-streamlake.xml">StreamLake</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：结构化 Mojo 内核第 3 部分 - 组合实践</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：结构化 Mojo 内核第 3 部分 - 组合实践</title>
       <link>https://www.modular.com/blog/structured-mojo-kernels-part-3-composition-in-practice</link>
       <guid isPermaLink="true">https://www.modular.com/blog/structured-mojo-kernels-part-3-composition-in-practice</guid>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
@@ -9700,7 +9696,7 @@
       <description>原文标题：Workers AI - Moonshot AI Kimi K2.5 now available on Workers AI</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 26.2：使用 Mojo 进行最先进的图像生成和升级的 AI 编码</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 26.2：使用 Mojo 进行最先进的图像生成和升级的 AI 编码</title>
       <link>https://www.modular.com/blog/modular-26-2-state-of-the-art-image-generation-and-upgraded-ai-coding-with-mojo</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-26-2-state-of-the-art-image-generation-and-upgraded-ai-coding-with-mojo</guid>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
@@ -10018,7 +10014,7 @@
       <description>完整标题：7 minutes readBootstrapping Audio Embeddings from Multimodal LLMsTurn any multimodal LLM into a small audio embedding model that beats CLAP with 25x less data.</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：结构化 Mojo 内核第 2 部分 - 三大支柱</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：结构化 Mojo 内核第 2 部分 - 三大支柱</title>
       <link>https://www.modular.com/blog/structured-mojo-kernels-part-2-the-three-pillars</link>
       <guid isPermaLink="true">https://www.modular.com/blog/structured-mojo-kernels-part-2-the-three-pillars</guid>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
@@ -10026,7 +10022,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Inference.net] 专业法学硕士：您需要的模型尚不存在</title>
+      <title>[Inference.net] 专业 LLM：您需要的模型尚不存在</title>
       <link>https://inference.net/blog/#d-2026-03-11-3</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2026-03-11-3</guid>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
@@ -10169,7 +10165,7 @@
       <description>原文标题：6 minutes readIdentifying Embedding Models from Raw Numerical ValuesA tiny transformer that fingerprints embedding models by reading raw numerical digits. No feature engineering.</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #53：社区建设、研究里程碑和不断发展的生态系统</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #53：社区建设、研究里程碑和不断发展的生态系统</title>
       <link>https://www.modular.com/blog/modverse-53-community-builds-research-milestones-and-a-growing-ecosystem</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-53-community-builds-research-milestones-and-a-growing-ecosystem</guid>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
@@ -10279,7 +10275,7 @@
       <description>原文标题：FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：结构化 Mojo 内核第 1 部分 - 峰值性能，一半代码</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：结构化 Mojo 内核第 1 部分 - 峰值性能，一半代码</title>
       <link>https://www.modular.com/blog/structured-mojo-kernels-part-1-peak-performance-half-the-code</link>
       <guid isPermaLink="true">https://www.modular.com/blog/structured-mojo-kernels-part-1-peak-performance-half-the-code</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
@@ -10577,7 +10573,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Claude C 编译器：它揭示了软件的未来</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Claude C 编译器：它揭示了软件的未来</title>
       <link>https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software</link>
       <guid isPermaLink="true">https://www.modular.com/blog/the-claude-c-compiler-what-it-reveals-about-the-future-of-software</guid>
       <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
@@ -10720,7 +10716,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-streamlake.xml">StreamLake</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：BentoML 加入 Modular</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：BentoML 加入 Modular</title>
       <link>https://www.modular.com/blog/bentoml-joins-modular</link>
       <guid isPermaLink="true">https://www.modular.com/blog/bentoml-joins-modular</guid>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
@@ -10769,7 +10765,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Together AI] 当你不告诉法学硕士应该怎么想时，他们会怎么想？</title>
+      <title>[Together AI] 当你不告诉 LLM 应该怎么想时，他们会怎么想？</title>
       <link>https://www.together.ai/blog/what-llms-think</link>
       <guid isPermaLink="true">https://www.together.ai/blog/what-llms-think</guid>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
@@ -10862,7 +10858,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：KVCache 的五个时代</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：KVCache 的五个时代</title>
       <link>https://www.modular.com/blog/the-five-eras-of-kvcache</link>
       <guid isPermaLink="true">https://www.modular.com/blog/the-five-eras-of-kvcache</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
@@ -10870,7 +10866,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Inference.net] OSSAS 项目：定制法学硕士可处理 1 亿篇研究论文</title>
+      <title>[Inference.net] OSSAS 项目：定制 LLM 可处理 1 亿篇研究论文</title>
       <link>https://inference.net/blog/#d-2026-02-05-4</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2026-02-05-4</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
@@ -10985,13 +10981,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 想象 API</title>
+      <title>[xAI Grok] Grok Imagine API</title>
       <link>https://x.ai/news#d-2026-02-02-56</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-02-02-56</guid>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Imagine API</description>
     </item>
     <item>
       <title>[xAI Grok] xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。</title>
@@ -11134,7 +11129,7 @@
       <description>原文标题：Introducing Daggr: Chain apps programmatically, inspect visually</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 26.1：迈向更加可编程和便携式 AI 基础设施的一大步</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 26.1：迈向更加可编程和便携式 AI 基础设施的一大步</title>
       <link>https://www.modular.com/blog/modular-26-1-a-big-step-towards-more-programmable-and-portable-ai-infrastructure</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-26-1-a-big-step-towards-more-programmable-and-portable-ai-infrastructure</guid>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
@@ -11174,7 +11169,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 想象 API</title>
+      <title>[xAI Grok] Grok Imagine API</title>
       <link>https://x.ai/news/grok-imagine-api</link>
       <guid isPermaLink="true">https://x.ai/news/grok-imagine-api</guid>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
@@ -11564,7 +11559,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：如何在零 GPU 经验的情况下使用 Mojo 击败 Unsloth 的 CUDA 内核</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：如何在零 GPU 经验的情况下使用 Mojo 击败 Unsloth 的 CUDA 内核</title>
       <link>https://www.modular.com/blog/how-to-beat-unsloth-s-cuda-kernel-using-mojo-with-zero-gpu-experience</link>
       <guid isPermaLink="true">https://www.modular.com/blog/how-to-beat-unsloth-s-cuda-kernel-using-mojo-with-zero-gpu-experience</guid>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
@@ -11755,13 +11750,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-siliconflow.xml">SiliconFlow 硅基流动</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 集合 API</title>
+      <title>[xAI Grok] Grok Collections API</title>
       <link>https://x.ai/news#d-2025-12-30-59</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-12-30-59</guid>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Collections API</description>
     </item>
     <item>
       <title>[xAI Grok] 推出 Grok Business 和 Grok Enterprise</title>
@@ -11831,7 +11825,7 @@
       <description>原文标题：Grok Voice Agent API</description>
     </item>
     <item>
-      <title>[xAI Grok] Grok 集合 API</title>
+      <title>[xAI Grok] Grok Collections API</title>
       <link>https://x.ai/news/grok-collections-api</link>
       <guid isPermaLink="true">https://x.ai/news/grok-collections-api</guid>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
@@ -11871,7 +11865,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：🔥 模块化 2025 年回顾</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：🔥 Modular 2025 年回顾</title>
       <link>https://www.modular.com/blog/modular-2025-year-in-review</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-2025-year-in-review</guid>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
@@ -12357,7 +12351,7 @@
       <description>原文标题：Introducing swift-huggingface: The Complete Swift Client for Hugging Face</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：通往 Mojo 1.0 的道路</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：通往 Mojo 1.0 的道路</title>
       <link>https://www.modular.com/blog/the-path-to-mojo-1-0</link>
       <guid isPermaLink="true">https://www.modular.com/blog/the-path-to-mojo-1-0</guid>
       <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
@@ -12440,7 +12434,7 @@
       <description>原文标题：Workers AI - Deepgram Flux promotional period over on Dec 8, 2025 - now has pricing</description>
     </item>
     <item>
-      <title>[Together AI] AI 和 Meta 携手合作，将 PyTorch 强化学习引入 AI 原生云</title>
+      <title>[Together AI] Together AI 和 Meta 携手合作，将 PyTorch 强化学习引入 AI 原生云</title>
       <link>https://www.together.ai/blog/together-ai-and-meta-partner-to-bring-pytorch-reinforcement-learning-to-the-ai-native-cloud</link>
       <guid isPermaLink="true">https://www.together.ai/blog/together-ai-and-meta-partner-to-bring-pytorch-reinforcement-learning-to-the-ai-native-cloud</guid>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
@@ -12467,7 +12461,7 @@
       <description>原文标题：Introducing AutoJudge: Streamlined inference acceleration via automated dataset curation</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #52：共同推进人工智能——社区项目和平台里程碑</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #52：共同推进人工智能——社区项目和平台里程碑</title>
       <link>https://www.modular.com/blog/modverse-52-advancing-ai-together-community-projects-platform-milestones</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-52-advancing-ai-together-community-projects-platform-milestones</guid>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
@@ -12673,13 +12667,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] OVHcloud 加入拥抱人脸推理提供商 🔥</title>
+      <title>[Hugging Face] OVHcloud 加入 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud</link>
       <guid isPermaLink="true">https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud</guid>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：OVHcloud 加入 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：OVHcloud on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[数眼智能] 当AI遇见数据荒，我们选择成为掘井人 | 数眼智能正式启航！</title>
@@ -12747,7 +12741,7 @@
       <description>原文标题：Introducing AnyLanguageModel: One API for Local and Remote LLMs on Apple Platforms</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 25.7：更快的推理、更安全的 GPU 编程和更统一的开发者体验</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 25.7：更快的推理、更安全的 GPU 编程和更统一的开发者体验</title>
       <link>https://www.modular.com/blog/modular-25-7-faster-inference-safer-gpu-programming-and-a-more-unified-developer-experience</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-25-7-faster-inference-safer-gpu-programming-and-a-more-unified-developer-experience</guid>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
@@ -12829,13 +12823,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 4.1 快速与代理工具 API</title>
+      <title>[xAI Grok] Grok 4.1 Fast 与代理工具 API</title>
       <link>https://x.ai/news/grok-4-1-fast</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok 4.1 Fast 与 Agent Tools API</description>
+      <description>原文标题：Grok 4.1 Fast and Agent Tools API</description>
     </item>
     <item>
       <title>[xAI Grok] Grok 携手 KSA 走向全球</title>
@@ -13039,7 +13033,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-siliconflow.xml">SiliconFlow 硅基流动</source>
     </item>
     <item>
-      <title>[Inference.net] 逻辑：通过对数概率验证进行不可信推理</title>
+      <title>[Inference.net] LOGIC：通过对数概率验证进行不可信推理</title>
       <link>https://inference.net/blog/#d-2025-11-11-5</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2025-11-11-5</guid>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
@@ -13080,7 +13074,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-siliconflow.xml">SiliconFlow 硅基流动</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：“TTS 1 Max”（由模块化平台提供支持）在人工分析中排名第一的语音模型</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：“TTS 1 Max”（由 Modular 平台提供支持）在人工分析中排名第一的语音模型</title>
       <link>https://www.modular.com/blog/tts-1-max-ranked-1-speech-model-on-artificial-analysis</link>
       <guid isPermaLink="true">https://www.modular.com/blog/tts-1-max-ranked-1-speech-model-on-artificial-analysis</guid>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
@@ -13104,7 +13098,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：2025 年的 PyTorch 和 LLVM — 跟上人工智能创新的步伐</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：2025 年的 PyTorch 和 LLVM — 跟上人工智能创新的步伐</title>
       <link>https://www.modular.com/blog/pytorch-and-llvm-in-2025-keeping-up-with-ai-innovation</link>
       <guid isPermaLink="true">https://www.modular.com/blog/pytorch-and-llvm-in-2025-keeping-up-with-ai-innovation</guid>
       <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
@@ -13394,7 +13388,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Together AI] 通过共线模拟和共同评估对现实世界进行动态 AI 代理测试</title>
+      <title>[Together AI] 通过 Collinear Simulations 和 Together Evals 对现实世界进行动态 AI 代理测试</title>
       <link>https://www.together.ai/blog/collinear-simulations-together-evals</link>
       <guid isPermaLink="true">https://www.together.ai/blog/collinear-simulations-together-evals</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
@@ -13571,13 +13565,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] 句子变形金刚加入抱脸！</title>
+      <title>[Hugging Face] Sentence Transformers 加入 Hugging Face！</title>
       <link>https://huggingface.co/blog/sentence-transformers-joins-hf</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sentence-transformers-joins-hf</guid>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Sentence Transformers 加入 Hugging Face！</description>
     </item>
     <item>
       <title>[Together AI] 大型推理模型在推理过程中无法遵循指令：一项基准研究</title>
@@ -13754,7 +13747,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-tencent_hunyuan.xml">腾讯混元</source>
     </item>
     <item>
-      <title>[Inference.net] Schematron：大规模针对 HTML -&gt; JSON 进行训练的法学硕士</title>
+      <title>[Inference.net] Schematron：大规模针对 HTML -&gt; JSON 进行训练的 LLM</title>
       <link>https://inference.net/blog/#d-2025-10-14-8</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2025-10-14-8</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
@@ -14387,7 +14380,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 25.6：统一 NVIDIA、AMD 和 Apple 的最新 GPU</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 25.6：统一 NVIDIA、AMD 和 Apple 的最新 GPU</title>
       <link>https://www.modular.com/blog/modular-25-6-unifying-the-latest-gpus-from-nvidia-amd-and-apple</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-25-6-unifying-the-latest-gpus-from-nvidia-amd-and-apple</guid>
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
@@ -14395,13 +14388,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 代码快速 1</title>
+      <title>[xAI Grok] Grok Code Fast 1</title>
       <link>https://x.ai/news#d-2025-09-19-68</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-09-19-68</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Code Fast 1</description>
     </item>
     <item>
       <title>[xAI Grok] Grok 4 Fast 推动高性价比智能的前沿</title>
@@ -14412,16 +14404,16 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
-      <title>[Hugging Face] Scaleway 加入拥抱人脸推理提供商 🔥</title>
+      <title>[Hugging Face] Scaleway 加入 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/inference-providers-scaleway</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-scaleway</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Scaleway 加入 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Scaleway on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Blackwell 上的矩阵乘法：第 4 部分 - 打破 SOTA</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Blackwell 上的矩阵乘法：第 4 部分 - 打破 SOTA</title>
       <link>https://www.modular.com/blog/matrix-multiplication-on-blackwell-part-4---breaking-sota</link>
       <guid isPermaLink="true">https://www.modular.com/blog/matrix-multiplication-on-blackwell-part-4---breaking-sota</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
@@ -14429,12 +14421,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #51：模块化 x Inworld x Oracle、模块化聚会回顾和社区项目</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #51：Modular x Inworld x Oracle、Modular 聚会回顾…</title>
       <link>https://www.modular.com/blog/modverse-51-modular-x-inworld-x-oracle-modular-meetup-recap-and-community-projects</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-51-modular-x-inworld-x-oracle-modular-meetup-recap-and-community-projects</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <category>Modular (原 BentoCloud/BentoML)</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
+      <description>完整标题：Modular：Modverse #51：Modular x Inworld x Oracle、Modular 聚会回顾和社区项目</description>
     </item>
     <item>
       <title>[Groq Cloud] 添加 Kimi K2 0905 + Compound</title>
@@ -14478,13 +14471,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
     </item>
     <item>
-      <title>[Hugging Face] 公共人工智能加入拥抱人脸推理提供商🔥</title>
+      <title>[Hugging Face] Public AI 加入 Hugging Face 推理提供商🔥</title>
       <link>https://huggingface.co/blog/inference-providers-publicai</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-publicai</guid>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Public AI 加入 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Public AI on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenAI] 推出 Stargate UK</title>
@@ -14579,7 +14572,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Blackwell 上的矩阵乘法：第 3 部分 - 85% SOTA 性能背后的优化</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Blackwell 上的矩阵乘法：第 3 部分 - 85% SOTA 性能背后的优化</title>
       <link>https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-3-the-optimizations-behind-85-of-sota-performance</link>
       <guid isPermaLink="true">https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-3-the-optimizations-behind-85-of-sota-performance</guid>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
@@ -14744,7 +14737,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Blackwell 上的矩阵乘法：第 2 部分 - 使用硬件功能优化 Matmul</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Blackwell 上的矩阵乘法：第 2 部分 - 使用硬件功能优化 Matmul</title>
       <link>https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-2-using-hardware-features-to-optimize-matmul</link>
       <guid isPermaLink="true">https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-2-using-hardware-features-to-optimize-matmul</guid>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
@@ -14918,7 +14911,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Blackwell 上的矩阵乘法：第 1 部分 - 简介</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Blackwell 上的矩阵乘法：第 1 部分 - 简介</title>
       <link>https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction</link>
       <guid isPermaLink="true">https://www.modular.com/blog/matrix-multiplication-on-nvidias-blackwell-part-1-introduction</guid>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
@@ -15042,13 +15035,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-deepseek.xml">DeepSeek</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #50：模块化平台 25.5、社区聚会以及 Mojo 在 Stack Overflow 开发者…</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #50：Modular Platform 25.5、社区聚会以及 Mojo 在 Sta…</title>
       <link>https://www.modular.com/blog/modverse-50</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-50</guid>
       <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
       <category>Modular (原 BentoCloud/BentoML)</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
-      <description>完整标题：模块化：Modverse #50：模块化平台 25.5、社区聚会以及 Mojo 在 Stack Overflow 开发者调查中的首次亮相</description>
+      <description>完整标题：Modular：Modverse #50：Modular Platform 25.5、社区聚会以及 Mojo 在 Stack Overflow 开发者调查中的首次亮相</description>
     </item>
     <item>
       <title>[OpenAI] Mixi 重新构想与 ChatGPT 的沟通</title>
@@ -15201,7 +15194,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Poolside] 泰坦，模型工厂的熔炉</title>
+      <title>[Poolside] Titan，模型工厂的熔炉</title>
       <link>https://poolside.ai/blog#d-2025-08-12-10</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-12-10</guid>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
@@ -15210,7 +15203,7 @@
       <description>原文标题：Titan, the Model Factory&apos;s furnace</description>
     </item>
     <item>
-      <title>[Poolside] 泰坦，模型工厂的熔炉</title>
+      <title>[Poolside] Titan，模型工厂的熔炉</title>
       <link>https://poolside.ai/blog#d-2025-08-12-11</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-12-11</guid>
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
@@ -15917,7 +15910,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：AWS Marketplace 的 AI 代理</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：AWS Marketplace 的 AI 代理</title>
       <link>https://www.modular.com/blog/ai-agents-for-aws-marketplace</link>
       <guid isPermaLink="true">https://www.modular.com/blog/ai-agents-for-aws-marketplace</guid>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
@@ -15973,7 +15966,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[OpenRouter] 新的注重隐私的提供商下降：威尼斯</title>
+      <title>[OpenRouter] 新的注重隐私的提供商下降：Venice</title>
       <link>https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/</guid>
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
@@ -16098,12 +16091,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #49：模块化平台 25.4、模块化 🤝 AMD 和模块化黑客周末</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #49：Modular Platform 25.4、Modular 🤝 AMD 和 M…</title>
       <link>https://www.modular.com/blog/modverse-49</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-49</guid>
       <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
       <category>Modular (原 BentoCloud/BentoML)</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
+      <description>完整标题：Modular：Modverse #49：Modular Platform 25.4、Modular 🤝 AMD 和 Modular 黑客周末</description>
     </item>
     <item>
       <title>[OpenAI] 与 400,000 名教师合作，塑造学校人工智能的未来</title>
@@ -16163,7 +16157,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-mistral.xml">Mistral AI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化黑客周末内部：热门项目和社区亮点</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 黑客周末内部：热门项目和社区亮点</title>
       <link>https://www.modular.com/blog/modular-hack-weekend</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-hack-weekend</guid>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
@@ -16322,7 +16316,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化如何使人工智能计算大众化？ （人工智能计算民主化，第 11 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 如何使人工智能计算大众化？ （人工智能计算民主化，第 11 部分）</title>
       <link>https://www.modular.com/blog/how-is-modular-democratizing-ai-compute</link>
       <guid isPermaLink="true">https://www.modular.com/blog/how-is-modular-democratizing-ai-compute</guid>
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
@@ -16387,7 +16381,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 25.4：一个容器、AMD 和 NVIDIA GPU、无锁定</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular 25.4：一个容器、AMD 和 NVIDIA GPU、无锁定</title>
       <link>https://www.modular.com/blog/modular-25-4-one-container-amd-and-nvidia-gpus-no-lock-in</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-25-4-one-container-amd-and-nvidia-gpus-no-lock-in</guid>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
@@ -16411,13 +16405,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
     </item>
     <item>
-      <title>[Hugging Face] Groq 上线拥抱人脸推理提供商 🔥</title>
+      <title>[Hugging Face] Groq 上线 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/inference-providers-groq</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-groq</guid>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Groq 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Groq on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[Anthropic Claude] 我们如何构建多智能体研究系统</title>
@@ -16468,13 +16462,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] Featherless AI 上线拥抱人脸推理提供商🔥</title>
+      <title>[Hugging Face] Featherless AI 上线 Hugging Face 推理提供商🔥</title>
       <link>https://huggingface.co/blog/inference-providers-featherless</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-featherless</guid>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Featherless AI 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Featherless AI on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[Mistral AI] Mistral Compute</title>
@@ -16518,7 +16512,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-mistral.xml">Mistral AI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Mammoth 简介：企业级 GenAI 部署变得简单</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Mammoth 简介：企业级 GenAI 部署变得简单</title>
       <link>https://www.modular.com/blog/introducing-mammoth-enterprise-scale-genai-deployments-made-simple</link>
       <guid isPermaLink="true">https://www.modular.com/blog/introducing-mammoth-enterprise-scale-genai-deployments-made-simple</guid>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
@@ -16526,7 +16520,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 + AMD：在 AMD GPU 上释放 AI 性能</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular + AMD：在 AMD GPU 上释放 AI 性能</title>
       <link>https://www.modular.com/blog/modular-x-amd-unleashing-ai-performance-on-amd-gpus</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-x-amd-unleashing-ai-performance-on-amd-gpus</guid>
       <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
@@ -16770,12 +16764,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-tencent_hunyuan.xml">腾讯混元</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #48：模块化平台 25.3、MAX AI 内核和模块化 GPU 内核黑客马拉松</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #48：Modular Platform 25.3、MAX AI 内核和 Modula…</title>
       <link>https://www.modular.com/blog/modverse-48</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-48</guid>
       <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
       <category>Modular (原 BentoCloud/BentoML)</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
+      <description>完整标题：Modular：Modverse #48：Modular Platform 25.3、MAX AI 内核和 Modular GPU 内核黑客马拉松</description>
     </item>
     <item>
       <title>[DeepSeek] deepseek-reasoner</title>
@@ -16844,7 +16839,7 @@
       <description>原文标题：Build AI agents with the Mistral Agents API</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：探索 Mojo 中的元编程</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：探索 Mojo 中的元编程</title>
       <link>https://www.modular.com/blog/metaprogramming</link>
       <guid isPermaLink="true">https://www.modular.com/blog/metaprogramming</guid>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
@@ -17011,7 +17006,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-tencent_hunyuan.xml">腾讯混元</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：模块化 GPU 内核黑客马拉松亮点：创新、社区和 Mojo🔥</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modular GPU 内核黑客马拉松亮点：创新、社区和 Mojo🔥</title>
       <link>https://www.modular.com/blog/modular-gpu-kernel-hackathon</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modular-gpu-kernel-hackathon</guid>
       <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
@@ -17438,7 +17433,7 @@
       <description>原文标题：Universal PDF Support</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：针对 MAX 和 Mojo 的新的、更简单的许可证</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：针对 MAX 和 Mojo 的新的、更简单的许可证</title>
       <link>https://www.modular.com/blog/a-new-simpler-license-for-max-and-mojo</link>
       <guid isPermaLink="true">https://www.modular.com/blog/a-new-simpler-license-for-max-and-mojo</guid>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
@@ -17479,7 +17474,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：为什么硬件公司难以构建人工智能软件？ （人工智能计算民主化，第 9 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：为什么硬件公司难以构建人工智能软件？ （人工智能计算民主化，第 9 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-9-why-do-hw-companies-struggle-to-build-ai-software</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-9-why-do-hw-companies-struggle-to-build-ai-software</guid>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
@@ -17587,13 +17582,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] Cohere 上线拥抱人脸推理提供商 🔥</title>
+      <title>[Hugging Face] Cohere 上线 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/inference-providers-cohere</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-cohere</guid>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Cohere 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Cohere on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenAI] OpenAI 宣布非营利委员会顾问人选</title>
@@ -17661,7 +17656,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[OpenRouter] 类星体阿尔法和擎天柱阿尔法揭晓</title>
+      <title>[OpenRouter] Quasar Alpha 和 Optimus Alpha 揭晓</title>
       <link>https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/</guid>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
@@ -17842,7 +17837,7 @@
       <description>原文标题：Arabic Leaderboards: Introducing Arabic Instruction Following, Updating AraGen, and More</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：MLIR 编译器基础设施怎么样？ （人工智能计算民主化，第 8 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：MLIR 编译器基础设施怎么样？ （人工智能计算民主化，第 8 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-8-what-about-the-mlir-compiler-infrastructure</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-8-what-about-the-mlir-compiler-infrastructure</guid>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
@@ -18030,7 +18025,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Triton 和 Python eDSL 怎么样？ （人工智能计算民主化，第 7 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Triton 和 Python eDSL 怎么样？ （人工智能计算民主化，第 7 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-7-what-about-triton-and-python-edsls</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-7-what-about-triton-and-python-edsls</guid>
       <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
@@ -18303,7 +18298,7 @@
       <description>原文标题：Welcome Gemma 3: Google&apos;s all new multimodal, multilingual, long context open LLM</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：TVM、XLA 和 AI 编译器怎么样？ （人工智能计算民主化，第 6 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：TVM、XLA 和 AI 编译器怎么样？ （人工智能计算民主化，第 6 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-6-what-about-ai-compilers</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-6-what-about-ai-compilers</guid>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
@@ -18408,7 +18403,7 @@
       <description>原文标题：Deep Research &amp; Many New Models</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：OpenCL 和 CUDA C++ 替代品怎么样？ （人工智能计算民主化，第 5 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：OpenCL 和 CUDA C++ 替代品怎么样？ （人工智能计算民主化，第 5 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives</guid>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
@@ -18529,7 +18524,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Modverse #46：MAX 25.1、MAX 构建和 AI 计算大众化</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Modverse #46：MAX 25.1、MAX 构建和 AI 计算大众化</title>
       <link>https://www.modular.com/blog/modverse-46</link>
       <guid isPermaLink="true">https://www.modular.com/blog/modverse-46</guid>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
@@ -18611,7 +18606,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：CUDA 是主流，但它有什么好处吗？ （人工智能计算民主化，第 4 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：CUDA 是主流，但它有什么好处吗？ （人工智能计算民主化，第 4 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-4-cuda-is-the-incumbent-but-is-it-any-good</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-4-cuda-is-the-incumbent-but-is-it-any-good</guid>
       <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
@@ -18660,7 +18655,7 @@
       <description>原文标题：Introducing Three New Serverless Inference Providers: Hyperbolic, Nebius AI Studio, and Novita 🔥</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：MAX 25.1 - 介绍 MAX 构建</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：MAX 25.1 - 介绍 MAX 构建</title>
       <link>https://www.modular.com/blog/max-25-1-introducing-max-builds</link>
       <guid isPermaLink="true">https://www.modular.com/blog/max-25-1-introducing-max-builds</guid>
       <pubDate>Tue, 18 Feb 2025 00:00:00 +0000</pubDate>
@@ -18774,7 +18769,7 @@
       <description>原文标题：Introducing Nitro and Floor Price Shortcuts</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：CUDA 是如何成功的？ （人工智能计算民主化，第 3 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：CUDA 是如何成功的？ （人工智能计算民主化，第 3 部分）</title>
       <link>https://www.modular.com/blog/democratizing-ai-compute-part-3-how-did-cuda-succeed</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-ai-compute-part-3-how-did-cuda-succeed</guid>
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
@@ -18887,7 +18882,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：“CUDA”到底是什么？ （人工智能计算民主化，第 2 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：“CUDA”到底是什么？ （人工智能计算民主化，第 2 部分）</title>
       <link>https://www.modular.com/blog/democratizing-compute-part-2-what-exactly-is-cuda</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-compute-part-2-what-exactly-is-cuda</guid>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
@@ -19130,7 +19125,7 @@
       <description>完整标题：Modular：智能体构建块——用 MAX Serve 和 OpenAI Function Calling 创建 AI 智能体 | 原文标题：Modular: Agentic Building Blocks: Creating AI Agents with MAX Serve and OpenAI Function Calling</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：DeepSeek 对 AI 的影响（人工智能计算民主化，第 1 部分）</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：DeepSeek 对 AI 的影响（人工智能计算民主化，第 1 部分）</title>
       <link>https://www.modular.com/blog/democratizing-compute-part-1-deepseeks-impact-on-ai</link>
       <guid isPermaLink="true">https://www.modular.com/blog/democratizing-compute-part-1-deepseeks-impact-on-ai</guid>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
@@ -19240,7 +19235,7 @@
       <description>原文标题：Standardized finish reasons</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：使用 MAX 和 Open WebUI 进行 RAG 和 Web 搜索</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：使用 MAX 和 Open WebUI 进行 RAG 和 Web 搜索</title>
       <link>https://www.modular.com/blog/use-max-with-open-webui-for-rag-and-web-search</link>
       <guid isPermaLink="true">https://www.modular.com/blog/use-max-with-open-webui-for-rag-and-web-search</guid>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
@@ -19288,7 +19283,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Mojo 24.6 实践</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Mojo 24.6 实践</title>
       <link>https://www.modular.com/blog/hands-on-with-mojo-24-6</link>
       <guid isPermaLink="true">https://www.modular.com/blog/hands-on-with-mojo-24-6</guid>
       <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
@@ -19653,7 +19648,7 @@
       <description>原文标题：Finally, a Replacement for BERT: Introducing ModernBERT</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：使用 MAX 24.6 和 Hugging Face 评估 Llama Guard</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：使用 MAX 24.6 和 Hugging Face 评估 Llama Guard</title>
       <link>https://www.modular.com/blog/llama-guard-with-max-24-6-and-hugging-face-2</link>
       <guid isPermaLink="true">https://www.modular.com/blog/llama-guard-with-max-24-6-and-hugging-face-2</guid>
       <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
@@ -19711,7 +19706,7 @@
       <description>原文标题：Modular: Introducing MAX 24.6: A GPU Native Generative AI Platform</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：使用 Llama 3 和 MAX Serve 构建连续聊天界面</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：使用 Llama 3 和 MAX Serve 构建连续聊天界面</title>
       <link>https://www.modular.com/blog/build-a-continuous-chat-interface-with-llama-3-and-max-serve</link>
       <guid isPermaLink="true">https://www.modular.com/blog/build-a-continuous-chat-interface-with-llama-3-and-max-serve</guid>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
@@ -19719,7 +19714,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：MAX GPU：新 GenAI 平台上最先进的吞吐量</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：MAX GPU：新 GenAI 平台上最先进的吞吐量</title>
       <link>https://www.modular.com/blog/max-gpu-state-of-the-art-throughput-on-a-new-genai-platform</link>
       <guid isPermaLink="true">https://www.modular.com/blog/max-gpu-state-of-the-art-throughput-on-a-new-genai-platform</guid>
       <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
@@ -19860,13 +19855,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[OpenAI] 明妮·阿泰鲁和索拉</title>
+      <title>[OpenAI] 明妮·阿泰鲁和 Sora</title>
       <link>https://openai.com/index/sora-minne-atairu</link>
       <guid isPermaLink="true">https://openai.com/index/sora-minne-atairu</guid>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-      <description>原文标题：Minne Atairu 与 Sora</description>
+      <description>原文标题：Minne Atairu &amp; Sora</description>
     </item>
     <item>
       <title>[xAI Grok] API 公开测试版</title>
@@ -20245,7 +20240,7 @@
       <description>完整标题：此模型采用混元 MoE 结构，拥有 A52B 的参数规模，基于开源的 hunyuan-large 模型进一步增训，特别优化了对长文任务的处理能力</description>
     </item>
     <item>
-      <title>[Mistral AI] 米斯特拉尔批量 API</title>
+      <title>[Mistral AI] Mistral 批量 API</title>
       <link>https://mistral.ai/news/batch-api/</link>
       <guid isPermaLink="true">https://mistral.ai/news/batch-api/</guid>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
@@ -20254,7 +20249,7 @@
       <description>原文标题：Mistral Batch API</description>
     </item>
     <item>
-      <title>[Mistral AI] 米斯特拉尔审核 API</title>
+      <title>[Mistral AI] Mistral 审核 API</title>
       <link>https://mistral.ai/news/mistral-moderation/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-moderation/</guid>
       <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
@@ -20279,7 +20274,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-tencent_hunyuan.xml">腾讯混元</source>
     </item>
     <item>
-      <title>[Hugging Face] 拥抱脸 + PyCharm</title>
+      <title>[Hugging Face] Hugging Face + PyCharm</title>
       <link>https://huggingface.co/blog/pycharm-integration</link>
       <guid isPermaLink="true">https://huggingface.co/blog/pycharm-integration</guid>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
@@ -20419,7 +20414,7 @@
       <description>完整标题：支持中文和英语、日语、法语、葡萄牙语、西班牙语、土耳其语、俄语、阿拉伯语、韩语、意大利语、德语、越南语、马来语、印尼语15种语言互译，基于多场景翻译评测集自动化评估 COMET 评分，在十余种常用语种中外互译能力上整体优于市场同规模模型</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：理解 SIMD：琐碎问题的无限复杂性</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：理解 SIMD：琐碎问题的无限复杂性</title>
       <link>https://www.modular.com/blog/understanding-simd-infinite-complexity-of-trivial-problems</link>
       <guid isPermaLink="true">https://www.modular.com/blog/understanding-simd-infinite-complexity-of-trivial-problems</guid>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
@@ -20518,13 +20513,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] 扩散器令人兴奋的稳定扩散 3.5 大号</title>
+      <title>[Hugging Face] Diffusers 令人兴奋的 Stable Diffusion 3.5 Large</title>
       <link>https://huggingface.co/blog/sd3-5</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sd3-5</guid>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Diffusers 迎来 Stable Diffusion 3.5 Large</description>
+      <description>原文标题：Diffusers welcomes Stable Diffusion 3.5 Large</description>
     </item>
     <item>
       <title>[Hugging Face] 在 Hugging Face 上部署 Speech-to-Speech</title>
@@ -20609,7 +20604,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：社区聚焦：用光标编写 Mojo</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：社区聚焦：用 Cursor 编写 Mojo</title>
       <link>https://www.modular.com/blog/community-spotlight-writing-mojo-with-cursor</link>
       <guid isPermaLink="true">https://www.modular.com/blog/community-spotlight-writing-mojo-with-cursor</guid>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
@@ -20840,7 +20835,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Mojo 24.5 实践</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Mojo 24.5 实践</title>
       <link>https://www.modular.com/blog/hands-on-with-mojo-24-5</link>
       <guid isPermaLink="true">https://www.modular.com/blog/hands-on-with-mojo-24-5</guid>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
@@ -21047,7 +21042,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：MAX 24.5 - 具有适用于 Llama 3.1 的 SOTA CPU 性能</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：MAX 24.5 - 具有适用于 Llama 3.1 的 SOTA CPU 性能</title>
       <link>https://www.modular.com/blog/max-24-5-with-sota-cpu-performance-for-llama-3-1</link>
       <guid isPermaLink="true">https://www.modular.com/blog/max-24-5-with-sota-cpu-performance-for-llama-3-1</guid>
       <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
@@ -21638,7 +21633,7 @@
       <description>原文标题：Workers AI - Meta Llama 3.1 now available on Workers AI</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：发布 stack-pr：一个用于管理 GitHub 上堆叠 PR 的开源工具</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：发布 stack-pr：一个用于管理 GitHub 上堆叠 PR 的开源工具</title>
       <link>https://www.modular.com/blog/announcing-stack-pr-an-open-source-tool-for-managing-stacked-prs-on-github</link>
       <guid isPermaLink="true">https://www.modular.com/blog/announcing-stack-pr-an-open-source-tool-for-managing-stacked-prs-on-github</guid>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
@@ -21743,7 +21738,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：在 Mojo 中调试🔥</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：在 Mojo 中调试🔥</title>
       <link>https://www.modular.com/blog/debugging-in-mojo</link>
       <guid isPermaLink="true">https://www.modular.com/blog/debugging-in-mojo</guid>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
@@ -21817,7 +21812,7 @@
       <description>完整标题：Banque des Territoires (CDC Group) x Polyconseil x Hugging Face：以主权数据解决方案强化法国重大环境计划</description>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：自带 PyTorch 模型</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：自带 PyTorch 模型</title>
       <link>https://www.modular.com/blog/bring-your-own-pytorch-model</link>
       <guid isPermaLink="true">https://www.modular.com/blog/bring-your-own-pytorch-model</guid>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
@@ -21825,7 +21820,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：掌控您的 AI</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：掌控您的 AI</title>
       <link>https://www.modular.com/blog/take-control-of-your-ai</link>
       <guid isPermaLink="true">https://www.modular.com/blog/take-control-of-your-ai</guid>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
@@ -21833,7 +21828,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml">Modular (原 BentoCloud/BentoML)</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：本地开发，全球部署</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：本地开发，全球部署</title>
       <link>https://www.modular.com/blog/develop-locally-deploy-globally</link>
       <guid isPermaLink="true">https://www.modular.com/blog/develop-locally-deploy-globally</guid>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
@@ -21894,7 +21889,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Modular (原 BentoCloud/BentoML)] 模块化：Mojo n-body 示例的简要指南</title>
+      <title>[Modular (原 BentoCloud/BentoML)] Modular：Mojo n-body 示例的简要指南</title>
       <link>https://www.modular.com/blog/a-brief-guide-to-the-mojo-n-body-example</link>
       <guid isPermaLink="true">https://www.modular.com/blog/a-brief-guide-to-the-mojo-n-body-example</guid>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
@@ -22126,13 +22121,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] 扩散器令人兴奋的稳定扩散 3</title>
+      <title>[Hugging Face] Diffusers 令人兴奋的 Stable Diffusion 3</title>
       <link>https://huggingface.co/blog/sd3</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sd3</guid>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Diffusers 迎来 Stable Diffusion 3</description>
+      <description>原文标题：Diffusers welcomes Stable Diffusion 3</description>
     </item>
     <item>
       <title>[Hugging Face] 把 RL 放回 RLHF</title>
@@ -23397,7 +23392,7 @@
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-      <description>原文标题：OpenAI 和 Elon Musk</description>
+      <description>原文标题：OpenAI and Elon Musk</description>
     </item>
     <item>
       <title>[Hugging Face] 推出 ConTextual：你的多模态模型在文本丰富场景中联合推理文本与图像的能力如何？</title>
@@ -23622,13 +23617,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] 拥抱面中的贴片时间序列变压器</title>
+      <title>[Hugging Face] Hugging Face 中的 Patch Time Series Transformer</title>
       <link>https://huggingface.co/blog/patchtst</link>
       <guid isPermaLink="true">https://huggingface.co/blog/patchtst</guid>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Hugging Face 中的 Patch Time Series Transformer</description>
     </item>
     <item>
       <title>[OpenAI] 为 LLM 助长的生物威胁构建预警系统</title>
@@ -23982,7 +23976,7 @@
       <description>完整标题：新增模型：腾讯混元大模型标准版，由腾讯研发的大语言模型，具备强大的中文创作能力，复杂语境下的逻辑推理能力，以及可靠的任务执行能力</description>
     </item>
     <item>
-      <title>[Anyscale] 开源法学硕士：适合生产还是低质量的玩具？</title>
+      <title>[Anyscale] 开源 LLM：适合生产还是低质量的玩具？</title>
       <link>https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</link>
       <guid isPermaLink="true">https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</guid>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
@@ -24236,7 +24230,7 @@
       <description>原文标题：Building Context-Aware Reasoning Applications with LangChain and LangSmith</description>
     </item>
     <item>
-      <title>[Anyscale] Llama，在开放生态系统中扩大法学硕士规模</title>
+      <title>[Anyscale] Llama，在开放生态系统中扩大 LLM 规模</title>
       <link>https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</link>
       <guid isPermaLink="true">https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</guid>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
@@ -25380,7 +25374,7 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Hugging Face] Jupyter X 拥抱脸</title>
+      <title>[Hugging Face] Jupyter X Hugging Face</title>
       <link>https://huggingface.co/blog/notebooks-hub</link>
       <guid isPermaLink="true">https://huggingface.co/blog/notebooks-hub</guid>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
@@ -26077,22 +26071,20 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] 拥抱人脸推理端点入门</title>
+      <title>[Hugging Face] Hugging Face Inference Endpoints 入门</title>
       <link>https://huggingface.co/blog/inference-endpoints</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-endpoints</guid>
       <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Hugging Face Inference Endpoints 入门</description>
     </item>
     <item>
-      <title>[Hugging Face] 🧨 JAX / Flax 中的稳定扩散！</title>
+      <title>[Hugging Face] 🧨 JAX / Flax 中的 Stable Diffusion！</title>
       <link>https://huggingface.co/blog/stable_diffusion_jax</link>
       <guid isPermaLink="true">https://huggingface.co/blog/stable_diffusion_jax</guid>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：🧨 JAX / Flax 中的 Stable Diffusion！</description>
     </item>
     <item>
       <title>[Hugging Face] 优化实战：Bloom 推理</title>
@@ -26112,13 +26104,13 @@
       <description>原文标题：Introducing DOI: the Digital Object Identifier to Datasets and Models</description>
     </item>
     <item>
-      <title>[Hugging Face] 日本稳定扩散模型</title>
+      <title>[Hugging Face] 日本 Stable Diffusion 模型</title>
       <link>https://huggingface.co/blog/japanese-stable-diffusion</link>
       <guid isPermaLink="true">https://huggingface.co/blog/japanese-stable-diffusion</guid>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Japanese Stable Diffusion 模型</description>
+      <description>原文标题：Japanese Stable Diffusion</description>
     </item>
     <item>
       <title>[Hugging Face] 超大规模语言模型及其评估方法</title>
@@ -27366,13 +27358,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Hugging Face] Hugging Face Hub 中的句子变形金刚</title>
+      <title>[Hugging Face] Hugging Face Hub 中的 Sentence Transformers</title>
       <link>https://huggingface.co/blog/sentence-transformers-in-the-hub</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sentence-transformers-in-the-hub</guid>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Hugging Face Hub 中的 Sentence Transformers</description>
     </item>
     <item>
       <title>[OpenAI] 通过在精选数据集上训练来改进语言模型行为</title>

@@ -11,8 +11,8 @@
 
 1. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-34)（2026-07-28）
 2. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-35)（2026-07-28）
-3. [拉古纳 XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-18)（2026-07-21）
-4. [拉古纳 XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-19)（2026-07-21）
+3. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-18)（2026-07-21）
+4. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-19)（2026-07-21）
 5. [长上下文更新：Laguna XS.2 和 M.1](https://poolside.ai/blog#d-2026-07-02-20)（2026-07-02）
 6. [长上下文更新：Laguna XS.2 和 M.1](https://poolside.ai/blog#d-2026-07-02-21)（2026-07-02）
 7. [AI，你的方式：引入 Poolside 平台](https://poolside.ai/blog#d-2026-05-26-22)（2026-05-26）
@@ -35,8 +35,8 @@
 24. [载体和信标](https://poolside.ai/blog#d-2025-08-25-7)（2025-08-25）
 25. [设计世界一流的代码执行环境](https://poolside.ai/blog#d-2025-08-14-8)（2025-08-14）
 26. [设计世界一流的代码执行环境](https://poolside.ai/blog#d-2025-08-14-9)（2025-08-14）
-27. [泰坦，模型工厂的熔炉](https://poolside.ai/blog#d-2025-08-12-10)（2025-08-12）
-28. [泰坦，模型工厂的熔炉](https://poolside.ai/blog#d-2025-08-12-11)（2025-08-12）
+27. [Titan，模型工厂的熔炉](https://poolside.ai/blog#d-2025-08-12-10)（2025-08-12）
+28. [Titan，模型工厂的熔炉](https://poolside.ai/blog#d-2025-08-12-11)（2025-08-12）
 29. [为模型工厂收集和加工原材料](https://poolside.ai/blog#d-2025-08-07-12)（2025-08-07）
 30. [为模型工厂收集和加工原材料](https://poolside.ai/blog#d-2025-08-07-13)（2025-08-07）
 31. [基础模型建设背后隐藏的工程](https://poolside.ai/blog#d-2025-07-29-14)（2025-07-29）

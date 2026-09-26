@@ -50,7 +50,7 @@
       <description>原文标题：Is Jev as Accurate as Frontier Models at Classification?</description>
     </item>
     <item>
-      <title>什么是 Nemotron 3.5 闪电</title>
+      <title>什么是 Nemotron 3.5 Lightning</title>
       <link>https://openrouter.ai/blog/insights/nemotron-3-5-lightning/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/nemotron-3-5-lightning/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
@@ -71,7 +71,7 @@
       <description>原文标题：Jev vs LLM-as-a-Judge</description>
     </item>
     <item>
-      <title>杰夫是什么？为开发人员解释 TypeSafe 的决策模型</title>
+      <title>Jev 是什么？为开发人员解释 TypeSafe 的决策模型</title>
       <link>https://openrouter.ai/blog/insights/what-is-jev/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/what-is-jev/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
@@ -112,7 +112,7 @@
       <description>原文标题：Case Study: How Descript Took New Models Off the Engineering Queue</description>
     </item>
     <item>
-      <title>法学硕士作为法官：自动对人工智能代理的输出进行评分</title>
+      <title>LLM 作为法官：自动对人工智能代理的输出进行评分</title>
       <link>https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
@@ -224,7 +224,7 @@
       <description>原文标题：OpenRouter Image Generation: A Code-First API Tutorial</description>
     </item>
     <item>
-      <title>如何通过 API 将图像发送至法学硕士（视觉指南）</title>
+      <title>如何通过 API 将图像发送至 LLM（视觉指南）</title>
       <link>https://openrouter.ai/blog/tutorials/send-image-to-llm/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/send-image-to-llm/</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
@@ -343,7 +343,7 @@
       <description>原文标题：Why Use OpenRouter for DeepSeek</description>
     </item>
     <item>
-      <title>在法学硕士中选择最佳图像输入细节级别</title>
+      <title>在 LLM 中选择最佳图像输入细节级别</title>
       <link>https://openrouter.ai/blog/insights/image-detail-low-cost/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/image-detail-low-cost/</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
@@ -433,7 +433,7 @@
       <description>原文标题：How to Use OpenAI Codex CLI with OpenRouter</description>
     </item>
     <item>
-      <title>如何将 Claude 代码与 OpenRouter 结合使用</title>
+      <title>如何将 Claude Code 与 OpenRouter 结合使用</title>
       <link>https://openrouter.ai/blog/tutorials/claude-code-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/claude-code-openrouter/</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
@@ -761,7 +761,7 @@
       <description>原文标题：Presets: How To Seamlessly Transfer Model Configurations Across Apps</description>
     </item>
     <item>
-      <title>新的注重隐私的提供商下降：威尼斯</title>
+      <title>新的注重隐私的提供商下降：Venice</title>
       <link>https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/</guid>
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
@@ -866,7 +866,7 @@
       <description>原文标题：Smarter Charts, Inline SVGs, and Live Usage Accounting</description>
     </item>
     <item>
-      <title>类星体阿尔法和擎天柱阿尔法揭晓</title>
+      <title>Quasar Alpha 和 Optimus Alpha 揭晓</title>
       <link>https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/</guid>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>

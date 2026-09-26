@@ -15,7 +15,7 @@
 4. [Ray 历史记录服务器简介：Kubernetes 上 Ray 的事后可观察性](https://anyscale.com/blog/ray-history-server)（2026-08-25）
 5. [学习循环：拥有智慧的途径](https://anyscale.com/blog/learning-loops)（2026-08-25）
 6. [FP8 Reinforcement Learning in SkyRL: Preserving Policy Consistency Across Training and Rollout](https://anyscale.com/blog/fp8-reinfinforcement-learning-in-skyrl)（2026-08-25）
-7. [射线数据中的 GPU 原生算子](https://anyscale.com/blog/gpu-native-operators-in-ray-data)（2026-08-25）
+7. [Ray Data 中的 GPU 原生算子](https://anyscale.com/blog/gpu-native-operators-in-ray-data)（2026-08-25）
 8. [Anyscale GPU 运行状况可观察性简介：从应用程序到硬件](https://anyscale.com/blog/anyscale-gpu-health-observability)（2026-08-25）
 9. [宣布 Ray 中的原生沙箱](https://anyscale.com/blog/announcing-native-sandboxing-in-ray)（2026-08-25）
 10. [Introducing KubeRay v1.6 and v1.7](https://anyscale.com/blog/kuberay-v1-7)（2026-08-25）
@@ -27,7 +27,7 @@
 16. [Maximizing the Power of NVIDIA GB300 NVL72: NVLink Domain-Aware Placement Groups in Ray](https://anyscale.com/blog/nvidia-gb300-nvlink-domain-aware-placement-groups-ray)（2026-08-13）
 17. [Anyscale 签署加入 Nscale 的最终协议](https://anyscale.com/blog/anyscale-signs-definitive-agreement-to-join-nscale)（2026-07-30）
 18. [介绍 Anyscale 物理 AI 技能](https://anyscale.com/blog/introducing-the-anyscale-physical-ai-skill)（2026-07-23）
-19. [开源法学硕士：适合生产还是低质量的玩具？](https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy)（2023-11-20）
+19. [开源 LLM：适合生产还是低质量的玩具？](https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy)（2023-11-20）
 20. [Spotify 如何构建强大的 Ray 平台并提供顺畅的开发者体验](https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer)（2023-11-09）
 21. [LinkedIn 使用 Ray-Serve 的推理图](https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve)（2023-11-09）
 22. [基础模型的进展——技术、社会和应用](https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications)（2023-11-03）
@@ -36,7 +36,7 @@
 25. [Netflix 的 Ray 异构训练集群](https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix)（2023-10-20）
 26. [构建可投入生产的 LLM 应用程序的实际数据注意事项](https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications)（2023-10-19）
 27. [使用 LangChain 和 LangSmith 构建上下文感知推理应用程序](https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith)（2023-10-18）
-28. [Llama，在开放生态系统中扩大法学硕士规模](https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem)（2023-10-16）
+28. [Llama，在开放生态系统中扩大 LLM 规模](https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem)（2023-10-16）
 29. [Ray 峰会系列 - 扩展并行 Python 作业](https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs)（2023-03-16）
 30. [Ray Summit 2022 故事 - ML Platforms](https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms)（2023-03-03）
 31. [Ray Summit 2022 故事 - 大语言模型](https://anyscale.com/blog/ray-summit-2022-stories-large-language-models)（2023-02-16）

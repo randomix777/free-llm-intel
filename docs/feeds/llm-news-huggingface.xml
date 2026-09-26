@@ -193,11 +193,11 @@
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Baseten 上线拥抱人脸推理提供商 🔥</title>
+      <title>Baseten 上线 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/baseten</link>
       <guid isPermaLink="true">https://huggingface.co/blog/baseten</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Baseten 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Baseten on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>GPU 管理：为何闲置 GPU 成为新的停飞飞机</title>
@@ -567,11 +567,11 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DeepInfra 上线拥抱人脸推理提供商🔥</title>
+      <title>DeepInfra 上线 Hugging Face 推理提供商🔥</title>
       <link>https://huggingface.co/blog/inference-providers-deepinfra</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-deepinfra</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：DeepInfra 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：DeepInfra on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>介绍 NVIDIA Nemotron 3 Nano Omni：面向文档、音频和视频智能体的长上下文多模态智能</title>
@@ -1011,11 +1011,11 @@
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OVHcloud 加入拥抱人脸推理提供商 🔥</title>
+      <title>OVHcloud 加入 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud</link>
       <guid isPermaLink="true">https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud</guid>
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：OVHcloud 加入 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：OVHcloud on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>借助 RapidFire AI 实现 20x 更快的 TRL 微调</title>
@@ -1128,11 +1128,10 @@
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>句子变形金刚加入抱脸！</title>
+      <title>Sentence Transformers 加入 Hugging Face！</title>
       <link>https://huggingface.co/blog/sentence-transformers-joins-hf</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sentence-transformers-joins-hf</guid>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Sentence Transformers 加入 Hugging Face！</description>
     </item>
     <item>
       <title>用开放模型为您的 OCR 流程强力提速</title>
@@ -1239,11 +1238,11 @@
       <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Scaleway 加入拥抱人脸推理提供商 🔥</title>
+      <title>Scaleway 加入 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/inference-providers-scaleway</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-scaleway</guid>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Scaleway 加入 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Scaleway on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>用 RiskRubric.ai 让 AI 安全普惠大众</title>
@@ -1252,11 +1251,11 @@
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>公共人工智能加入拥抱人脸推理提供商🔥</title>
+      <title>Public AI 加入 Hugging Face 推理提供商🔥</title>
       <link>https://huggingface.co/blog/inference-providers-publicai</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-publicai</guid>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Public AI 加入 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Public AI on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>`LeRobotDataset:v3.0`：将大规模数据集引入 `lerobot`</title>
@@ -1595,11 +1594,11 @@
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Groq 上线拥抱人脸推理提供商 🔥</title>
+      <title>Groq 上线 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/inference-providers-groq</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-groq</guid>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Groq 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Groq on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>提示词过长会阻塞其他请求——优化 LLM 性能</title>
@@ -1614,11 +1613,11 @@
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Featherless AI 上线拥抱人脸推理提供商🔥</title>
+      <title>Featherless AI 上线 Hugging Face 推理提供商🔥</title>
       <link>https://huggingface.co/blog/inference-providers-featherless</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-featherless</guid>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Featherless AI 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Featherless AI on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>推出训练集群即服务——与 NVIDIA 的全新合作</title>
@@ -1825,11 +1824,11 @@
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere 上线拥抱人脸推理提供商 🔥</title>
+      <title>Cohere 上线 Hugging Face 推理提供商 🔥</title>
       <link>https://huggingface.co/blog/inference-providers-cohere</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-providers-cohere</guid>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Cohere 上线 Hugging Face Inference Providers 🔥</description>
+      <description>原文标题：Cohere on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>得益于收购 Pollen Robotics，Hugging Face 将出售开源机器人 🤖</title>
@@ -2369,7 +2368,7 @@
       <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>拥抱脸 + PyCharm</title>
+      <title>Hugging Face + PyCharm</title>
       <link>https://huggingface.co/blog/pycharm-integration</link>
       <guid isPermaLink="true">https://huggingface.co/blog/pycharm-integration</guid>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
@@ -2438,11 +2437,11 @@
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>扩散器令人兴奋的稳定扩散 3.5 大号</title>
+      <title>Diffusers 令人兴奋的 Stable Diffusion 3.5 Large</title>
       <link>https://huggingface.co/blog/sd3-5</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sd3-5</guid>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-      <description>原文标题：Diffusers 迎来 Stable Diffusion 3.5 Large</description>
+      <description>原文标题：Diffusers welcomes Stable Diffusion 3.5 Large</description>
     </item>
     <item>
       <title>在 Hugging Face 上部署 Speech-to-Speech</title>
@@ -2821,11 +2820,11 @@
       <pubDate>Thu, 13 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>扩散器令人兴奋的稳定扩散 3</title>
+      <title>Diffusers 令人兴奋的 Stable Diffusion 3</title>
       <link>https://huggingface.co/blog/sd3</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sd3</guid>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <description>原文标题：Diffusers 迎来 Stable Diffusion 3</description>
+      <description>原文标题：Diffusers welcomes Stable Diffusion 3</description>
     </item>
     <item>
       <title>把 RL 放回 RLHF</title>
@@ -3299,11 +3298,10 @@
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>拥抱面中的贴片时间序列变压器</title>
+      <title>Hugging Face 中的 Patch Time Series Transformer</title>
       <link>https://huggingface.co/blog/patchtst</link>
       <guid isPermaLink="true">https://huggingface.co/blog/patchtst</guid>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <description>原文标题：Hugging Face 中的 Patch Time Series Transformer</description>
     </item>
     <item>
       <title>推出企业场景排行榜：面向真实用例的排行榜</title>
@@ -4137,7 +4135,7 @@
       <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Jupyter X 拥抱脸</title>
+      <title>Jupyter X Hugging Face</title>
       <link>https://huggingface.co/blog/notebooks-hub</link>
       <guid isPermaLink="true">https://huggingface.co/blog/notebooks-hub</guid>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
@@ -4494,18 +4492,16 @@
       <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>拥抱人脸推理端点入门</title>
+      <title>Hugging Face Inference Endpoints 入门</title>
       <link>https://huggingface.co/blog/inference-endpoints</link>
       <guid isPermaLink="true">https://huggingface.co/blog/inference-endpoints</guid>
       <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
-      <description>原文标题：Hugging Face Inference Endpoints 入门</description>
     </item>
     <item>
-      <title>🧨 JAX / Flax 中的稳定扩散！</title>
+      <title>🧨 JAX / Flax 中的 Stable Diffusion！</title>
       <link>https://huggingface.co/blog/stable_diffusion_jax</link>
       <guid isPermaLink="true">https://huggingface.co/blog/stable_diffusion_jax</guid>
       <pubDate>Thu, 13 Oct 2022 00:00:00 +0000</pubDate>
-      <description>原文标题：🧨 JAX / Flax 中的 Stable Diffusion！</description>
     </item>
     <item>
       <title>优化实战：Bloom 推理</title>
@@ -4521,11 +4517,11 @@
       <description>原文标题：Introducing DOI: the Digital Object Identifier to Datasets and Models</description>
     </item>
     <item>
-      <title>日本稳定扩散模型</title>
+      <title>日本 Stable Diffusion 模型</title>
       <link>https://huggingface.co/blog/japanese-stable-diffusion</link>
       <guid isPermaLink="true">https://huggingface.co/blog/japanese-stable-diffusion</guid>
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
-      <description>原文标题：Japanese Stable Diffusion 模型</description>
+      <description>原文标题：Japanese Stable Diffusion</description>
     </item>
     <item>
       <title>超大规模语言模型及其评估方法</title>
@@ -5195,11 +5191,10 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hugging Face Hub 中的句子变形金刚</title>
+      <title>Hugging Face Hub 中的 Sentence Transformers</title>
       <link>https://huggingface.co/blog/sentence-transformers-in-the-hub</link>
       <guid isPermaLink="true">https://huggingface.co/blog/sentence-transformers-in-the-hub</guid>
       <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
-      <description>原文标题：Hugging Face Hub 中的 Sentence Transformers</description>
     </item>
     <item>
       <title>少样本学习实践：GPT-Neo 与 🤗 Accelerated Inference API</title>
