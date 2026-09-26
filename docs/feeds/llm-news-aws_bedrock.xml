@@ -6,28 +6,27 @@
     <description>Amazon Bedrock 官方博客 / 更新日志归档（标题汉化，共 20 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-aws_bedrock.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Scaling MoE reinforcement learning on Amazon EKS with EFA an…</title>
+      <title>使用 EFA 和 DeepEP 在 Amazon EKS 上扩展 MoE 强化学习，吞吐量提高 40%</title>
       <link>https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput</description>
+      <description>原文标题：Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput</description>
     </item>
     <item>
-      <title>Accelerate multimodal RL training with SkyRL on Amazon SageM…</title>
+      <title>在 Amazon SageMaker HyperPod 上使用 SkyRL 加速多模式 RL 训练</title>
       <link>https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod</description>
+      <description>原文标题：Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod</description>
     </item>
     <item>
-      <title>NarrateAI: production-ready LLM quality assurance on Amazon…</title>
+      <title>NarrateAI：Amazon Bedrock 上的生产就绪 LLM 质量保证</title>
       <link>https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：NarrateAI: production-ready LLM quality assurance on Amazon Bedrock</description>
+      <description>原文标题：NarrateAI: production-ready LLM quality assurance on Amazon Bedrock</description>
     </item>
     <item>
       <title>Deploying real-time personalized speech with Qwen3-TTS on Am…</title>
@@ -37,91 +36,95 @@
       <description>完整标题：Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI</description>
     </item>
     <item>
-      <title>How Datacor built self-service rental analytics with Amazon…</title>
+      <title>Datacor 如何使用 Amazon Quick Sight 构建自助租赁分析</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：How Datacor built self-service rental analytics with Amazon Quick Sight</description>
+      <description>原文标题：How Datacor built self-service rental analytics with Amazon Quick Sight</description>
     </item>
     <item>
-      <title>Multi-Region training with Amazon SageMaker HyperPod and Qum…</title>
+      <title>使用 Amazon SageMaker HyperPod 和 Qumulo 进行多区域训练</title>
       <link>https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Multi-Region training with Amazon SageMaker HyperPod and Qumulo</description>
+      <description>原文标题：Multi-Region training with Amazon SageMaker HyperPod and Qumulo</description>
     </item>
     <item>
-      <title>Speaker-labeled transcription with WhisperX on SageMaker AI</title>
+      <title>在 SageMaker AI 上使用 WhisperX 进行说话人标记转录</title>
       <link>https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Speaker-labeled transcription with WhisperX on SageMaker AI</description>
     </item>
     <item>
-      <title>Build a multi-account AI agent with AgentCore Gateway and MC…</title>
+      <title>使用 AgentCore Gateway 和 MCP 构建多帐户 AI 代理</title>
       <link>https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Build a multi-account AI agent with AgentCore Gateway and MCP</description>
+      <description>原文标题：Build a multi-account AI agent with AgentCore Gateway and MCP</description>
     </item>
     <item>
-      <title>Aderant builds intelligent ticket triage with Amazon Nova</title>
+      <title>Aderant 使用 Amazon Nova 构建智能票务分类</title>
       <link>https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Aderant builds intelligent ticket triage with Amazon Nova</description>
     </item>
     <item>
-      <title>From portal-hopping to instant answers: HEMA’s journey with…</title>
+      <title>从门户网站跳转到即时答案：HEMA 与 MCP 和 Amazon Bedrock 的合作之旅</title>
       <link>https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock</description>
+      <description>原文标题：From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock</description>
     </item>
     <item>
-      <title>Agentic conversational video intelligence built on AWS</title>
+      <title>基于 AWS 构建的代理对话视频智能</title>
       <link>https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Agentic conversational video intelligence built on AWS</description>
     </item>
     <item>
-      <title>Use open weight models as your AI coding agent with Amazon B…</title>
+      <title>使用开放权重模型作为 Amazon Bedrock 的 AI 编码代理</title>
       <link>https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Use open weight models as your AI coding agent with Amazon Bedrock</description>
+      <description>原文标题：Use open weight models as your AI coding agent with Amazon Bedrock</description>
     </item>
     <item>
-      <title>Bring more intelligence to everyday work with GPT-6 Sol and…</title>
+      <title>使用 Amazon Bedrock 上的 GPT-6 Sol 和 GPT-6 Luna 为日常工作带来更多智能</title>
       <link>https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock</description>
+      <description>原文标题：Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock</description>
     </item>
     <item>
-      <title>Claude Opus 5.5 is now available on AWS</title>
+      <title>Claude Opus 5.5 现已在 AWS 上推出</title>
       <link>https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Claude Opus 5.5 is now available on AWS</description>
     </item>
     <item>
-      <title>Evaluate skill-equipped agents with Strands Evals and Amazon…</title>
+      <title>使用 Strands Evals 和 Amazon Bedrock AgentCore 评估具备技能的代理</title>
       <link>https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore</description>
+      <description>原文标题：Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore</description>
     </item>
     <item>
-      <title>How Reactiv automates mobile commerce 80% faster with Amazon…</title>
+      <title>Reactiv 如何利用 Amazon Bedrock AgentCore 将移动商务自动化速度提高 80%</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore</description>
+      <description>原文标题：How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore</description>
     </item>
     <item>
-      <title>Right-size generative AI endpoints with concurrency sweeps o…</title>
+      <title>Amazon SageMaker AI 上具有并发扫描功能的适当大小的生成式 AI 端点</title>
       <link>https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI</description>
+      <description>原文标题：Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI</description>
     </item>
     <item>
       <title>How Trane gets building insights 60x faster with Amazon Bedr…</title>
@@ -131,17 +134,18 @@
       <description>完整标题：How Trane gets building insights 60x faster with Amazon Bedrock AgentCore</description>
     </item>
     <item>
-      <title>How Tata Elxsi detects industrial safety risks in seconds on…</title>
+      <title>Tata Elxsi 如何在 AWS 上快速检测工业安全风险</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：How Tata Elxsi detects industrial safety risks in seconds on AWS</description>
+      <description>原文标题：How Tata Elxsi detects industrial safety risks in seconds on AWS</description>
     </item>
     <item>
-      <title>Extending public sector intelligence with Agentforce and AWS</title>
+      <title>使用 Agentforce 和 AWS 扩展公共部门情报</title>
       <link>https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/</link>
       <guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Extending public sector intelligence with Agentforce and AWS</description>
     </item>
   </channel>
 </rss>

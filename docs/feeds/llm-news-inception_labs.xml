@@ -6,72 +6,79 @@
     <description>InceptionLabs 官方博客 / 更新日志归档（标题汉化，共 12 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-inception_labs.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Introducing Mercury 2.5|Read the blog</title>
+      <title>Mercury 2.5 简介|阅读博客</title>
       <link>https://www.inceptionlabs.ai/blog/introducing-mercury-2-5</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/introducing-mercury-2-5</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing Mercury 2.5|Read the blog</description>
     </item>
     <item>
-      <title>Mercury 2 for Search: Fast enough to run a hundred times per…</title>
+      <title>Mercury 2 for Search：足够快，每个查询运行一百次阅读故事</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-2-for-search</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-2-for-search</guid>
-      <description>完整标题：Mercury 2 for Search: Fast enough to run a hundred times per queryRead story</description>
+      <description>原文标题：Mercury 2 for Search: Fast enough to run a hundred times per queryRead story</description>
     </item>
     <item>
-      <title>More builders. More throughput. Better Mercury 2.Read story</title>
+      <title>更多建设者。更多吞吐量。更好的水星 2.阅读故事</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens</guid>
+      <description>原文标题：More builders. More throughput. Better Mercury 2.Read story</description>
     </item>
     <item>
-      <title>Mercury 2: the first reasoning model fast enough to pick up…</title>
+      <title>Mercury 2：第一个足够快拿起电话的推理模型阅读故事</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-2-the-first-reasoning-model-fast-enough-to-pick-up-the-phone</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-2-the-first-reasoning-model-fast-enough-to-pick-up-the-phone</guid>
-      <description>完整标题：Mercury 2: the first reasoning model fast enough to pick up the phoneRead story</description>
+      <description>原文标题：Mercury 2: the first reasoning model fast enough to pick up the phoneRead story</description>
     </item>
     <item>
-      <title>Mercury 2 on Azure Foundry</title>
+      <title>Azure Foundry 上的 Mercury 2</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-2-on-azure-foundry</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-2-on-azure-foundry</guid>
+      <description>原文标题：Mercury 2 on Azure Foundry</description>
     </item>
     <item>
-      <title>Mercury 2 and the Rise of Real-time Subagents</title>
+      <title>Mercury 2 和实时子代理的兴起</title>
       <link>https://www.inceptionlabs.ai/blog/rise-of-realtime-subagents</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/rise-of-realtime-subagents</guid>
+      <description>原文标题：Mercury 2 and the Rise of Real-time Subagents</description>
     </item>
     <item>
-      <title>Introducing Mercury Edit 2</title>
+      <title>Mercury 简介 编辑 2</title>
       <link>https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2</guid>
+      <description>原文标题：Introducing Mercury Edit 2</description>
     </item>
     <item>
-      <title>Mercury 2 on PinchBench: Fast Diffusion Models and the Perso…</title>
+      <title>PinchBench 上的 Mercury 2：快速扩散模型和个人代理时代</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-2-on-pinchbench</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-2-on-pinchbench</guid>
-      <description>完整标题：Mercury 2 on PinchBench: Fast Diffusion Models and the Personal Agent Era</description>
+      <description>原文标题：Mercury 2 on PinchBench: Fast Diffusion Models and the Personal Agent Era</description>
     </item>
     <item>
-      <title>Introducing Mercury 2</title>
+      <title>水星 2 简介</title>
       <link>https://www.inceptionlabs.ai/blog/introducing-mercury-2</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/introducing-mercury-2</guid>
+      <description>原文标题：Introducing Mercury 2</description>
     </item>
     <item>
-      <title>SearchBlox + Inception: Real-Time GenAI Search at Enterprise…</title>
+      <title>SearchBlox + Inception：企业级实时 GenAI 搜索</title>
       <link>https://www.inceptionlabs.ai/blog/searchblox-and-inception</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/searchblox-and-inception</guid>
-      <description>完整标题：SearchBlox + Inception: Real-Time GenAI Search at Enterprise Scale</description>
+      <description>原文标题：SearchBlox + Inception: Real-Time GenAI Search at Enterprise Scale</description>
     </item>
     <item>
-      <title>Mercury Diffusion LLM Now Available on Azure AI Foundry</title>
+      <title>Mercury Diffusion LLM 现已在 Azure AI Foundry 上提供</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-azure-foundry</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-azure-foundry</guid>
+      <description>原文标题：Mercury Diffusion LLM Now Available on Azure AI Foundry</description>
     </item>
     <item>
-      <title>The Next Step for dLLMs: Scaling up Mercury</title>
+      <title>dLLM 的下一步：扩大 Mercury 规模</title>
       <link>https://www.inceptionlabs.ai/blog/mercury-refreshed</link>
       <guid isPermaLink="true">https://www.inceptionlabs.ai/blog/mercury-refreshed</guid>
+      <description>原文标题：The Next Step for dLLMs: Scaling up Mercury</description>
     </item>
   </channel>
 </rss>

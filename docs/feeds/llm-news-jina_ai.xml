@@ -6,7 +6,6 @@
     <description>Jina AI 官方博客 / 更新日志归档（标题汉化，共 6 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-jina_ai.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>jina-embeddings-v5-omni: Embeddings for Text, Image, Audio a…</title>
@@ -23,11 +22,11 @@
       <description>完整标题：7 minutes readBootstrapping Audio Embeddings from Multimodal LLMsTurn any multimodal LLM into a small audio embedding model that beats CLAP with 25x less data.</description>
     </item>
     <item>
-      <title>6 minutes readIdentifying Embedding Models from Raw Numerica…</title>
+      <title>6 分钟阅读从原始数值识别嵌入模型一个微型转换器，可通过读取原始数值来识别嵌入模型的指纹。没有特征工程。</title>
       <link>https://jina.ai/news/identifying-embedding-models-from-raw-numerical-values</link>
       <guid isPermaLink="true">https://jina.ai/news/identifying-embedding-models-from-raw-numerical-values</guid>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：6 minutes readIdentifying Embedding Models from Raw Numerical ValuesA tiny transformer that fingerprints embedding models by reading raw numerical digits. No feature engineering.</description>
+      <description>原文标题：6 minutes readIdentifying Embedding Models from Raw Numerical ValuesA tiny transformer that fingerprints embedding models by reading raw numerical digits. No feature engineering.</description>
     </item>
     <item>
       <title>7 minutes readJina-VLM: Small Multilingual Vision Language M…</title>
@@ -37,11 +36,11 @@
       <description>完整标题：7 minutes readJina-VLM: Small Multilingual Vision Language ModelNew 2B vision language model achieves SOTA on multilingual VQA, no catastrophic forgetting on text-only tasks.</description>
     </item>
     <item>
-      <title>11 minutes readMultimodal Embeddings in Llama.cpp and GGUFWe…</title>
+      <title>11 分钟阅读 Llama.cpp 和 GGUF 中的多模态嵌入我们将多模态嵌入引入 llama.cpp 和 GGUF，…</title>
       <link>https://jina.ai/news/multimodal-embeddings-in-llama-cpp-and-gguf</link>
       <guid isPermaLink="true">https://jina.ai/news/multimodal-embeddings-in-llama-cpp-and-gguf</guid>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：11 minutes readMultimodal Embeddings in Llama.cpp and GGUFWe brought multimodal embeddings to llama.cpp and GGUF, and uncovered a few surprising issues along the way.</description>
+      <description>完整标题：11 分钟阅读 Llama.cpp 和 GGUF 中的多模态嵌入我们将多模态嵌入引入 llama.cpp 和 GGUF，并在此过程中发现了一些令人惊讶的问题。 | 原文标题：11 minutes readMultimodal Embeddings in Llama.cpp and GGUFWe brought multimodal embeddings to llama.cpp and GGUF, and uncovered a few surprising issues along the way.</description>
     </item>
     <item>
       <title>6 minutes readJina Code Embeddings: SOTA Code Retrieval at 0…</title>

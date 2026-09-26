@@ -6,7 +6,6 @@
     <description>free-llm-intel 巡检采纳的免费额度变化（前值 → 后值）与模型发布雷达事件——订阅这一个，哪家的白嫖政策刚变了即刻可见。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-intel-changes.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>新模型 · 美团 LongCat：LongCat-2.5-Preview</title>
@@ -18,7 +17,7 @@
     <item>
       <title>新模型 · InceptionLabs：Mercury 2.5</title>
       <link>https://www.inceptionlabs.ai/blog/introducing-mercury-2-5</link>
-      <description>Introducing Mercury 2.5|Read the blog</description>
+      <description>Mercury 2.5 简介|阅读博客</description>
       <guid isPermaLink="false">release-inception_labs-mercury 2.5</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -46,7 +45,7 @@
     <item>
       <title>新模型 · Amazon Bedrock：Claude Opus 5.5</title>
       <link>https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/</link>
-      <description>Claude Opus 5.5 is now available on AWS</description>
+      <description>Claude Opus 5.5 现已在 AWS 上推出</description>
       <guid isPermaLink="false">release-aws_bedrock-claude opus 5.5</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -151,14 +150,14 @@
     <item>
       <title>新模型 · Anthropic Claude：Claude Fable 5.1</title>
       <link>https://www.anthropic.com/news#d-2026-09-01-2</link>
-      <description>介绍克劳德寓言 5.1 和克劳德神话 5.1</description>
+      <description>介绍Claude寓言 5.1 和Claude神话 5.1</description>
       <guid isPermaLink="false">release-anthropic-claude fable 5.1</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>新模型 · Anthropic Claude：Claude Mythos 5.1</title>
       <link>https://www.anthropic.com/news#d-2026-09-01-2</link>
-      <description>介绍克劳德寓言 5.1 和克劳德神话 5.1</description>
+      <description>介绍Claude寓言 5.1 和Claude神话 5.1</description>
       <guid isPermaLink="false">release-anthropic-claude mythos 5.1</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -403,7 +402,7 @@
     <item>
       <title>新模型 · Poolside：Laguna XS 2.1</title>
       <link>https://poolside.ai/blog#d-2026-07-21-18</link>
-      <description>Introducing Laguna XS 2.1</description>
+      <description>拉古纳 XS 2.1 简介</description>
       <guid isPermaLink="false">release-poolside-laguna xs 2.1</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -571,7 +570,7 @@
     <item>
       <title>新模型 · 美团 LongCat：LongCat-2.0</title>
       <link>https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30</link>
-      <description>LongCat-2.0 发布 &amp;amp; 全新推出计费服务</description>
+      <description>LongCat-2.0 发布 &amp; 全新推出计费服务</description>
       <guid isPermaLink="false">release-longcat_meituan-longcat-2.0</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1180,7 +1179,7 @@
     <item>
       <title>新模型 · Together AI：FlashAttention-4</title>
       <link>https://www.together.ai/blog/flashattention-4</link>
-      <description>FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling</description>
+      <description>FlashAttention-4：用于非对称硬件扩展的算法和内核流水线协同设计</description>
       <guid isPermaLink="false">release-together_ai-flashattention-4</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>

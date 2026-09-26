@@ -22,7 +22,7 @@
       "inception_labs",
       "InceptionLabs",
       "Mercury 2.5",
-      "Introducing Mercury 2.5|Read the blog",
+      "Mercury 2.5 简介|阅读博客",
       "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
     ],
     [
@@ -54,7 +54,7 @@
       "aws_bedrock",
       "Amazon Bedrock",
       "Claude Opus 5.5",
-      "Claude Opus 5.5 is now available on AWS",
+      "Claude Opus 5.5 现已在 AWS 上推出",
       "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/"
     ],
     [
@@ -174,7 +174,7 @@
       "anthropic",
       "Anthropic Claude",
       "Claude Fable 5.1",
-      "介绍克劳德寓言 5.1 和克劳德神话 5.1",
+      "介绍Claude寓言 5.1 和Claude神话 5.1",
       "https://www.anthropic.com/news#d-2026-09-01-2"
     ],
     [
@@ -182,7 +182,7 @@
       "anthropic",
       "Anthropic Claude",
       "Claude Mythos 5.1",
-      "介绍克劳德寓言 5.1 和克劳德神话 5.1",
+      "介绍Claude寓言 5.1 和Claude神话 5.1",
       "https://www.anthropic.com/news#d-2026-09-01-2"
     ],
     [
@@ -462,7 +462,7 @@
       "poolside",
       "Poolside",
       "Laguna XS 2.1",
-      "Introducing Laguna XS 2.1",
+      "拉古纳 XS 2.1 简介",
       "https://poolside.ai/blog#d-2026-07-21-18"
     ],
     [
@@ -654,7 +654,7 @@
       "longcat_meituan",
       "美团 LongCat",
       "LongCat-2.0",
-      "LongCat-2.0 发布 &amp; 全新推出计费服务",
+      "LongCat-2.0 发布 & 全新推出计费服务",
       "https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30"
     ],
     [
@@ -1350,7 +1350,7 @@
       "together_ai",
       "Together AI",
       "FlashAttention-4",
-      "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
+      "FlashAttention-4：用于非对称硬件扩展的算法和内核流水线协同设计",
       "https://www.together.ai/blog/flashattention-4"
     ],
     [

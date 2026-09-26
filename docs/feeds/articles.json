@@ -6,7 +6,7 @@
     "date",
     "original_title"
   ],
-  "count": 3596,
+  "count": 3610,
   "articles": [
     [
       "Claude Tag 现在支持通道中的个人连接器",
@@ -16,32 +16,32 @@
       "Claude Tag now supports personal connectors in channels"
     ],
     [
-      "Is Seedance Open Source?",
+      "Seedance 是开源的吗？",
       "https://openrouter.ai/blog/insights/seedance-2-5-open-source/",
       "openrouter",
       "2026-09-25",
-      ""
+      "Is Seedance Open Source?"
     ],
     [
-      "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+      "使用 EFA 和 DeepEP 在 Amazon EKS 上扩展 MoE 强化学习，吞吐量提高 40%",
       "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput/",
       "aws_bedrock",
       "2026-09-25",
-      ""
+      "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput"
     ],
     [
-      "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "在 Amazon SageMaker HyperPod 上使用 SkyRL 加速多模式 RL 训练",
       "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
       "aws_bedrock",
       "2026-09-25",
-      ""
+      "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod"
     ],
     [
-      "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "NarrateAI：Amazon Bedrock 上的生产就绪 LLM 质量保证",
       "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
       "aws_bedrock",
       "2026-09-25",
-      ""
+      "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock"
     ],
     [
       "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
@@ -51,32 +51,32 @@
       ""
     ],
     [
-      "How Datacor built self-service rental analytics with Amazon Quick Sight",
+      "Datacor 如何使用 Amazon Quick Sight 构建自助租赁分析",
       "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
       "aws_bedrock",
       "2026-09-25",
-      ""
+      "How Datacor built self-service rental analytics with Amazon Quick Sight"
     ],
     [
-      "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
+      "使用 Amazon SageMaker HyperPod 和 Qumulo 进行多区域训练",
       "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
       "aws_bedrock",
       "2026-09-25",
-      ""
+      "Multi-Region training with Amazon SageMaker HyperPod and Qumulo"
     ],
     [
-      "AI Model Calibration: The Benchmark Nobody Optimizes",
+      "AI 模型校准：无人优化的基准",
       "https://deepinfra.com/blog/ai-model-calibration-benchmark",
       "deepinfra",
       "2026-09-25",
-      ""
+      "AI Model Calibration: The Benchmark Nobody Optimizes"
     ],
     [
-      "Token Verbosity Is the New Pricing War",
+      "代币冗长是新的定价战",
       "https://deepinfra.com/blog/token-verbosity",
       "deepinfra",
       "2026-09-25",
-      ""
+      "Token Verbosity Is the New Pricing War"
     ],
     [
       "LongCat-2.5-Preview 上线",
@@ -114,39 +114,39 @@
       ""
     ],
     [
-      "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "在 SageMaker AI 上使用 WhisperX 进行说话人标记转录",
       "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
       "aws_bedrock",
       "2026-09-24",
-      ""
+      "Speaker-labeled transcription with WhisperX on SageMaker AI"
     ],
     [
-      "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "使用 AgentCore Gateway 和 MCP 构建多帐户 AI 代理",
       "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
       "aws_bedrock",
       "2026-09-24",
-      ""
+      "Build a multi-account AI agent with AgentCore Gateway and MCP"
     ],
     [
-      "Aderant builds intelligent ticket triage with Amazon Nova",
+      "Aderant 使用 Amazon Nova 构建智能票务分类",
       "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
       "aws_bedrock",
       "2026-09-24",
-      ""
+      "Aderant builds intelligent ticket triage with Amazon Nova"
     ],
     [
-      "Model Deprecation: Build LLM Apps That Last",
+      "模型弃用：构建持久的 LLM 应用程序",
       "https://deepinfra.com/blog/model-deprecation-llm-apps",
       "deepinfra",
       "2026-09-24",
-      ""
+      "Model Deprecation: Build LLM Apps That Last"
     ],
     [
-      "Introducing Mercury 2.5|Read the blog",
+      "Mercury 2.5 简介|阅读博客",
       "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
       "inception_labs",
       "2026-09-24",
-      ""
+      "Introducing Mercury 2.5|Read the blog"
     ],
     [
       "Claude Marketplace：一站式发现合作伙伴的插件、代理和服务",
@@ -170,53 +170,53 @@
       "Introducing Ray-Ban Meta Audio and More AI Glasses Styles"
     ],
     [
-      "Best Embedding Models in 2026",
+      "2026 年最佳嵌入模型",
       "https://openrouter.ai/blog/insights/best-embedding-models-2026/",
       "openrouter",
       "2026-09-23",
-      ""
+      "Best Embedding Models in 2026"
     ],
     [
-      "How to Use Jev: Moderation with the Jev API in TypeScript",
+      "如何使用 Jev：在 TypeScript 中使用 Jev API 进行审核",
       "https://openrouter.ai/blog/tutorials/how-to-use-jev/",
       "openrouter",
       "2026-09-23",
-      ""
+      "How to Use Jev: Moderation with the Jev API in TypeScript"
     ],
     [
-      "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
+      "从门户网站跳转到即时答案：HEMA 与 MCP 和 Amazon Bedrock 的合作之旅",
       "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
       "aws_bedrock",
       "2026-09-23",
-      ""
+      "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock"
     ],
     [
-      "Agentic conversational video intelligence built on AWS",
+      "基于 AWS 构建的代理对话视频智能",
       "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
       "aws_bedrock",
       "2026-09-23",
-      ""
+      "Agentic conversational video intelligence built on AWS"
     ],
     [
-      "Use open weight models as your AI coding agent with Amazon Bedrock",
+      "使用开放权重模型作为 Amazon Bedrock 的 AI 编码代理",
       "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
       "aws_bedrock",
       "2026-09-23",
-      ""
+      "Use open weight models as your AI coding agent with Amazon Bedrock"
     ],
     [
-      "How to train your own Jev for $17",
+      "如何用 17 美元训练你自己的 JEV",
       "https://www.together.ai/blog/how-to-train-your-own-jev",
       "together_ai",
       "2026-09-23",
-      ""
+      "How to train your own Jev for $17"
     ],
     [
-      "Design Your Next Website With AI: A Prompting Guide for Ming-Image",
+      "用人工智能设计你的下一个网站：Ming-Image 提示指南",
       "https://deepinfra.com/blog/ming-design-with-ai",
       "deepinfra",
       "2026-09-23",
-      ""
+      "Design Your Next Website With AI: A Prompting Guide for Ming-Image"
     ],
     [
       "GPT-6 的提示缓存全面升级",
@@ -254,60 +254,60 @@
       ""
     ],
     [
-      "Batch API: half-price inference by bundling requests",
+      "Batch API：通过捆绑请求进行半价推理",
       "https://openrouter.ai/blog/announcements/batch-api/",
       "openrouter",
       "2026-09-22",
-      ""
+      "Batch API: half-price inference by bundling requests"
     ],
     [
-      "Is Jev as Accurate as Frontier Models at Classification?",
+      "Jev 的分类准确度与前沿模型一样吗？",
       "https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/",
       "openrouter",
       "2026-09-22",
-      ""
+      "Is Jev as Accurate as Frontier Models at Classification?"
     ],
     [
-      "What Is Nemotron 3.5 Lightning",
+      "什么是 Nemotron 3.5 闪电",
       "https://openrouter.ai/blog/insights/nemotron-3-5-lightning/",
       "openrouter",
       "2026-09-22",
-      ""
+      "What Is Nemotron 3.5 Lightning"
     ],
     [
-      "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
+      "使用 Amazon Bedrock 上的 GPT-6 Sol 和 GPT-6 Luna 为日常工作带来更多智能",
       "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock"
     ],
     [
-      "Claude Opus 5.5 is now available on AWS",
+      "Claude Opus 5.5 现已在 AWS 上推出",
       "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "Claude Opus 5.5 is now available on AWS"
     ],
     [
-      "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+      "使用 Strands Evals 和 Amazon Bedrock AgentCore 评估具备技能的代理",
       "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore"
     ],
     [
-      "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+      "Reactiv 如何利用 Amazon Bedrock AgentCore 将移动商务自动化速度提高 80%",
       "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore"
     ],
     [
-      "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
+      "Amazon SageMaker AI 上具有并发扫描功能的适当大小的生成式 AI 端点",
       "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI"
     ],
     [
       "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore",
@@ -317,32 +317,32 @@
       ""
     ],
     [
-      "How Tata Elxsi detects industrial safety risks in seconds on AWS",
+      "Tata Elxsi 如何在 AWS 上快速检测工业安全风险",
       "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "How Tata Elxsi detects industrial safety risks in seconds on AWS"
     ],
     [
-      "Extending public sector intelligence with Agentforce and AWS",
+      "使用 Agentforce 和 AWS 扩展公共部门情报",
       "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
       "aws_bedrock",
       "2026-09-22",
-      ""
+      "Extending public sector intelligence with Agentforce and AWS"
     ],
     [
-      "Canary rollouts: upgrade models in production without downtime",
+      "金丝雀部署：无需停机即可升级生产中的模型",
       "https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime",
       "together_ai",
       "2026-09-22",
-      ""
+      "Canary rollouts: upgrade models in production without downtime"
     ],
     [
-      "Two-Tier AI Agents: Why You Need Two Models",
+      "两层人工智能代理：为什么需要两种模型",
       "https://deepinfra.com/blog/two-tier-agent-two-models",
       "deepinfra",
       "2026-09-22",
-      ""
+      "Two-Tier AI Agents: Why You Need Two Models"
     ],
     [
       "2026-09-22 MiMo-V2.6 系列发布",
@@ -401,25 +401,25 @@
       ""
     ],
     [
-      "Two Hours of Work That Takes a Week",
+      "一周工作两小时",
       "https://openrouter.ai/blog/insights/descript-model-evaluation-queue/",
       "openrouter",
       "2026-09-21",
-      ""
+      "Two Hours of Work That Takes a Week"
     ],
     [
-      "Jev vs LLM-as-a-Judge",
+      "Jev 与 LLM 法官",
       "https://openrouter.ai/blog/tutorials/jev-vs-llm-as-a-judge/",
       "openrouter",
       "2026-09-21",
-      ""
+      "Jev vs LLM-as-a-Judge"
     ],
     [
-      "What Is Jev? TypeSafe's Decision Model Explained for Developers",
+      "杰夫是什么？为开发人员解释 TypeSafe 的决策模型",
       "https://openrouter.ai/blog/insights/what-is-jev/",
       "openrouter",
       "2026-09-21",
-      ""
+      "What Is Jev? TypeSafe's Decision Model Explained for Developers"
     ],
     [
       "数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设",
@@ -443,11 +443,11 @@
       ""
     ],
     [
-      "Jev vs LLM: When to Use a Decision Model Instead of Generating Text",
+      "Jev vs LLM：何时使用决策模型而不是生成文本",
       "https://openrouter.ai/blog/tutorials/jev-vs-llm-when-to-use-each/",
       "openrouter",
       "2026-09-19",
-      ""
+      "Jev vs LLM: When to Use a Decision Model Instead of Generating Text"
     ],
     [
       "澳大利亚青少年安全蓝图简介",
@@ -478,18 +478,18 @@
       ""
     ],
     [
-      "Image Generation Models Compared: Cost, Edit, Quality",
+      "图像生成模型比较：成本、编辑、质量",
       "https://openrouter.ai/blog/insights/image-generation-models-compared/",
       "openrouter",
       "2026-09-18",
-      ""
+      "Image Generation Models Compared: Cost, Edit, Quality"
     ],
     [
-      "How a global fintech scaled coding agent traffic with Dedicated Model Inference",
+      "全球金融科技如何通过专用模型推理扩展编码代理流量",
       "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference",
       "together_ai",
       "2026-09-18",
-      ""
+      "How a global fintech scaled coding agent traffic with Dedicated Model Inference"
     ],
     [
       "推出面向法律行业的 Astra",
@@ -548,11 +548,11 @@
       ""
     ],
     [
-      "Build a Reliable Tool-Calling Agent Loop on OpenRouter",
+      "在 OpenRouter 上构建可靠的工具调用代理循环",
       "https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/",
       "openrouter",
       "2026-09-17",
-      ""
+      "Build a Reliable Tool-Calling Agent Loop on OpenRouter"
     ],
     [
       "Is Kimi K3 Production Ready? Real-World Analysis",
@@ -695,18 +695,18 @@
       ""
     ],
     [
-      "Migrating from closed to open source models, Together",
+      "共同从封闭模型迁移到开源模型",
       "https://www.together.ai/blog/migrating-from-closed-to-open-source-models",
       "together_ai",
       "2026-09-16",
-      ""
+      "Migrating from closed to open source models, Together"
     ],
     [
-      "MCP Servers Explained: A Practical Guide for Developers",
+      "MCP 服务器解释：开发人员实用指南",
       "https://deepinfra.com/blog/mcp-servers-explained",
       "deepinfra",
       "2026-09-16",
-      ""
+      "MCP Servers Explained: A Practical Guide for Developers"
     ],
     [
       "数眼智能 AI 视频生成教程：如何用智能体生成第一条视频？",
@@ -800,11 +800,11 @@
       ""
     ],
     [
-      "Case Study: How Descript Took New Models Off the Engineering Queue",
+      "案例研究：Descript 如何将新模型从工程队列中剔除",
       "https://openrouter.ai/blog/case-studies/descript-case-study/",
       "openrouter",
       "2026-09-15",
-      ""
+      "Case Study: How Descript Took New Models Off the Engineering Queue"
     ],
     [
       "数眼智能与海南大学达成专利技术合作",
@@ -877,11 +877,11 @@
       ""
     ],
     [
-      "LLM-as-a-Judge: Score AI Agent Outputs Automatically",
+      "法学硕士作为法官：自动对人工智能代理的输出进行评分",
       "https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/",
       "openrouter",
       "2026-09-14",
-      ""
+      "LLM-as-a-Judge: Score AI Agent Outputs Automatically"
     ],
     [
       "deepseek-v4.1-flash：DeepSeek-V4.1-Flash 是 DeepSeek 全新架构系列中的轻量旗舰模型，以 552B 总参数 MoE 实现越级智能，在多项基准上超越包括 DeepSeek-V4-Pro 在内的主流旗舰模型",
@@ -919,25 +919,25 @@
       ""
     ],
     [
-      "OpenRouter Text-to-Speech: API Tutorial in 5 Minutes",
+      "OpenRouter 文本转语音：5 分钟 API 教程",
       "https://openrouter.ai/blog/tutorials/text-to-speech/",
       "openrouter",
       "2026-09-11",
-      ""
+      "OpenRouter Text-to-Speech: API Tutorial in 5 Minutes"
     ],
     [
-      "Zero Data Retention (ZDR): What It Means for AI APIs",
+      "零数据保留 (ZDR)：对于 AI API 意味着什么",
       "https://openrouter.ai/blog/insights/zero-data-retention/",
       "openrouter",
       "2026-09-11",
-      ""
+      "Zero Data Retention (ZDR): What It Means for AI APIs"
     ],
     [
-      "Together AI expands fine-tuning service with more models, live metrics, and finer controls",
+      "人工智能通过更多模型、实时指标和更精细的控制来扩展微调服务",
       "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls",
       "together_ai",
       "2026-09-11",
-      ""
+      "Together AI expands fine-tuning service with more models, live metrics, and finer controls"
     ],
     [
       "推出面向金融服务的 ChatGPT",
@@ -1038,25 +1038,25 @@
       ""
     ],
     [
-      "OpenRouter Fusion: How It Works and When to Use It",
+      "OpenRouter Fusion：它的工作原理以及何时使用它",
       "https://openrouter.ai/blog/insights/fusion-explainer/",
       "openrouter",
       "2026-09-10",
-      ""
+      "OpenRouter Fusion: How It Works and When to Use It"
     ],
     [
-      "How to Use OpenRouter Presets: Config-as-Code Guide",
+      "如何使用 OpenRouter 预设：配置即代码指南",
       "https://openrouter.ai/blog/tutorials/presets/",
       "openrouter",
       "2026-09-10",
-      ""
+      "How to Use OpenRouter Presets: Config-as-Code Guide"
     ],
     [
-      "Introducing preemptible compute: the same compute, half the price",
+      "引入抢占式计算：相同的计算，一半的价格",
       "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price",
       "together_ai",
       "2026-09-10",
-      ""
+      "Introducing preemptible compute: the same compute, half the price"
     ],
     [
       "To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!",
@@ -1115,32 +1115,32 @@
       ""
     ],
     [
-      "Nano Banana API: Edit Images with Gemini in Code",
+      "Nano Banana API：在代码中使用 Gemini 编辑图像",
       "https://openrouter.ai/blog/tutorials/nano-banana/",
       "openrouter",
       "2026-09-09",
-      ""
+      "Nano Banana API: Edit Images with Gemini in Code"
     ],
     [
-      "Seedance 2.5 Review: What It's Best At and When to Use It",
+      "Seedance 2.5 评论：它最擅长什么以及何时使用它",
       "https://openrouter.ai/blog/insights/seedance-2-5-review/",
       "openrouter",
       "2026-09-09",
-      ""
+      "Seedance 2.5 Review: What It's Best At and When to Use It"
     ],
     [
-      "In-Region Routing: Keep your data in the US or EU",
+      "区域内路由：将您的数据保存在美国或欧盟",
       "https://openrouter.ai/blog/announcements/us-in-region-routing/",
       "openrouter",
       "2026-09-09",
-      ""
+      "In-Region Routing: Keep your data in the US or EU"
     ],
     [
-      "The Open Source AI Stack",
+      "开源人工智能堆栈",
       "https://www.together.ai/blog/the-open-source-ai-stack",
       "together_ai",
       "2026-09-09",
-      ""
+      "The Open Source AI Stack"
     ],
     [
       "推出 ChatGPT Images 2.5",
@@ -1227,18 +1227,18 @@
       ""
     ],
     [
-      "Give any model a terminal and files",
+      "为任何模型提供终端和文件",
       "https://openrouter.ai/blog/announcements/shell-tool/",
       "openrouter",
       "2026-09-08",
-      ""
+      "Give any model a terminal and files"
     ],
     [
-      "Ray Summit 2026: Physical AI, RL, and the infrastructure that runs them all",
+      "Ray Summit 2026：物理 AI、RL 以及运行它们的基础设施",
       "https://anyscale.com/blog/ray-summit-2026-recap",
       "anyscale",
       "2026-09-08",
-      ""
+      "Ray Summit 2026: Physical AI, RL, and the infrastructure that runs them all"
     ],
     [
       "支持乌克兰的独立新闻业",
@@ -1465,7 +1465,7 @@
       ""
     ],
     [
-      "介绍克劳德寓言 5.1 和克劳德神话 5.1",
+      "介绍Claude寓言 5.1 和Claude神话 5.1",
       "https://www.anthropic.com/news#d-2026-09-01-2",
       "anthropic",
       "2026-09-01",
@@ -1934,25 +1934,25 @@
       ""
     ],
     [
-      "How to Choose the Best AI Model (Live, in Your Editor)",
+      "如何选择最佳 AI 模型（实时，在您的编辑器中）",
       "https://openrouter.ai/blog/tutorials/choose-best-ai-model/",
       "openrouter",
       "2026-08-25",
-      ""
+      "How to Choose the Best AI Model (Live, in Your Editor)"
     ],
     [
-      "GPT 5.6 Discounts & Jevons Paradox",
+      "GPT 5.6 折扣和杰文斯悖论",
       "https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/",
       "openrouter",
       "2026-08-25",
-      ""
+      "GPT 5.6 Discounts & Jevons Paradox"
     ],
     [
-      "OpenRouter Video Generation API: A Code-First Guide",
+      "OpenRouter 视频生成 API：代码优先指南",
       "https://openrouter.ai/blog/tutorials/video-generation-api/",
       "openrouter",
       "2026-08-25",
-      ""
+      "OpenRouter Video Generation API: A Code-First Guide"
     ],
     [
       "Scaling Ray for AI workloads to 10k node clusters",
@@ -1962,25 +1962,25 @@
       ""
     ],
     [
-      "Optimizing LLM Serving Efficiency: Moving Beyond KV Cache Reuse to Token-Load Awareness with Ray Serve LLM",
+      "优化 LLM 服务效率：利用 Ray Serve LLM 超越 KV 缓存重用，实现令牌加载感知",
       "https://anyscale.com/blog/llm-kv-token-aware-routing",
       "anyscale",
       "2026-08-25",
-      ""
+      "Optimizing LLM Serving Efficiency: Moving Beyond KV Cache Reuse to Token-Load Awareness with Ray Serve LLM"
     ],
     [
-      "Introducing Ray History Server: Post-Mortem Observability for Ray on Kubernetes",
+      "Ray 历史记录服务器简介：Kubernetes 上 Ray 的事后可观察性",
       "https://anyscale.com/blog/ray-history-server",
       "anyscale",
       "2026-08-25",
-      ""
+      "Introducing Ray History Server: Post-Mortem Observability for Ray on Kubernetes"
     ],
     [
-      "Learning Loops: The Path to Owning Your Intelligence",
+      "学习循环：拥有智慧的途径",
       "https://anyscale.com/blog/learning-loops",
       "anyscale",
       "2026-08-25",
-      ""
+      "Learning Loops: The Path to Owning Your Intelligence"
     ],
     [
       "FP8 Reinforcement Learning in SkyRL: Preserving Policy Consistency Across Training and Rollout",
@@ -1990,25 +1990,25 @@
       ""
     ],
     [
-      "GPU-Native Operators in Ray Data",
+      "射线数据中的 GPU 原生算子",
       "https://anyscale.com/blog/gpu-native-operators-in-ray-data",
       "anyscale",
       "2026-08-25",
-      ""
+      "GPU-Native Operators in Ray Data"
     ],
     [
-      "Introducing Anyscale GPU Health Observability: From app to hardware",
+      "Anyscale GPU 运行状况可观察性简介：从应用程序到硬件",
       "https://anyscale.com/blog/anyscale-gpu-health-observability",
       "anyscale",
       "2026-08-25",
-      ""
+      "Introducing Anyscale GPU Health Observability: From app to hardware"
     ],
     [
-      "Announcing Native Sandboxing in Ray",
+      "宣布 Ray 中的原生沙箱",
       "https://anyscale.com/blog/announcing-native-sandboxing-in-ray",
       "anyscale",
       "2026-08-25",
-      ""
+      "Announcing Native Sandboxing in Ray"
     ],
     [
       "Introducing KubeRay v1.6 and v1.7",
@@ -2018,11 +2018,11 @@
       ""
     ],
     [
-      "Introducing Anyscale KubeRay Connect: Doubling down on Kubernetes",
+      "Anyscale KubeRay Connect 简介：加倍关注 Kubernetes",
       "https://anyscale.com/blog/announcing-anyscale-connect-for-kuberay",
       "anyscale",
       "2026-08-25",
-      ""
+      "Introducing Anyscale KubeRay Connect: Doubling down on Kubernetes"
     ],
     [
       "Shuffle V2 in Ray Data: Faster, Fault-Tolerant Joins and Aggregations",
@@ -2123,25 +2123,25 @@
       ""
     ],
     [
-      "Image Benchmarks: See the Capabilities of Every Model",
+      "图像基准：查看每个模型的功能",
       "https://openrouter.ai/blog/announcements/image-benchmarks/",
       "openrouter",
       "2026-08-21",
-      ""
+      "Image Benchmarks: See the Capabilities of Every Model"
     ],
     [
-      "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing",
+      "DeepSWE 上的 GLM-5.3 与 GPT-5.6 Sol：成本、编码和路由",
       "https://www.together.ai/blog/glm-5-3-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing",
       "together_ai",
       "2026-08-21",
-      ""
+      "GLM-5.3 vs. GPT-5.6 Sol on DeepSWE: Cost, Coding, and Routing"
     ],
     [
-      "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
+      "DeepSWE 上的 GLM-5.3 与 Claude Fable 5：成本、编码和路由",
       "https://www.together.ai/blog/glm-5-3-vs-claude-fable-5-on-deepswe-cost-coding-and-routing",
       "together_ai",
       "2026-08-21",
-      ""
+      "GLM-5.3 vs. Claude Fable 5 on DeepSWE: Cost, Coding, and Routing"
     ],
     [
       "推出 Intelligence Age",
@@ -2256,25 +2256,25 @@
       ""
     ],
     [
-      "OpenRouter is Joining Stripe",
+      "OpenRouter 即将加入 Stripe",
       "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
       "openrouter",
       "2026-08-19",
-      ""
+      "OpenRouter is Joining Stripe"
     ],
     [
-      "You don’t need a frontier model. You need a verifier.",
+      "你不需要前沿模型。你需要一个验证者。",
       "https://www.ai21.com/blog/#d-2026-08-19-0",
       "ai21_labs",
       "2026-08-19",
-      ""
+      "You don’t need a frontier model. You need a verifier."
     ],
     [
-      "CVE-2025-62593 and the CISA KEV listing: what Ray users need to know",
+      "CVE-2025-62593 和 CISA KEV 列表：Ray 用户需要了解的内容",
       "https://anyscale.com/blog/ray-cve-2025-62593-kev-what-you-need-to-know",
       "anyscale",
       "2026-08-19",
-      ""
+      "CVE-2025-62593 and the CISA KEV listing: what Ray users need to know"
     ],
     [
       "推出面向青少年的 ChatGPT：为学习而生，以保护为后盾",
@@ -2368,18 +2368,18 @@
       ""
     ],
     [
-      "Async inference in practice: a video-indexing service on Ray Serve",
+      "异步推理实践：Ray Serve 上的视频索引服务",
       "https://anyscale.com/blog/ray-serve-async-inf-in-practice",
       "anyscale",
       "2026-08-18",
-      ""
+      "Async inference in practice: a video-indexing service on Ray Serve"
     ],
     [
-      "Using Ray Direct Transport for Fast and Easy Weight Syncing in Reinforcement Learning (Part 2)",
+      "使用 Ray Direct Transport 在强化学习中快速轻松地进行权重同步（第 2 部分）",
       "https://anyscale.com/blog/rdt-ray-direct-transport-fast-easy-weight-syncing-for-rl-reinforcement-learning",
       "anyscale",
       "2026-08-18",
-      ""
+      "Using Ray Direct Transport for Fast and Easy Weight Syncing in Reinforcement Learning (Part 2)"
     ],
     [
       "防御者之窗",
@@ -2431,18 +2431,18 @@
       ""
     ],
     [
-      "Understand your AI usage: every agent, model, and request",
+      "了解您的 AI 使用情况：每个代理、模型和请求",
       "https://openrouter.ai/blog/announcements/activity-dashboard/",
       "openrouter",
       "2026-08-17",
-      ""
+      "Understand your AI usage: every agent, model, and request"
     ],
     [
-      "OpenRouter Image Generation: A Code-First API Tutorial",
+      "OpenRouter 图像生成：代码优先 API 教程",
       "https://openrouter.ai/blog/tutorials/image-generation/",
       "openrouter",
       "2026-08-17",
-      ""
+      "OpenRouter Image Generation: A Code-First API Tutorial"
     ],
     [
       "DeepSeek V4 Pro 0813 vs Claude Fable 5 on DeepSWE: Cost, Coding, and Routing",
@@ -2452,11 +2452,11 @@
       ""
     ],
     [
-      "A/B test models in production",
+      "生产中的 A/B 测试模型",
       "https://www.together.ai/blog/a-b-test-models-in-production",
       "together_ai",
       "2026-08-17",
-      ""
+      "A/B test models in production"
     ],
     [
       "Claude 的文本水印如何运作",
@@ -2501,11 +2501,11 @@
       ""
     ],
     [
-      "How to Send an Image to an LLM via API (Vision Guide)",
+      "如何通过 API 将图像发送至法学硕士（视觉指南）",
       "https://openrouter.ai/blog/tutorials/send-image-to-llm/",
       "openrouter",
       "2026-08-14",
-      ""
+      "How to Send an Image to an LLM via API (Vision Guide)"
     ],
     [
       "【新增】数据分析任务完成后可将结果下载至本地，便于进一步处理与留存数据",
@@ -2620,18 +2620,18 @@
       "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis"
     ],
     [
-      "Tool Calling Across Any Model: Write the Loop Once, Swap the Model String",
+      "跨任何模型的工具调用：编写一次循环，交换模型字符串",
       "https://openrouter.ai/blog/tutorials/tool-calling/",
       "openrouter",
       "2026-08-12",
-      ""
+      "Tool Calling Across Any Model: Write the Loop Once, Swap the Model String"
     ],
     [
-      "Live Web Search Benchmarks: Pick the Right Engine, Depth, and Model for Your Agent",
+      "实时网络搜索基准：为您的代理选择正确的引擎、深度和模型",
       "https://openrouter.ai/blog/announcements/web-search-benchmark/",
       "openrouter",
       "2026-08-12",
-      ""
+      "Live Web Search Benchmarks: Pick the Right Engine, Depth, and Model for Your Agent"
     ],
     [
       "Daybreak 模型现已登陆 AWS",
@@ -2774,11 +2774,11 @@
       ""
     ],
     [
-      "Model Routing Powered by Wisdom of the Market",
+      "由市场智慧提供支持的模型路由",
       "https://openrouter.ai/blog/announcements/introducing-the-new-auto-router/",
       "openrouter",
       "2026-08-10",
-      ""
+      "Model Routing Powered by Wisdom of the Market"
     ],
     [
       "应对关键网络能力的下一个前沿",
@@ -2816,11 +2816,11 @@
       ""
     ],
     [
-      "Set Up Team AI Spend Controls on OpenRouter",
+      "在 OpenRouter 上设置团队 AI 支出控制",
       "https://openrouter.ai/blog/tutorials/team-spend-controls-setup/",
       "openrouter",
       "2026-08-07",
-      ""
+      "Set Up Team AI Spend Controls on OpenRouter"
     ],
     [
       "改进 ChatGPT 中的 GPT‑5.6 Sol，并向免费用户扩大 GPT-5.6 Luna 的使用范围",
@@ -2858,18 +2858,18 @@
       ""
     ],
     [
-      "Baseten 上线 Hugging Face Inference Providers 🔥",
+      "Baseten 上线拥抱人脸推理提供商 🔥",
       "https://huggingface.co/blog/baseten",
       "huggingface",
       "2026-08-06",
-      ""
+      "Baseten 上线 Hugging Face Inference Providers 🔥"
     ],
     [
-      "Governing AI Spend Across a Team on OpenRouter",
+      "管理 OpenRouter 上团队的 AI 支出",
       "https://openrouter.ai/blog/insights/governing-team-ai-spend/",
       "openrouter",
       "2026-08-06",
-      ""
+      "Governing AI Spend Across a Team on OpenRouter"
     ],
     [
       "Schematron V2: Frontier HTML-to-JSON extraction at a fraction of the cost",
@@ -2914,11 +2914,11 @@
       ""
     ],
     [
-      "Ori Harness: The Best Way to Use OpenRouter with Any Harness",
+      "Ori Harness：将 OpenRouter 与任何 Harness 结合使用的最佳方式",
       "https://openrouter.ai/blog/announcements/ori-harness/",
       "openrouter",
       "2026-08-04",
-      ""
+      "Ori Harness: The Best Way to Use OpenRouter with Any Harness"
     ],
     [
       "苹果这件事做错了",
@@ -2949,11 +2949,11 @@
       ""
     ],
     [
-      "Ori Eval: Find the Best Model for What You're Building",
+      "Ori Eval：找到最适合您正在构建的模型",
       "https://openrouter.ai/blog/announcements/ori-eval/",
       "openrouter",
       "2026-08-03",
-      ""
+      "Ori Eval: Find the Best Model for What You're Building"
     ],
     [
       "qwen3.8-max：2.4万亿参数MoE旗舰，编程与办公能力全面跃升，可自主编程十数天交付完整项目",
@@ -3103,11 +3103,11 @@
       ""
     ],
     [
-      "Anyscale signs definitive agreement to join Nscale",
+      "Anyscale 签署加入 Nscale 的最终协议",
       "https://anyscale.com/blog/anyscale-signs-definitive-agreement-to-join-nscale",
       "anyscale",
       "2026-07-30",
-      ""
+      "Anyscale signs definitive agreement to join Nscale"
     ],
     [
       "启用两项设置如何让我们的 ARC-AGI-3 基准得分提高两倍",
@@ -3145,18 +3145,18 @@
       ""
     ],
     [
-      "Using OpenRouter With LangChain: ChatOpenRouter Setup Guide",
+      "使用 OpenRouter 与 LangChain：ChatOpenRouter 设置指南",
       "https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup/",
       "openrouter",
       "2026-07-29",
-      ""
+      "Using OpenRouter With LangChain: ChatOpenRouter Setup Guide"
     ],
     [
-      "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models",
+      "Together AI 宣布与 Moonshot AI 建立战略合作伙伴关系，为 Kimi 模型提供原生服务",
       "https://www.together.ai/blog/together-ai-announces-strategic-partnership-with-moonshot-ai-to-natively-serve-kimi-models",
       "together_ai",
       "2026-07-29",
-      ""
+      "Together AI announces strategic partnership with Moonshot AI to natively serve Kimi models"
     ],
     [
       "ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale",
@@ -3215,25 +3215,25 @@
       ""
     ],
     [
-      "How to Evaluate LLM Provider Performance Across Latency, Throughput, and Uptime",
+      "如何评估 LLM 提供商在延迟、吞吐量和正常运行时间方面的绩效",
       "https://openrouter.ai/blog/insights/evaluate-llm-provider-performance/",
       "openrouter",
       "2026-07-28",
-      ""
+      "How to Evaluate LLM Provider Performance Across Latency, Throughput, and Uptime"
     ],
     [
-      "Poolside on Dell: an efficient path for frontier AI inside your boundary",
+      "Poolside on Dell：在您的边界内实现前沿人工智能的有效途径",
       "https://poolside.ai/blog#d-2026-07-28-34",
       "poolside",
       "2026-07-28",
-      ""
+      "Poolside on Dell: an efficient path for frontier AI inside your boundary"
     ],
     [
-      "Poolside on Dell: an efficient path for frontier AI inside your boundary",
+      "Poolside on Dell：在您的边界内实现前沿人工智能的有效途径",
       "https://poolside.ai/blog#d-2026-07-28-35",
       "poolside",
       "2026-07-28",
-      ""
+      "Poolside on Dell: an efficient path for frontier AI inside your boundary"
     ],
     [
       "AI 如何拓展人们的工作边界",
@@ -3285,11 +3285,11 @@
       ""
     ],
     [
-      "Image Generation Models: Choosing One, Fixing Errors",
+      "图像生成模型：选择一个，修复错误",
       "https://openrouter.ai/blog/tutorials/image-generation-models/",
       "openrouter",
       "2026-07-27",
-      ""
+      "Image Generation Models: Choosing One, Fixing Errors"
     ],
     [
       "产品：推出 Claude Opus 5。Opus 5 是 Opus 层级的阶跃式升级，为长时间运行的代理提供动力，同时提升编码与专业工作表现。",
@@ -3334,11 +3334,11 @@
       ""
     ],
     [
-      "Classifiers: Track What Your Agents Do and What It Costs",
+      "分类器：跟踪您的代理所做的事情及其成本",
       "https://openrouter.ai/blog/announcements/classifiers/",
       "openrouter",
       "2026-07-24",
-      ""
+      "Classifiers: Track What Your Agents Do and What It Costs"
     ],
     [
       "在 ChatGPT 中推出 Health",
@@ -3369,18 +3369,18 @@
       ""
     ],
     [
-      "The production platform for open-weight AI inference",
+      "开放权重人工智能推理的生产平台",
       "https://www.together.ai/blog/the-production-platform-for-open-weight-ai-inference",
       "together_ai",
       "2026-07-23",
-      ""
+      "The production platform for open-weight AI inference"
     ],
     [
-      "Introducing the Anyscale Physical AI Skill",
+      "介绍 Anyscale 物理 AI 技能",
       "https://anyscale.com/blog/introducing-the-anyscale-physical-ai-skill",
       "anyscale",
       "2026-07-23",
-      ""
+      "Introducing the Anyscale Physical AI Skill"
     ],
     [
       "与埃芬汉县社区共建 AI 基础设施",
@@ -3418,11 +3418,11 @@
       ""
     ],
     [
-      "Grok for Outlook",
+      "适用于 Outlook 的 Grok",
       "https://x.ai/news#d-2026-07-22-24",
       "xai_grok",
       "2026-07-22",
-      ""
+      "Grok for Outlook"
     ],
     [
       "将 Grok 4.5 带到 iOS、Android、Web 和 X",
@@ -3432,11 +3432,11 @@
       ""
     ],
     [
-      "Transcription on OpenRouter",
+      "OpenRouter 上的转录",
       "https://openrouter.ai/blog/tutorials/transcription-on-openrouter/",
       "openrouter",
       "2026-07-22",
-      ""
+      "Transcription on OpenRouter"
     ],
     [
       "【新增】新增 Python 代码节点，支持灵活编写自定义处理逻辑，满足个性化数据加工需求",
@@ -3488,11 +3488,11 @@
       ""
     ],
     [
-      "Grok for Excel",
+      "Excel 版 Grok",
       "https://x.ai/news#d-2026-07-21-25",
       "xai_grok",
       "2026-07-21",
-      ""
+      "Grok for Excel"
     ],
     [
       "适用于 Outlook 的 Grok",
@@ -3516,25 +3516,25 @@
       ""
     ],
     [
-      "The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing",
+      "最便宜的令牌是缓存令牌：提示缓存 + 粘性路由",
       "https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing/",
       "openrouter",
       "2026-07-21",
-      ""
+      "The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing"
     ],
     [
-      "Introducing Laguna XS 2.1",
+      "拉古纳 XS 2.1 简介",
       "https://poolside.ai/blog#d-2026-07-21-18",
       "poolside",
       "2026-07-21",
-      ""
+      "Introducing Laguna XS 2.1"
     ],
     [
-      "Introducing Laguna XS 2.1",
+      "拉古纳 XS 2.1 简介",
       "https://poolside.ai/blog#d-2026-07-21-19",
       "poolside",
       "2026-07-21",
-      ""
+      "Introducing Laguna XS 2.1"
     ],
     [
       "长视野模型时代的安全与对齐",
@@ -3565,11 +3565,11 @@
       ""
     ],
     [
-      "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community",
+      "AI 和 Y Combinator 携手合作，为 YC 社区推出第一个专用 GPU 集群",
       "https://www.together.ai/blog/together-yc-gpu-cluster",
       "together_ai",
       "2026-07-20",
-      ""
+      "Together AI and Y Combinator partner to launch the first dedicated GPU cluster for the YC community"
     ],
     [
       "AI 时代的记分卡",
@@ -3663,18 +3663,18 @@
       ""
     ],
     [
-      "Every Modality Through One API",
+      "通过一个 API 实现每种模式",
       "https://openrouter.ai/blog/insights/every-modality-one-api/",
       "openrouter",
       "2026-07-16",
-      ""
+      "Every Modality Through One API"
     ],
     [
-      "What does 99.9% uptime mean for inference?",
+      "99.9% 的正常运行时间对于推理意味着什么？",
       "https://www.together.ai/blog/99-9-uptime-for-inference",
       "together_ai",
       "2026-07-16",
-      ""
+      "What does 99.9% uptime mean for inference?"
     ],
     [
       "GPT-Red：释放自我改进以增强稳健性",
@@ -3740,25 +3740,25 @@
       ""
     ],
     [
-      "Together AI brings Thinking Machines Lab’s new model Inkling on day 0",
+      "人工智能在第 0 天推出 Thinking Machines Lab 的新模型 Inkling",
       "https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0",
       "together_ai",
       "2026-07-15",
-      ""
+      "Together AI brings Thinking Machines Lab’s new model Inkling on day 0"
     ],
     [
-      "New in Together GPU Clusters: Reliability and control for production GPU clusters",
+      "Together GPU 集群的新增功能：生产 GPU 集群的可靠性和控制",
       "https://www.together.ai/blog/new-in-together-gpu-clusters-reliability-and-control-for-production-gpu-clusters",
       "together_ai",
       "2026-07-15",
-      ""
+      "New in Together GPU Clusters: Reliability and control for production GPU clusters"
     ],
     [
-      "Better and cheaper together: Open models explore, frontier models patch",
+      "更好、更便宜：开放模型探索、前沿模型补丁",
       "https://www.ai21.com/blog/#d-2026-07-15-1",
       "ai21_labs",
       "2026-07-15",
-      ""
+      "Better and cheaper together: Open models explore, frontier models patch"
     ],
     [
       "代理时代如何管理 AI 投资",
@@ -3838,18 +3838,18 @@
       ""
     ],
     [
-      "A New Look for OpenRouter",
+      "OpenRouter 的新面貌",
       "https://openrouter.ai/blog/announcements/brand-refresh/",
       "openrouter",
       "2026-07-13",
-      ""
+      "A New Look for OpenRouter"
     ],
     [
-      "Why Use OpenRouter for DeepSeek",
+      "为什么使用 OpenRouter 进行 DeepSeek",
       "https://openrouter.ai/blog/insights/why-openrouter-for-deepseek/",
       "openrouter",
       "2026-07-13",
-      ""
+      "Why Use OpenRouter for DeepSeek"
     ],
     [
       "德国电信如何用 AI 重塑电信网络",
@@ -4062,18 +4062,18 @@
       ""
     ],
     [
-      "Choosing the Optimal Image Input Detail Level in LLMs",
+      "在法学硕士中选择最佳图像输入细节级别",
       "https://openrouter.ai/blog/insights/image-detail-low-cost/",
       "openrouter",
       "2026-07-07",
-      ""
+      "Choosing the Optimal Image Input Detail Level in LLMs"
     ],
     [
-      "Improving Best-of-N with Budget-Aware Execution for SWE Agents",
+      "通过 SWE 代理的预算感知执行来改进 Best-of-N",
       "https://www.ai21.com/blog/#d-2026-07-07-2",
       "ai21_labs",
       "2026-07-07",
-      ""
+      "Improving Best-of-N with Budget-Aware Execution for SWE Agents"
     ],
     [
       "语音代理生成器简介",
@@ -4125,18 +4125,18 @@
       ""
     ],
     [
-      "Long context update: Laguna XS.2 and M.1",
+      "长上下文更新：Laguna XS.2 和 M.1",
       "https://poolside.ai/blog#d-2026-07-02-20",
       "poolside",
       "2026-07-02",
-      ""
+      "Long context update: Laguna XS.2 and M.1"
     ],
     [
-      "Long context update: Laguna XS.2 and M.1",
+      "长上下文更新：Laguna XS.2 和 M.1",
       "https://poolside.ai/blog#d-2026-07-02-21",
       "poolside",
       "2026-07-02",
-      ""
+      "Long context update: Laguna XS.2 and M.1"
     ],
     [
       "介绍/目标",
@@ -4251,18 +4251,18 @@
       ""
     ],
     [
-      "Together AI at ICML 2026: frontier research across the full stack",
+      "ICML 2026 上的 Together AI：全栈前沿研究",
       "https://www.together.ai/blog/icml-2026",
       "together_ai",
       "2026-06-30",
-      ""
+      "Together AI at ICML 2026: frontier research across the full stack"
     ],
     [
-      "LongCat-2.0 发布 &amp; 全新推出计费服务",
+      "LongCat-2.0 发布 & 全新推出计费服务",
       "https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30",
       "longcat_meituan",
       "2026-06-30",
-      ""
+      "LongCat-2.0 发布 &amp; 全新推出计费服务"
     ],
     [
       "【优化】推理监控输入输出token卡片增加影响因子数据，用户可直接查看因子维度token消耗",
@@ -4293,11 +4293,11 @@
       ""
     ],
     [
-      "The Open Weight Models that Matter: June 2026",
+      "重要的开放重量模型：2026 年 6 月",
       "https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/",
       "openrouter",
       "2026-06-27",
-      ""
+      "The Open Weight Models that Matter: June 2026"
     ],
     [
       "预览下一代模型 GPT-5.6 Sol",
@@ -4335,11 +4335,11 @@
       ""
     ],
     [
-      "On this page",
+      "在此页面上",
       "https://docs.siliconflow.cn/docs/release-notes/overview#d-2026-06-25-46",
       "siliconflow",
       "2026-06-25",
-      ""
+      "On this page"
     ],
     [
       "用 AI 智能体自动化代码分叉维护",
@@ -4349,18 +4349,18 @@
       ""
     ],
     [
-      "The OpenRouter MCP Server",
+      "OpenRouter MCP 服务器",
       "https://openrouter.ai/blog/announcements/openrouter-mcp-server/",
       "openrouter",
       "2026-06-25",
-      ""
+      "The OpenRouter MCP Server"
     ],
     [
-      "Token spend isn’t going down. You need more than naive routing to manage it",
+      "代币支出并没有减少。您需要的不仅仅是简单的路由来管理它",
       "https://www.ai21.com/blog/#d-2026-06-25-3",
       "ai21_labs",
       "2026-06-25",
-      ""
+      "Token spend isn’t going down. You need more than naive routing to manage it"
     ],
     [
       "OpenAI 和 Broadcom 推出面向 LLM 的优化推理芯片",
@@ -4405,11 +4405,11 @@
       ""
     ],
     [
-      "Tipping the scales: Merging weak agents into a state-of-the-art deep researcher",
+      "倾斜天平：将弱智能体合并为最先进的深度研究人员",
       "https://www.ai21.com/blog/#d-2026-06-24-4",
       "ai21_labs",
       "2026-06-24",
-      ""
+      "Tipping the scales: Merging weak agents into a state-of-the-art deep researcher"
     ],
     [
       "Modular：高通收购 Modular",
@@ -4461,18 +4461,18 @@
       ""
     ],
     [
-      "Introducing the Unified Image API",
+      "统一图像 API 简介",
       "https://openrouter.ai/blog/announcements/image-api/",
       "openrouter",
       "2026-06-23",
-      ""
+      "Introducing the Unified Image API"
     ],
     [
-      "ParallelKernelBench: Frontier LLMs can't write fast multi-GPU kernels (yet)",
+      "ParallelKernelBench：前沿法学硕士还无法编写快速的多 GPU 内核",
       "https://www.together.ai/blog/parallelkernelbench",
       "together_ai",
       "2026-06-23",
-      ""
+      "ParallelKernelBench: Frontier LLMs can't write fast multi-GPU kernels (yet)"
     ],
     [
       "2026-6-23 支持 OpenAI Responses API",
@@ -4538,18 +4538,18 @@
       ""
     ],
     [
-      "AI Governance Checklist: Your LLM Architecture Comes First",
+      "AI 治理清单：您的 LLM 架构是第一位的",
       "https://openrouter.ai/blog/insights/ai-governance-checklist/",
       "openrouter",
       "2026-06-22",
-      ""
+      "AI Governance Checklist: Your LLM Architecture Comes First"
     ],
     [
-      "How to Enforce AI Data Residency Without Building Local Infrastructure",
+      "如何在不建设本地基础设施的情况下实施人工智能数据驻留",
       "https://openrouter.ai/blog/insights/ai-data-residency/",
       "openrouter",
       "2026-06-22",
-      ""
+      "How to Enforce AI Data Residency Without Building Local Infrastructure"
     ],
     [
       "Samsung Electronics 为员工带来 ChatGPT 和 Codex",
@@ -4559,18 +4559,18 @@
       ""
     ],
     [
-      "OpenRouter vs Portkey: Which LLM Gateway for Your Team?",
+      "OpenRouter 与 Portkey：哪个 LLM 网关适合您的团队？",
       "https://openrouter.ai/blog/insights/openrouter-vs-portkey/",
       "openrouter",
       "2026-06-19",
-      ""
+      "OpenRouter vs Portkey: Which LLM Gateway for Your Team?"
     ],
     [
-      "OpenRouter vs LiteLLM: Which LLM Gateway Fits Your Stack?",
+      "OpenRouter 与 LiteLLM：哪种 LLM 网关适合您的堆栈？",
       "https://openrouter.ai/blog/insights/openrouter-vs-litellm/",
       "openrouter",
       "2026-06-19",
-      ""
+      "OpenRouter vs LiteLLM: Which LLM Gateway Fits Your Stack?"
     ],
     [
       "面向企业的新用量分析与更新的支出控制",
@@ -4643,18 +4643,18 @@
       ""
     ],
     [
-      "Connect OpenClaw to OpenRouter",
+      "将 OpenClaw 连接到 OpenRouter",
       "https://openrouter.ai/blog/tutorials/openclaw-openrouter/",
       "openrouter",
       "2026-06-18",
-      ""
+      "Connect OpenClaw to OpenRouter"
     ],
     [
-      "How to Connect SillyTavern to OpenRouter (2026 Guide)",
+      "如何将 SillyTavern 连接到 OpenRouter（2026 指南）",
       "https://openrouter.ai/blog/tutorials/sillytavern-openrouter/",
       "openrouter",
       "2026-06-18",
-      ""
+      "How to Connect SillyTavern to OpenRouter (2026 Guide)"
     ],
     [
       "Modular：Modular 26.4：SOTA MoE 服务、通过 Agent Skills 启动模型、Mojo 1.0 Beta 2 等",
@@ -4734,18 +4734,18 @@
       ""
     ],
     [
-      "Kilo Code + OpenRouter: Setup, Model Routing, and Free Models",
+      "Kilo Code + OpenRouter：设置、模型路由和免费模型",
       "https://openrouter.ai/blog/tutorials/kilo-code-openrouter/",
       "openrouter",
       "2026-06-17",
-      ""
+      "Kilo Code + OpenRouter: Setup, Model Routing, and Free Models"
     ],
     [
-      "How to Use OpenAI Codex CLI with OpenRouter",
+      "如何将 OpenAI Codex CLI 与 OpenRouter 结合使用",
       "https://openrouter.ai/blog/tutorials/codex-cli-openrouter/",
       "openrouter",
       "2026-06-17",
-      ""
+      "How to Use OpenAI Codex CLI with OpenRouter"
     ],
     [
       "Kimi K2.7 Code vs Claude Fable 5: Landing pages that cost 94% less",
@@ -4846,25 +4846,25 @@
       "Workers AI - GLM-5.2 now available on Workers AI"
     ],
     [
-      "How to Use Claude Code with OpenRouter",
+      "如何将 Claude 代码与 OpenRouter 结合使用",
       "https://openrouter.ai/blog/tutorials/claude-code-openrouter/",
       "openrouter",
       "2026-06-16",
-      ""
+      "How to Use Claude Code with OpenRouter"
     ],
     [
-      "How to Use OpenRouter With Any Coding Agent or AI Tool",
+      "如何将 OpenRouter 与任何编码代理或 AI 工具结合使用",
       "https://openrouter.ai/blog/tutorials/any-coding-agent/",
       "openrouter",
       "2026-06-16",
-      ""
+      "How to Use OpenRouter With Any Coding Agent or AI Tool"
     ],
     [
-      "Subagent: Let Your Model Delegate the Busywork",
+      "子代理：让您的模型委托繁忙的工作",
       "https://openrouter.ai/blog/announcements/subagent-server-tool/",
       "openrouter",
       "2026-06-16",
-      ""
+      "Subagent: Let Your Model Delegate the Busywork"
     ],
     [
       "弃用公告",
@@ -4923,25 +4923,25 @@
       ""
     ],
     [
-      "Free LLM APIs Compared: Rate Limits, Models, and Real Costs (2026)",
+      "免费 LLM API 比较：速率限制、模型和实际成本 (2026)",
       "https://openrouter.ai/blog/tutorials/free-llm-apis-compared/",
       "openrouter",
       "2026-06-15",
-      ""
+      "Free LLM APIs Compared: Rate Limits, Models, and Real Costs (2026)"
     ],
     [
-      "Agentic AI Governance: Your API Key Is a Guardrail",
+      "代理人工智能治理：您的 API 密钥是一道护栏",
       "https://openrouter.ai/blog/insights/agentic-ai-governance/",
       "openrouter",
       "2026-06-15",
-      ""
+      "Agentic AI Governance: Your API Key Is a Guardrail"
     ],
     [
-      "Keep Your Agent Running When Models Disappear",
+      "当模型消失时让您的代理继续运行",
       "https://openrouter.ai/blog/tutorials/keep-your-agent-running-when-models-disappear/",
       "openrouter",
       "2026-06-15",
-      ""
+      "Keep Your Agent Running When Models Disappear"
     ],
     [
       "介绍 OpenAI 合作伙伴网络",
@@ -4972,39 +4972,39 @@
       "Workers AI - Moonshot AI Kimi K2.7 Code now available on Workers AI"
     ],
     [
-      "How to Use Hermes Agent with OpenRouter: Setup, Models & Routing",
+      "如何将 Hermes Agent 与 OpenRouter 结合使用：设置、模型和路由",
       "https://openrouter.ai/blog/tutorials/hermes-agent/",
       "openrouter",
       "2026-06-12",
-      ""
+      "How to Use Hermes Agent with OpenRouter: Setup, Models & Routing"
     ],
     [
-      "How to Get the Lowest-Cost LLM Inference on OpenRouter",
+      "如何在 OpenRouter 上获得最低成本的 LLM 推理",
       "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter/",
       "openrouter",
       "2026-06-12",
-      ""
+      "How to Get the Lowest-Cost LLM Inference on OpenRouter"
     ],
     [
-      "How OpenRouter Model Routing Works",
+      "OpenRouter 模型路由的工作原理",
       "https://openrouter.ai/blog/insights/model-routing/",
       "openrouter",
       "2026-06-12",
-      ""
+      "How OpenRouter Model Routing Works"
     ],
     [
-      "OpenRouter Reliability & Automatic Failover: How Requests Keep Succeeding",
+      "OpenRouter 可靠性和自动故障转移：请求如何保持成功",
       "https://openrouter.ai/blog/insights/reliability-failover/",
       "openrouter",
       "2026-06-12",
-      ""
+      "OpenRouter Reliability & Automatic Failover: How Requests Keep Succeeding"
     ],
     [
-      "Surpassing Frontier Performance with Fusion",
+      "通过融合超越前沿性能",
       "https://openrouter.ai/blog/announcements/fusion-beats-frontier/",
       "openrouter",
       "2026-06-12",
-      ""
+      "Surpassing Frontier Performance with Fusion"
     ],
     [
       "一位天体物理学家如何用 Codex 辅助模拟黑洞",
@@ -5063,18 +5063,18 @@
       ""
     ],
     [
-      "Dinner is Served",
+      "晚餐已供应",
       "https://openrouter.ai/blog/insights/dinner-is-served/",
       "openrouter",
       "2026-06-11",
-      ""
+      "Dinner is Served"
     ],
     [
-      "What Is an LLM Gateway? The Missing Layer Between Your App and AI Models",
+      "什么是LLM网关？应用程序和人工智能模型之间缺失的一层",
       "https://openrouter.ai/blog/insights/llm-gateway/",
       "openrouter",
       "2026-06-11",
-      ""
+      "What Is an LLM Gateway? The Missing Layer Between Your App and AI Models"
     ],
     [
       "【新增】开发机支持通过 IP 和 Port 进行 SSH 登录及 SCP 文件传输",
@@ -5126,18 +5126,18 @@
       ""
     ],
     [
-      "Advisor: Give Any Model a Lifeline to a Smarter One",
+      "顾问：为任何模型提供一条更聪明的生命线",
       "https://openrouter.ai/blog/announcements/advisor-server-tool/",
       "openrouter",
       "2026-06-10",
-      ""
+      "Advisor: Give Any Model a Lifeline to a Smarter One"
     ],
     [
-      "Building trust in enterprise AI: Together AI earns ISO 27001:2022 certification",
+      "建立对企业 AI 的信任：Together AI 获得 ISO 27001:2022 认证",
       "https://www.together.ai/blog/iso-27001-2022-certification",
       "together_ai",
       "2026-06-10",
-      ""
+      "Building trust in enterprise AI: Together AI earns ISO 27001:2022 certification"
     ],
     [
       "模块化：Modverse #55：Mojo 1.0 Beta、社区 Mojo 库和由 MAX 提供支持的实时患者对话",
@@ -5196,11 +5196,11 @@
       ""
     ],
     [
-      "Gemini 2.5 Flash API - Pricing, Quickstart & Provider Comparison",
+      "Gemini 2.5 Flash API - 定价、快速入门和提供商比较",
       "https://openrouter.ai/blog/tutorials/gemini-25-flash-api-pricing-quickstart-provider-comparison/",
       "openrouter",
       "2026-06-09",
-      ""
+      "Gemini 2.5 Flash API - Pricing, Quickstart & Provider Comparison"
     ],
     [
       "将 S-1 草案保密提交至 SEC",
@@ -5238,11 +5238,11 @@
       ""
     ],
     [
-      "EU AI Act & Colorado ADMT Compliance: Human Oversight for AI Agents",
+      "欧盟人工智能法案和科罗拉多州 ADMT 合规性：人工智能代理的人工监督",
       "https://openrouter.ai/blog/tutorials/human-oversight-eu-ai-act-compliance-agent-sdk/",
       "openrouter",
       "2026-06-08",
-      ""
+      "EU AI Act & Colorado ADMT Compliance: Human Oversight for AI Agents"
     ],
     [
       "模块化：为什么 LLM 推理需要一种新型路由器 - 第 3 部分",
@@ -5287,18 +5287,18 @@
       ""
     ],
     [
-      "A Robot is Sprinting Towards You: Do You Want it Running on Claude or Grok?",
+      "一个机器人向你冲刺：你想让它跑在Claude还是Grok身上？",
       "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
       "openrouter",
       "2026-06-04",
-      ""
+      "A Robot is Sprinting Towards You: Do You Want it Running on Claude or Grok?"
     ],
     [
-      "First scale, then enrich: How the right execution strategy helped us reach state-of-the-art on SWE-rebench",
+      "首先扩大规模，然后丰富：正确的执行策略如何帮助我们在 SWE-rebench 上达到最先进的水平",
       "https://www.ai21.com/blog/#d-2026-06-04-5",
       "ai21_labs",
       "2026-06-04",
-      ""
+      "First scale, then enrich: How the right execution strategy helped us reach state-of-the-art on SWE-rebench"
     ],
     [
       "为 GPT-Rosalind 引入新能力",
@@ -5329,11 +5329,11 @@
       ""
     ],
     [
-      "Composer 2.5",
+      "作曲家2.5",
       "https://x.ai/news#d-2026-06-03-41",
       "xai_grok",
       "2026-06-03",
-      ""
+      "Composer 2.5"
     ],
     [
       "Grok Imagine 1.5 预览版",
@@ -5511,11 +5511,11 @@
       ""
     ],
     [
-      "May Release Spotlight",
+      "5月发布聚光灯",
       "https://openrouter.ai/blog/announcements/may-release-spotlight/",
       "openrouter",
       "2026-06-01",
-      ""
+      "May Release Spotlight"
     ],
     [
       "波士顿儿童医院借助 AI 解锁新的诊断",
@@ -5581,18 +5581,18 @@
       ""
     ],
     [
-      "Guardrails: Protect your Agents, Data, and Costs",
+      "护栏：保护您的代理、数据和成本",
       "https://openrouter.ai/blog/announcements/guardrails/",
       "openrouter",
       "2026-05-29",
-      ""
+      "Guardrails: Protect your Agents, Data, and Costs"
     ],
     [
-      "How Together AI built the world’s fastest speech-to-text stack",
+      "Together AI 如何构建世界上最快的语音到文本堆栈",
       "https://www.together.ai/blog/how-together-ai-built-the-worlds-fastest-speech-to-text-stack",
       "together_ai",
       "2026-05-29",
-      ""
+      "How Together AI built the world’s fastest speech-to-text stack"
     ],
     [
       "LongCat 部分模型服务下线",
@@ -5728,18 +5728,18 @@
       ""
     ],
     [
-      "AI, your way: introducing the Poolside Platform",
+      "AI，你的方式：引入 Poolside 平台",
       "https://poolside.ai/blog#d-2026-05-26-22",
       "poolside",
       "2026-05-26",
-      ""
+      "AI, your way: introducing the Poolside Platform"
     ],
     [
-      "AI, your way: introducing the Poolside Platform",
+      "AI，你的方式：引入 Poolside 平台",
       "https://poolside.ai/blog#d-2026-05-26-23",
       "poolside",
       "2026-05-26",
-      ""
+      "AI, your way: introducing the Poolside Platform"
     ],
     [
       "人工智能正在成为小型企业的首要员工",
@@ -5966,11 +5966,11 @@
       ""
     ],
     [
-      "Benchmarking inference at scale: coding agents",
+      "大规模基准推理：编码代理",
       "https://www.together.ai/blog/coding-agent-benchmarks",
       "together_ai",
       "2026-05-19",
-      ""
+      "Benchmarking inference at scale: coding agents"
     ],
     [
       "模块化：我如何使用 AI 代理构建纯 Mojo 应用程序（和 10 个库）",
@@ -6085,11 +6085,11 @@
       ""
     ],
     [
-      "Together AI and Pearl Research Labs Team Up to Reduce the Cost of AI Inference",
+      "AI 和 Pearl 研究实验室联手降低 AI 推理成本",
       "https://www.together.ai/blog/together-ai-partners-with-pearl-research-labs",
       "together_ai",
       "2026-05-15",
-      ""
+      "Together AI and Pearl Research Labs Team Up to Reduce the Cost of AI Inference"
     ],
     [
       "【优化】继续预训练（CPT）支持混合数据训练模式 ，在保留通用知识同时增强特定领域能力",
@@ -6134,11 +6134,11 @@
       ""
     ],
     [
-      "Violin: An open-source video translation skill that breaks language barriers",
+      "Violin：打破语言障碍的开源视频翻译技能",
       "https://www.together.ai/blog/violin-open-source-translation-skill",
       "together_ai",
       "2026-05-14",
-      ""
+      "Violin: An open-source video translation skill that breaks language barriers"
     ],
     [
       "构建安全高效的沙箱以在 Windows 上启用 Codex",
@@ -6155,11 +6155,11 @@
       ""
     ],
     [
-      "Reproducing Variance: Caching in Agentic LLM Pipelines",
+      "重现差异：代理 LLM 管道中的缓存",
       "https://www.ai21.com/blog/#d-2026-05-13-6",
       "ai21_labs",
       "2026-05-13",
-      ""
+      "Reproducing Variance: Caching in Agentic LLM Pipelines"
     ],
     [
       "模块化：通过 AI 代理转换为 Mojo",
@@ -6253,18 +6253,18 @@
       ""
     ],
     [
-      "Laguna XS.2 and M.1: A Deeper Dive",
+      "Laguna XS.2 和 M.1：深入探讨",
       "https://poolside.ai/blog#d-2026-05-11-0",
       "poolside",
       "2026-05-11",
-      ""
+      "Laguna XS.2 and M.1: A Deeper Dive"
     ],
     [
-      "Laguna XS.2 and M.1: A Deeper Dive",
+      "Laguna XS.2 和 M.1：深入探讨",
       "https://poolside.ai/blog#d-2026-05-11-1",
       "poolside",
       "2026-05-11",
-      ""
+      "Laguna XS.2 and M.1: A Deeper Dive"
     ],
     [
       "在 OpenAI 安全运行 Codex",
@@ -6281,18 +6281,18 @@
       "Workers AI - Planned model deprecations"
     ],
     [
-      "Human-in-the-Loop Tools for the Agent SDK",
+      "Agent SDK 的人机交互工具",
       "https://openrouter.ai/blog/tutorials/human-in-the-loop-tools/",
       "openrouter",
       "2026-05-08",
-      ""
+      "Human-in-the-Loop Tools for the Agent SDK"
     ],
     [
-      "Deploy and inference any model from HuggingFace",
+      "部署并推断 HuggingFace 中的任何模型",
       "https://www.together.ai/blog/deploy-and-inference-any-model-from-huggingface",
       "together_ai",
       "2026-05-08",
-      ""
+      "Deploy and inference any model from HuggingFace"
     ],
     [
       "模块化：为什么 LLM 推理需要一种新型路由器 - 第 1 部分",
@@ -6337,11 +6337,11 @@
       ""
     ],
     [
-      "Consistent Web Search and Fetch Across Every Model",
+      "跨每个模型一致的 Web 搜索和获取",
       "https://openrouter.ai/blog/announcements/agentic-web-tools/",
       "openrouter",
       "2026-05-07",
-      ""
+      "Consistent Web Search and Fetch Across Every Model"
     ],
     [
       "Modular：Modular 26.3：Mojo 1.0 Beta、MAX Video Gen 等",
@@ -6505,18 +6505,18 @@
       ""
     ],
     [
-      "Introducing Laguna XS.2 and Laguna M.1",
+      "Laguna XS.2 和 Laguna M.1 简介",
       "https://poolside.ai/blog#d-2026-05-05-24",
       "poolside",
       "2026-05-05",
-      ""
+      "Introducing Laguna XS.2 and Laguna M.1"
     ],
     [
-      "Introducing Laguna XS.2 and Laguna M.1",
+      "Laguna XS.2 和 Laguna M.1 简介",
       "https://poolside.ai/blog#d-2026-05-05-25",
       "poolside",
       "2026-05-05",
-      ""
+      "Introducing Laguna XS.2 and Laguna M.1"
     ],
     [
       "OpenAI 和普华永道合作重新构想 CFO 办公室",
@@ -6533,18 +6533,18 @@
       ""
     ],
     [
-      "GPT-5.5 Price Increase: What It Actually Costs",
+      "GPT-5.5 价格上涨：实际成本是多少",
       "https://openrouter.ai/blog/insights/gpt55-cost-analysis/",
       "openrouter",
       "2026-05-04",
-      ""
+      "GPT-5.5 Price Increase: What It Actually Costs"
     ],
     [
-      "Foundational research powering efficient inference at scale",
+      "基础研究推动大规模高效推理",
       "https://www.together.ai/blog/foundational-research-powering-efficient-inference-at-scale",
       "together_ai",
       "2026-05-04",
-      ""
+      "Foundational research powering efficient inference at scale"
     ],
     [
       "模块化：Modverse #54：AMD AI DevDay、新的模块化办公室和持续交付的社区",
@@ -6561,11 +6561,11 @@
       ""
     ],
     [
-      "New Audio APIs for Speech and Transcription",
+      "用于语音和转录的新音频 API",
       "https://openrouter.ai/blog/announcements/announcing-audio-apis/",
       "openrouter",
       "2026-05-01",
-      ""
+      "New Audio APIs for Speech and Transcription"
     ],
     [
       "推出高级账户安全",
@@ -6589,32 +6589,32 @@
       ""
     ],
     [
-      "Response Caching: Zero Cost for Identical Requests",
+      "响应缓存：相同请求的零成本",
       "https://openrouter.ai/blog/announcements/response-caching/",
       "openrouter",
       "2026-04-30",
-      ""
+      "Response Caching: Zero Cost for Identical Requests"
     ],
     [
-      "April Release Spotlight",
+      "四月发布焦点",
       "https://openrouter.ai/blog/announcements/april-release-spotlight/",
       "openrouter",
       "2026-04-30",
-      ""
+      "April Release Spotlight"
     ],
     [
-      "From 732 bytes to nowhere: shutting down Copy Fail in production",
+      "从 732 字节到无处可去：关闭生产中的 Copy Fail",
       "https://www.together.ai/blog/shutting-down-copy-fail-in-production",
       "together_ai",
       "2026-04-30",
-      ""
+      "From 732 bytes to nowhere: shutting down Copy Fail in production"
     ],
     [
-      "Announcing Together AI and Adaption Partnership",
+      "共同宣布人工智能和适应合作伙伴关系",
       "https://www.together.ai/blog/announcing-together-ai-and-adaption-partnership",
       "together_ai",
       "2026-04-30",
-      ""
+      "Announcing Together AI and Adaption Partnership"
     ],
     [
       "【新增】SFT精调支持图像理解任务，进一步拓展多模态模型训练场景",
@@ -6659,18 +6659,18 @@
       ""
     ],
     [
-      "DeepInfra 上线 Hugging Face Inference Providers 🔥",
+      "DeepInfra 上线拥抱人脸推理提供商🔥",
       "https://huggingface.co/blog/inference-providers-deepinfra",
       "huggingface",
       "2026-04-29",
-      ""
+      "DeepInfra 上线 Hugging Face Inference Providers 🔥"
     ],
     [
-      "Create OpenRouter Accounts via CLI with Stripe Projects",
+      "通过 CLI 使用 Stripe 项目创建 OpenRouter 帐户",
       "https://openrouter.ai/blog/announcements/openrouter-on-stripe-projects/",
       "openrouter",
       "2026-04-29",
-      ""
+      "Create OpenRouter Accounts via CLI with Stripe Projects"
     ],
     [
       "DeepSeek-V4 Pro now available on Together AI",
@@ -6729,18 +6729,18 @@
       "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents"
     ],
     [
-      "Together AI Brings NVIDIA Nemotron 3 Nano Omni to Developers on Day 0",
+      "Together AI 在第 0 天为开发者带来 NVIDIA Nemotron 3 Nano Omni",
       "https://www.together.ai/blog/together-ai-brings-nvidia-nemotron-3-nano-omni-to-developers-on-day-0",
       "together_ai",
       "2026-04-28",
-      ""
+      "Together AI Brings NVIDIA Nemotron 3 Nano Omni to Developers on Day 0"
     ],
     [
-      "Reaching SOTA Performance Without Breaking the Bank",
+      "无需花费太多即可达到 SOTA 性能",
       "https://www.ai21.com/blog/#d-2026-04-28-7",
       "ai21_labs",
       "2026-04-28",
-      ""
+      "Reaching SOTA Performance Without Breaking the Bank"
     ],
     [
       "Tools of the Trade: C2C Activation Offloading on Grace Blackwell",
@@ -6757,18 +6757,18 @@
       ""
     ],
     [
-      "Announcing the acquisition of Fern Labs",
+      "宣布收购 Fern Labs",
       "https://poolside.ai/blog#d-2026-04-28-26",
       "poolside",
       "2026-04-28",
-      ""
+      "Announcing the acquisition of Fern Labs"
     ],
     [
-      "Announcing the acquisition of Fern Labs",
+      "宣布收购 Fern Labs",
       "https://poolside.ai/blog#d-2026-04-28-27",
       "poolside",
       "2026-04-28",
-      ""
+      "Announcing the acquisition of Fern Labs"
     ],
     [
       "OpenAI 已达到 FedRAMP Moderate 级别",
@@ -6848,11 +6848,11 @@
       ""
     ],
     [
-      "Opus 4.7's New Tokenizer: What It Actually Costs",
+      "Opus 4.7 的新 Tokenizer：实际成本是多少",
       "https://openrouter.ai/blog/insights/opus-47-tokenizer-analysis/",
       "openrouter",
       "2026-04-27",
-      ""
+      "Opus 4.7's New Tokenizer: What It Actually Costs"
     ],
     [
       "我们的原则",
@@ -6967,25 +6967,25 @@
       "DeepSeek-V4: a million-token context that agents can actually use"
     ],
     [
-      "Agent SDK: Building Multi-turn Agent Workflows on OpenRouter",
+      "Agent SDK：在 OpenRouter 上构建多轮代理工作流程",
       "https://openrouter.ai/blog/tutorials/agent-sdk-with-callmodel/",
       "openrouter",
       "2026-04-24",
-      ""
+      "Agent SDK: Building Multi-turn Agent Workflows on OpenRouter"
     ],
     [
-      "Build Your Own Harness with the Agent SDK",
+      "使用 Agent SDK 构建您自己的 Harness",
       "https://openrouter.ai/blog/tutorials/create-agent-harness-with-agent-sdk/",
       "openrouter",
       "2026-04-24",
-      ""
+      "Build Your Own Harness with the Agent SDK"
     ],
     [
-      "Accelerate RL rollouts by up to 50% with distribution-aware speculative decoding",
+      "通过分布感知推测解码将 RL 部署速度加快 50%",
       "https://www.together.ai/blog/distribution-aware-speculative-decoding",
       "together_ai",
       "2026-04-24",
-      ""
+      "Accelerate RL rollouts by up to 50% with distribution-aware speculative decoding"
     ],
     [
       "【新增】通过自定义任务为用户提供多机多卡分布式训练模式",
@@ -7149,11 +7149,11 @@
       ""
     ],
     [
-      "Introducing Workspaces",
+      "工作空间介绍",
       "https://openrouter.ai/blog/announcements/introducing-workspaces/",
       "openrouter",
       "2026-04-22",
-      ""
+      "Introducing Workspaces"
     ],
     [
       "介绍 ChatGPT Images 2.0",
@@ -7198,11 +7198,11 @@
       ""
     ],
     [
-      "Capacity without conflict: A guide to multi-tenant GPU cluster design for AI-native teams",
+      "无冲突的容量：AI 原生团队的多租户 GPU 集群设计指南",
       "https://www.together.ai/blog/multi-tenant-gpu-cluster-design-for-ai-native-teams",
       "together_ai",
       "2026-04-21",
-      ""
+      "Capacity without conflict: A guide to multi-tenant GPU cluster design for AI-native teams"
     ],
     [
       "OpenAI 帮助 Hyatt 在员工中推进 AI",
@@ -7254,11 +7254,11 @@
       ""
     ],
     [
-      "xAI joins SpaceX",
+      "xAI 加入 SpaceX",
       "https://x.ai/news#d-2026-04-17-55",
       "xai_grok",
       "2026-04-17",
-      ""
+      "xAI joins SpaceX"
     ],
     [
       "Grok 语音转文本与文本转语音 API",
@@ -7331,11 +7331,11 @@
       ""
     ],
     [
-      "Introducing Inference platform: Monitor, train, and deploy self-improving AI models",
+      "推理平台简介：监控、训练和部署自我改进的 AI 模型",
       "https://inference.net/blog/#d-2026-04-16-1",
       "inference_net",
       "2026-04-16",
-      ""
+      "Introducing Inference platform: Monitor, train, and deploy self-improving AI models"
     ],
     [
       "Agents SDK 的下一次演进",
@@ -7359,18 +7359,18 @@
       ""
     ],
     [
-      "Announcing Video Generation",
+      "宣布视频生成",
       "https://openrouter.ai/blog/announcements/video-generation/",
       "openrouter",
       "2026-04-15",
-      ""
+      "Announcing Video Generation"
     ],
     [
-      "Parcae: Doing more with fewer parameters using stable looped models",
+      "Parcae：使用稳定的循环模型用更少的参数做更多的事情",
       "https://www.together.ai/blog/parcae",
       "together_ai",
       "2026-04-15",
-      ""
+      "Parcae: Doing more with fewer parameters using stable looped models"
     ],
     [
       "为下一个网络防御时代提供可信访问",
@@ -7387,11 +7387,11 @@
       ""
     ],
     [
-      "All that glitters: When “gold-like” answers mask functional failures on coding agent benchmarks",
+      "所有这些都闪闪发光：当“黄金般”的答案掩盖了编码代理基准测试中的功能故障时",
       "https://www.ai21.com/blog/#d-2026-04-14-8",
       "ai21_labs",
       "2026-04-14",
-      ""
+      "All that glitters: When “gold-like” answers mask functional failures on coding agent benchmarks"
     ],
     [
       "How Inference.net trains Specialized Language Models that cut AI costs by up to 50x",
@@ -7408,11 +7408,11 @@
       ""
     ],
     [
-      "EinsteinArena: Harnessing the collective intelligence of agents in the wild to advance science",
+      "EinsteinArena：利用野外特工的集体智慧来推进科学发展",
       "https://www.together.ai/blog/einsteinarena",
       "together_ai",
       "2026-04-13",
-      ""
+      "EinsteinArena: Harnessing the collective intelligence of agents in the wild to advance science"
     ],
     [
       "模块化：TileTensor 第 1 部分 - 更安全、更高效的 GPU 内核",
@@ -7737,11 +7737,11 @@
       ""
     ],
     [
-      "What is an AI Native Cloud?",
+      "什么是AI原生云？",
       "https://www.together.ai/blog/what-is-an-ai-native-cloud",
       "together_ai",
       "2026-04-07",
-      ""
+      "What is an AI Native Cloud?"
     ],
     [
       "宣布 OpenAI 安全奖学金计划",
@@ -7751,11 +7751,11 @@
       ""
     ],
     [
-      "Engineering the subconscious: Why Claude Code isn’t enough to build AI systems",
+      "设计潜意识：为什么Claude代码不足以构建人工智能系统",
       "https://www.ai21.com/blog/#d-2026-04-05-9",
       "ai21_labs",
       "2026-04-05",
-      ""
+      "Engineering the subconscious: Why Claude Code isn’t enough to build AI systems"
     ],
     [
       "Workers AI - Google Gemma 4 26B A4B 现已登陆 Workers AI",
@@ -7772,11 +7772,11 @@
       ""
     ],
     [
-      "AI for Systems: Using LLMs to Optimize Database Query Execution",
+      "系统人工智能：使用法学硕士优化数据库查询执行",
       "https://www.together.ai/blog/using-llms-to-optimize-database-query-execution",
       "together_ai",
       "2026-04-03",
-      ""
+      "AI for Systems: Using LLMs to Optimize Database Query Execution"
     ],
     [
       "【新增】CPT精调方式，通过无标注数据进行无监督继续预训练，强化或新增模型特定能力",
@@ -7870,11 +7870,11 @@
       ""
     ],
     [
-      "Inside the Together AI kernels team",
+      "Together AI 内核团队内部",
       "https://www.together.ai/blog/inside-the-together-ai-kernels-team",
       "together_ai",
       "2026-04-01",
-      ""
+      "Inside the Together AI kernels team"
     ],
     [
       "加速 AI 的下一阶段",
@@ -7961,11 +7961,11 @@
       "Introducing Cohere Transcribe: a new state-of-the-art in open-source speech recognition"
     ],
     [
-      "Plan, divide, and conquer: How weak models excel at long context tasks",
+      "计划、分而治之：弱模型如何在长上下文任务中表现出色",
       "https://www.together.ai/blog/plan-divide-conquer",
       "together_ai",
       "2026-03-26",
-      ""
+      "Plan, divide, and conquer: How weak models excel at long context tasks"
     ],
     [
       "【优化】监控指标口径更新，增加TPOT（单Token输出时间）监控指标",
@@ -8003,11 +8003,11 @@
       ""
     ],
     [
-      "Stride and prejudice: How a 32-bit overflow corrupted a CUDA kernel (and stayed hidden for weeks)",
+      "跨步与偏见：32 位溢出如何损坏 CUDA 内核（并隐藏数周）",
       "https://www.ai21.com/blog/#d-2026-03-25-10",
       "ai21_labs",
       "2026-03-25",
-      ""
+      "Stride and prejudice: How a 32-bit overflow corrupted a CUDA kernel (and stayed hidden for weeks)"
     ],
     [
       "帮助开发者为青少年打造更安全的 AI 体验",
@@ -8108,25 +8108,25 @@
       ""
     ],
     [
-      "Together AI expands fine-tuning service with tool calling, reasoning, and vision support",
+      "Together AI 通过工具调用、推理和视觉支持扩展微调服务",
       "https://www.together.ai/blog/fine-tuning-update",
       "together_ai",
       "2026-03-18",
-      ""
+      "Together AI expands fine-tuning service with tool calling, reasoning, and vision support"
     ],
     [
-      "The finishing touches",
+      "最后的润色",
       "https://poolside.ai/blog#d-2026-03-18-4",
       "poolside",
       "2026-03-18",
-      ""
+      "The finishing touches"
     ],
     [
-      "The finishing touches",
+      "最后的润色",
       "https://poolside.ai/blog#d-2026-03-18-5",
       "poolside",
       "2026-03-18",
-      ""
+      "The finishing touches"
     ],
     [
       "2026-03-18 mimo-v2-pro 发布",
@@ -8206,11 +8206,11 @@
       ""
     ],
     [
-      "Mind the gap: What separates demo agents from production systems",
+      "注意差距：演示代理与生产系统的区别",
       "https://www.ai21.com/blog/#d-2026-03-17-11",
       "ai21_labs",
       "2026-03-17",
-      ""
+      "Mind the gap: What separates demo agents from production systems"
     ],
     [
       "为什么 Codex 安全性不包含 SAST 报告",
@@ -8241,11 +8241,11 @@
       ""
     ],
     [
-      "Together AI at NVIDIA GTC 2026: Explore our latest innovations across research and products",
+      "NVIDIA GTC 2026 上的 Together AI：探索我们在研究和产品方面的最新创新",
       "https://www.together.ai/blog/together-ai-at-nvidia-gtc-2026",
       "together_ai",
       "2026-03-16",
-      ""
+      "Together AI at NVIDIA GTC 2026: Explore our latest innovations across research and products"
     ],
     [
       "养龙虾烧Token？数眼智能省钱方案（含一键替换教程）",
@@ -8269,18 +8269,18 @@
       ""
     ],
     [
-      "Auto Exacto: Adaptive Quality Routing, On by Default",
+      "Auto Exacto：自适应质量路由，默认开启",
       "https://openrouter.ai/blog/announcements/auto-exacto/",
       "openrouter",
       "2026-03-12",
-      ""
+      "Auto Exacto: Adaptive Quality Routing, On by Default"
     ],
     [
-      "Build real-time voice agents on Together AI",
+      "在 Together AI 上构建实时语音代理",
       "https://www.together.ai/blog/build-real-time-voice-agents-on-together-ai",
       "together_ai",
       "2026-03-12",
-      ""
+      "Build real-time voice agents on Together AI"
     ],
     [
       "LongCat-Flash-Thinking 升级",
@@ -8332,11 +8332,11 @@
       "Workers AI - NVIDIA Nemotron 3 Super now available on Workers AI"
     ],
     [
-      "Together AI Brings NVIDIA Nemotron 3 to Developers on Day 0",
+      "Together AI 在第 0 天为开发者带来 NVIDIA Nemotron 3",
       "https://www.together.ai/blog/nvidia-nemotron-3-super",
       "together_ai",
       "2026-03-11",
-      ""
+      "Together AI Brings NVIDIA Nemotron 3 to Developers on Day 0"
     ],
     [
       "LongCat-Flash-Omni-2603 发布",
@@ -8367,11 +8367,11 @@
       ""
     ],
     [
-      "Specialized LLMs: The model you need doesn't exist yet",
+      "专业法学硕士：您需要的模型尚不存在",
       "https://inference.net/blog/#d-2026-03-11-3",
       "inference_net",
       "2026-03-11",
-      ""
+      "Specialized LLMs: The model you need doesn't exist yet"
     ],
     [
       "改进前沿 LLM 的指令层级结构",
@@ -8402,18 +8402,18 @@
       ""
     ],
     [
-      "New in Together GPU Clusters: Autoscaling, observability, and self-healing",
+      "Together GPU 集群的新增功能：自动缩放、可观察性和自我修复",
       "https://www.together.ai/blog/new-in-together-gpu-clusters-autoscaling-observability-self-healing",
       "together_ai",
       "2026-03-10",
-      ""
+      "New in Together GPU Clusters: Autoscaling, observability, and self-healing"
     ],
     [
-      "Where enterprise AI deployments actually get stuck",
+      "企业人工智能部署实际上陷入困境的地方",
       "https://www.ai21.com/blog/#d-2026-03-10-12",
       "ai21_labs",
       "2026-03-10",
-      ""
+      "Where enterprise AI deployments actually get stuck"
     ],
     [
       "OpenAI 将收购 Promptfoo",
@@ -8479,11 +8479,11 @@
       ""
     ],
     [
-      "6 minutes readIdentifying Embedding Models from Raw Numerical ValuesA tiny transformer that fingerprints embedding models by reading raw numerical digits. No feature engineering.",
+      "6 分钟阅读从原始数值识别嵌入模型一个微型转换器，可通过读取原始数值来识别嵌入模型的指纹。没有特征工程。",
       "https://jina.ai/news/identifying-embedding-models-from-raw-numerical-values",
       "jina_ai",
       "2026-03-06",
-      ""
+      "6 minutes readIdentifying Embedding Models from Raw Numerical ValuesA tiny transformer that fingerprints embedding models by reading raw numerical digits. No feature engineering."
     ],
     [
       "模块化：Modverse #53：社区建设、研究里程碑和不断发展的生态系统",
@@ -8563,18 +8563,18 @@
       ""
     ],
     [
-      "Key research and product announcements at the AI Native Conf",
+      "AI Native Conf 上的关键研究和产品公告",
       "https://www.together.ai/blog/ai-native-conf-research-and-product-announcements",
       "together_ai",
       "2026-03-05",
-      ""
+      "Key research and product announcements at the AI Native Conf"
     ],
     [
-      "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
+      "FlashAttention-4：用于非对称硬件扩展的算法和内核流水线协同设计",
       "https://www.together.ai/blog/flashattention-4",
       "together_ai",
       "2026-03-05",
-      ""
+      "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling"
     ],
     [
       "模块化：结构化 Mojo 内核第 1 部分 - 峰值性能，一半代码",
@@ -8605,11 +8605,11 @@
       ""
     ],
     [
-      "Cache-aware prefill–decode disaggregation (CPD) for up to 40% faster long-context LLM serving",
+      "缓存感知预填充 - 解码分解 (CPD) 可将长上下文 LLM 服务速度提高 40%",
       "https://www.together.ai/blog/cache-aware-disaggregated-inference",
       "together_ai",
       "2026-03-04",
-      ""
+      "Cache-aware prefill–decode disaggregation (CPD) for up to 40% faster long-context LLM serving"
     ],
     [
       "GPT-5.3 Instant 系统卡",
@@ -8640,11 +8640,11 @@
       ""
     ],
     [
-      "Introducing Together AI’s new look",
+      "介绍 Together AI 的新面貌",
       "https://www.together.ai/blog/introducing-together-ai-new-look",
       "together_ai",
       "2026-03-02",
-      ""
+      "Introducing Together AI’s new look"
     ],
     [
       "Music-2.5+",
@@ -8745,18 +8745,18 @@
       ""
     ],
     [
-      "February Release Spotlight",
+      "二月发布焦点",
       "https://openrouter.ai/blog/announcements/february-release-spotlight/",
       "openrouter",
       "2026-02-23",
-      ""
+      "February Release Spotlight"
     ],
     [
-      "How speech models fail where it matters the most and what to do about it",
+      "语音模型如何在最重要的地方失败以及如何应对",
       "https://www.together.ai/blog/how-speech-models-fail",
       "together_ai",
       "2026-02-23",
-      ""
+      "How speech models fail where it matters the most and what to do about it"
     ],
     [
       "我们的首批 Proof 提交",
@@ -8780,11 +8780,11 @@
       ""
     ],
     [
-      "OpenRouter Outages on February 17 and 19, 2026",
+      "2026 年 2 月 17 日至 19 日 OpenRouter 中断",
       "https://openrouter.ai/blog/announcements/openrouter-outages-on-february-17-and-19-2026/",
       "openrouter",
       "2026-02-20",
-      ""
+      "OpenRouter Outages on February 17 and 19, 2026"
     ],
     [
       "推进 AI 对齐的独立研究",
@@ -8990,11 +8990,11 @@
       ""
     ],
     [
-      "What do LLMs think when you don't tell them what to think about?",
+      "当你不告诉法学硕士应该怎么想时，他们会怎么想？",
       "https://www.together.ai/blog/what-llms-think",
       "together_ai",
       "2026-02-06",
-      ""
+      "What do LLMs think when you don't tell them what to think about?"
     ],
     [
       "【新增】提供数据分析能力，为用户深入分析数据的重复性、分布特征及异常情况",
@@ -9074,11 +9074,11 @@
       ""
     ],
     [
-      "Project OSSAS: Custom LLMs to process 100 Million Research Papers",
+      "OSSAS 项目：定制法学硕士可处理 1 亿篇研究论文",
       "https://inference.net/blog/#d-2026-02-05-4",
       "inference_net",
       "2026-02-05",
-      ""
+      "Project OSSAS: Custom LLMs to process 100 Million Research Papers"
     ],
     [
       "解锁 Codex Harness：我们如何构建 App Server",
@@ -9151,11 +9151,11 @@
       ""
     ],
     [
-      "Together AI welcomes Alon Gavrielov as VP of Infrastructure Strategy",
+      "Together AI 欢迎 Alon Gavrielov 担任基础设施战略副总裁",
       "https://www.together.ai/blog/alon-gavrielov-as-vp-of-infrastructure-strategy",
       "together_ai",
       "2026-02-03",
-      ""
+      "Together AI welcomes Alon Gavrielov as VP of Infrastructure Strategy"
     ],
     [
       "推出 Codex 应用",
@@ -9193,11 +9193,11 @@
       ""
     ],
     [
-      "Together Evaluations now supports comparing top commercial APIs vs. open source models",
+      "Together Assessments 现在支持比较顶级商业 API 与开源模型",
       "https://www.together.ai/blog/together-evaluations-v2",
       "together_ai",
       "2026-02-02",
-      ""
+      "Together Evaluations now supports comparing top commercial APIs vs. open source models"
     ],
     [
       "“鱼食”行动：源自俄罗斯的内容农场活动",
@@ -9410,11 +9410,11 @@
       ""
     ],
     [
-      "DSGym: A holistic framework for evaluating and training data science agents",
+      "DSGym：评估和培训数据科学代理的整体框架",
       "https://www.together.ai/blog/dsgym",
       "together_ai",
       "2026-01-26",
-      ""
+      "DSGym: A holistic framework for evaluating and training data science agents"
     ],
     [
       "2026-01-26 计费功能上线",
@@ -9459,11 +9459,11 @@
       ""
     ],
     [
-      "Optimizing inference speed and costs: Lessons learned from large-scale deployments",
+      "优化推理速度和成本：从大规模部署中汲取的经验教训",
       "https://www.together.ai/blog/optimizing-inference-speed-and-costs",
       "together_ai",
       "2026-01-22",
-      ""
+      "Optimizing inference speed and costs: Lessons learned from large-scale deployments"
     ],
     [
       "【新增】通过开发机为用户提供在线交互式开发环境，专为 AI 模型研发场景设计",
@@ -9683,18 +9683,18 @@
       ""
     ],
     [
-      "Learn how Cursor partnered with Together AI to deliver real-time, low-latency inference at scale",
+      "了解 Cursor 如何与 Together AI 合作，大规模提供实时、低延迟的推理",
       "https://www.together.ai/blog/learn-how-cursor-partnered-with-together-ai-to-deliver-real-time-low-latency-inference-at-scale",
       "together_ai",
       "2026-01-13",
-      ""
+      "Learn how Cursor partnered with Together AI to deliver real-time, low-latency inference at scale"
     ],
     [
-      "Inside multi-node training: How to scale model training across GPU clusters",
+      "多节点训练内部：如何跨 GPU 集群扩展模型训练",
       "https://www.together.ai/blog/multi-node-gpu-training",
       "together_ai",
       "2026-01-12",
-      ""
+      "Inside multi-node training: How to scale model training across GPU clusters"
     ],
     [
       "2026-01-12 mimo-v2-flash 更新",
@@ -9725,11 +9725,11 @@
       ""
     ],
     [
-      "January Release Spotlight",
+      "一月发布焦点",
       "https://openrouter.ai/blog/announcements/january-release-spotlight/",
       "openrouter",
       "2026-01-09",
-      ""
+      "January Release Spotlight"
     ],
     [
       "面向医疗保健的 OpenAI",
@@ -9746,11 +9746,11 @@
       ""
     ],
     [
-      "How to choose the right open model for production",
+      "如何选择合适的开放式生产模式",
       "https://www.together.ai/blog/how-to-choose-the-right-open-model-for-production",
       "together_ai",
       "2026-01-08",
-      ""
+      "How to choose the right open model for production"
     ],
     [
       "推出 ChatGPT Health",
@@ -9851,11 +9851,11 @@
       ""
     ],
     [
-      "Distillable Models and Synthetic Data Pipelines with NeMo Data Designer",
+      "使用 NeMo Data Designer 的可蒸馏模型和合成数据管道",
       "https://openrouter.ai/blog/tutorials/distillable-models-and-synthetic-data-pipelines-with-nemo-data-designer/",
       "openrouter",
       "2025-12-24",
-      ""
+      "Distillable Models and Synthetic Data Pipelines with NeMo Data Designer"
     ],
     [
       "AprielGuard：现代 LLM 系统的安全与对抗鲁棒性护栏",
@@ -9984,18 +9984,18 @@
       ""
     ],
     [
-      "December Release Spotlight",
+      "12 月发布焦点",
       "https://openrouter.ai/blog/announcements/december-release-spotlight/",
       "openrouter",
       "2025-12-18",
-      ""
+      "December Release Spotlight"
     ],
     [
-      "Response Healing: Reduce JSON Defects by 80%+",
+      "响应修复：将 JSON 缺陷减少 80% 以上",
       "https://openrouter.ai/blog/announcements/response-healing-reduce-json-defects-by-80percent/",
       "openrouter",
       "2025-12-18",
-      ""
+      "Response Healing: Reduce JSON Defects by 80%+"
     ],
     [
       "为新闻机构推出 OpenAI 学院",
@@ -10019,11 +10019,11 @@
       ""
     ],
     [
-      "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program",
+      "xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划",
       "https://x.ai/news#d-2025-12-17-62",
       "xai_grok",
       "2025-12-17",
-      ""
+      "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program"
     ],
     [
       "Grok 语音代理 API",
@@ -10054,11 +10054,11 @@
       ""
     ],
     [
-      "Research POV: Yes, AGI Can Happen – A Computational Perspective",
+      "研究视角：是的，AGI 可以实现——从计算的角度来看",
       "https://www.together.ai/blog/research-pov-yes-agi-can-happen",
       "together_ai",
       "2025-12-17",
-      ""
+      "Research POV: Yes, AGI Can Happen – A Computational Perspective"
     ],
     [
       "推出 ChatGPT 图像与 GPT-Image-1.5",
@@ -10110,11 +10110,11 @@
       ""
     ],
     [
-      "Announcing native availability of NVIDIA Nemotron 3 Nano, NVIDIA’s latest reasoning model",
+      "宣布 NVIDIA 最新推理模型 NVIDIA Nemotron 3 Nano 原生可用",
       "https://www.together.ai/blog/nemotron-3-nano-now-available-on-together-ai",
       "together_ai",
       "2025-12-15",
-      ""
+      "Announcing native availability of NVIDIA Nemotron 3 Nano, NVIDIA’s latest reasoning model"
     ],
     [
       "BBVA 与 OpenAI 合作变革全球银行业",
@@ -10369,11 +10369,11 @@
       ""
     ],
     [
-      "The 2025 State of AI Report",
+      "2025 年人工智能现状报告",
       "https://openrouter.ai/blog/insights/the-2025-state-of-ai-report/",
       "openrouter",
       "2025-12-04",
-      ""
+      "The 2025 State of AI Report"
     ],
     [
       "7 minutes readJina-VLM: Small Multilingual Vision Language ModelNew 2B vision language model achieves SOTA on multilingual VQA, no catastrophic forgetting on text-only tasks.",
@@ -10411,25 +10411,25 @@
       "Workers AI - Deepgram Flux promotional period over on Dec 8, 2025 - now has pricing"
     ],
     [
-      "Together AI and Meta partner to bring PyTorch Reinforcement Learning to the AI Native Cloud",
+      "AI 和 Meta 携手合作，将 PyTorch 强化学习引入 AI 原生云",
       "https://www.together.ai/blog/together-ai-and-meta-partner-to-bring-pytorch-reinforcement-learning-to-the-ai-native-cloud",
       "together_ai",
       "2025-12-03",
-      ""
+      "Together AI and Meta partner to bring PyTorch Reinforcement Learning to the AI Native Cloud"
     ],
     [
-      "How to run TorchForge reinforcement learning pipelines in the Together AI Native Cloud",
+      "如何在 Together AI 原生云中运行 TorchForge 强化学习管道",
       "https://www.together.ai/blog/torchforge-reinforcement-learning-pipelines",
       "together_ai",
       "2025-12-03",
-      ""
+      "How to run TorchForge reinforcement learning pipelines in the Together AI Native Cloud"
     ],
     [
-      "Introducing AutoJudge: Streamlined inference acceleration via automated dataset curation",
+      "AutoJudge 简介：通过自动化数据集管理简化推理加速",
       "https://www.together.ai/blog/introducing-autojudge-streamlined-inference-acceleration-via-automated-dataset-curation",
       "together_ai",
       "2025-12-03",
-      ""
+      "Introducing AutoJudge: Streamlined inference acceleration via automated dataset curation"
     ],
     [
       "模块化：Modverse #52：共同推进人工智能——社区项目和平台里程碑",
@@ -10516,11 +10516,11 @@
       ""
     ],
     [
-      "Together AI delivers fastest inference for the top open-source models",
+      "Together AI 为顶级开源模型提供最快的推理",
       "https://www.together.ai/blog/fastest-inference-for-the-top-open-source-models",
       "together_ai",
       "2025-12-01",
-      ""
+      "Together AI delivers fastest inference for the top open-source models"
     ],
     [
       "【模型升级】DeepSeek-V3.2-Exp 升级至 V3.2",
@@ -10607,11 +10607,11 @@
       ""
     ],
     [
-      "OVHcloud 加入 Hugging Face Inference Providers 🔥",
+      "OVHcloud 加入拥抱人脸推理提供商 🔥",
       "https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud",
       "huggingface",
       "2025-11-24",
-      ""
+      "OVHcloud 加入 Hugging Face Inference Providers 🔥"
     ],
     [
       "当AI遇见数据荒，我们选择成为掘井人 | 数眼智能正式启航！",
@@ -10740,11 +10740,11 @@
       ""
     ],
     [
-      "Grok 4.1 Fast 与 Agent Tools API",
+      "Grok 4.1 快速与代理工具 API",
       "https://x.ai/news/grok-4-1-fast",
       "xai_grok",
       "2025-11-19",
-      ""
+      "Grok 4.1 Fast 与 Agent Tools API"
     ],
     [
       "Grok 携手 KSA 走向全球",
@@ -10775,18 +10775,18 @@
       ""
     ],
     [
-      "Enabling the Agentic Enterprise with Redpanda",
+      "利用 Redpanda 实现代理企业",
       "https://poolside.ai/blog#d-2025-11-18-28",
       "poolside",
       "2025-11-18",
-      ""
+      "Enabling the Agentic Enterprise with Redpanda"
     ],
     [
-      "Enabling the Agentic Enterprise with Redpanda",
+      "利用 Redpanda 实现代理企业",
       "https://poolside.ai/blog#d-2025-11-18-29",
       "poolside",
       "2025-11-18",
-      ""
+      "Enabling the Agentic Enterprise with Redpanda"
     ],
     [
       "OpenAI 被评为生成式 AI 新兴领导者",
@@ -10915,11 +10915,11 @@
       ""
     ],
     [
-      "LOGIC: Trustless Inference through Log-Probability Verification",
+      "逻辑：通过对数概率验证进行不可信推理",
       "https://inference.net/blog/#d-2025-11-11-5",
       "inference_net",
       "2025-11-11",
-      ""
+      "LOGIC: Trustless Inference through Log-Probability Verification"
     ],
     [
       "为转业美国军人和退伍军人提供免费 ChatGPT",
@@ -10999,11 +10999,11 @@
       ""
     ],
     [
-      "Hybrid-Attention models are the future for SLMs",
+      "混合注意力模型是 SLM 的未来",
       "https://inference.net/blog/#d-2025-11-05-6",
       "inference_net",
       "2025-11-05",
-      ""
+      "Hybrid-Attention models are the future for SLMs"
     ],
     [
       "用 MCP 执行代码：构建更高效的代理",
@@ -11013,11 +11013,11 @@
       ""
     ],
     [
-      "How to evaluate and benchmark Large Language Models (LLMs)",
+      "如何评估和基准化大型语言模型 (LLM)",
       "https://www.together.ai/blog/evaluate-and-benchmark-llms",
       "together_ai",
       "2025-11-04",
-      ""
+      "How to evaluate and benchmark Large Language Models (LLMs)"
     ],
     [
       "介绍 IndQA",
@@ -11216,25 +11216,25 @@
       ""
     ],
     [
-      "Dynamic AI agent testing for the real world with Collinear Simulations and Together Evals",
+      "通过共线模拟和共同评估对现实世界进行动态 AI 代理测试",
       "https://www.together.ai/blog/collinear-simulations-together-evals",
       "together_ai",
       "2025-10-28",
-      ""
+      "Dynamic AI agent testing for the real world with Collinear Simulations and Together Evals"
     ],
     [
-      "Unveiling Poolside's first-party partnership with AWS",
+      "揭晓 Poolside 与 AWS 的第一方合作伙伴关系",
       "https://poolside.ai/blog#d-2025-10-28-30",
       "poolside",
       "2025-10-28",
-      ""
+      "Unveiling Poolside's first-party partnership with AWS"
     ],
     [
-      "Unveiling Poolside's first-party partnership with AWS",
+      "揭晓 Poolside 与 AWS 的第一方合作伙伴关系",
       "https://poolside.ai/blog#d-2025-10-28-31",
       "poolside",
       "2025-10-28",
-      ""
+      "Unveiling Poolside's first-party partnership with AWS"
     ],
     [
       "GPT-5 系统卡附录：敏感对话",
@@ -11335,11 +11335,11 @@
       "Building the Open Agent Ecosystem Together: Introducing OpenEnv"
     ],
     [
-      "Is Implicit Caching Prompt Retention?",
+      "隐式缓存是否会立即保留？",
       "https://openrouter.ai/blog/insights/is-implicit-caching-prompt-retention/",
       "openrouter",
       "2025-10-23",
-      ""
+      "Is Implicit Caching Prompt Retention?"
     ],
     [
       "英国主权 AI 的新篇章",
@@ -11363,18 +11363,18 @@
       ""
     ],
     [
-      "Sentence Transformers 加入 Hugging Face！",
+      "句子变形金刚加入抱脸！",
       "https://huggingface.co/blog/sentence-transformers-joins-hf",
       "huggingface",
       "2025-10-22",
-      ""
+      "Sentence Transformers 加入 Hugging Face！"
     ],
     [
-      "Large Reasoning Models Fail to Follow Instructions During Reasoning: A Benchmark Study",
+      "大型推理模型在推理过程中无法遵循指令：一项基准研究",
       "https://www.together.ai/blog/large-reasoning-models-fail-to-follow-instructions-during-reasoning-a-benchmark-study",
       "together_ai",
       "2025-10-22",
-      ""
+      "Large Reasoning Models Fail to Follow Instructions During Reasoning: A Benchmark Study"
     ],
     [
       "在 WhatsApp 之外延续您的 ChatGPT 体验",
@@ -11426,11 +11426,11 @@
       "Workers AI - New voice and LLM models on Workers AI"
     ],
     [
-      "Provider Variance: Introducing Exacto",
+      "提供商差异：Exacto 简介",
       "https://openrouter.ai/blog/announcements/provider-variance-introducing-exacto/",
       "openrouter",
       "2025-10-21",
-      ""
+      "Provider Variance: Introducing Exacto"
     ],
     [
       "超越权限提示：让 Claude Code 更安全、更自主",
@@ -11489,11 +11489,11 @@
       ""
     ],
     [
-      "Announcing the Together AI Startup Accelerator, purpose-built for AI Native Apps",
+      "宣布推出专为 AI 原生应用打造的 Together AI 初创加速器",
       "https://www.together.ai/blog/announcing-together-ai-startup-accelerator",
       "together_ai",
       "2025-10-15",
-      ""
+      "Announcing the Together AI Startup Accelerator, purpose-built for AI Native Apps"
     ],
     [
       "福祉与 AI 专家委员会",
@@ -11517,11 +11517,11 @@
       ""
     ],
     [
-      "Schematron: An LLM trained for HTML -> JSON at scale",
+      "Schematron：大规模针对 HTML -> JSON 进行训练的法学硕士",
       "https://inference.net/blog/#d-2025-10-14-8",
       "inference_net",
       "2025-10-14",
-      ""
+      "Schematron: An LLM trained for HTML -> JSON at scale"
     ],
     [
       "OpenAI 与 Broadcom 宣布战略合作，部署 10 吉瓦 OpenAI 设计的 AI 加速器",
@@ -11552,11 +11552,11 @@
       ""
     ],
     [
-      "AdapTive-LeArning Speculator System (ATLAS): A New Paradigm in LLM Inference via Runtime-Learning Accelerators",
+      "自适应学习推测器系统 (ATLAS)：通过运行时学习加速器实现 LLM 推理的新范式",
       "https://www.together.ai/blog/adaptive-learning-speculator-system-atlas",
       "together_ai",
       "2025-10-10",
-      ""
+      "AdapTive-LeArning Speculator System (ATLAS): A New Paradigm in LLM Inference via Runtime-Learning Accelerators"
     ],
     [
       "定义并评估 LLM 中的政治偏见",
@@ -11727,11 +11727,11 @@
       "Introducing RTEB: A New Standard for Retrieval Evaluation"
     ],
     [
-      "October 2025 BYOK platform fee update",
+      "2025 年 10 月 BYOK 平台费用更新",
       "https://openrouter.ai/blog/announcements/1-million-free-byok-requests-per-month/",
       "openrouter",
       "2025-10-01",
-      ""
+      "October 2025 BYOK platform fee update"
     ],
     [
       "负责任地推出 Sora",
@@ -12077,11 +12077,11 @@
       ""
     ],
     [
-      "Scaleway 加入 Hugging Face Inference Providers 🔥",
+      "Scaleway 加入拥抱人脸推理提供商 🔥",
       "https://huggingface.co/blog/inference-providers-scaleway",
       "huggingface",
       "2025-09-19",
-      ""
+      "Scaleway 加入 Hugging Face Inference Providers 🔥"
     ],
     [
       "模块化：Blackwell 上的矩阵乘法：第 4 部分 - 打破 SOTA",
@@ -12133,11 +12133,11 @@
       ""
     ],
     [
-      "Public AI 加入 Hugging Face Inference Providers 🔥",
+      "公共人工智能加入拥抱人脸推理提供商🔥",
       "https://huggingface.co/blog/inference-providers-publicai",
       "huggingface",
       "2025-09-17",
-      ""
+      "Public AI 加入 Hugging Face Inference Providers 🔥"
     ],
     [
       "推出 Stargate UK",
@@ -12203,11 +12203,11 @@
       ""
     ],
     [
-      "Improved Batch Inference API: Enhanced UI, Expanded Model Support, and 3000× Rate Limit Increase",
+      "改进的批量推理 API：增强的 UI、扩展的模型支持以及 3000 倍速率限制提升",
       "https://www.together.ai/blog/batch-inference-api-updates-2025",
       "together_ai",
       "2025-09-15",
-      ""
+      "Improved Batch Inference API: Enhanced UI, Expanded Model Support, and 3000× Rate Limit Increase"
     ],
     [
       "与美国 CAISI、英国 AISI 合作构建更安全的 AI 系统",
@@ -12280,11 +12280,11 @@
       ""
     ],
     [
-      "Together AI welcomes Mahadev Konar as SVP for Infrastructure Engineering",
+      "Together AI 欢迎 Mahadev Konar 担任基础设施工程高级副总裁",
       "https://www.together.ai/blog/mahadev-konar-svp-infrastructure-engineering",
       "together_ai",
       "2025-09-10",
-      ""
+      "Together AI welcomes Mahadev Konar as SVP for Infrastructure Engineering"
     ],
     [
       "SafetyKit 借助 OpenAI 最强模型扩展风险代理",
@@ -12308,11 +12308,11 @@
       ""
     ],
     [
-      "11 minutes readMultimodal Embeddings in Llama.cpp and GGUFWe brought multimodal embeddings to llama.cpp and GGUF, and uncovered a few surprising issues along the way.",
+      "11 分钟阅读 Llama.cpp 和 GGUF 中的多模态嵌入我们将多模态嵌入引入 llama.cpp 和 GGUF，并在此过程中发现了一些令人惊讶的问题。",
       "https://jina.ai/news/multimodal-embeddings-in-llama-cpp-and-gguf",
       "jina_ai",
       "2025-09-09",
-      ""
+      "11 minutes readMultimodal Embeddings in Llama.cpp and GGUFWe brought multimodal embeddings to llama.cpp and GGUF, and uncovered a few surprising issues along the way."
     ],
     [
       "以人为本 AI 基金：$50M 支持非营利组织",
@@ -12539,11 +12539,11 @@
       ""
     ],
     [
-      "The First-Ever Image Model Is Up on OpenRouter",
+      "OpenRouter 上推出首个图像模型",
       "https://openrouter.ai/blog/announcements/the-first-ever-image-model-is-up-on-openrouter/",
       "openrouter",
       "2025-08-26",
-      ""
+      "The First-Ever Image Model Is Up on OpenRouter"
     ],
     [
       "宣布推出 OpenAI Learning Accelerator",
@@ -12553,18 +12553,18 @@
       ""
     ],
     [
-      "The carrier and the beacon",
+      "载体和信标",
       "https://poolside.ai/blog#d-2025-08-25-6",
       "poolside",
       "2025-08-25",
-      ""
+      "The carrier and the beacon"
     ],
     [
-      "The carrier and the beacon",
+      "载体和信标",
       "https://poolside.ai/blog#d-2025-08-25-7",
       "poolside",
       "2025-08-25",
-      ""
+      "The carrier and the beacon"
     ],
     [
       "加速生命科学研究",
@@ -12686,18 +12686,18 @@
       "Kimina-Prover-RL"
     ],
     [
-      "Designing a world-class code execution environment",
+      "设计世界一流的代码执行环境",
       "https://poolside.ai/blog#d-2025-08-14-8",
       "poolside",
       "2025-08-14",
-      ""
+      "Designing a world-class code execution environment"
     ],
     [
-      "Designing a world-class code execution environment",
+      "设计世界一流的代码执行环境",
       "https://poolside.ai/blog#d-2025-08-14-9",
       "poolside",
       "2025-08-14",
-      ""
+      "Designing a world-class code execution environment"
     ],
     [
       "Arm 和 ExecuTorch 0.7：让生成式 AI 走向大众",
@@ -12742,18 +12742,18 @@
       ""
     ],
     [
-      "Titan, the Model Factory's furnace",
+      "泰坦，模型工厂的熔炉",
       "https://poolside.ai/blog#d-2025-08-12-10",
       "poolside",
       "2025-08-12",
-      ""
+      "Titan, the Model Factory's furnace"
     ],
     [
-      "Titan, the Model Factory's furnace",
+      "泰坦，模型工厂的熔炉",
       "https://poolside.ai/blog#d-2025-08-12-11",
       "poolside",
       "2025-08-12",
-      ""
+      "Titan, the Model Factory's furnace"
     ],
     [
       "GLM-4.5V 视觉推理模型上线",
@@ -12868,25 +12868,25 @@
       ""
     ],
     [
-      "GPT-5 is now live",
+      "GPT-5 现已上线",
       "https://openrouter.ai/blog/announcements/gpt-5-is-now-live/",
       "openrouter",
       "2025-08-07",
-      ""
+      "GPT-5 is now live"
     ],
     [
-      "Gathering and processing raw materials for the Model Factory",
+      "为模型工厂收集和加工原材料",
       "https://poolside.ai/blog#d-2025-08-07-12",
       "poolside",
       "2025-08-07",
-      ""
+      "Gathering and processing raw materials for the Model Factory"
     ],
     [
-      "Gathering and processing raw materials for the Model Factory",
+      "为模型工厂收集和加工原材料",
       "https://poolside.ai/blog#d-2025-08-07-13",
       "poolside",
       "2025-08-07",
-      ""
+      "Gathering and processing raw materials for the Model Factory"
     ],
     [
       "向全美联邦雇员提供 ChatGPT",
@@ -12973,11 +12973,11 @@
       ""
     ],
     [
-      "Audio Inputs and PDF URLs for Apps",
+      "应用程序的音频输入和 PDF URL",
       "https://openrouter.ai/blog/announcements/audio-inputs-and-pdf-urls-for-apps/",
       "openrouter",
       "2025-08-04",
-      ""
+      "Audio Inputs and PDF URLs for Apps"
     ],
     [
       "fast_pretreatment 快速预处理",
@@ -13071,25 +13071,25 @@
       "Introducing Trackio: A Lightweight Experiment Tracking Library from Hugging Face"
     ],
     [
-      "Presets: How To Seamlessly Transfer Model Configurations Across Apps",
+      "预设：如何跨应用程序无缝传输模型配置",
       "https://openrouter.ai/blog/tutorials/presets-how-to-seamlessly-transfer-model-configurations-across-apps/",
       "openrouter",
       "2025-07-29",
-      ""
+      "Presets: How To Seamlessly Transfer Model Configurations Across Apps"
     ],
     [
-      "The hidden engineering behind foundation model building",
+      "基础模型建设背后隐藏的工程",
       "https://poolside.ai/blog#d-2025-07-29-14",
       "poolside",
       "2025-07-29",
-      ""
+      "The hidden engineering behind foundation model building"
     ],
     [
-      "The hidden engineering behind foundation model building",
+      "基础模型建设背后隐藏的工程",
       "https://poolside.ai/blog#d-2025-07-29-15",
       "poolside",
       "2025-07-29",
-      ""
+      "The hidden engineering behind foundation model building"
     ],
     [
       "GLM-4.5 系列基座模型上线",
@@ -13127,18 +13127,18 @@
       ""
     ],
     [
-      "Our vision: Purpose",
+      "我们的愿景：宗旨",
       "https://poolside.ai/blog#d-2025-07-24-36",
       "poolside",
       "2025-07-24",
-      ""
+      "Our vision: Purpose"
     ],
     [
-      "Our vision: Purpose",
+      "我们的愿景：宗旨",
       "https://poolside.ai/blog#d-2025-07-24-37",
       "poolside",
       "2025-07-24",
-      ""
+      "Our vision: Purpose"
     ],
     [
       "Model ML 帮助金融公司从零开始用人工智能重建",
@@ -13393,11 +13393,11 @@
       ""
     ],
     [
-      "New Privacy-Focused Provider Drop: Venice",
+      "新的注重隐私的提供商下降：威尼斯",
       "https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/",
       "openrouter",
       "2025-07-15",
-      ""
+      "New Privacy-Focused Provider Drop: Venice"
     ],
     [
       "宣布推出 xAI 政府版",
@@ -13463,11 +13463,11 @@
       ""
     ],
     [
-      "Updates to Our Free Tier: Sustaining Accessible AI for Everyone",
+      "我们的免费套餐更新：为每个人维持可访问的人工智能",
       "https://openrouter.ai/blog/announcements/updates-to-our-free-tier-sustaining-accessible-ai-for-everyone/",
       "openrouter",
       "2025-07-10",
-      ""
+      "Updates to Our Free Tier: Sustaining Accessible AI for Everyone"
     ],
     [
       "Grok 3 Beta — 推理代理的时代",
@@ -13589,11 +13589,11 @@
       ""
     ],
     [
-      "New Stealth Model: \"Cypher Alpha\"",
+      "新隐形模型：“Cypher Alpha”",
       "https://openrouter.ai/blog/announcements/new-stealth-model-cypher-alpha/",
       "openrouter",
       "2025-07-01",
-      ""
+      "New Stealth Model: \"Cypher Alpha\""
     ],
     [
       "澳大利亚的人工智能——OpenAI 经济蓝图",
@@ -13645,11 +13645,11 @@
       "Gemma 3n fully available in the open-source ecosystem!"
     ],
     [
-      "Introducing Presets: Manage LLM Configs from Your Dashboard!",
+      "引入预设：从您的仪表板管理 LLM 配置！",
       "https://openrouter.ai/blog/announcements/introducing-presets-manage-llm-configs-from-your-dashboard/",
       "openrouter",
       "2025-06-26",
-      ""
+      "Introducing Presets: Manage LLM Configs from Your Dashboard!"
     ],
     [
       "适用场景：绝大部分场景，同时兼顾效果及推理性能",
@@ -13659,11 +13659,11 @@
       ""
     ],
     [
-      "Dev & BYOK Updates: Uptime API + Smarter Key Management",
+      "开发和 BYOK 更新：Uptime API + 更智能的密钥管理",
       "https://openrouter.ai/blog/announcements/dev-and-byok-updates-uptime-api-smarter-key-management/",
       "openrouter",
       "2025-06-25",
-      ""
+      "Dev & BYOK Updates: Uptime API + Smarter Key Management"
     ],
     [
       "借助 OpenAI o3、GPT-4.1 和 CUA 推动规模化增长",
@@ -13764,11 +13764,11 @@
       ""
     ],
     [
-      "Groq 上线 Hugging Face Inference Providers 🔥",
+      "Groq 上线拥抱人脸推理提供商 🔥",
       "https://huggingface.co/blog/inference-providers-groq",
       "huggingface",
       "2025-06-16",
-      ""
+      "Groq 上线 Hugging Face Inference Providers 🔥"
     ],
     [
       "我们如何构建多智能体研究系统",
@@ -13813,11 +13813,11 @@
       ""
     ],
     [
-      "Featherless AI 上线 Hugging Face Inference Providers 🔥",
+      "Featherless AI 上线拥抱人脸推理提供商🔥",
       "https://huggingface.co/blog/inference-providers-featherless",
       "huggingface",
       "2025-06-12",
-      ""
+      "Featherless AI 上线 Hugging Face Inference Providers 🔥"
     ],
     [
       "Mistral Compute",
@@ -13876,11 +13876,11 @@
       ""
     ],
     [
-      "Simplifying Our Platform Fee",
+      "简化我们的平台费用",
       "https://openrouter.ai/blog/announcements/simplifying-our-platform-fee/",
       "openrouter",
       "2025-06-09",
-      ""
+      "Simplifying Our Platform Fee"
     ],
     [
       "1. 模型能力和特征：混元翻译专项模型，基于混元2B-Dense 模型进行翻译能力专项优化，通过迭代高质量多语言 SFT 数据，强化多语种翻译能力",
@@ -13939,11 +13939,11 @@
       ""
     ],
     [
-      "GIF Prompts, Omni Search, Tool Caching, and BYOK Flags",
+      "GIF 提示、全方位搜索、工具缓存和 BYOK 标志",
       "https://openrouter.ai/blog/announcements/gif-prompts-omni-search-tool-caching-and-byok-flags/",
       "openrouter",
       "2025-06-04",
-      ""
+      "GIF Prompts, Omni Search, Tool Caching, and BYOK Flags"
     ],
     [
       "添加 Llama Prompt Guard 2 与 compound beta 更新",
@@ -14114,11 +14114,11 @@
       ""
     ],
     [
-      "New Features: Reasoning Streams, Crypto Invoices, End-User IDs & More",
+      "新功能：推理流、加密发票、最终用户 ID 等",
       "https://openrouter.ai/blog/announcements/new-features-reasoning-streams-crypto-invoices-end-user-ids-and-more/",
       "openrouter",
       "2025-05-28",
-      ""
+      "New Features: Reasoning Streams, Crypto Invoices, End-User IDs & More"
     ],
     [
       "从速度到规模：Groq 如何针对 MoE 及其他大型模型优化",
@@ -14205,11 +14205,11 @@
       ""
     ],
     [
-      "Passkeys, DevEx Upgrades, and a New Guide for TypeScript Agents",
+      "密钥、DevEx 升级和 TypeScript 代理的新指南",
       "https://openrouter.ai/blog/announcements/passkeys-devex-upgrades-and-a-new-guide-for-typescript-agents/",
       "openrouter",
       "2025-05-22",
-      ""
+      "Passkeys, DevEx Upgrades, and a New Guide for TypeScript Agents"
     ],
     [
       "Responses API 中的全新工具与功能",
@@ -14450,11 +14450,11 @@
       ""
     ],
     [
-      "New Provider Drop: Cerebras Is Here",
+      "新的提供商掉落：Cerebras 就在这里",
       "https://openrouter.ai/blog/announcements/new-provider-drop-cerebras-is-here/",
       "openrouter",
       "2025-05-07",
-      ""
+      "New Provider Drop: Cerebras Is Here"
     ],
     [
       "介绍人工智能故事：每日收益揭示更大机遇",
@@ -14471,11 +14471,11 @@
       ""
     ],
     [
-      "Better Insights, Faster Metrics, and New Developer Power Tools",
+      "更好的洞察、更快的指标和新的开发人员强大工具",
       "https://openrouter.ai/blog/announcements/better-insights-faster-metrics-and-new-developer-power-tools/",
       "openrouter",
       "2025-05-06",
-      ""
+      "Better Insights, Faster Metrics, and New Developer Power Tools"
     ],
     [
       "Modular：Modular Platform 25.3：450K+ 行开源代码与 pip 打包",
@@ -14562,11 +14562,11 @@
       ""
     ],
     [
-      "Privacy Clarity, New Providers, OAuth Upgrade, and Gemini Gets Parallel Tools",
+      "隐私清晰度、新提供商、OAuth 升级以及 Gemini 获得并行工具",
       "https://openrouter.ai/blog/announcements/privacy-clarity-new-providers-oauth-upgrade-and-gemini-gets-parallel-tools/",
       "openrouter",
       "2025-04-28",
-      ""
+      "Privacy Clarity, New Providers, OAuth Upgrade, and Gemini Gets Parallel Tools"
     ],
     [
       "width（宽度）",
@@ -14632,11 +14632,11 @@
       ""
     ],
     [
-      "Universal PDF Support",
+      "通用 PDF 支持",
       "https://openrouter.ai/blog/announcements/universal-pdf-support/",
       "openrouter",
       "2025-04-23",
-      ""
+      "Universal PDF Support"
     ],
     [
       "模块化：针对 MAX 和 Mojo 的新的、更简单的许可证",
@@ -14695,11 +14695,11 @@
       ""
     ],
     [
-      "Smarter Charts, Inline SVGs, and Live Usage Accounting",
+      "更智能的图表、内联 SVG 和实时使用情况统计",
       "https://openrouter.ai/blog/announcements/smarter-charts-inline-svgs-and-live-usage-accounting/",
       "openrouter",
       "2025-04-18",
-      ""
+      "Smarter Charts, Inline SVGs, and Live Usage Accounting"
     ],
     [
       "Modular：Modverse #47：MAX 25.2 和 Modular 总部的 GPU 编程之夜",
@@ -14765,11 +14765,11 @@
       ""
     ],
     [
-      "Cohere 上线 Hugging Face Inference Providers 🔥",
+      "Cohere 上线拥抱人脸推理提供商 🔥",
       "https://huggingface.co/blog/inference-providers-cohere",
       "huggingface",
       "2025-04-16",
-      ""
+      "Cohere 上线 Hugging Face Inference Providers 🔥"
     ],
     [
       "OpenAI 宣布非营利委员会顾问人选",
@@ -14828,11 +14828,11 @@
       ""
     ],
     [
-      "Quasar Alpha and Optimus Alpha Reveal",
+      "类星体阿尔法和擎天柱阿尔法揭晓",
       "https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/",
       "openrouter",
       "2025-04-14",
-      ""
+      "Quasar Alpha and Optimus Alpha Reveal"
     ],
     [
       "Visual Salamandra：突破多模态理解的边界",
@@ -14849,11 +14849,11 @@
       ""
     ],
     [
-      "\"Stealth\" model: Optimus Alpha",
+      "“隐形”型号：Optimus Alpha",
       "https://openrouter.ai/blog/announcements/stealth-model-optimus-alpha/",
       "openrouter",
       "2025-04-10",
-      ""
+      "\"Stealth\" model: Optimus Alpha"
     ],
     [
       "OpenAI 先锋计划",
@@ -15045,11 +15045,11 @@
       ""
     ],
     [
-      "“Stealth” model: Quasar Alpha",
+      "“隐形”模型：Quasar Alpha",
       "https://openrouter.ai/blog/announcements/stealth-model-quasar-alpha/",
       "openrouter",
       "2025-04-03",
-      ""
+      "“Stealth” model: Quasar Alpha"
     ],
     [
       "新委员会将为 OpenAI 打造全球装备最精良的非营利组织提供建议",
@@ -15192,11 +15192,11 @@
       ""
     ],
     [
-      "Never Pay for Empty AI Responses Again",
+      "再也不用为空洞的人工智能响应付费",
       "https://openrouter.ai/blog/announcements/never-pay-for-empty-ai-responses-again/",
       "openrouter",
       "2025-03-25",
-      ""
+      "Never Pay for Empty AI Responses Again"
     ],
     [
       "Modular：MAX 25.2：释放 H200 的强大性能——无需 CUDA！",
@@ -15318,7 +15318,7 @@
       ""
     ],
     [
-      "米斯特拉尔小型 3.1",
+      "Mistral Small 3.1",
       "https://mistral.ai/news/mistral-small-3-1/",
       "mistral",
       "2025-03-17",
@@ -15458,11 +15458,11 @@
       ""
     ],
     [
-      "Deep Research & Many New Models",
+      "深入研究和许多新模型",
       "https://openrouter.ai/blog/announcements/deep-research-and-many-new-models/",
       "openrouter",
       "2025-03-06",
-      ""
+      "Deep Research & Many New Models"
     ],
     [
       "模块化：OpenCL 和 CUDA C++ 替代品怎么样？ （人工智能计算民主化，第 5 部分）",
@@ -15773,11 +15773,11 @@
       ""
     ],
     [
-      "Introducing Nitro and Floor Price Shortcuts",
+      "引入 Nitro 和底价快捷方式",
       "https://openrouter.ai/blog/announcements/introducing-nitro-and-floor-price-shortcuts/",
       "openrouter",
       "2025-02-12",
-      ""
+      "Introducing Nitro and Floor Price Shortcuts"
     ],
     [
       "模块化：CUDA 是如何成功的？ （人工智能计算民主化，第 3 部分）",
@@ -15934,11 +15934,11 @@
       ""
     ],
     [
-      "Introducing Cloudflare as a new provider",
+      "隆重推出 Cloudflare 作为新提供商",
       "https://openrouter.ai/blog/announcements/introducing-cloudflare-as-a-new-provider/",
       "openrouter",
       "2025-02-04",
-      ""
+      "Introducing Cloudflare as a new provider"
     ],
     [
       "通过深度研究理解复杂趋势",
@@ -16067,7 +16067,7 @@
       ""
     ],
     [
-      "米斯特拉尔小3",
+      "Mistral Small 3",
       "https://mistral.ai/news/mistral-small-3/",
       "mistral",
       "2025-01-30",
@@ -16123,11 +16123,11 @@
       ""
     ],
     [
-      "Reasoning Tokens for Thinking Models",
+      "思维模型的推理标记",
       "https://openrouter.ai/blog/announcements/reasoning-tokens-for-thinking-models/",
       "openrouter",
       "2025-01-24",
-      ""
+      "Reasoning Tokens for Thinking Models"
     ],
     [
       "Operator 系统卡",
@@ -16165,18 +16165,18 @@
       ""
     ],
     [
-      "Introducing Web Search via the API",
+      "通过 API 引入 Web 搜索",
       "https://openrouter.ai/blog/announcements/introducing-web-search-via-the-api/",
       "openrouter",
       "2025-01-23",
-      ""
+      "Introducing Web Search via the API"
     ],
     [
-      "Standardized finish reasons",
+      "标准化完成原因",
       "https://openrouter.ai/blog/announcements/standardized-finish-reasons/",
       "openrouter",
       "2025-01-23",
-      ""
+      "Standardized finish reasons"
     ],
     [
       "模块化：使用 MAX 和 Open WebUI 进行 RAG 和 Web 搜索",
@@ -16312,7 +16312,7 @@
       ""
     ],
     [
-      "共纹25.01",
+      "Codestral 25.01",
       "https://mistral.ai/news/codestral-2501/",
       "mistral",
       "2025-01-13",
@@ -16382,11 +16382,11 @@
       ""
     ],
     [
-      "Happy New Year! Introducing a new Auto Router",
+      "新年快乐！推出新的自动路由器",
       "https://openrouter.ai/blog/announcements/happy-new-year-introducing-a-new-auto-router/",
       "openrouter",
       "2025-01-01",
-      ""
+      "Happy New Year! Introducing a new Auto Router"
     ],
     [
       "hunyuan-standard-vision 重磅推出",
@@ -16438,11 +16438,11 @@
       ""
     ],
     [
-      "Holiday launches: Web Search & Price Cuts",
+      "假期推出：网络搜索和降价",
       "https://openrouter.ai/blog/announcements/holiday-launches-web-search-and-price-cuts/",
       "openrouter",
       "2024-12-24",
-      ""
+      "Holiday launches: Web Search & Price Cuts"
     ],
     [
       "将 Grok 带给每个人",
@@ -16494,18 +16494,18 @@
       ""
     ],
     [
-      "Bring Your Own API Keys",
+      "自带 API 密钥",
       "https://openrouter.ai/blog/announcements/bring-your-own-api-keys/",
       "openrouter",
       "2024-12-20",
-      ""
+      "Bring Your Own API Keys"
     ],
     [
-      "Crypto Payments API",
+      "加密支付 API",
       "https://openrouter.ai/blog/announcements/crypto-payments-api/",
       "openrouter",
       "2024-12-20",
-      ""
+      "Crypto Payments API"
     ],
     [
       "构建高效的智能体",
@@ -16641,11 +16641,11 @@
       ""
     ],
     [
-      "Structured Outputs & Free Gemini Flash 2.0",
+      "结构化输出和免费 Gemini Flash 2.0",
       "https://openrouter.ai/blog/announcements/structured-outputs-and-free-gemini-flash-20/",
       "openrouter",
       "2024-12-12",
-      ""
+      "Structured Outputs & Free Gemini Flash 2.0"
     ],
     [
       "deepseek-chat",
@@ -16704,11 +16704,11 @@
       ""
     ],
     [
-      "Minne Atairu 与 Sora",
+      "明妮·阿泰鲁和索拉",
       "https://openai.com/index/sora-minne-atairu",
       "openai",
       "2024-12-09",
-      ""
+      "Minne Atairu 与 Sora"
     ],
     [
       "API 公开测试版",
@@ -16774,11 +16774,11 @@
       ""
     ],
     [
-      "Author Pages & Amazon Nova",
+      "作者页面和 Amazon Nova",
       "https://openrouter.ai/blog/announcements/author-pages-and-amazon-nova/",
       "openrouter",
       "2024-12-05",
-      ""
+      "Author Pages & Amazon Nova"
     ],
     [
       "OpenAI 与 Future 合作打造专业内容",
@@ -16802,18 +16802,18 @@
       ""
     ],
     [
-      "Announcing our $500 million fundraise to make progress towards AGI",
+      "宣布筹集 5 亿美元资金，以推动 AGI 取得进展",
       "https://poolside.ai/blog#d-2024-12-04-32",
       "poolside",
       "2024-12-04",
-      ""
+      "Announcing our $500 million fundraise to make progress towards AGI"
     ],
     [
-      "Announcing our $500 million fundraise to make progress towards AGI",
+      "宣布筹集 5 亿美元资金，以推动 AGI 取得进展",
       "https://poolside.ai/blog#d-2024-12-04-33",
       "poolside",
       "2024-12-04",
-      ""
+      "Announcing our $500 million fundraise to make progress towards AGI"
     ],
     [
       "投资性能：用 LLM 洞见微调小型模型——CFM 案例研究",
@@ -17257,11 +17257,11 @@
       ""
     ],
     [
-      "Diffusers 迎来 Stable Diffusion 3.5 Large",
+      "扩散器令人兴奋的稳定扩散 3.5 大号",
       "https://huggingface.co/blog/sd3-5",
       "huggingface",
       "2024-10-22",
-      ""
+      "Diffusers 迎来 Stable Diffusion 3.5 Large"
     ],
     [
       "在 Hugging Face 上部署 Speech-to-Speech",
@@ -17285,11 +17285,11 @@
       ""
     ],
     [
-      "On this page",
+      "在此页面上",
       "https://docs.siliconflow.cn/docs/release-notes/overview#d-2024-10-17-45",
       "siliconflow",
       "2024-10-17",
-      ""
+      "On this page"
     ],
     [
       "一个 Ministral，一群 Ministraux",
@@ -18622,11 +18622,11 @@
       ""
     ],
     [
-      "Diffusers 迎来 Stable Diffusion 3",
+      "扩散器令人兴奋的稳定扩散 3",
       "https://huggingface.co/blog/sd3",
       "huggingface",
       "2024-06-12",
-      ""
+      "Diffusers 迎来 Stable Diffusion 3"
     ],
     [
       "把 RL 放回 RLHF",
@@ -19700,11 +19700,11 @@
       ""
     ],
     [
-      "OpenAI 和 Elon Musk",
+      "OpenAI 瓦埃隆·马斯克",
       "https://openai.com/index/openai-elon-musk",
       "openai",
       "2024-03-05",
-      ""
+      "OpenAI 和 Elon Musk"
     ],
     [
       "推出 ConTextual：你的多模态模型在文本丰富场景中联合推理文本与图像的能力如何？",
@@ -19896,11 +19896,11 @@
       ""
     ],
     [
-      "Hugging Face 中的 Patch Time Series Transformer",
+      "拥抱面中的贴片时间序列变压器",
       "https://huggingface.co/blog/patchtst",
       "huggingface",
       "2024-02-01",
-      ""
+      "Hugging Face 中的 Patch Time Series Transformer"
     ],
     [
       "为 LLM 助长的生物威胁构建预警系统",
@@ -20204,6 +20204,13 @@
       ""
     ],
     [
+      "开源法学硕士：适合生产还是低质量的玩具？",
+      "https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy",
+      "anyscale",
+      "2023-11-20",
+      "Open Source LLMs: Viable for Production or a Low-Quality Toy?"
+    ],
+    [
       "OpenAI 宣布领导层变动",
       "https://openai.com/index/openai-announces-leadership-transition",
       "openai",
@@ -20223,6 +20230,20 @@
       "huggingface",
       "2023-11-09",
       ""
+    ],
+    [
+      "Spotify 如何构建强大的 Ray 平台并提供顺畅的开发者体验",
+      "https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer",
+      "anyscale",
+      "2023-11-09",
+      "How Spotify Built a Robust Ray Platform with a Frictionless Developer Experience"
+    ],
+    [
+      "LinkedIn 使用 Ray-Serve 的推理图",
+      "https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve",
+      "anyscale",
+      "2023-11-09",
+      "Inference Graphs at LinkedIn Using Ray-Serve"
     ],
     [
       "介绍 Prodigy-HF：与 Hugging Face 的直接集成",
@@ -20288,6 +20309,20 @@
       "Introducing Storage Regions on the HF Hub"
     ],
     [
+      "基础模型的进展——技术、社会和应用",
+      "https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications",
+      "anyscale",
+      "2023-11-03",
+      "Advances in Foundation Models — Technology, Society, and Applications"
+    ],
+    [
+      "使用 Airbnb 的下一代 ML 平台优化 LLM 培训",
+      "https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform",
+      "anyscale",
+      "2023-10-30",
+      "Optimizing LLM Training with Airbnb's Next-Gen ML Platform"
+    ],
+    [
       "个人 Copilot：训练你自己的编码助手",
       "https://huggingface.co/blog/personal-copilot",
       "huggingface",
@@ -20337,6 +20372,20 @@
       ""
     ],
     [
+      "使用 Ray Serve 构建生产 AI 应用程序",
+      "https://anyscale.com/blog/building-production-ai-applications-with-ray-serve",
+      "anyscale",
+      "2023-10-24",
+      "Building Production AI Applications with Ray Serve"
+    ],
+    [
+      "Netflix 的 Ray 异构训练集群",
+      "https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix",
+      "anyscale",
+      "2023-10-20",
+      "Heterogeneous Training Cluster with Ray at Netflix"
+    ],
+    [
       "DALL·E 3 现已在 ChatGPT Plus 和 Enterprise 中提供",
       "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
       "openai",
@@ -20349,6 +20398,27 @@
       "huggingface",
       "2023-10-19",
       ""
+    ],
+    [
+      "构建可投入生产的 LLM 应用程序的实际数据注意事项",
+      "https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications",
+      "anyscale",
+      "2023-10-19",
+      "Practical Data Considerations for Building Production-Ready LLM Applications"
+    ],
+    [
+      "使用 LangChain 和 LangSmith 构建上下文感知推理应用程序",
+      "https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith",
+      "anyscale",
+      "2023-10-18",
+      "Building Context-Aware Reasoning Applications with LangChain and LangSmith"
+    ],
+    [
+      "Llama，在开放生态系统中扩大法学硕士规模",
+      "https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem",
+      "anyscale",
+      "2023-10-16",
+      "Llama, Scaling Up LLMs in an Open Ecosystem"
     ],
     [
       "用 AI 简化合同审查",
@@ -21338,6 +21408,13 @@
       ""
     ],
     [
+      "Ray 峰会系列 - 扩展并行 Python 作业",
+      "https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs",
+      "anyscale",
+      "2023-03-16",
+      "Ray Summit Series - Scaling Parallel Python Jobs"
+    ],
+    [
       "GPT-4",
       "https://openai.com/index/gpt-4-research",
       "openai",
@@ -21422,6 +21499,13 @@
       ""
     ],
     [
+      "Ray Summit 2022 故事 - ML Platforms",
+      "https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms",
+      "anyscale",
+      "2023-03-03",
+      "Ray Summit 2022 stories - ML Platforms"
+    ],
+    [
       "开发 Diffusers 库的道德准则",
       "https://huggingface.co/blog/ethics-diffusers",
       "huggingface",
@@ -21476,6 +21560,13 @@
       "openai",
       "2023-02-16",
       ""
+    ],
+    [
+      "Ray Summit 2022 故事 - 大语言模型",
+      "https://anyscale.com/blog/ray-summit-2022-stories-large-language-models",
+      "anyscale",
+      "2023-02-16",
+      "Ray Summit 2022 Stories - Large Language Models"
     ],
     [
       "用 BLIP-2 实现零样本图像到文本生成",
@@ -21905,18 +21996,18 @@
       ""
     ],
     [
-      "Hugging Face Inference Endpoints 入门",
+      "拥抱人脸推理端点入门",
       "https://huggingface.co/blog/inference-endpoints",
       "huggingface",
       "2022-10-14",
-      ""
+      "Hugging Face Inference Endpoints 入门"
     ],
     [
-      "🧨 JAX / Flax 中的 Stable Diffusion！",
+      "🧨 JAX / Flax 中的稳定扩散！",
       "https://huggingface.co/blog/stable_diffusion_jax",
       "huggingface",
       "2022-10-13",
-      ""
+      "🧨 JAX / Flax 中的 Stable Diffusion！"
     ],
     [
       "优化实战：Bloom 推理",
@@ -21933,11 +22024,11 @@
       "Introducing DOI: the Digital Object Identifier to Datasets and Models"
     ],
     [
-      "Japanese Stable Diffusion 模型",
+      "日本稳定扩散模型",
       "https://huggingface.co/blog/japanese-stable-diffusion",
       "huggingface",
       "2022-10-05",
-      ""
+      "Japanese Stable Diffusion 模型"
     ],
     [
       "超大规模语言模型及其评估方法",
@@ -22043,6 +22134,13 @@
       "huggingface",
       "2022-08-24",
       ""
+    ],
+    [
+      "发布 Ray 2.0",
+      "https://anyscale.com/blog/announcing-ray-2-0",
+      "anyscale",
+      "2022-08-23",
+      "Announcing Ray 2.0"
     ],
     [
       "使用 🧨 Diffusers 实现 Stable Diffusion",
@@ -22997,11 +23095,11 @@
       ""
     ],
     [
-      "Hugging Face Hub 中的 Sentence Transformers",
+      "Hugging Face Hub 中的句子变形金刚",
       "https://huggingface.co/blog/sentence-transformers-in-the-hub",
       "huggingface",
       "2021-06-28",
-      ""
+      "Hugging Face Hub 中的 Sentence Transformers"
     ],
     [
       "通过在精选数据集上训练来改进语言模型行为",
@@ -24019,7 +24117,7 @@
       ""
     ],
     [
-      "刀塔2",
+      "Dota 2",
       "https://openai.com/index/dota-2",
       "openai",
       "2017-08-11",
@@ -24509,116 +24607,116 @@
       ""
     ],
     [
-      "Introducing CS-4: The Fastest AI Accelerator in the Industry Learn more >>",
+      "隆重推出 CS-4：业界最快的 AI 加速器 了解更多 >>",
       "https://www.cerebras.ai/blog/introducing-cerebras-cs-4",
       "cerebras",
       "",
-      ""
+      "Introducing CS-4: The Fastest AI Accelerator in the Industry Learn more >>"
     ],
     [
-      "Why Cyber Defense Needs Faster Inference",
+      "为什么网络防御需要更快的推理",
       "https://www.cerebras.ai/blog/why-cyber-defense-needs-faster-inference",
       "cerebras",
       "",
-      ""
+      "Why Cyber Defense Needs Faster Inference"
     ],
     [
-      "The rise of slow personal assistants",
+      "缓慢的私人助理的兴起",
       "https://www.cerebras.ai/blog/the-rise-of-slow-personal-assistants",
       "cerebras",
       "",
-      ""
+      "The rise of slow personal assistants"
     ],
     [
-      "We Taught an AI Agent to QA Our Cloud Console — in Plain English",
+      "我们教人工智能代理对我们的云控制台进行质量检查——用简单的英语",
       "https://www.cerebras.ai/blog/we-taught-an-ai-agent-to-qa-our-cloud-console-in-plain-english",
       "cerebras",
       "",
-      ""
+      "We Taught an AI Agent to QA Our Cloud Console — in Plain English"
     ],
     [
-      "How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second",
+      "Cerebras 如何以每秒 750 个代币的速度提供 GPT-5.6 Sol 服务",
       "https://www.cerebras.ai/blog/how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second",
       "cerebras",
       "",
-      ""
+      "How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second"
     ],
     [
-      "Ultrafast Frontier Inference: Cerebras Deep Dive at Hot Chips 2026",
+      "超快前沿推理：Cerebras 在 Hot Chips 2026 上深入探讨",
       "https://www.cerebras.ai/blog/ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026",
       "cerebras",
       "",
-      ""
+      "Ultrafast Frontier Inference: Cerebras Deep Dive at Hot Chips 2026"
     ],
     [
-      "Accelerating GPT-5.6 Sol Ultrafast",
+      "加速 GPT-5.6 Sol 超快",
       "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
       "cerebras",
       "",
-      ""
+      "Accelerating GPT-5.6 Sol Ultrafast"
     ],
     [
-      "Getting the most out of GPT-5.6: Sol, Terra, and Luna",
+      "充分利用 GPT-5.6：Sol、Terra 和 Luna",
       "https://www.cerebras.ai/blog/getting-the-most-out-of-gpt-5-6-sol-terra-and-luna",
       "cerebras",
       "",
-      ""
+      "Getting the most out of GPT-5.6: Sol, Terra, and Luna"
     ],
     [
-      "How Faster Inference Gives Cybersecurity Companies an Edge",
+      "更快的推理如何为网络安全公司带来优势",
       "https://www.cerebras.ai/blog/ai-inference-cybersecurity",
       "cerebras",
       "",
-      ""
+      "How Faster Inference Gives Cybersecurity Companies an Edge"
     ],
     [
-      "How We Built Our Knowledge Base",
+      "我们如何建立我们的知识库",
       "https://www.cerebras.ai/blog/how-we-built-our-knowledge-base",
       "cerebras",
       "",
-      ""
+      "How We Built Our Knowledge Base"
     ],
     [
-      "Cerebras and Upstage Bring Ultra-Fast AI to South Korea",
+      "Cerebras 和 Upstage 将超快速人工智能引入韩国",
       "https://www.cerebras.ai/blog/cerebras-and-upstage-bring-ultra-fast-ai-to-korea",
       "cerebras",
       "",
-      ""
+      "Cerebras and Upstage Bring Ultra-Fast AI to South Korea"
     ],
     [
-      "Hiring Engineers for an AI-Native World",
+      "为人工智能原生世界招聘工程师",
       "https://www.cerebras.ai/blog/hiring-engineers-for-an-ai-native-world",
       "cerebras",
       "",
-      ""
+      "Hiring Engineers for an AI-Native World"
     ],
     [
-      "First Look @ Gemma 4 on Cerebras: 3 Fast Multimodal Apps We Built",
+      "Cerebras 上的 Gemma 4 抢先体验：我们构建的 3 个快速多模式应用程序",
       "https://www.cerebras.ai/blog/first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built",
       "cerebras",
       "",
-      ""
+      "First Look @ Gemma 4 on Cerebras: 3 Fast Multimodal Apps We Built"
     ],
     [
-      "Gemma 4 on Cerebras—The Fastest Inference is Now Multimodal",
+      "Cerebras 上的 Gemma 4 — 现在最快的推理是多模态",
       "https://www.cerebras.ai/blog/gemma-4-on-cerebras-the-fastest-inference-is-now-multimodal",
       "cerebras",
       "",
-      ""
+      "Gemma 4 on Cerebras—The Fastest Inference is Now Multimodal"
     ],
     [
-      "Never Loop Without Verifiers",
+      "没有验证器就永远不会循环",
       "https://www.cerebras.ai/blog/never-loop-without-verifiers",
       "cerebras",
       "",
-      ""
+      "Never Loop Without Verifiers"
     ],
     [
-      "The Economics of AI Reasoning",
+      "人工智能推理的经济学",
       "https://www.cerebras.ai/blog/the-economics-of-ai-reasoning",
       "cerebras",
       "",
-      ""
+      "The Economics of AI Reasoning"
     ],
     [
       "Which is faster: Kimi K2.6 on Cerebras or Gemini Flash?",
@@ -24628,11 +24726,11 @@
       ""
     ],
     [
-      "What Is Sovereign AI—and How Cerebras Helps Nations",
+      "什么是主权人工智能以及 Cerebras 如何帮助国家",
       "https://www.cerebras.ai/blog/what-is-sovereign-ai-and-how-cerebras-helps-nations",
       "cerebras",
       "",
-      ""
+      "What Is Sovereign AI—and How Cerebras Helps Nations"
     ],
     [
       "Cerebras Brings Trillion Parameter Inference to Enterprises with Kimi K2.6",
@@ -24642,137 +24740,137 @@
       ""
     ],
     [
-      "Generating Beautiful UIs",
+      "生成漂亮的 UI",
       "https://www.cerebras.ai/blog/generating-beautiful-uis",
       "cerebras",
       "",
-      ""
+      "Generating Beautiful UIs"
     ],
     [
-      "Introducing Multi-LoRA on Cerebras Inference",
+      "在 Cerebras 推理中引入 Multi-LoRA",
       "https://www.cerebras.ai/blog/introducing-multi-lora-on-cerebras-inference",
       "cerebras",
       "",
-      ""
+      "Introducing Multi-LoRA on Cerebras Inference"
     ],
     [
-      "Case Study - Cognition x Cerebras",
+      "案例研究 - Cognition x Cerebras",
       "https://www.cerebras.ai/blog/case-study-cognition-x-cerebras",
       "cerebras",
       "",
-      ""
+      "Case Study - Cognition x Cerebras"
     ],
     [
-      "Fast inference is going mainstream — the Cerebras ecosystem is scaling access",
+      "快速推理正在成为主流——Cerebras 生态系统正在扩大访问范围",
       "https://www.cerebras.ai/blog/ecosystem",
       "cerebras",
       "",
-      ""
+      "Fast inference is going mainstream — the Cerebras ecosystem is scaling access"
     ],
     [
-      "Figma - MultiAgents",
+      "Figma - 多代理",
       "https://www.cerebras.ai/blog/figma-multiagents",
       "cerebras",
       "",
-      ""
+      "Figma - MultiAgents"
     ],
     [
-      "Lessons learned from building multi-agent workflows",
+      "从构建多代理工作流程中吸取的经验教训",
       "https://www.cerebras.ai/blog/lessons-learned-from-building-multi-agent-workflows",
       "cerebras",
       "",
-      ""
+      "Lessons learned from building multi-agent workflows"
     ],
     [
-      "The Debate of MCP vs. CLI Centers on Speed",
+      "MCP 与 CLI 的争论集中在速度上",
       "https://www.cerebras.ai/blog/MCPvsCLI",
       "cerebras",
       "",
-      ""
+      "The Debate of MCP vs. CLI Centers on Speed"
     ],
     [
-      "Partner Spotlight: Armis + Cerebras Enable Teams Build and Secure Software Faster",
+      "合作伙伴聚焦：Armis + Cerebras 使团队能够更快地构建和保护软件",
       "https://www.cerebras.ai/blog/partner-spotlight-armis",
       "cerebras",
       "",
-      ""
+      "Partner Spotlight: Armis + Cerebras Enable Teams Build and Secure Software Faster"
     ],
     [
-      "The GPU Is Being Split in Half",
+      "GPU 被一分为二",
       "https://www.cerebras.ai/blog/disaggregated-inference",
       "cerebras",
       "",
-      ""
+      "The GPU Is Being Split in Half"
     ],
     [
-      "Why the AI Race Shifted to Speed",
+      "为什么人工智能竞赛加速发展",
       "https://www.cerebras.ai/blog/why-the-ai-race-shifted-to-speed",
       "cerebras",
       "",
-      ""
+      "Why the AI Race Shifted to Speed"
     ],
     [
-      "How to stop your autoresearch loop from cheating",
+      "如何阻止你的自动研究循环作弊",
       "https://www.cerebras.ai/blog/how-to-stop-your-autoresearch-loop-from-cheating",
       "cerebras",
       "",
-      ""
+      "How to stop your autoresearch loop from cheating"
     ],
     [
-      "Cerebras is coming to AWS",
+      "Cerebras 即将登陆 AWS",
       "https://www.cerebras.ai/blog/cerebras-is-coming-to-aws",
       "cerebras",
       "",
-      ""
+      "Cerebras is coming to AWS"
     ],
     [
-      "Stop Shipping AI Slop: How Codex Spark Changes The Way You Code",
+      "停止运送 AI Slop：Codex Spark 如何改变您的编码方式",
       "https://www.cerebras.ai/blog/codex-spark-best-practices",
       "cerebras",
       "",
-      ""
+      "Stop Shipping AI Slop: How Codex Spark Changes The Way You Code"
     ],
     [
-      "ExomeBench: A Benchmark for Clinical Variant Interpretation in Exome Regions",
+      "ExomeBench：外显子组区域临床变异解读的基准",
       "https://www.cerebras.ai/blog/exomebench",
       "cerebras",
       "",
-      ""
+      "ExomeBench: A Benchmark for Clinical Variant Interpretation in Exome Regions"
     ],
     [
-      "Why speed wins: faster inference is about more than just quicker answers–it’s the new path to accuracy",
+      "为什么速度获胜：更快的推理不仅仅是更快的答案 - 这是实现准确性的新途径",
       "https://www.cerebras.ai/blog/speedandaccuracyblog",
       "cerebras",
       "",
-      ""
+      "Why speed wins: faster inference is about more than just quicker answers–it’s the new path to accuracy"
     ],
     [
-      "Introducing OpenAI GPT-5.3-Codex-Spark Powered by Cerebras",
+      "介绍由 Cerebras 提供支持的 OpenAI GPT-5.3-Codex-Spark",
       "https://www.cerebras.ai/blog/openai-codexspark",
       "cerebras",
       "",
-      ""
+      "Introducing OpenAI GPT-5.3-Codex-Spark Powered by Cerebras"
     ],
     [
-      "The Year of Latency Debt (And How Big Tech Is Paying It Down)",
+      "延迟债务之年（以及大型科技公司如何偿还债务）",
       "https://www.cerebras.ai/blog/latency-debt",
       "cerebras",
       "",
-      ""
+      "The Year of Latency Debt (And How Big Tech Is Paying It Down)"
     ],
     [
-      "StackAI × Cerebras: enabling the fastest inference for enterprise AI agents",
+      "StackAI × Cerebras：为企业 AI 代理提供最快的推理",
       "https://www.cerebras.ai/blog/stackai-cerebras-enabling-the-fastest-inference-for-enterprise-ai-agents",
       "cerebras",
       "",
-      ""
+      "StackAI × Cerebras: enabling the fastest inference for enterprise AI agents"
     ],
     [
-      "OpenAI Partners with Cerebras to Bring High-Speed Inference to the Mainstream",
+      "OpenAI 与 Cerebras 合作将高速推理带入主流",
       "https://www.cerebras.ai/blog/openai-partners-with-cerebras-to-bring-high-speed-inference-to-the-mainstream",
       "cerebras",
       "",
-      ""
+      "OpenAI Partners with Cerebras to Bring High-Speed Inference to the Mainstream"
     ],
     [
       "This new model is smarter than Sonnet 4.5…and 20X faster?",
@@ -24782,67 +24880,67 @@
       ""
     ],
     [
-      "GLM-4.7: Frontier intelligence at record speed — now available on Cerebras",
+      "GLM-4.7：创纪录速度的前沿情报 — 现已在 Cerebras 上提供",
       "https://www.cerebras.ai/blog/glm-4-7",
       "cerebras",
       "",
-      ""
+      "GLM-4.7: Frontier intelligence at record speed — now available on Cerebras"
     ],
     [
-      "2026: Fast Inference Finds its Groove",
+      "2026 年：快速推理找到它的最佳位置",
       "https://www.cerebras.ai/blog/2026Insights",
       "cerebras",
       "",
-      ""
+      "2026: Fast Inference Finds its Groove"
     ],
     [
-      "Thinking Inside the Box: The Implicit Chain Transformer for Efficient State Tracking",
+      "框内思考：用于高效状态跟踪的隐式链变压器",
       "https://www.cerebras.ai/blog/thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking",
       "cerebras",
       "",
-      ""
+      "Thinking Inside the Box: The Implicit Chain Transformer for Efficient State Tracking"
     ],
     [
-      "Jais 2: A Blueprint for Sovereign AI",
+      "Jais 2：主权人工智能的蓝图",
       "https://www.cerebras.ai/blog/jais2",
       "cerebras",
       "",
-      ""
+      "Jais 2: A Blueprint for Sovereign AI"
     ],
     [
-      "Cerebras at NeurIPS 2025: Nine Papers From Pretraining to Inference",
+      "Cerebras 在 NeurIPS 2025：从预训练到推理的九篇论文",
       "https://www.cerebras.ai/blog/cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference",
       "cerebras",
       "",
-      ""
+      "Cerebras at NeurIPS 2025: Nine Papers From Pretraining to Inference"
     ],
     [
-      "Rox × Cerebras: Real-time speed for agentic sales workflows",
+      "Rox × Cerebras：代理销售工作流程的实时速度",
       "https://www.cerebras.ai/blog/rox-cerebras-real-time-speed-for-agentic-sales-workflows",
       "cerebras",
       "",
-      ""
+      "Rox × Cerebras: Real-time speed for agentic sales workflows"
     ],
     [
-      "Scaling SWE Agent Data Collection with Dockerized Environments for Execution",
+      "使用 Docker 化执行环境扩展 SWE 代理数据收集",
       "https://www.cerebras.ai/blog/scaling-swe-agent-data-collection-with-dockerized-environments-for-execution",
       "cerebras",
       "",
-      ""
+      "Scaling SWE Agent Data Collection with Dockerized Environments for Execution"
     ],
     [
-      "Scaling Code-Repair Agents with Reinforcement Learning: Extending OpenHands for Real-World Repositories",
+      "通过强化学习扩展代码修复代理：将 OpenHands 扩展到现实世界的存储库",
       "https://www.cerebras.ai/blog/scaling-code-repair-agents-with-reinforcement-learning-extending-openhands-for-real-world",
       "cerebras",
       "",
-      ""
+      "Scaling Code-Repair Agents with Reinforcement Learning: Extending OpenHands for Real-World Repositories"
     ],
     [
-      "The world’s fastest GLM-4.6 – now available on Cerebras",
+      "世界上最快的 GLM-4.6 – 现已在 Cerebras 上提供",
       "https://www.cerebras.ai/blog/glm",
       "cerebras",
       "",
-      ""
+      "The world’s fastest GLM-4.6 – now available on Cerebras"
     ],
     [
       "OpenAI GPT-OSS 120B Benchmarked – NVIDIA Blackwell vs. Cerebras",
@@ -24859,25 +24957,25 @@
       ""
     ],
     [
-      "Introducing The Specialized Intelligence Index",
+      "专业智力指数简介",
       "https://fireworks.ai/blog/introducing-the-specialized-intelligence-index",
       "fireworks_ai",
       "",
-      ""
+      "Introducing The Specialized Intelligence Index"
     ],
     [
-      "The frontier isn’t a model. It’s a router.",
+      "边界不是模型。这是一个路由器。",
       "https://fireworks.ai/blog/the-frontier-isnt-a-model-its-a-router",
       "fireworks_ai",
       "",
-      ""
+      "The frontier isn’t a model. It’s a router."
     ],
     [
-      "Phylo brings frontier AI to more scientists with open models on Fireworks",
+      "Phylo 通过 Fireworks 上的开放模型为更多科学家带来前沿人工智能",
       "https://fireworks.ai/blog/phylo-brings-frontier-ai-to-more-scientists-with-open-models-on-fireworks",
       "fireworks_ai",
       "",
-      ""
+      "Phylo brings frontier AI to more scientists with open models on Fireworks"
     ],
     [
       "DeepSeek-V4.1-Flash on Fireworks: Astra-level DeepSWE at 1/15th the cost",
@@ -24887,25 +24985,25 @@
       ""
     ],
     [
-      "Gen-1 Slides: Opus 5-level decks at a fraction of the cost",
+      "Gen-1 幻灯片：Opus 5 级幻灯片，成本仅为其一小部分",
       "https://fireworks.ai/blog/gen-1-slides-opus-5-level-decks-at-a-fraction-of-the-cost",
       "fireworks_ai",
       "",
-      ""
+      "Gen-1 Slides: Opus 5-level decks at a fraction of the cost"
     ],
     [
-      "Making the leap to specialized intelligence",
+      "飞跃到专业智能",
       "https://fireworks.ai/blog/making-the-leap-to-specialized-intelligence",
       "fireworks_ai",
       "",
-      ""
+      "Making the leap to specialized intelligence"
     ],
     [
-      "Train past the frontier: Training API now generally available",
+      "训练超越边界：训练 API 现已普遍可用",
       "https://fireworks.ai/blog/train-past-the-frontier-training-api-now-generally-available",
       "fireworks_ai",
       "",
-      ""
+      "Train past the frontier: Training API now generally available"
     ],
     [
       "DeepSeek V4 Pro: Tops SWE-Bench & Cuts Cost per Task by 3x vs. Fable 5",
@@ -24936,32 +25034,32 @@
       ""
     ],
     [
-      "Muse Glimmer from Meta on Fireworks: Ideal for your Always-On Agents",
+      "来自 Meta on Fireworks 的 Muse Glimmer：永远在线代理的理想选择",
       "https://fireworks.ai/blog/meta-muse-glimmer",
       "fireworks_ai",
       "",
-      ""
+      "Muse Glimmer from Meta on Fireworks: Ideal for your Always-On Agents"
     ],
     [
-      "Your AI performance stack is Fireworks + Voyage AI",
+      "您的 AI 性能堆栈是 Fireworks + Voyage AI",
       "https://fireworks.ai/blog/voyage-ai-models-now-on-fireworks",
       "fireworks_ai",
       "",
-      ""
+      "Your AI performance stack is Fireworks + Voyage AI"
     ],
     [
-      "Three Tests to Run Before You Switch from LoRA to FullFT",
+      "从 LoRA 切换到 FullFT 之前要运行的三项测试",
       "https://fireworks.ai/blog/three-tests-to-run-before-you-switch-from-LoRa-to-FullFT",
       "fireworks_ai",
       "",
-      ""
+      "Three Tests to Run Before You Switch from LoRA to FullFT"
     ],
     [
-      "Fine-Tune Your Own Embedding Model for the Price of a Coffee",
+      "以一杯咖啡的价格微调您自己的嵌入模型",
       "https://fireworks.ai/blog/fine-tuning-your-own-embeddings-model",
       "fireworks_ai",
       "",
-      ""
+      "Fine-Tune Your Own Embedding Model for the Price of a Coffee"
     ],
     [
       "Kimi K3 on Fireworks: Frontier Intelligence You Can Own",
@@ -24985,11 +25083,11 @@
       ""
     ],
     [
-      "Fireworks Nexus: Drop-in Open Frontier Intelligence for Teams with Budgets",
+      "Fireworks Nexus：为有预算的团队提供嵌入式开放前沿智能",
       "https://fireworks.ai/blog/fireworks-nexus",
       "fireworks_ai",
       "",
-      ""
+      "Fireworks Nexus: Drop-in Open Frontier Intelligence for Teams with Budgets"
     ],
     [
       "Kimi K3 is competitive with Fable; Kimi K3 + Fable is SoTA.",
@@ -25104,81 +25202,81 @@
       ""
     ],
     [
-      "Mercury 2 for Search: Fast enough to run a hundred times per queryRead story",
+      "Mercury 2 for Search：足够快，每个查询运行一百次阅读故事",
       "https://www.inceptionlabs.ai/blog/mercury-2-for-search",
       "inception_labs",
       "",
-      ""
+      "Mercury 2 for Search: Fast enough to run a hundred times per queryRead story"
     ],
     [
-      "More builders. More throughput. Better Mercury 2.Read story",
+      "更多建设者。更多吞吐量。更好的水星 2.阅读故事",
       "https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens",
       "inception_labs",
       "",
-      ""
+      "More builders. More throughput. Better Mercury 2.Read story"
     ],
     [
-      "Mercury 2: the first reasoning model fast enough to pick up the phoneRead story",
+      "Mercury 2：第一个足够快拿起电话的推理模型阅读故事",
       "https://www.inceptionlabs.ai/blog/mercury-2-the-first-reasoning-model-fast-enough-to-pick-up-the-phone",
       "inception_labs",
       "",
-      ""
+      "Mercury 2: the first reasoning model fast enough to pick up the phoneRead story"
     ],
     [
-      "Mercury 2 on Azure Foundry",
+      "Azure Foundry 上的 Mercury 2",
       "https://www.inceptionlabs.ai/blog/mercury-2-on-azure-foundry",
       "inception_labs",
       "",
-      ""
+      "Mercury 2 on Azure Foundry"
     ],
     [
-      "Mercury 2 and the Rise of Real-time Subagents",
+      "Mercury 2 和实时子代理的兴起",
       "https://www.inceptionlabs.ai/blog/rise-of-realtime-subagents",
       "inception_labs",
       "",
-      ""
+      "Mercury 2 and the Rise of Real-time Subagents"
     ],
     [
-      "Introducing Mercury Edit 2",
+      "Mercury 简介 编辑 2",
       "https://www.inceptionlabs.ai/blog/introducing-mercury-edit-2",
       "inception_labs",
       "",
-      ""
+      "Introducing Mercury Edit 2"
     ],
     [
-      "Mercury 2 on PinchBench: Fast Diffusion Models and the Personal Agent Era",
+      "PinchBench 上的 Mercury 2：快速扩散模型和个人代理时代",
       "https://www.inceptionlabs.ai/blog/mercury-2-on-pinchbench",
       "inception_labs",
       "",
-      ""
+      "Mercury 2 on PinchBench: Fast Diffusion Models and the Personal Agent Era"
     ],
     [
-      "Introducing Mercury 2",
+      "水星 2 简介",
       "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
       "inception_labs",
       "",
-      ""
+      "Introducing Mercury 2"
     ],
     [
-      "SearchBlox + Inception: Real-Time GenAI Search at Enterprise Scale",
+      "SearchBlox + Inception：企业级实时 GenAI 搜索",
       "https://www.inceptionlabs.ai/blog/searchblox-and-inception",
       "inception_labs",
       "",
-      ""
+      "SearchBlox + Inception: Real-Time GenAI Search at Enterprise Scale"
     ],
     [
-      "Mercury Diffusion LLM Now Available on Azure AI Foundry",
+      "Mercury Diffusion LLM 现已在 Azure AI Foundry 上提供",
       "https://www.inceptionlabs.ai/blog/mercury-azure-foundry",
       "inception_labs",
       "",
-      ""
+      "Mercury Diffusion LLM Now Available on Azure AI Foundry"
     ],
     [
-      "The Next Step for dLLMs: Scaling up Mercury",
+      "dLLM 的下一步：扩大 Mercury 规模",
       "https://www.inceptionlabs.ai/blog/mercury-refreshed",
       "inception_labs",
       "",
-      ""
+      "The Next Step for dLLMs: Scaling up Mercury"
     ]
   ]
 }

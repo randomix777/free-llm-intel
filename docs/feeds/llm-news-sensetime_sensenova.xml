@@ -6,7 +6,6 @@
     <description>商汤 SenseNova 日日新 官方博客 / 更新日志归档（标题汉化，共 18 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-sensetime_sensenova.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate>
     <item>
       <title>【模型更新】发布最新版本日日新-融合模态模型SenseNova-V6.5-Pro、SenseNova-V6.5-Turb…</title>

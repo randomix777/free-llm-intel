@@ -6,7 +6,6 @@
     <description>Inference.net 官方博客 / 更新日志归档（标题汉化，共 9 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-inference_net.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Wed, 05 Aug 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Schematron V2: Frontier HTML-to-JSON extraction at a fractio…</title>
@@ -16,11 +15,11 @@
       <description>完整标题：Schematron V2: Frontier HTML-to-JSON extraction at a fraction of the cost</description>
     </item>
     <item>
-      <title>Introducing Inference platform: Monitor, train, and deploy s…</title>
+      <title>推理平台简介：监控、训练和部署自我改进的 AI 模型</title>
       <link>https://inference.net/blog/#d-2026-04-16-1</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2026-04-16-1</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Introducing Inference platform: Monitor, train, and deploy self-improving AI models</description>
+      <description>原文标题：Introducing Inference platform: Monitor, train, and deploy self-improving AI models</description>
     </item>
     <item>
       <title>How Inference.net trains Specialized Language Models that cu…</title>
@@ -30,30 +29,32 @@
       <description>完整标题：How Inference.net trains Specialized Language Models that cut AI costs by up to 50x</description>
     </item>
     <item>
-      <title>Specialized LLMs: The model you need doesn&apos;t exist yet</title>
+      <title>专业法学硕士：您需要的模型尚不存在</title>
       <link>https://inference.net/blog/#d-2026-03-11-3</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2026-03-11-3</guid>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Specialized LLMs: The model you need doesn&apos;t exist yet</description>
     </item>
     <item>
-      <title>Project OSSAS: Custom LLMs to process 100 Million Research P…</title>
+      <title>OSSAS 项目：定制法学硕士可处理 1 亿篇研究论文</title>
       <link>https://inference.net/blog/#d-2026-02-05-4</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2026-02-05-4</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Project OSSAS: Custom LLMs to process 100 Million Research Papers</description>
+      <description>原文标题：Project OSSAS: Custom LLMs to process 100 Million Research Papers</description>
     </item>
     <item>
-      <title>LOGIC: Trustless Inference through Log-Probability Verificat…</title>
+      <title>逻辑：通过对数概率验证进行不可信推理</title>
       <link>https://inference.net/blog/#d-2025-11-11-5</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2025-11-11-5</guid>
       <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：LOGIC: Trustless Inference through Log-Probability Verification</description>
+      <description>原文标题：LOGIC: Trustless Inference through Log-Probability Verification</description>
     </item>
     <item>
-      <title>Hybrid-Attention models are the future for SLMs</title>
+      <title>混合注意力模型是 SLM 的未来</title>
       <link>https://inference.net/blog/#d-2025-11-05-6</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2025-11-05-6</guid>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Hybrid-Attention models are the future for SLMs</description>
     </item>
     <item>
       <title>Announcing our $11.8M Series Seed</title>
@@ -62,10 +63,11 @@
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Schematron: An LLM trained for HTML -&gt; JSON at scale</title>
+      <title>Schematron：大规模针对 HTML -&gt; JSON 进行训练的法学硕士</title>
       <link>https://inference.net/blog/#d-2025-10-14-8</link>
       <guid isPermaLink="true">https://inference.net/blog/#d-2025-10-14-8</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Schematron: An LLM trained for HTML -&gt; JSON at scale</description>
     </item>
   </channel>
 </rss>

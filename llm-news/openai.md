@@ -1,6 +1,6 @@
 # OpenAI 文章归档
 
-> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-26**（标题自动汉化、附发布日期与原文链接）。
+> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-27**（标题自动汉化、附发布日期与原文链接）。
 > 厂商：OpenAI（`openai`） ｜ [返回订阅源总览](../llm-news-feeds.md)
 
 ## 订阅入口
@@ -780,7 +780,7 @@
 767. [让 AI 为你的产品团队效力](https://openai.com/index/put-ai-to-work-for-your-product-team)（2024-12-09）
 768. [Vallée Duhamel 与 Sora](https://openai.com/index/sora-vallee-duhamel)（2024-12-09）
 769. [动画师 Lyndon Barrois 用 Sora 创造新世界](https://openai.com/index/sora-lyndon-barrois)（2024-12-09）
-770. [Minne Atairu 与 Sora](https://openai.com/index/sora-minne-atairu)（2024-12-09）
+770. [明妮·阿泰鲁和索拉](https://openai.com/index/sora-minne-atairu)（2024-12-09）
 771. [介绍 ChatGPT Pro](https://openai.com/index/introducing-chatgpt-pro)（2024-12-05）
 772. [OpenAI o1 系统卡](https://openai.com/index/openai-o1-system-card)（2024-12-05）
 773. [OpenAI 与 Future 合作打造专业内容](https://openai.com/index/openai-and-future-partner-on-specialist-content)（2024-12-04）
@@ -922,7 +922,7 @@
 909. [用 AI 改善患者参与临床试验的机会](https://openai.com/index/paradigm)（2024-03-06）
 910. [提升健康素养与患者福祉](https://openai.com/index/lifespan)（2024-03-06）
 911. [用 ChatGPT Enterprise 激发更高生产力](https://openai.com/index/match-group)（2024-03-06）
-912. [OpenAI 和 Elon Musk](https://openai.com/index/openai-elon-musk)（2024-03-05）
+912. [OpenAI 瓦埃隆·马斯克](https://openai.com/index/openai-elon-musk)（2024-03-05）
 913. [作为世界模拟器的视频生成模型](https://openai.com/index/video-generation-models-as-world-simulators)（2024-02-15）
 914. [挫败国家背景威胁行为者对 AI 的恶意使用](https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors)（2024-02-14）
 915. [ChatGPT 的记忆功能与新控件](https://openai.com/index/memory-and-new-controls-for-chatgpt)（2024-02-13）
@@ -1169,7 +1169,7 @@
 1156. [具备对手学习意识的学习](https://openai.com/index/learning-with-opponent-learning-awareness)（2017-09-13）
 1157. [OpenAI Baselines：ACKTR 与 A2C](https://openai.com/index/openai-baselines-acktr-a2c)（2017-08-18）
 1158. [Dota 2 的更多细节](https://openai.com/index/more-on-dota-2)（2017-08-16）
-1159. [刀塔2](https://openai.com/index/dota-2)（2017-08-11）
+1159. [Dota 2](https://openai.com/index/dota-2)（2017-08-11）
 1160. [汇集人类反馈](https://openai.com/index/gathering-human-feedback)（2017-08-03）
 1161. [借助参数噪声改进探索](https://openai.com/index/better-exploration-with-parameter-noise)（2017-07-27）
 1162. [近端策略优化（PPO）](https://openai.com/index/openai-baselines-ppo)（2017-07-20）

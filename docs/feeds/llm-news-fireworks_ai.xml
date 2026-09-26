@@ -6,27 +6,28 @@
     <description>Fireworks AI 官方博客 / 更新日志归档（标题汉化，共 21 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-fireworks_ai.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Every byte counts: ARCv3 and the case for cross-region RL</title>
       <link>https://fireworks.ai/blog/arcv3-and-the-case-for-cross-region-rl</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/arcv3-and-the-case-for-cross-region-rl</guid>
     </item>
     <item>
-      <title>Introducing The Specialized Intelligence Index</title>
+      <title>专业智力指数简介</title>
       <link>https://fireworks.ai/blog/introducing-the-specialized-intelligence-index</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/introducing-the-specialized-intelligence-index</guid>
+      <description>原文标题：Introducing The Specialized Intelligence Index</description>
     </item>
     <item>
-      <title>The frontier isn’t a model. It’s a router.</title>
+      <title>边界不是模型。这是一个路由器。</title>
       <link>https://fireworks.ai/blog/the-frontier-isnt-a-model-its-a-router</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/the-frontier-isnt-a-model-its-a-router</guid>
+      <description>原文标题：The frontier isn’t a model. It’s a router.</description>
     </item>
     <item>
-      <title>Phylo brings frontier AI to more scientists with open models…</title>
+      <title>Phylo 通过 Fireworks 上的开放模型为更多科学家带来前沿人工智能</title>
       <link>https://fireworks.ai/blog/phylo-brings-frontier-ai-to-more-scientists-with-open-models-on-fireworks</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/phylo-brings-frontier-ai-to-more-scientists-with-open-models-on-fireworks</guid>
-      <description>完整标题：Phylo brings frontier AI to more scientists with open models on Fireworks</description>
+      <description>原文标题：Phylo brings frontier AI to more scientists with open models on Fireworks</description>
     </item>
     <item>
       <title>DeepSeek-V4.1-Flash on Fireworks: Astra-level DeepSWE at 1/1…</title>
@@ -35,20 +36,22 @@
       <description>完整标题：DeepSeek-V4.1-Flash on Fireworks: Astra-level DeepSWE at 1/15th the cost</description>
     </item>
     <item>
-      <title>Gen-1 Slides: Opus 5-level decks at a fraction of the cost</title>
+      <title>Gen-1 幻灯片：Opus 5 级幻灯片，成本仅为其一小部分</title>
       <link>https://fireworks.ai/blog/gen-1-slides-opus-5-level-decks-at-a-fraction-of-the-cost</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/gen-1-slides-opus-5-level-decks-at-a-fraction-of-the-cost</guid>
+      <description>原文标题：Gen-1 Slides: Opus 5-level decks at a fraction of the cost</description>
     </item>
     <item>
-      <title>Making the leap to specialized intelligence</title>
+      <title>飞跃到专业智能</title>
       <link>https://fireworks.ai/blog/making-the-leap-to-specialized-intelligence</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/making-the-leap-to-specialized-intelligence</guid>
+      <description>原文标题：Making the leap to specialized intelligence</description>
     </item>
     <item>
-      <title>Train past the frontier: Training API now generally availabl…</title>
+      <title>训练超越边界：训练 API 现已普遍可用</title>
       <link>https://fireworks.ai/blog/train-past-the-frontier-training-api-now-generally-available</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/train-past-the-frontier-training-api-now-generally-available</guid>
-      <description>完整标题：Train past the frontier: Training API now generally available</description>
+      <description>原文标题：Train past the frontier: Training API now generally available</description>
     </item>
     <item>
       <title>DeepSeek V4 Pro: Tops SWE-Bench &amp; Cuts Cost per Task by 3x v…</title>
@@ -74,25 +77,28 @@
       <description>完整标题：Can open models carry readable silent signals before they speak? Reproducing J-Lens Readouts on Kimi K3 &amp; Qwen3.5-9B</description>
     </item>
     <item>
-      <title>Muse Glimmer from Meta on Fireworks: Ideal for your Always-O…</title>
+      <title>来自 Meta on Fireworks 的 Muse Glimmer：永远在线代理的理想选择</title>
       <link>https://fireworks.ai/blog/meta-muse-glimmer</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/meta-muse-glimmer</guid>
-      <description>完整标题：Muse Glimmer from Meta on Fireworks: Ideal for your Always-On Agents</description>
+      <description>原文标题：Muse Glimmer from Meta on Fireworks: Ideal for your Always-On Agents</description>
     </item>
     <item>
-      <title>Your AI performance stack is Fireworks + Voyage AI</title>
+      <title>您的 AI 性能堆栈是 Fireworks + Voyage AI</title>
       <link>https://fireworks.ai/blog/voyage-ai-models-now-on-fireworks</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/voyage-ai-models-now-on-fireworks</guid>
+      <description>原文标题：Your AI performance stack is Fireworks + Voyage AI</description>
     </item>
     <item>
-      <title>Three Tests to Run Before You Switch from LoRA to FullFT</title>
+      <title>从 LoRA 切换到 FullFT 之前要运行的三项测试</title>
       <link>https://fireworks.ai/blog/three-tests-to-run-before-you-switch-from-LoRa-to-FullFT</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/three-tests-to-run-before-you-switch-from-LoRa-to-FullFT</guid>
+      <description>原文标题：Three Tests to Run Before You Switch from LoRA to FullFT</description>
     </item>
     <item>
-      <title>Fine-Tune Your Own Embedding Model for the Price of a Coffee</title>
+      <title>以一杯咖啡的价格微调您自己的嵌入模型</title>
       <link>https://fireworks.ai/blog/fine-tuning-your-own-embeddings-model</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/fine-tuning-your-own-embeddings-model</guid>
+      <description>原文标题：Fine-Tune Your Own Embedding Model for the Price of a Coffee</description>
     </item>
     <item>
       <title>Kimi K3 on Fireworks: Frontier Intelligence You Can Own</title>
@@ -111,10 +117,10 @@
       <description>完整标题：Trilogy’s Playbook for Open-Weight Cybersecurity with Kimi K3</description>
     </item>
     <item>
-      <title>Fireworks Nexus: Drop-in Open Frontier Intelligence for Team…</title>
+      <title>Fireworks Nexus：为有预算的团队提供嵌入式开放前沿智能</title>
       <link>https://fireworks.ai/blog/fireworks-nexus</link>
       <guid isPermaLink="true">https://fireworks.ai/blog/fireworks-nexus</guid>
-      <description>完整标题：Fireworks Nexus: Drop-in Open Frontier Intelligence for Teams with Budgets</description>
+      <description>原文标题：Fireworks Nexus: Drop-in Open Frontier Intelligence for Teams with Budgets</description>
     </item>
     <item>
       <title>Kimi K3 is competitive with Fable; Kimi K3 + Fable is SoTA.</title>

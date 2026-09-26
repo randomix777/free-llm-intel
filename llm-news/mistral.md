@@ -1,6 +1,6 @@
 # Mistral AI 文章归档
 
-> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-26**（标题自动汉化、附发布日期与原文链接）。
+> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-27**（标题自动汉化、附发布日期与原文链接）。
 > 厂商：Mistral AI（`mistral`） ｜ [返回订阅源总览](../llm-news-feeds.md)
 
 ## 订阅入口
@@ -66,14 +66,14 @@
 54. [推出 Le Chat Enterprise](https://mistral.ai/news/le-chat-enterprise/)（2025-05-07）
 55. [中型已成为新的大型。](https://mistral.ai/news/mistral-medium-3/)（2025-05-07）
 56. [以 LLM 作为评委评估 RAG](https://mistral.ai/news/llm-as-rag-judge/)（2025-04-09）
-57. [米斯特拉尔小型 3.1](https://mistral.ai/news/mistral-small-3-1/)（2025-03-17）
+57. [Mistral Small 3.1](https://mistral.ai/news/mistral-small-3-1/)（2025-03-17）
 58. [Mistral OCR](https://mistral.ai/news/mistral-ocr/)（2025-03-06）
 59. [以智能体工作流赋能产品开发](https://mistral.ai/news/agentic-workflows-from-meetings-to-dev-tickets/)（2025-03-04）
 60. [Mistral Saba](https://mistral.ai/news/mistral-saba/)（2025-02-17）
 61. [全新 le Chat：你的生活与工作 AI 助手](https://mistral.ai/news/all-new-le-chat/)（2025-02-06）
-62. [米斯特拉尔小3](https://mistral.ai/news/mistral-small-3/)（2025-01-30）
+62. [Mistral Small 3](https://mistral.ai/news/mistral-small-3/)（2025-01-30）
 63. [完美知情（Purr-fectly informed）](https://mistral.ai/news/mistral-afp/)（2025-01-16）
-64. [共纹25.01](https://mistral.ai/news/codestral-2501/)（2025-01-13）
+64. [Codestral 25.01](https://mistral.ai/news/codestral-2501/)（2025-01-13）
 65. [Mistral 已加入聊天](https://mistral.ai/news/mistral-chat/)（2024-11-18）
 66. [Pixtral Large](https://mistral.ai/news/pixtral-large/)（2024-11-18）
 67. [米斯特拉尔批量 API](https://mistral.ai/news/batch-api/)（2024-11-07）

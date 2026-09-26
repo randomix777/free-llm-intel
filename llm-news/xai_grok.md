@@ -1,6 +1,6 @@
 # xAI Grok 文章归档
 
-> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-26**（标题自动汉化、附发布日期与原文链接）。
+> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-27**（标题自动汉化、附发布日期与原文链接）。
 > 厂商：xAI Grok（`xai_grok`） ｜ [返回订阅源总览](../llm-news-feeds.md)
 
 ## 订阅入口
@@ -57,9 +57,9 @@
 46. [Google Workspace 中的 Grok](https://x.ai/news/introducing-google-workspace-addon)（2026-07-24）
 47. [将 Grok 4.5 引入 iOS、Android、Web 和 X](https://x.ai/news#d-2026-07-23-23)（2026-07-23）
 48. [Grok Build 中的工作流程](https://x.ai/news/workflows)（2026-07-23）
-49. [Grok for Outlook](https://x.ai/news#d-2026-07-22-24)（2026-07-22）
+49. [适用于 Outlook 的 Grok](https://x.ai/news#d-2026-07-22-24)（2026-07-22）
 50. [将 Grok 4.5 带到 iOS、Android、Web 和 X](https://x.ai/news/grok-4-5-everywhere)（2026-07-22）
-51. [Grok for Excel](https://x.ai/news#d-2026-07-21-25)（2026-07-21）
+51. [Excel 版 Grok](https://x.ai/news#d-2026-07-21-25)（2026-07-21）
 52. [适用于 Outlook 的 Grok](https://x.ai/news/introducing-outlook-addin)（2026-07-21）
 53. [Grok 4.5 简介](https://x.ai/news#d-2026-07-20-26)（2026-07-20）
 54. [Grok for Excel：使用 Microsoft Excel 的 Grok 加载项，用简单英语提问、编写公式并运行场景，无需离开工作簿。](https://x.ai/news/introducing-excel-addin)（2026-07-20）
@@ -91,7 +91,7 @@
 80. [在 Warp 中使用 Grok](https://x.ai/news/grok-warp)（2026-06-15）
 81. [Grok Imagine 1.5 预览版](https://x.ai/news#d-2026-06-11-40)（2026-06-11）
 82. [Grok Build 插件市场](https://x.ai/news/grok-plugin-marketplace)（2026-06-11）
-83. [Composer 2.5](https://x.ai/news#d-2026-06-03-41)（2026-06-03）
+83. [作曲家2.5](https://x.ai/news#d-2026-06-03-41)（2026-06-03）
 84. [Grok Imagine 1.5 预览版](https://x.ai/news/grok-imagine-1-5)（2026-06-03）
 85. [Grok 在 API 上构建 0.1](https://x.ai/news#d-2026-06-01-42)（2026-06-01）
 86. [Composer 2.5Composer 2.5 现已登陆 Grok Build，前往 /models 菜单即可体验。](https://x.ai/news/composer-2-5)（2026-06-01）
@@ -119,7 +119,7 @@
 108. [自定义声音：你的声音，你的品牌。用一段短录音克隆声音，并在 Grok Text to Speech 和 Voice Agent API 中使用。](https://x.ai/news/grok-custom-voices)（2026-04-30）
 109. [Grok 语音转文本和文本转语音 API](https://x.ai/news#d-2026-04-23-54)（2026-04-23）
 110. [推出 Grok Voice Think Fast 1.0](https://x.ai/news/grok-voice-think-fast-1)（2026-04-23）
-111. [xAI joins SpaceX](https://x.ai/news#d-2026-04-17-55)（2026-04-17）
+111. [xAI 加入 SpaceX](https://x.ai/news#d-2026-04-17-55)（2026-04-17）
 112. [Grok 语音转文本与文本转语音 API](https://x.ai/news/grok-stt-and-tts-apis)（2026-04-17）
 113. [Grok 想象 API](https://x.ai/news#d-2026-02-02-56)（2026-02-02）
 114. [xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。](https://x.ai/news/xai-joins-spacex)（2026-02-02）
@@ -133,13 +133,13 @@
 122. [Grok 语音代理 API](https://x.ai/news#d-2025-12-22-61)（2025-12-22）
 123. [Grok 集合 API](https://x.ai/news/grok-collections-api)（2025-12-22）
 124. [以 AI 支持 DOW 的使命](https://x.ai/news/us-gov-dept-of-war)（2025-12-22）
-125. [xAI and El Salvador Pioneer the World's First Nationwide AI Education Program](https://x.ai/news#d-2025-12-17-62)（2025-12-17）
+125. [xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划](https://x.ai/news#d-2025-12-17-62)（2025-12-17）
 126. [Grok 语音代理 API](https://x.ai/news/grok-voice-agent-api)（2025-12-17）
 127. [Grok 4.1 快速和代理工具 API](https://x.ai/news#d-2025-12-11-63)（2025-12-11）
 128. [xAI 与萨尔瓦多率先推出全球首个全国性 AI 教育计划：宣布与萨尔瓦多政府建立变革性合作伙伴关系](https://x.ai/news/el-salvador-partnership)（2025-12-11）
 129. [Grok 与 KSA 一起走向全球](https://x.ai/news#d-2025-11-19-64)（2025-11-19）
 130. [Grok 4.1](https://x.ai/news#d-2025-11-19-65)（2025-11-19）
-131. [Grok 4.1 Fast 与 Agent Tools API](https://x.ai/news/grok-4-1-fast)（2025-11-19）
+131. [Grok 4.1 快速与代理工具 API](https://x.ai/news/grok-4-1-fast)（2025-11-19）
 132. [Grok 携手 KSA 走向全球](https://x.ai/news/grok-goes-global)（2025-11-19）
 133. [借助 GSA OneGov 扩展政府 xAI](https://x.ai/news#d-2025-11-17-66)（2025-11-17）
 134. [Grok 4 Fast](https://x.ai/news#d-2025-09-25-67)（2025-09-25）

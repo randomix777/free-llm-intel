@@ -6,13 +6,13 @@
     <description>OpenRouter 官方博客 / 更新日志归档（标题汉化，共 140 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Is Seedance Open Source?</title>
+      <title>Seedance 是开源的吗？</title>
       <link>https://openrouter.ai/blog/insights/seedance-2-5-open-source/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/seedance-2-5-open-source/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Is Seedance Open Source?</description>
     </item>
     <item>
       <title>Is Kimi K3 Open Source? Weights, License, and How to Call It</title>
@@ -21,72 +21,81 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Best Embedding Models in 2026</title>
+      <title>2026 年最佳嵌入模型</title>
       <link>https://openrouter.ai/blog/insights/best-embedding-models-2026/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/best-embedding-models-2026/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Best Embedding Models in 2026</description>
     </item>
     <item>
-      <title>How to Use Jev: Moderation with the Jev API in TypeScript</title>
+      <title>如何使用 Jev：在 TypeScript 中使用 Jev API 进行审核</title>
       <link>https://openrouter.ai/blog/tutorials/how-to-use-jev/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/how-to-use-jev/</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Use Jev: Moderation with the Jev API in TypeScript</description>
     </item>
     <item>
-      <title>Batch API: half-price inference by bundling requests</title>
+      <title>Batch API：通过捆绑请求进行半价推理</title>
       <link>https://openrouter.ai/blog/announcements/batch-api/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/batch-api/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Batch API: half-price inference by bundling requests</description>
     </item>
     <item>
-      <title>Is Jev as Accurate as Frontier Models at Classification?</title>
+      <title>Jev 的分类准确度与前沿模型一样吗？</title>
       <link>https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Is Jev as Accurate as Frontier Models at Classification?</description>
     </item>
     <item>
-      <title>What Is Nemotron 3.5 Lightning</title>
+      <title>什么是 Nemotron 3.5 闪电</title>
       <link>https://openrouter.ai/blog/insights/nemotron-3-5-lightning/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/nemotron-3-5-lightning/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：What Is Nemotron 3.5 Lightning</description>
     </item>
     <item>
-      <title>Two Hours of Work That Takes a Week</title>
+      <title>一周工作两小时</title>
       <link>https://openrouter.ai/blog/insights/descript-model-evaluation-queue/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/descript-model-evaluation-queue/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Two Hours of Work That Takes a Week</description>
     </item>
     <item>
-      <title>Jev vs LLM-as-a-Judge</title>
+      <title>Jev 与 LLM 法官</title>
       <link>https://openrouter.ai/blog/tutorials/jev-vs-llm-as-a-judge/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/jev-vs-llm-as-a-judge/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Jev vs LLM-as-a-Judge</description>
     </item>
     <item>
-      <title>What Is Jev? TypeSafe&apos;s Decision Model Explained for Develop…</title>
+      <title>杰夫是什么？为开发人员解释 TypeSafe 的决策模型</title>
       <link>https://openrouter.ai/blog/insights/what-is-jev/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/what-is-jev/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：What Is Jev? TypeSafe&apos;s Decision Model Explained for Developers</description>
+      <description>原文标题：What Is Jev? TypeSafe&apos;s Decision Model Explained for Developers</description>
     </item>
     <item>
-      <title>Jev vs LLM: When to Use a Decision Model Instead of Generati…</title>
+      <title>Jev vs LLM：何时使用决策模型而不是生成文本</title>
       <link>https://openrouter.ai/blog/tutorials/jev-vs-llm-when-to-use-each/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/jev-vs-llm-when-to-use-each/</guid>
       <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Jev vs LLM: When to Use a Decision Model Instead of Generating Text</description>
+      <description>原文标题：Jev vs LLM: When to Use a Decision Model Instead of Generating Text</description>
     </item>
     <item>
-      <title>Image Generation Models Compared: Cost, Edit, Quality</title>
+      <title>图像生成模型比较：成本、编辑、质量</title>
       <link>https://openrouter.ai/blog/insights/image-generation-models-compared/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/image-generation-models-compared/</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Image Generation Models Compared: Cost, Edit, Quality</description>
     </item>
     <item>
-      <title>Build a Reliable Tool-Calling Agent Loop on OpenRouter</title>
+      <title>在 OpenRouter 上构建可靠的工具调用代理循环</title>
       <link>https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Build a Reliable Tool-Calling Agent Loop on OpenRouter</description>
     </item>
     <item>
       <title>Does DeepSeek V4 Have Vision?</title>
@@ -95,219 +104,249 @@
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Case Study: How Descript Took New Models Off the Engineering…</title>
+      <title>案例研究：Descript 如何将新模型从工程队列中剔除</title>
       <link>https://openrouter.ai/blog/case-studies/descript-case-study/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/case-studies/descript-case-study/</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Case Study: How Descript Took New Models Off the Engineering Queue</description>
+      <description>原文标题：Case Study: How Descript Took New Models Off the Engineering Queue</description>
     </item>
     <item>
-      <title>LLM-as-a-Judge: Score AI Agent Outputs Automatically</title>
+      <title>法学硕士作为法官：自动对人工智能代理的输出进行评分</title>
       <link>https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/llm-as-a-judge-evaluate-ai-agents/</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：LLM-as-a-Judge: Score AI Agent Outputs Automatically</description>
     </item>
     <item>
-      <title>OpenRouter Text-to-Speech: API Tutorial in 5 Minutes</title>
+      <title>OpenRouter 文本转语音：5 分钟 API 教程</title>
       <link>https://openrouter.ai/blog/tutorials/text-to-speech/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/text-to-speech/</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter Text-to-Speech: API Tutorial in 5 Minutes</description>
     </item>
     <item>
-      <title>Zero Data Retention (ZDR): What It Means for AI APIs</title>
+      <title>零数据保留 (ZDR)：对于 AI API 意味着什么</title>
       <link>https://openrouter.ai/blog/insights/zero-data-retention/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/zero-data-retention/</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Zero Data Retention (ZDR): What It Means for AI APIs</description>
     </item>
     <item>
-      <title>OpenRouter Fusion: How It Works and When to Use It</title>
+      <title>OpenRouter Fusion：它的工作原理以及何时使用它</title>
       <link>https://openrouter.ai/blog/insights/fusion-explainer/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/fusion-explainer/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter Fusion: How It Works and When to Use It</description>
     </item>
     <item>
-      <title>How to Use OpenRouter Presets: Config-as-Code Guide</title>
+      <title>如何使用 OpenRouter 预设：配置即代码指南</title>
       <link>https://openrouter.ai/blog/tutorials/presets/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/presets/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Use OpenRouter Presets: Config-as-Code Guide</description>
     </item>
     <item>
-      <title>Nano Banana API: Edit Images with Gemini in Code</title>
+      <title>Nano Banana API：在代码中使用 Gemini 编辑图像</title>
       <link>https://openrouter.ai/blog/tutorials/nano-banana/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/nano-banana/</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Nano Banana API: Edit Images with Gemini in Code</description>
     </item>
     <item>
-      <title>Seedance 2.5 Review: What It&apos;s Best At and When to Use It</title>
+      <title>Seedance 2.5 评论：它最擅长什么以及何时使用它</title>
       <link>https://openrouter.ai/blog/insights/seedance-2-5-review/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/seedance-2-5-review/</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Seedance 2.5 Review: What It&apos;s Best At and When to Use It</description>
     </item>
     <item>
-      <title>In-Region Routing: Keep your data in the US or EU</title>
+      <title>区域内路由：将您的数据保存在美国或欧盟</title>
       <link>https://openrouter.ai/blog/announcements/us-in-region-routing/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/us-in-region-routing/</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：In-Region Routing: Keep your data in the US or EU</description>
     </item>
     <item>
-      <title>Give any model a terminal and files</title>
+      <title>为任何模型提供终端和文件</title>
       <link>https://openrouter.ai/blog/announcements/shell-tool/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/shell-tool/</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Give any model a terminal and files</description>
     </item>
     <item>
-      <title>How to Choose the Best AI Model (Live, in Your Editor)</title>
+      <title>如何选择最佳 AI 模型（实时，在您的编辑器中）</title>
       <link>https://openrouter.ai/blog/tutorials/choose-best-ai-model/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/choose-best-ai-model/</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Choose the Best AI Model (Live, in Your Editor)</description>
     </item>
     <item>
-      <title>GPT 5.6 Discounts &amp; Jevons Paradox</title>
+      <title>GPT 5.6 折扣和杰文斯悖论</title>
       <link>https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/gpt-5-6-discounts-jevons-paradox/</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：GPT 5.6 Discounts &amp; Jevons Paradox</description>
     </item>
     <item>
-      <title>OpenRouter Video Generation API: A Code-First Guide</title>
+      <title>OpenRouter 视频生成 API：代码优先指南</title>
       <link>https://openrouter.ai/blog/tutorials/video-generation-api/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/video-generation-api/</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter Video Generation API: A Code-First Guide</description>
     </item>
     <item>
-      <title>Image Benchmarks: See the Capabilities of Every Model</title>
+      <title>图像基准：查看每个模型的功能</title>
       <link>https://openrouter.ai/blog/announcements/image-benchmarks/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/image-benchmarks/</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Image Benchmarks: See the Capabilities of Every Model</description>
     </item>
     <item>
-      <title>OpenRouter is Joining Stripe</title>
+      <title>OpenRouter 即将加入 Stripe</title>
       <link>https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter is Joining Stripe</description>
     </item>
     <item>
-      <title>Understand your AI usage: every agent, model, and request</title>
+      <title>了解您的 AI 使用情况：每个代理、模型和请求</title>
       <link>https://openrouter.ai/blog/announcements/activity-dashboard/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/activity-dashboard/</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Understand your AI usage: every agent, model, and request</description>
     </item>
     <item>
-      <title>OpenRouter Image Generation: A Code-First API Tutorial</title>
+      <title>OpenRouter 图像生成：代码优先 API 教程</title>
       <link>https://openrouter.ai/blog/tutorials/image-generation/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/image-generation/</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter Image Generation: A Code-First API Tutorial</description>
     </item>
     <item>
-      <title>How to Send an Image to an LLM via API (Vision Guide)</title>
+      <title>如何通过 API 将图像发送至法学硕士（视觉指南）</title>
       <link>https://openrouter.ai/blog/tutorials/send-image-to-llm/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/send-image-to-llm/</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Send an Image to an LLM via API (Vision Guide)</description>
     </item>
     <item>
-      <title>Tool Calling Across Any Model: Write the Loop Once, Swap the…</title>
+      <title>跨任何模型的工具调用：编写一次循环，交换模型字符串</title>
       <link>https://openrouter.ai/blog/tutorials/tool-calling/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/tool-calling/</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Tool Calling Across Any Model: Write the Loop Once, Swap the Model String</description>
+      <description>原文标题：Tool Calling Across Any Model: Write the Loop Once, Swap the Model String</description>
     </item>
     <item>
-      <title>Live Web Search Benchmarks: Pick the Right Engine, Depth, an…</title>
+      <title>实时网络搜索基准：为您的代理选择正确的引擎、深度和模型</title>
       <link>https://openrouter.ai/blog/announcements/web-search-benchmark/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/web-search-benchmark/</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Live Web Search Benchmarks: Pick the Right Engine, Depth, and Model for Your Agent</description>
+      <description>原文标题：Live Web Search Benchmarks: Pick the Right Engine, Depth, and Model for Your Agent</description>
     </item>
     <item>
-      <title>Model Routing Powered by Wisdom of the Market</title>
+      <title>由市场智慧提供支持的模型路由</title>
       <link>https://openrouter.ai/blog/announcements/introducing-the-new-auto-router/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/introducing-the-new-auto-router/</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Model Routing Powered by Wisdom of the Market</description>
     </item>
     <item>
-      <title>Set Up Team AI Spend Controls on OpenRouter</title>
+      <title>在 OpenRouter 上设置团队 AI 支出控制</title>
       <link>https://openrouter.ai/blog/tutorials/team-spend-controls-setup/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/team-spend-controls-setup/</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Set Up Team AI Spend Controls on OpenRouter</description>
     </item>
     <item>
-      <title>Governing AI Spend Across a Team on OpenRouter</title>
+      <title>管理 OpenRouter 上团队的 AI 支出</title>
       <link>https://openrouter.ai/blog/insights/governing-team-ai-spend/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/governing-team-ai-spend/</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Governing AI Spend Across a Team on OpenRouter</description>
     </item>
     <item>
-      <title>Ori Harness: The Best Way to Use OpenRouter with Any Harness</title>
+      <title>Ori Harness：将 OpenRouter 与任何 Harness 结合使用的最佳方式</title>
       <link>https://openrouter.ai/blog/announcements/ori-harness/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/ori-harness/</guid>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Ori Harness: The Best Way to Use OpenRouter with Any Harness</description>
     </item>
     <item>
-      <title>Ori Eval: Find the Best Model for What You&apos;re Building</title>
+      <title>Ori Eval：找到最适合您正在构建的模型</title>
       <link>https://openrouter.ai/blog/announcements/ori-eval/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/ori-eval/</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Ori Eval: Find the Best Model for What You&apos;re Building</description>
     </item>
     <item>
-      <title>Using OpenRouter With LangChain: ChatOpenRouter Setup Guide</title>
+      <title>使用 OpenRouter 与 LangChain：ChatOpenRouter 设置指南</title>
       <link>https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/langchain-chatopenrouter-setup/</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Using OpenRouter With LangChain: ChatOpenRouter Setup Guide</description>
     </item>
     <item>
-      <title>How to Evaluate LLM Provider Performance Across Latency, Thr…</title>
+      <title>如何评估 LLM 提供商在延迟、吞吐量和正常运行时间方面的绩效</title>
       <link>https://openrouter.ai/blog/insights/evaluate-llm-provider-performance/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/evaluate-llm-provider-performance/</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：How to Evaluate LLM Provider Performance Across Latency, Throughput, and Uptime</description>
+      <description>原文标题：How to Evaluate LLM Provider Performance Across Latency, Throughput, and Uptime</description>
     </item>
     <item>
-      <title>Image Generation Models: Choosing One, Fixing Errors</title>
+      <title>图像生成模型：选择一个，修复错误</title>
       <link>https://openrouter.ai/blog/tutorials/image-generation-models/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/image-generation-models/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Image Generation Models: Choosing One, Fixing Errors</description>
     </item>
     <item>
-      <title>Classifiers: Track What Your Agents Do and What It Costs</title>
+      <title>分类器：跟踪您的代理所做的事情及其成本</title>
       <link>https://openrouter.ai/blog/announcements/classifiers/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/classifiers/</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Classifiers: Track What Your Agents Do and What It Costs</description>
     </item>
     <item>
-      <title>Transcription on OpenRouter</title>
+      <title>OpenRouter 上的转录</title>
       <link>https://openrouter.ai/blog/tutorials/transcription-on-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/transcription-on-openrouter/</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Transcription on OpenRouter</description>
     </item>
     <item>
-      <title>The Cheapest Token Is a Cached One: Prompt Caching + Sticky…</title>
+      <title>最便宜的令牌是缓存令牌：提示缓存 + 粘性路由</title>
       <link>https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/prompt-caching-sticky-routing/</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing</description>
+      <description>原文标题：The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing</description>
     </item>
     <item>
-      <title>Every Modality Through One API</title>
+      <title>通过一个 API 实现每种模式</title>
       <link>https://openrouter.ai/blog/insights/every-modality-one-api/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/every-modality-one-api/</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Every Modality Through One API</description>
     </item>
     <item>
-      <title>A New Look for OpenRouter</title>
+      <title>OpenRouter 的新面貌</title>
       <link>https://openrouter.ai/blog/announcements/brand-refresh/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/brand-refresh/</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：A New Look for OpenRouter</description>
     </item>
     <item>
-      <title>Why Use OpenRouter for DeepSeek</title>
+      <title>为什么使用 OpenRouter 进行 DeepSeek</title>
       <link>https://openrouter.ai/blog/insights/why-openrouter-for-deepseek/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/why-openrouter-for-deepseek/</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Why Use OpenRouter for DeepSeek</description>
     </item>
     <item>
-      <title>Choosing the Optimal Image Input Detail Level in LLMs</title>
+      <title>在法学硕士中选择最佳图像输入细节级别</title>
       <link>https://openrouter.ai/blog/insights/image-detail-low-cost/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/image-detail-low-cost/</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Choosing the Optimal Image Input Detail Level in LLMs</description>
     </item>
     <item>
       <title>DeepSeek V4 Is Earning Agentic Token Share</title>
@@ -316,193 +355,214 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Open Weight Models that Matter: June 2026</title>
+      <title>重要的开放重量模型：2026 年 6 月</title>
       <link>https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：The Open Weight Models that Matter: June 2026</description>
     </item>
     <item>
-      <title>The OpenRouter MCP Server</title>
+      <title>OpenRouter MCP 服务器</title>
       <link>https://openrouter.ai/blog/announcements/openrouter-mcp-server/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/openrouter-mcp-server/</guid>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：The OpenRouter MCP Server</description>
     </item>
     <item>
-      <title>Introducing the Unified Image API</title>
+      <title>统一图像 API 简介</title>
       <link>https://openrouter.ai/blog/announcements/image-api/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/image-api/</guid>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing the Unified Image API</description>
     </item>
     <item>
-      <title>AI Governance Checklist: Your LLM Architecture Comes First</title>
+      <title>AI 治理清单：您的 LLM 架构是第一位的</title>
       <link>https://openrouter.ai/blog/insights/ai-governance-checklist/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/ai-governance-checklist/</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：AI Governance Checklist: Your LLM Architecture Comes First</description>
     </item>
     <item>
-      <title>How to Enforce AI Data Residency Without Building Local Infr…</title>
+      <title>如何在不建设本地基础设施的情况下实施人工智能数据驻留</title>
       <link>https://openrouter.ai/blog/insights/ai-data-residency/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/ai-data-residency/</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：How to Enforce AI Data Residency Without Building Local Infrastructure</description>
+      <description>原文标题：How to Enforce AI Data Residency Without Building Local Infrastructure</description>
     </item>
     <item>
-      <title>OpenRouter vs Portkey: Which LLM Gateway for Your Team?</title>
+      <title>OpenRouter 与 Portkey：哪个 LLM 网关适合您的团队？</title>
       <link>https://openrouter.ai/blog/insights/openrouter-vs-portkey/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/openrouter-vs-portkey/</guid>
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter vs Portkey: Which LLM Gateway for Your Team?</description>
     </item>
     <item>
-      <title>OpenRouter vs LiteLLM: Which LLM Gateway Fits Your Stack?</title>
+      <title>OpenRouter 与 LiteLLM：哪种 LLM 网关适合您的堆栈？</title>
       <link>https://openrouter.ai/blog/insights/openrouter-vs-litellm/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/openrouter-vs-litellm/</guid>
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter vs LiteLLM: Which LLM Gateway Fits Your Stack?</description>
     </item>
     <item>
-      <title>Connect OpenClaw to OpenRouter</title>
+      <title>将 OpenClaw 连接到 OpenRouter</title>
       <link>https://openrouter.ai/blog/tutorials/openclaw-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/openclaw-openrouter/</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Connect OpenClaw to OpenRouter</description>
     </item>
     <item>
-      <title>How to Connect SillyTavern to OpenRouter (2026 Guide)</title>
+      <title>如何将 SillyTavern 连接到 OpenRouter（2026 指南）</title>
       <link>https://openrouter.ai/blog/tutorials/sillytavern-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/sillytavern-openrouter/</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Connect SillyTavern to OpenRouter (2026 Guide)</description>
     </item>
     <item>
-      <title>Kilo Code + OpenRouter: Setup, Model Routing, and Free Model…</title>
+      <title>Kilo Code + OpenRouter：设置、模型路由和免费模型</title>
       <link>https://openrouter.ai/blog/tutorials/kilo-code-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/kilo-code-openrouter/</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Kilo Code + OpenRouter: Setup, Model Routing, and Free Models</description>
+      <description>原文标题：Kilo Code + OpenRouter: Setup, Model Routing, and Free Models</description>
     </item>
     <item>
-      <title>How to Use OpenAI Codex CLI with OpenRouter</title>
+      <title>如何将 OpenAI Codex CLI 与 OpenRouter 结合使用</title>
       <link>https://openrouter.ai/blog/tutorials/codex-cli-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/codex-cli-openrouter/</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Use OpenAI Codex CLI with OpenRouter</description>
     </item>
     <item>
-      <title>How to Use Claude Code with OpenRouter</title>
+      <title>如何将 Claude 代码与 OpenRouter 结合使用</title>
       <link>https://openrouter.ai/blog/tutorials/claude-code-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/claude-code-openrouter/</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Use Claude Code with OpenRouter</description>
     </item>
     <item>
-      <title>How to Use OpenRouter With Any Coding Agent or AI Tool</title>
+      <title>如何将 OpenRouter 与任何编码代理或 AI 工具结合使用</title>
       <link>https://openrouter.ai/blog/tutorials/any-coding-agent/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/any-coding-agent/</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Use OpenRouter With Any Coding Agent or AI Tool</description>
     </item>
     <item>
-      <title>Subagent: Let Your Model Delegate the Busywork</title>
+      <title>子代理：让您的模型委托繁忙的工作</title>
       <link>https://openrouter.ai/blog/announcements/subagent-server-tool/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/subagent-server-tool/</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Subagent: Let Your Model Delegate the Busywork</description>
     </item>
     <item>
-      <title>Free LLM APIs Compared: Rate Limits, Models, and Real Costs…</title>
+      <title>免费 LLM API 比较：速率限制、模型和实际成本 (2026)</title>
       <link>https://openrouter.ai/blog/tutorials/free-llm-apis-compared/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/free-llm-apis-compared/</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Free LLM APIs Compared: Rate Limits, Models, and Real Costs (2026)</description>
+      <description>原文标题：Free LLM APIs Compared: Rate Limits, Models, and Real Costs (2026)</description>
     </item>
     <item>
-      <title>Agentic AI Governance: Your API Key Is a Guardrail</title>
+      <title>代理人工智能治理：您的 API 密钥是一道护栏</title>
       <link>https://openrouter.ai/blog/insights/agentic-ai-governance/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/agentic-ai-governance/</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Agentic AI Governance: Your API Key Is a Guardrail</description>
     </item>
     <item>
-      <title>Keep Your Agent Running When Models Disappear</title>
+      <title>当模型消失时让您的代理继续运行</title>
       <link>https://openrouter.ai/blog/tutorials/keep-your-agent-running-when-models-disappear/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/keep-your-agent-running-when-models-disappear/</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Keep Your Agent Running When Models Disappear</description>
     </item>
     <item>
-      <title>How to Use Hermes Agent with OpenRouter: Setup, Models &amp; Rou…</title>
+      <title>如何将 Hermes Agent 与 OpenRouter 结合使用：设置、模型和路由</title>
       <link>https://openrouter.ai/blog/tutorials/hermes-agent/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/hermes-agent/</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：How to Use Hermes Agent with OpenRouter: Setup, Models &amp; Routing</description>
+      <description>原文标题：How to Use Hermes Agent with OpenRouter: Setup, Models &amp; Routing</description>
     </item>
     <item>
-      <title>How to Get the Lowest-Cost LLM Inference on OpenRouter</title>
+      <title>如何在 OpenRouter 上获得最低成本的 LLM 推理</title>
       <link>https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter/</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How to Get the Lowest-Cost LLM Inference on OpenRouter</description>
     </item>
     <item>
-      <title>How OpenRouter Model Routing Works</title>
+      <title>OpenRouter 模型路由的工作原理</title>
       <link>https://openrouter.ai/blog/insights/model-routing/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/model-routing/</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：How OpenRouter Model Routing Works</description>
     </item>
     <item>
-      <title>OpenRouter Reliability &amp; Automatic Failover: How Requests Ke…</title>
+      <title>OpenRouter 可靠性和自动故障转移：请求如何保持成功</title>
       <link>https://openrouter.ai/blog/insights/reliability-failover/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/reliability-failover/</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：OpenRouter Reliability &amp; Automatic Failover: How Requests Keep Succeeding</description>
+      <description>原文标题：OpenRouter Reliability &amp; Automatic Failover: How Requests Keep Succeeding</description>
     </item>
     <item>
-      <title>Surpassing Frontier Performance with Fusion</title>
+      <title>通过融合超越前沿性能</title>
       <link>https://openrouter.ai/blog/announcements/fusion-beats-frontier/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/fusion-beats-frontier/</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Surpassing Frontier Performance with Fusion</description>
     </item>
     <item>
-      <title>Dinner is Served</title>
+      <title>晚餐已供应</title>
       <link>https://openrouter.ai/blog/insights/dinner-is-served/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/dinner-is-served/</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Dinner is Served</description>
     </item>
     <item>
-      <title>What Is an LLM Gateway? The Missing Layer Between Your App a…</title>
+      <title>什么是LLM网关？应用程序和人工智能模型之间缺失的一层</title>
       <link>https://openrouter.ai/blog/insights/llm-gateway/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/llm-gateway/</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：What Is an LLM Gateway? The Missing Layer Between Your App and AI Models</description>
+      <description>原文标题：What Is an LLM Gateway? The Missing Layer Between Your App and AI Models</description>
     </item>
     <item>
-      <title>Advisor: Give Any Model a Lifeline to a Smarter One</title>
+      <title>顾问：为任何模型提供一条更聪明的生命线</title>
       <link>https://openrouter.ai/blog/announcements/advisor-server-tool/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/advisor-server-tool/</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Advisor: Give Any Model a Lifeline to a Smarter One</description>
     </item>
     <item>
-      <title>Gemini 2.5 Flash API - Pricing, Quickstart &amp; Provider Compar…</title>
+      <title>Gemini 2.5 Flash API - 定价、快速入门和提供商比较</title>
       <link>https://openrouter.ai/blog/tutorials/gemini-25-flash-api-pricing-quickstart-provider-comparison/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/gemini-25-flash-api-pricing-quickstart-provider-comparison/</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：Gemini 2.5 Flash API - Pricing, Quickstart &amp; Provider Comparison</description>
+      <description>原文标题：Gemini 2.5 Flash API - Pricing, Quickstart &amp; Provider Comparison</description>
     </item>
     <item>
-      <title>EU AI Act &amp; Colorado ADMT Compliance: Human Oversight for AI…</title>
+      <title>欧盟人工智能法案和科罗拉多州 ADMT 合规性：人工智能代理的人工监督</title>
       <link>https://openrouter.ai/blog/tutorials/human-oversight-eu-ai-act-compliance-agent-sdk/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/human-oversight-eu-ai-act-compliance-agent-sdk/</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：EU AI Act &amp; Colorado ADMT Compliance: Human Oversight for AI Agents</description>
+      <description>原文标题：EU AI Act &amp; Colorado ADMT Compliance: Human Oversight for AI Agents</description>
     </item>
     <item>
-      <title>A Robot is Sprinting Towards You: Do You Want it Running on…</title>
+      <title>一个机器人向你冲刺：你想让它跑在Claude还是Grok身上？</title>
       <link>https://openrouter.ai/blog/insights/royale-last-agent-standing/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/royale-last-agent-standing/</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <description>完整标题：A Robot is Sprinting Towards You: Do You Want it Running on Claude or Grok?</description>
+      <description>原文标题：A Robot is Sprinting Towards You: Do You Want it Running on Claude or Grok?</description>
     </item>
     <item>
-      <title>May Release Spotlight</title>
+      <title>5月发布聚光灯</title>
       <link>https://openrouter.ai/blog/announcements/may-release-spotlight/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/may-release-spotlight/</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：May Release Spotlight</description>
     </item>
     <item>
-      <title>Guardrails: Protect your Agents, Data, and Costs</title>
+      <title>护栏：保护您的代理、数据和成本</title>
       <link>https://openrouter.ai/blog/announcements/guardrails/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/guardrails/</guid>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Guardrails: Protect your Agents, Data, and Costs</description>
     </item>
     <item>
       <title>OpenRouter Raises $113M Series B</title>
@@ -511,174 +571,200 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Human-in-the-Loop Tools for the Agent SDK</title>
+      <title>Agent SDK 的人机交互工具</title>
       <link>https://openrouter.ai/blog/tutorials/human-in-the-loop-tools/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/human-in-the-loop-tools/</guid>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Human-in-the-Loop Tools for the Agent SDK</description>
     </item>
     <item>
-      <title>Consistent Web Search and Fetch Across Every Model</title>
+      <title>跨每个模型一致的 Web 搜索和获取</title>
       <link>https://openrouter.ai/blog/announcements/agentic-web-tools/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/agentic-web-tools/</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Consistent Web Search and Fetch Across Every Model</description>
     </item>
     <item>
-      <title>GPT-5.5 Price Increase: What It Actually Costs</title>
+      <title>GPT-5.5 价格上涨：实际成本是多少</title>
       <link>https://openrouter.ai/blog/insights/gpt55-cost-analysis/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/gpt55-cost-analysis/</guid>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：GPT-5.5 Price Increase: What It Actually Costs</description>
     </item>
     <item>
-      <title>New Audio APIs for Speech and Transcription</title>
+      <title>用于语音和转录的新音频 API</title>
       <link>https://openrouter.ai/blog/announcements/announcing-audio-apis/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/announcing-audio-apis/</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：New Audio APIs for Speech and Transcription</description>
     </item>
     <item>
-      <title>Response Caching: Zero Cost for Identical Requests</title>
+      <title>响应缓存：相同请求的零成本</title>
       <link>https://openrouter.ai/blog/announcements/response-caching/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/response-caching/</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Response Caching: Zero Cost for Identical Requests</description>
     </item>
     <item>
-      <title>April Release Spotlight</title>
+      <title>四月发布焦点</title>
       <link>https://openrouter.ai/blog/announcements/april-release-spotlight/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/april-release-spotlight/</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：April Release Spotlight</description>
     </item>
     <item>
-      <title>Create OpenRouter Accounts via CLI with Stripe Projects</title>
+      <title>通过 CLI 使用 Stripe 项目创建 OpenRouter 帐户</title>
       <link>https://openrouter.ai/blog/announcements/openrouter-on-stripe-projects/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/openrouter-on-stripe-projects/</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Create OpenRouter Accounts via CLI with Stripe Projects</description>
     </item>
     <item>
-      <title>Opus 4.7&apos;s New Tokenizer: What It Actually Costs</title>
+      <title>Opus 4.7 的新 Tokenizer：实际成本是多少</title>
       <link>https://openrouter.ai/blog/insights/opus-47-tokenizer-analysis/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/opus-47-tokenizer-analysis/</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Opus 4.7&apos;s New Tokenizer: What It Actually Costs</description>
     </item>
     <item>
-      <title>Agent SDK: Building Multi-turn Agent Workflows on OpenRouter</title>
+      <title>Agent SDK：在 OpenRouter 上构建多轮代理工作流程</title>
       <link>https://openrouter.ai/blog/tutorials/agent-sdk-with-callmodel/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/agent-sdk-with-callmodel/</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Agent SDK: Building Multi-turn Agent Workflows on OpenRouter</description>
     </item>
     <item>
-      <title>Build Your Own Harness with the Agent SDK</title>
+      <title>使用 Agent SDK 构建您自己的 Harness</title>
       <link>https://openrouter.ai/blog/tutorials/create-agent-harness-with-agent-sdk/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/create-agent-harness-with-agent-sdk/</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Build Your Own Harness with the Agent SDK</description>
     </item>
     <item>
-      <title>Introducing Workspaces</title>
+      <title>工作空间介绍</title>
       <link>https://openrouter.ai/blog/announcements/introducing-workspaces/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/introducing-workspaces/</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing Workspaces</description>
     </item>
     <item>
-      <title>Announcing Video Generation</title>
+      <title>宣布视频生成</title>
       <link>https://openrouter.ai/blog/announcements/video-generation/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/video-generation/</guid>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Announcing Video Generation</description>
     </item>
     <item>
-      <title>Auto Exacto: Adaptive Quality Routing, On by Default</title>
+      <title>Auto Exacto：自适应质量路由，默认开启</title>
       <link>https://openrouter.ai/blog/announcements/auto-exacto/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/auto-exacto/</guid>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Auto Exacto: Adaptive Quality Routing, On by Default</description>
     </item>
     <item>
-      <title>February Release Spotlight</title>
+      <title>二月发布焦点</title>
       <link>https://openrouter.ai/blog/announcements/february-release-spotlight/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/february-release-spotlight/</guid>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：February Release Spotlight</description>
     </item>
     <item>
-      <title>OpenRouter Outages on February 17 and 19, 2026</title>
+      <title>2026 年 2 月 17 日至 19 日 OpenRouter 中断</title>
       <link>https://openrouter.ai/blog/announcements/openrouter-outages-on-february-17-and-19-2026/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/openrouter-outages-on-february-17-and-19-2026/</guid>
       <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenRouter Outages on February 17 and 19, 2026</description>
     </item>
     <item>
-      <title>January Release Spotlight</title>
+      <title>一月发布焦点</title>
       <link>https://openrouter.ai/blog/announcements/january-release-spotlight/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/january-release-spotlight/</guid>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：January Release Spotlight</description>
     </item>
     <item>
-      <title>Distillable Models and Synthetic Data Pipelines with NeMo Da…</title>
+      <title>使用 NeMo Data Designer 的可蒸馏模型和合成数据管道</title>
       <link>https://openrouter.ai/blog/tutorials/distillable-models-and-synthetic-data-pipelines-with-nemo-data-designer/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/distillable-models-and-synthetic-data-pipelines-with-nemo-data-designer/</guid>
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：Distillable Models and Synthetic Data Pipelines with NeMo Data Designer</description>
+      <description>原文标题：Distillable Models and Synthetic Data Pipelines with NeMo Data Designer</description>
     </item>
     <item>
-      <title>December Release Spotlight</title>
+      <title>12 月发布焦点</title>
       <link>https://openrouter.ai/blog/announcements/december-release-spotlight/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/december-release-spotlight/</guid>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：December Release Spotlight</description>
     </item>
     <item>
-      <title>Response Healing: Reduce JSON Defects by 80%+</title>
+      <title>响应修复：将 JSON 缺陷减少 80% 以上</title>
       <link>https://openrouter.ai/blog/announcements/response-healing-reduce-json-defects-by-80percent/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/response-healing-reduce-json-defects-by-80percent/</guid>
       <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Response Healing: Reduce JSON Defects by 80%+</description>
     </item>
     <item>
-      <title>The 2025 State of AI Report</title>
+      <title>2025 年人工智能现状报告</title>
       <link>https://openrouter.ai/blog/insights/the-2025-state-of-ai-report/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/the-2025-state-of-ai-report/</guid>
       <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：The 2025 State of AI Report</description>
     </item>
     <item>
-      <title>Is Implicit Caching Prompt Retention?</title>
+      <title>隐式缓存是否会立即保留？</title>
       <link>https://openrouter.ai/blog/insights/is-implicit-caching-prompt-retention/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/insights/is-implicit-caching-prompt-retention/</guid>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Is Implicit Caching Prompt Retention?</description>
     </item>
     <item>
-      <title>Provider Variance: Introducing Exacto</title>
+      <title>提供商差异：Exacto 简介</title>
       <link>https://openrouter.ai/blog/announcements/provider-variance-introducing-exacto/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/provider-variance-introducing-exacto/</guid>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Provider Variance: Introducing Exacto</description>
     </item>
     <item>
-      <title>October 2025 BYOK platform fee update</title>
+      <title>2025 年 10 月 BYOK 平台费用更新</title>
       <link>https://openrouter.ai/blog/announcements/1-million-free-byok-requests-per-month/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/1-million-free-byok-requests-per-month/</guid>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：October 2025 BYOK platform fee update</description>
     </item>
     <item>
-      <title>The First-Ever Image Model Is Up on OpenRouter</title>
+      <title>OpenRouter 上推出首个图像模型</title>
       <link>https://openrouter.ai/blog/announcements/the-first-ever-image-model-is-up-on-openrouter/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/the-first-ever-image-model-is-up-on-openrouter/</guid>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：The First-Ever Image Model Is Up on OpenRouter</description>
     </item>
     <item>
-      <title>GPT-5 is now live</title>
+      <title>GPT-5 现已上线</title>
       <link>https://openrouter.ai/blog/announcements/gpt-5-is-now-live/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/gpt-5-is-now-live/</guid>
       <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：GPT-5 is now live</description>
     </item>
     <item>
-      <title>Audio Inputs and PDF URLs for Apps</title>
+      <title>应用程序的音频输入和 PDF URL</title>
       <link>https://openrouter.ai/blog/announcements/audio-inputs-and-pdf-urls-for-apps/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/audio-inputs-and-pdf-urls-for-apps/</guid>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Audio Inputs and PDF URLs for Apps</description>
     </item>
     <item>
-      <title>Presets: How To Seamlessly Transfer Model Configurations Acr…</title>
+      <title>预设：如何跨应用程序无缝传输模型配置</title>
       <link>https://openrouter.ai/blog/tutorials/presets-how-to-seamlessly-transfer-model-configurations-across-apps/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/tutorials/presets-how-to-seamlessly-transfer-model-configurations-across-apps/</guid>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：Presets: How To Seamlessly Transfer Model Configurations Across Apps</description>
+      <description>原文标题：Presets: How To Seamlessly Transfer Model Configurations Across Apps</description>
     </item>
     <item>
-      <title>New Privacy-Focused Provider Drop: Venice</title>
+      <title>新的注重隐私的提供商下降：威尼斯</title>
       <link>https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/new-privacy-focused-provider-drop-venice/</guid>
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：New Privacy-Focused Provider Drop: Venice</description>
     </item>
     <item>
       <title>Use OpenRouter Models in Cursor: Try it with Moonshot AI&apos;s K…</title>
@@ -688,177 +774,200 @@
       <description>完整标题：Use OpenRouter Models in Cursor: Try it with Moonshot AI&apos;s Kimi K2</description>
     </item>
     <item>
-      <title>Updates to Our Free Tier: Sustaining Accessible AI for Every…</title>
+      <title>我们的免费套餐更新：为每个人维持可访问的人工智能</title>
       <link>https://openrouter.ai/blog/announcements/updates-to-our-free-tier-sustaining-accessible-ai-for-everyone/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/updates-to-our-free-tier-sustaining-accessible-ai-for-everyone/</guid>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：Updates to Our Free Tier: Sustaining Accessible AI for Everyone</description>
+      <description>原文标题：Updates to Our Free Tier: Sustaining Accessible AI for Everyone</description>
     </item>
     <item>
-      <title>New Stealth Model: &quot;Cypher Alpha&quot;</title>
+      <title>新隐形模型：“Cypher Alpha”</title>
       <link>https://openrouter.ai/blog/announcements/new-stealth-model-cypher-alpha/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/new-stealth-model-cypher-alpha/</guid>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：New Stealth Model: &quot;Cypher Alpha&quot;</description>
     </item>
     <item>
-      <title>Introducing Presets: Manage LLM Configs from Your Dashboard!</title>
+      <title>引入预设：从您的仪表板管理 LLM 配置！</title>
       <link>https://openrouter.ai/blog/announcements/introducing-presets-manage-llm-configs-from-your-dashboard/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/introducing-presets-manage-llm-configs-from-your-dashboard/</guid>
       <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing Presets: Manage LLM Configs from Your Dashboard!</description>
     </item>
     <item>
-      <title>Dev &amp; BYOK Updates: Uptime API + Smarter Key Management</title>
+      <title>开发和 BYOK 更新：Uptime API + 更智能的密钥管理</title>
       <link>https://openrouter.ai/blog/announcements/dev-and-byok-updates-uptime-api-smarter-key-management/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/dev-and-byok-updates-uptime-api-smarter-key-management/</guid>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Dev &amp; BYOK Updates: Uptime API + Smarter Key Management</description>
     </item>
     <item>
-      <title>Simplifying Our Platform Fee</title>
+      <title>简化我们的平台费用</title>
       <link>https://openrouter.ai/blog/announcements/simplifying-our-platform-fee/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/simplifying-our-platform-fee/</guid>
       <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Simplifying Our Platform Fee</description>
     </item>
     <item>
-      <title>GIF Prompts, Omni Search, Tool Caching, and BYOK Flags</title>
+      <title>GIF 提示、全方位搜索、工具缓存和 BYOK 标志</title>
       <link>https://openrouter.ai/blog/announcements/gif-prompts-omni-search-tool-caching-and-byok-flags/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/gif-prompts-omni-search-tool-caching-and-byok-flags/</guid>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：GIF Prompts, Omni Search, Tool Caching, and BYOK Flags</description>
     </item>
     <item>
-      <title>New Features: Reasoning Streams, Crypto Invoices, End-User I…</title>
+      <title>新功能：推理流、加密发票、最终用户 ID 等</title>
       <link>https://openrouter.ai/blog/announcements/new-features-reasoning-streams-crypto-invoices-end-user-ids-and-more/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/new-features-reasoning-streams-crypto-invoices-end-user-ids-and-more/</guid>
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：New Features: Reasoning Streams, Crypto Invoices, End-User IDs &amp; More</description>
+      <description>原文标题：New Features: Reasoning Streams, Crypto Invoices, End-User IDs &amp; More</description>
     </item>
     <item>
-      <title>Passkeys, DevEx Upgrades, and a New Guide for TypeScript Age…</title>
+      <title>密钥、DevEx 升级和 TypeScript 代理的新指南</title>
       <link>https://openrouter.ai/blog/announcements/passkeys-devex-upgrades-and-a-new-guide-for-typescript-agents/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/passkeys-devex-upgrades-and-a-new-guide-for-typescript-agents/</guid>
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：Passkeys, DevEx Upgrades, and a New Guide for TypeScript Agents</description>
+      <description>原文标题：Passkeys, DevEx Upgrades, and a New Guide for TypeScript Agents</description>
     </item>
     <item>
-      <title>New Provider Drop: Cerebras Is Here</title>
+      <title>新的提供商掉落：Cerebras 就在这里</title>
       <link>https://openrouter.ai/blog/announcements/new-provider-drop-cerebras-is-here/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/new-provider-drop-cerebras-is-here/</guid>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：New Provider Drop: Cerebras Is Here</description>
     </item>
     <item>
-      <title>Better Insights, Faster Metrics, and New Developer Power Too…</title>
+      <title>更好的洞察、更快的指标和新的开发人员强大工具</title>
       <link>https://openrouter.ai/blog/announcements/better-insights-faster-metrics-and-new-developer-power-tools/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/better-insights-faster-metrics-and-new-developer-power-tools/</guid>
       <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：Better Insights, Faster Metrics, and New Developer Power Tools</description>
+      <description>原文标题：Better Insights, Faster Metrics, and New Developer Power Tools</description>
     </item>
     <item>
-      <title>Privacy Clarity, New Providers, OAuth Upgrade, and Gemini Ge…</title>
+      <title>隐私清晰度、新提供商、OAuth 升级以及 Gemini 获得并行工具</title>
       <link>https://openrouter.ai/blog/announcements/privacy-clarity-new-providers-oauth-upgrade-and-gemini-gets-parallel-tools/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/privacy-clarity-new-providers-oauth-upgrade-and-gemini-gets-parallel-tools/</guid>
       <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：Privacy Clarity, New Providers, OAuth Upgrade, and Gemini Gets Parallel Tools</description>
+      <description>原文标题：Privacy Clarity, New Providers, OAuth Upgrade, and Gemini Gets Parallel Tools</description>
     </item>
     <item>
-      <title>Universal PDF Support</title>
+      <title>通用 PDF 支持</title>
       <link>https://openrouter.ai/blog/announcements/universal-pdf-support/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/universal-pdf-support/</guid>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Universal PDF Support</description>
     </item>
     <item>
-      <title>Smarter Charts, Inline SVGs, and Live Usage Accounting</title>
+      <title>更智能的图表、内联 SVG 和实时使用情况统计</title>
       <link>https://openrouter.ai/blog/announcements/smarter-charts-inline-svgs-and-live-usage-accounting/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/smarter-charts-inline-svgs-and-live-usage-accounting/</guid>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Smarter Charts, Inline SVGs, and Live Usage Accounting</description>
     </item>
     <item>
-      <title>Quasar Alpha and Optimus Alpha Reveal</title>
+      <title>类星体阿尔法和擎天柱阿尔法揭晓</title>
       <link>https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/quasar-alpha-and-optimus-alpha-reveal/</guid>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Quasar Alpha and Optimus Alpha Reveal</description>
     </item>
     <item>
-      <title>&quot;Stealth&quot; model: Optimus Alpha</title>
+      <title>“隐形”型号：Optimus Alpha</title>
       <link>https://openrouter.ai/blog/announcements/stealth-model-optimus-alpha/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/stealth-model-optimus-alpha/</guid>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：&quot;Stealth&quot; model: Optimus Alpha</description>
     </item>
     <item>
-      <title>“Stealth” model: Quasar Alpha</title>
+      <title>“隐形”模型：Quasar Alpha</title>
       <link>https://openrouter.ai/blog/announcements/stealth-model-quasar-alpha/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/stealth-model-quasar-alpha/</guid>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：“Stealth” model: Quasar Alpha</description>
     </item>
     <item>
-      <title>Never Pay for Empty AI Responses Again</title>
+      <title>再也不用为空洞的人工智能响应付费</title>
       <link>https://openrouter.ai/blog/announcements/never-pay-for-empty-ai-responses-again/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/never-pay-for-empty-ai-responses-again/</guid>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Never Pay for Empty AI Responses Again</description>
     </item>
     <item>
-      <title>Deep Research &amp; Many New Models</title>
+      <title>深入研究和许多新模型</title>
       <link>https://openrouter.ai/blog/announcements/deep-research-and-many-new-models/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/deep-research-and-many-new-models/</guid>
       <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Deep Research &amp; Many New Models</description>
     </item>
     <item>
-      <title>Introducing Nitro and Floor Price Shortcuts</title>
+      <title>引入 Nitro 和底价快捷方式</title>
       <link>https://openrouter.ai/blog/announcements/introducing-nitro-and-floor-price-shortcuts/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/introducing-nitro-and-floor-price-shortcuts/</guid>
       <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing Nitro and Floor Price Shortcuts</description>
     </item>
     <item>
-      <title>Introducing Cloudflare as a new provider</title>
+      <title>隆重推出 Cloudflare 作为新提供商</title>
       <link>https://openrouter.ai/blog/announcements/introducing-cloudflare-as-a-new-provider/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/introducing-cloudflare-as-a-new-provider/</guid>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing Cloudflare as a new provider</description>
     </item>
     <item>
-      <title>Reasoning Tokens for Thinking Models</title>
+      <title>思维模型的推理标记</title>
       <link>https://openrouter.ai/blog/announcements/reasoning-tokens-for-thinking-models/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/reasoning-tokens-for-thinking-models/</guid>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Reasoning Tokens for Thinking Models</description>
     </item>
     <item>
-      <title>Introducing Web Search via the API</title>
+      <title>通过 API 引入 Web 搜索</title>
       <link>https://openrouter.ai/blog/announcements/introducing-web-search-via-the-api/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/introducing-web-search-via-the-api/</guid>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Introducing Web Search via the API</description>
     </item>
     <item>
-      <title>Standardized finish reasons</title>
+      <title>标准化完成原因</title>
       <link>https://openrouter.ai/blog/announcements/standardized-finish-reasons/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/standardized-finish-reasons/</guid>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Standardized finish reasons</description>
     </item>
     <item>
-      <title>Happy New Year! Introducing a new Auto Router</title>
+      <title>新年快乐！推出新的自动路由器</title>
       <link>https://openrouter.ai/blog/announcements/happy-new-year-introducing-a-new-auto-router/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/happy-new-year-introducing-a-new-auto-router/</guid>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Happy New Year! Introducing a new Auto Router</description>
     </item>
     <item>
-      <title>Holiday launches: Web Search &amp; Price Cuts</title>
+      <title>假期推出：网络搜索和降价</title>
       <link>https://openrouter.ai/blog/announcements/holiday-launches-web-search-and-price-cuts/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/holiday-launches-web-search-and-price-cuts/</guid>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：Holiday launches: Web Search &amp; Price Cuts</description>
     </item>
     <item>
-      <title>Bring Your Own API Keys</title>
+      <title>自带 API 密钥</title>
       <link>https://openrouter.ai/blog/announcements/bring-your-own-api-keys/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/bring-your-own-api-keys/</guid>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：Bring Your Own API Keys</description>
     </item>
     <item>
-      <title>Crypto Payments API</title>
+      <title>加密支付 API</title>
       <link>https://openrouter.ai/blog/announcements/crypto-payments-api/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/crypto-payments-api/</guid>
       <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：Crypto Payments API</description>
     </item>
     <item>
-      <title>Structured Outputs &amp; Free Gemini Flash 2.0</title>
+      <title>结构化输出和免费 Gemini Flash 2.0</title>
       <link>https://openrouter.ai/blog/announcements/structured-outputs-and-free-gemini-flash-20/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/structured-outputs-and-free-gemini-flash-20/</guid>
       <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：Structured Outputs &amp; Free Gemini Flash 2.0</description>
     </item>
     <item>
       <title>Price Drops and Llama 3.3 70b</title>
@@ -867,10 +976,11 @@
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Author Pages &amp; Amazon Nova</title>
+      <title>作者页面和 Amazon Nova</title>
       <link>https://openrouter.ai/blog/announcements/author-pages-and-amazon-nova/</link>
       <guid isPermaLink="true">https://openrouter.ai/blog/announcements/author-pages-and-amazon-nova/</guid>
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：Author Pages &amp; Amazon Nova</description>
     </item>
   </channel>
 </rss>

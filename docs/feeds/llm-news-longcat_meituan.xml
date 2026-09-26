@@ -6,7 +6,6 @@
     <description>美团 LongCat 官方博客 / 更新日志归档（标题汉化，共 15 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>LongCat-2.5-Preview 上线</title>
@@ -33,10 +32,11 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LongCat-2.0 发布 &amp;amp; 全新推出计费服务</title>
+      <title>LongCat-2.0 发布 &amp; 全新推出计费服务</title>
       <link>https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30</link>
       <guid isPermaLink="true">https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：LongCat-2.0 发布 &amp;amp; 全新推出计费服务</description>
     </item>
     <item>
       <title>LongCat 部分模型服务下线</title>

@@ -6,7 +6,6 @@
     <description>Mistral AI 官方博客 / 更新日志归档（标题汉化，共 87 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-mistral.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Mistral 和 Mozilla 正在为您的网络浏览器带来开放、私密和多语言的人工智能</title>
@@ -358,7 +357,7 @@
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>米斯特拉尔小型 3.1</title>
+      <title>Mistral Small 3.1</title>
       <link>https://mistral.ai/news/mistral-small-3-1/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-small-3-1/</guid>
       <pubDate>Mon, 17 Mar 2025 00:00:00 +0000</pubDate>
@@ -388,7 +387,7 @@
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>米斯特拉尔小3</title>
+      <title>Mistral Small 3</title>
       <link>https://mistral.ai/news/mistral-small-3/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-small-3/</guid>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
@@ -400,7 +399,7 @@
       <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>共纹25.01</title>
+      <title>Codestral 25.01</title>
       <link>https://mistral.ai/news/codestral-2501/</link>
       <guid isPermaLink="true">https://mistral.ai/news/codestral-2501/</guid>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>

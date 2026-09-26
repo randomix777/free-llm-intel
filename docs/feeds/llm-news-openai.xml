@@ -6,7 +6,6 @@
     <description>OpenAI 官方博客 / 更新日志归档（标题汉化，共 1213 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>GPT-6 的提示缓存全面升级</title>
@@ -4738,10 +4737,11 @@
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Minne Atairu 与 Sora</title>
+      <title>明妮·阿泰鲁和索拉</title>
       <link>https://openai.com/index/sora-minne-atairu</link>
       <guid isPermaLink="true">https://openai.com/index/sora-minne-atairu</guid>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：Minne Atairu 与 Sora</description>
     </item>
     <item>
       <title>介绍 ChatGPT Pro</title>
@@ -5614,10 +5614,11 @@
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI 和 Elon Musk</title>
+      <title>OpenAI 瓦埃隆·马斯克</title>
       <link>https://openai.com/index/openai-elon-musk</link>
       <guid isPermaLink="true">https://openai.com/index/openai-elon-musk</guid>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <description>原文标题：OpenAI 和 Elon Musk</description>
     </item>
     <item>
       <title>作为世界模拟器的视频生成模型</title>
@@ -7122,7 +7123,7 @@
       <pubDate>Wed, 16 Aug 2017 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>刀塔2</title>
+      <title>Dota 2</title>
       <link>https://openai.com/index/dota-2</link>
       <guid isPermaLink="true">https://openai.com/index/dota-2</guid>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>

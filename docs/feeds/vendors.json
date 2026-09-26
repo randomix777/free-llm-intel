@@ -3,7 +3,7 @@
     {
       "id": "anthropic",
       "brand": "Anthropic Claude",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml",
+      "feed": "llm-news-anthropic.xml",
       "articles": 80,
       "latest": "2026-09-25",
       "rank": 0
@@ -11,7 +11,7 @@
     {
       "id": "openai",
       "brand": "OpenAI",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml",
+      "feed": "llm-news-openai.xml",
       "articles": 1213,
       "latest": "2026-09-22",
       "rank": 1
@@ -19,7 +19,7 @@
     {
       "id": "google_gemini",
       "brand": "Google Gemini",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml",
+      "feed": "llm-news-google_gemini.xml",
       "articles": 43,
       "latest": "2026-09-22",
       "rank": 2
@@ -27,7 +27,7 @@
     {
       "id": "deepseek",
       "brand": "DeepSeek",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-deepseek.xml",
+      "feed": "llm-news-deepseek.xml",
       "articles": 47,
       "latest": "2026-09-10",
       "rank": 3
@@ -35,7 +35,7 @@
     {
       "id": "aliyun_qwen",
       "brand": "通义千问 Qwen",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-aliyun_qwen.xml",
+      "feed": "llm-news-aliyun_qwen.xml",
       "articles": 109,
       "latest": "2026-09-24",
       "rank": 4
@@ -43,7 +43,7 @@
     {
       "id": "zhipu_glm",
       "brand": "智谱 AI GLM",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-zhipu_glm.xml",
+      "feed": "llm-news-zhipu_glm.xml",
       "articles": 26,
       "latest": "2026-08-26",
       "rank": 5
@@ -51,7 +51,7 @@
     {
       "id": "moonshot_kimi",
       "brand": "月之暗面 Kimi",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-moonshot_kimi.xml",
+      "feed": "llm-news-moonshot_kimi.xml",
       "articles": 26,
       "latest": "2026-09-01",
       "rank": 6
@@ -59,7 +59,7 @@
     {
       "id": "xai_grok",
       "brand": "xAI Grok",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml",
+      "feed": "llm-news-xai_grok.xml",
       "articles": 164,
       "latest": "2026-09-22",
       "rank": 7
@@ -67,7 +67,7 @@
     {
       "id": "minimax",
       "brand": "MiniMax",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml",
+      "feed": "llm-news-minimax.xml",
       "articles": 36,
       "latest": "2026-07-31",
       "rank": 8
@@ -75,7 +75,7 @@
     {
       "id": "mistral",
       "brand": "Mistral AI",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-mistral.xml",
+      "feed": "llm-news-mistral.xml",
       "articles": 87,
       "latest": "2026-09-16",
       "rank": 9
@@ -83,7 +83,7 @@
     {
       "id": "groq",
       "brand": "Groq Cloud",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-groq.xml",
+      "feed": "llm-news-groq.xml",
       "articles": 49,
       "latest": "2026-05-06",
       "rank": 10
@@ -91,7 +91,7 @@
     {
       "id": "xiaomi_mimo",
       "brand": "小米 MiMo",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-xiaomi_mimo.xml",
+      "feed": "llm-news-xiaomi_mimo.xml",
       "articles": 38,
       "latest": "2026-09-22",
       "rank": 11
@@ -99,7 +99,7 @@
     {
       "id": "tencent_hunyuan",
       "brand": "腾讯混元",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-tencent_hunyuan.xml",
+      "feed": "llm-news-tencent_hunyuan.xml",
       "articles": 95,
       "latest": "2026-06-22",
       "rank": 12
@@ -107,7 +107,7 @@
     {
       "id": "huggingface",
       "brand": "Hugging Face",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml",
+      "feed": "llm-news-huggingface.xml",
       "articles": 863,
       "latest": "2026-09-15",
       "rank": 13
@@ -115,7 +115,7 @@
     {
       "id": "openrouter",
       "brand": "OpenRouter",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml",
+      "feed": "llm-news-openrouter.xml",
       "articles": 140,
       "latest": "2026-09-25",
       "rank": 14
@@ -123,7 +123,7 @@
     {
       "id": "cloudflare_workers_ai",
       "brand": "Cloudflare Workers AI",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-cloudflare_workers_ai.xml",
+      "feed": "llm-news-cloudflare_workers_ai.xml",
       "articles": 35,
       "latest": "2026-06-16",
       "rank": 15
@@ -131,7 +131,7 @@
     {
       "id": "cohere",
       "brand": "Cohere",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-cohere.xml",
+      "feed": "llm-news-cohere.xml",
       "articles": 31,
       "latest": "2026-09-16",
       "rank": 16
@@ -139,7 +139,7 @@
     {
       "id": "siliconflow",
       "brand": "SiliconFlow 硅基流动",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-siliconflow.xml",
+      "feed": "llm-news-siliconflow.xml",
       "articles": 47,
       "latest": "2026-09-15",
       "rank": 17
@@ -147,7 +147,7 @@
     {
       "id": "sensetime_sensenova",
       "brand": "商汤 SenseNova 日日新",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-sensetime_sensenova.xml",
+      "feed": "llm-news-sensetime_sensenova.xml",
       "articles": 18,
       "latest": "2025-07-23",
       "rank": 18
@@ -155,7 +155,7 @@
     {
       "id": "meta_llama",
       "brand": "Meta Llama",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-meta_llama.xml",
+      "feed": "llm-news-meta_llama.xml",
       "articles": 16,
       "latest": "2026-09-23",
       "rank": 19
@@ -163,7 +163,7 @@
     {
       "id": "longcat_meituan",
       "brand": "美团 LongCat",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml",
+      "feed": "llm-news-longcat_meituan.xml",
       "articles": 15,
       "latest": "2026-09-25",
       "rank": 20
@@ -171,7 +171,7 @@
     {
       "id": "streamlake",
       "brand": "StreamLake",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-streamlake.xml",
+      "feed": "llm-news-streamlake.xml",
       "articles": 23,
       "latest": "2026-08-14",
       "rank": 21
@@ -179,7 +179,7 @@
     {
       "id": "dataeye",
       "brand": "数眼智能",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml",
+      "feed": "llm-news-dataeye.xml",
       "articles": 20,
       "latest": "2026-09-21",
       "rank": 22
@@ -187,7 +187,7 @@
     {
       "id": "aws_bedrock",
       "brand": "Amazon Bedrock",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-aws_bedrock.xml",
+      "feed": "llm-news-aws_bedrock.xml",
       "articles": 20,
       "latest": "2026-09-25",
       "rank": 23
@@ -195,7 +195,7 @@
     {
       "id": "cerebras",
       "brand": "Cerebras",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-cerebras.xml",
+      "feed": "llm-news-cerebras.xml",
       "articles": 49,
       "latest": "",
       "rank": 24
@@ -203,7 +203,7 @@
     {
       "id": "together_ai",
       "brand": "Together AI",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-together_ai.xml",
+      "feed": "llm-news-together_ai.xml",
       "articles": 81,
       "latest": "2026-09-23",
       "rank": 25
@@ -211,7 +211,7 @@
     {
       "id": "fireworks_ai",
       "brand": "Fireworks AI",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-fireworks_ai.xml",
+      "feed": "llm-news-fireworks_ai.xml",
       "articles": 21,
       "latest": "",
       "rank": 26
@@ -219,7 +219,7 @@
     {
       "id": "deepinfra",
       "brand": "DeepInfra",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-deepinfra.xml",
+      "feed": "llm-news-deepinfra.xml",
       "articles": 7,
       "latest": "2026-09-25",
       "rank": 27
@@ -227,7 +227,7 @@
     {
       "id": "modular_cloud",
       "brand": "Modular (原 BentoCloud/BentoML)",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-modular_cloud.xml",
+      "feed": "llm-news-modular_cloud.xml",
       "articles": 100,
       "latest": "2026-09-17",
       "rank": 28
@@ -235,7 +235,7 @@
     {
       "id": "ai21_labs",
       "brand": "AI21 Labs",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-ai21_labs.xml",
+      "feed": "llm-news-ai21_labs.xml",
       "articles": 13,
       "latest": "2026-08-19",
       "rank": 29
@@ -243,7 +243,7 @@
     {
       "id": "jina_ai",
       "brand": "Jina AI",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-jina_ai.xml",
+      "feed": "llm-news-jina_ai.xml",
       "articles": 6,
       "latest": "2026-05-12",
       "rank": 30
@@ -251,7 +251,7 @@
     {
       "id": "poolside",
       "brand": "Poolside",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml",
+      "feed": "llm-news-poolside.xml",
       "articles": 38,
       "latest": "2026-07-28",
       "rank": 31
@@ -259,15 +259,15 @@
     {
       "id": "anyscale",
       "brand": "Anyscale",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml",
-      "articles": 19,
+      "feed": "llm-news-anyscale.xml",
+      "articles": 33,
       "latest": "2026-09-08",
       "rank": 32
     },
     {
       "id": "inception_labs",
       "brand": "InceptionLabs",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-inception_labs.xml",
+      "feed": "llm-news-inception_labs.xml",
       "articles": 12,
       "latest": "2026-09-24",
       "rank": 33
@@ -275,7 +275,7 @@
     {
       "id": "inference_net",
       "brand": "Inference.net",
-      "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-inference_net.xml",
+      "feed": "llm-news-inference_net.xml",
       "articles": 9,
       "latest": "2026-08-05",
       "rank": 34

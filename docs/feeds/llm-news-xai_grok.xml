@@ -6,7 +6,6 @@
     <description>xAI Grok 官方博客 / 更新日志归档（标题汉化，共 164 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>SpaceXAI 如何使用 Grok Bot 扩大客户支持</title>
@@ -321,10 +320,11 @@
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok for Outlook</title>
+      <title>适用于 Outlook 的 Grok</title>
       <link>https://x.ai/news#d-2026-07-22-24</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-22-24</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok for Outlook</description>
     </item>
     <item>
       <title>将 Grok 4.5 带到 iOS、Android、Web 和 X</title>
@@ -333,10 +333,11 @@
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok for Excel</title>
+      <title>Excel 版 Grok</title>
       <link>https://x.ai/news#d-2026-07-21-25</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-21-25</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok for Excel</description>
     </item>
     <item>
       <title>适用于 Outlook 的 Grok</title>
@@ -541,10 +542,11 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Composer 2.5</title>
+      <title>作曲家2.5</title>
       <link>https://x.ai/news#d-2026-06-03-41</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-03-41</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Composer 2.5</description>
     </item>
     <item>
       <title>Grok Imagine 1.5 预览版</title>
@@ -722,10 +724,11 @@
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>xAI joins SpaceX</title>
+      <title>xAI 加入 SpaceX</title>
       <link>https://x.ai/news#d-2026-04-17-55</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-04-17-55</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：xAI joins SpaceX</description>
     </item>
     <item>
       <title>Grok 语音转文本与文本转语音 API</title>
@@ -811,11 +814,11 @@
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>xAI and El Salvador Pioneer the World&apos;s First Nationwide AI…</title>
+      <title>xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划</title>
       <link>https://x.ai/news#d-2025-12-17-62</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-12-17-62</guid>
       <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <description>完整标题：xAI and El Salvador Pioneer the World&apos;s First Nationwide AI Education Program</description>
+      <description>原文标题：xAI and El Salvador Pioneer the World&apos;s First Nationwide AI Education Program</description>
     </item>
     <item>
       <title>Grok 语音代理 API</title>
@@ -850,10 +853,11 @@
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok 4.1 Fast 与 Agent Tools API</title>
+      <title>Grok 4.1 快速与代理工具 API</title>
       <link>https://x.ai/news/grok-4-1-fast</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok 4.1 Fast 与 Agent Tools API</description>
     </item>
     <item>
       <title>Grok 携手 KSA 走向全球</title>

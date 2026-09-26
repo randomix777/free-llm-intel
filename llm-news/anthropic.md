@@ -1,6 +1,6 @@
 # Anthropic Claude 文章归档
 
-> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-26**（标题自动汉化、附发布日期与原文链接）。
+> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-27**（标题自动汉化、附发布日期与原文链接）。
 > 厂商：Anthropic Claude（`anthropic`） ｜ [返回订阅源总览](../llm-news-feeds.md)
 
 ## 订阅入口
@@ -36,7 +36,7 @@
 24. [借助 Claude Platform 降低成本、提升性能](https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform)（2026-09-08）
 25. [高效商务代理的结构解析指南](https://claude.com/blog/the-anatomy-of-effective-commerce-agents)（2026-09-02）
 26. [用 Claude 构建商务代理](https://claude.com/blog/claude-for-commerce-agents)（2026-09-02）
-27. [介绍克劳德寓言 5.1 和克劳德神话 5.1](https://www.anthropic.com/news#d-2026-09-01-2)（2026-09-01）
+27. [介绍Claude寓言 5.1 和Claude神话 5.1](https://www.anthropic.com/news#d-2026-09-01-2)（2026-09-01）
 28. [与客户共同打造企业级前沿保障](https://www.anthropic.com/news/enterprise-frontier-safeguards)（2026-09-01）
 29. [改进我们的对齐与安全工作](https://www.anthropic.com/news/improving-alignment-security-efforts)（2026-08-31）
 30. [Anthropic 团队如何使用 Claude Tag](https://claude.com/blog/how-anthropic-employees-use-claude-tag)（2026-08-28）

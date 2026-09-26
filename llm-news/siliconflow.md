@@ -1,6 +1,6 @@
 # SiliconFlow 硅基流动 文章归档
 
-> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-26**（标题自动汉化、附发布日期与原文链接）。
+> 由 `crawler_llm_intel.py` 自动整理，抓取于 **2026-09-27**（标题自动汉化、附发布日期与原文链接）。
 > 厂商：SiliconFlow 硅基流动（`siliconflow`） ｜ [返回订阅源总览](../llm-news-feeds.md)
 
 ## 订阅入口
@@ -17,7 +17,7 @@
 6. [【模型价格调整】DeepSeek-V4-Pro 缓存命中输入 tokens 价格调整](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E4%BB%B7%E6%A0%BC%E8%B0%83%E6%95%B4deepseek-v4-pro-%E7%BC%93%E5%AD%98%E5%91%BD%E4%B8%AD%E8%BE%93%E5%85%A5-tokens-%E4%BB%B7%E6%A0%BC%E8%B0%83%E6%95%B4)（2026-08-14）
 7. [【模型价格调整】Nex-N2-Pro、DeepSeek-V4-Pro、DeepSeek-V3.2、Qwen3.6 模型价格调整](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E4%BB%B7%E6%A0%BC%E8%B0%83%E6%95%B4nex-n2-prodeepseek-v4-prodeepseek-v32qwen36-%E6%A8%A1%E5%9E%8B%E4%BB%B7%E6%A0%BC%E8%B0%83%E6%95%B4)（2026-08-03）
 8. [【模型服务调整】GLM-4.7、Kimi-K2.5 等模型将下线](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E6%9C%8D%E5%8A%A1%E8%B0%83%E6%95%B4glm-47kimi-k25-%E7%AD%89%E6%A8%A1%E5%9E%8B%E5%B0%86%E4%B8%8B%E7%BA%BF)（2026-06-26）
-9. [On this page](https://docs.siliconflow.cn/docs/release-notes/overview#d-2026-06-25-46)（2026-06-25）
+9. [在此页面上](https://docs.siliconflow.cn/docs/release-notes/overview#d-2026-06-25-46)（2026-06-25）
 10. [【模型服务调整】Kimi-K2、GLM-4.6 等多款模型停止服务](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E6%9C%8D%E5%8A%A1%E8%B0%83%E6%95%B4kimi-k2glm-46-%E7%AD%89%E5%A4%9A%E6%AC%BE%E6%A8%A1%E5%9E%8B%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1)（2026-06-11）
 11. [【账户安全】未完成实名认证账户将限制使用平台功能](https://docs.siliconflow.cn/docs/release-notes/overview#%E8%B4%A6%E6%88%B7%E5%AE%89%E5%85%A8%E6%9C%AA%E5%AE%8C%E6%88%90%E5%AE%9E%E5%90%8D%E8%AE%A4%E8%AF%81%E8%B4%A6%E6%88%B7%E5%B0%86%E9%99%90%E5%88%B6%E4%BD%BF%E7%94%A8%E5%B9%B3%E5%8F%B0%E5%8A%9F%E8%83%BD)（2026-05-15）
 12. [【模型服务调整】KAT-Dev、PaddleOCR-VL 等多款模型停止服务](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E6%9C%8D%E5%8A%A1%E8%B0%83%E6%95%B4kat-devpaddleocr-vl-%E7%AD%89%E5%A4%9A%E6%AC%BE%E6%A8%A1%E5%9E%8B%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1)（2026-05-15）
@@ -55,4 +55,4 @@
 44. [【模型服务调整】Qwen2.5-Math、Hunyuan-A52B 等模型停止服务](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E6%9C%8D%E5%8A%A1%E8%B0%83%E6%95%B4qwen25-mathhunyuan-a52b-%E7%AD%89%E6%A8%A1%E5%9E%8B%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1)（2024-12-19）
 45. [【模型服务调整】多款模型停止服务及相关服务更新](https://docs.siliconflow.cn/docs/release-notes/overview#%E6%A8%A1%E5%9E%8B%E6%9C%8D%E5%8A%A1%E8%B0%83%E6%95%B4%E5%A4%9A%E6%AC%BE%E6%A8%A1%E5%9E%8B%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1%E5%8F%8A%E7%9B%B8%E5%85%B3%E6%9C%8D%E5%8A%A1%E6%9B%B4%E6%96%B0)（2024-12-13）
 46. [【价格调整】Vendor-A/Qwen2-72B 模型开始计费](https://docs.siliconflow.cn/docs/release-notes/overview#%E4%BB%B7%E6%A0%BC%E8%B0%83%E6%95%B4vendor-aqwen2-72b-%E6%A8%A1%E5%9E%8B%E5%BC%80%E5%A7%8B%E8%AE%A1%E8%B4%B9)（2024-11-22）
-47. [On this page](https://docs.siliconflow.cn/docs/release-notes/overview#d-2024-10-17-45)（2024-10-17）
+47. [在此页面上](https://docs.siliconflow.cn/docs/release-notes/overview#d-2024-10-17-45)（2024-10-17）

@@ -6,7 +6,6 @@
     <description>Anthropic Claude 官方博客 / 更新日志归档（标题汉化，共 80 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
-    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Claude Tag 现在支持通道中的个人连接器</title>
@@ -172,7 +171,7 @@
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>介绍克劳德寓言 5.1 和克劳德神话 5.1</title>
+      <title>介绍Claude寓言 5.1 和Claude神话 5.1</title>
       <link>https://www.anthropic.com/news#d-2026-09-01-2</link>
       <guid isPermaLink="true">https://www.anthropic.com/news#d-2026-09-01-2</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
