@@ -6,6 +6,7 @@
     <description>Hugging Face 官方博客 / 更新日志归档（标题汉化，共 863 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
+    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>您的代理人完成了任务。它会再次这样做吗？</title>

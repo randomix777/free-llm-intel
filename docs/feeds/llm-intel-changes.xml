@@ -6,6 +6,7 @@
     <description>free-llm-intel 巡检采纳的免费额度变化（前值 → 后值）与模型发布雷达事件——订阅这一个，哪家的白嫖政策刚变了即刻可见。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
+    <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-intel-changes.xml" rel="self" type="application/rss+xml"/>
     <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <item>
       <title>新模型 · 美团 LongCat：LongCat-2.5-Preview</title>
