@@ -220,8 +220,15 @@ def _norm(s: str) -> str:
 
 def build_user_prompt(
         vendor_id: str, brand: str, profile: dict, guide_meta: dict,
-        pages: list[dict], char_budget: int = TOTAL_CHAR_BUDGET) -> str:
-    """pages: [{"url","stype","title","text"}]，按 char_budget 截断。"""
+        pages: list[dict], char_budget: int = TOTAL_CHAR_BUDGET,
+        focus: list[dict] | None = None) -> str:
+    """pages: [{"url","stype","title","text"}]，按 char_budget 截断。
+
+    focus（diff 导向核查）：[{"url","stype","removed":[...],"added":[...]}]。
+    提供时先给「本次页面变化行」区块，让模型把注意力放在真正变化的事实上，
+    并把每页原文预算减半（token 省一半以上；证据引文仍须在 prompt 内逐字命中，
+    闸门语义不变）。
+    """
     profile_view = {k: profile.get(k) for k in FIELD_TYPES if k in profile}
     parts = [
         f"厂商：{brand}（id: {vendor_id}）",
@@ -232,10 +239,25 @@ def build_user_prompt(
         "【当前攻略元数据】",
         json.dumps(guide_meta or {}, ensure_ascii=False),
         "",
-        "【官方页面原文】",
     ]
+    # focus 时最贵的整页原文预算减半（diff 已把注意力指到变化行）；
+    # 变化行区块本身很小，不抵总长。证据引文仍须在截断后的原文内
+    # 逐字命中——落在截断区之外的旧说法引不到证据，天然被闸门拒绝。
+    page_budget_cap = PAGE_CHAR_BUDGET
+    if focus:
+        page_budget_cap //= 2
+        parts.append("【本次页面变化行】（- 为旧文本删除行，+ 为新增行；"
+                     "判断是否构成事实变化以这些行为主，证据引文仍须能在下方页面原文中逐字定位）")
+        for f in focus:
+            parts.append(f"--- {f.get('url', '')}（{f.get('stype', '')}）")
+            for line in f.get("removed", []):
+                parts.append("- " + line)
+            for line in f.get("added", []):
+                parts.append("+ " + line)
+        parts.append("")
+    parts.append("【官方页面原文】")
     total = 0
-    page_budget = min(PAGE_CHAR_BUDGET, char_budget)
+    page_budget = min(page_budget_cap, char_budget)
     for page in pages:
         header = f"\n===== 来源类型 {page['stype']}｜{page['url']}｜{page.get('title','')} ====="
         body = page["text"][:page_budget]
@@ -540,13 +562,14 @@ def validate_patch(data: dict, corpus_norm: str) -> dict:
 
 def review_vendor(vendor_id: str, brand: str, profile: dict, guide_meta: dict,
                   pages: list[dict], api_key: str = "", model: str | None = None,
-                  backend: str | None = None) -> dict:
+                  backend: str | None = None,
+                  focus: list[dict] | None = None) -> dict:
     """完整流程：组 prompt → 调模型 → 解析 → 校验。返回归一化补丁 dict。"""
     backend = resolve_backend(backend)
     if not model:
         model = default_model(backend)
     prompt = build_user_prompt(vendor_id, brand, profile, guide_meta, pages,
-                               char_budget=TOTAL_CHAR_BUDGET)
+                               char_budget=TOTAL_CHAR_BUDGET, focus=focus)
     raw = call_llm(prompt, api_key=api_key, model=model, backend=backend)
     data = parse_json_loose(raw)
     # 证据只要求命中模型实际看到的文本（prompt 内含预算截断后的页面原文）

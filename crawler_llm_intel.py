@@ -4305,6 +4305,12 @@ STALE_REVIEW_PER_RUN = 4
 #: 默认例行复查周期（天）：一个厂商最久每这么久会被 AI 重新核查一次
 STALE_REVIEW_DAYS = 45
 SNAPSHOT_TEXT_LIMIT = 60_000
+#: 快照里随哈希保存的事实行文本上限（diff 导向核查的语料；控制 state 体积）
+FACT_TEXT_LIMIT = 20_000
+#: 情报源连续抓取失败达该次数（每轮巡检记 1 次）后进入跳过窗口，
+#: 冷却 SOURCE_RETRY_DAYS 天后放行重试一次；期间成功即清零
+SOURCE_SKIP_FAILS = 7
+SOURCE_RETRY_DAYS = 7
 
 # 只对「含事实信号的行」做快照：整页文本会混入 A/B 版位、CSRF token、时间等噪音，
 # 导致 10% 左右的页面每天假性变化。额度政策变动一定落在含下列关键词的行上。
@@ -4359,11 +4365,15 @@ class SnapshotState:
                     if self.path.exists() else {})
             self.entries: dict[str, dict] = data.get("sources", {}) or {}
             self.reviews: dict[str, str] = data.get("reviews", {}) or {}
+            self.failures: dict[str, dict] = data.get("failures", {}) or {}
         except (ValueError, OSError):
             self.entries = {}
             self.reviews = {}
+            self.failures = {}
         self._staged: dict[str, dict[str, dict]] = {}
         self.changed_pages: dict[str, list[PageResult]] = {}
+        # diff 导向核查：vid -> [{url, stype, removed[], added[]}]（本次 stage 时计算）
+        self.focus: dict[str, list[dict]] = {}
         # 冷却中的厂商：vid -> (可重试日期, 已失败次数, 最近错误)
         self.cooldown: dict[str, tuple[str, int, str]] = {}
 
@@ -4378,11 +4388,15 @@ class SnapshotState:
         changed: list[PageResult] = []
         for page in pages:
             key = _snapshot_key(vendor_id, page)
-            entry = {"sha256": _snapshot_hash(page.snapshot_text)}
+            fact = _snapshot_fact_text(page.snapshot_text)[:FACT_TEXT_LIMIT]
+            entry = {"sha256": _snapshot_hash(page.snapshot_text), "fact": fact}
             staged[key] = entry
             old = self.entries.get(key)
             if not self.baseline and (old is None or old.get("sha256") != entry["sha256"]):
                 changed.append(page)
+                old_fact = (old or {}).get("fact", "")
+                if old_fact:
+                    self._record_focus(vendor_id, page, old_fact, fact)
         # AI 失败退避：变化条目全部仍在冷却期内时，本次不触发 AI（旧哈希保留），
         # 避免同一批顽固变化每天都消耗免费层 RPD。
         if changed and ai_enabled and not self.baseline:
@@ -4406,8 +4420,40 @@ class SnapshotState:
             self.changed_pages[vendor_id] = changed
         return changed
 
+    def _record_focus(self, vendor_id: str, page: PageResult,
+                      old_fact: str, new_fact: str) -> None:
+        """记录该页事实行的增删（顺序保持、每侧上限 40 行），供核查 prompt 聚焦。"""
+        old_lines = [l for l in old_fact.splitlines() if l.strip()]
+        new_lines = [l for l in new_fact.splitlines() if l.strip()]
+        old_set, new_set = set(old_lines), set(new_lines)
+        removed = [l for l in old_lines if l not in new_set][:40]
+        added = [l for l in new_lines if l not in old_set][:40]
+        if not removed and not added:
+            return
+        self.focus.setdefault(vendor_id, []).append(
+            {"url": page.final_url or page.url, "stype": page.stype,
+             "removed": removed, "added": added})
+
+    def record_failure(self, key: str, today: str) -> None:
+        """情报源抓取失败计数；连续达阈值后进入跳过窗口（到期自动放行重试一次）。"""
+        f = self.failures.setdefault(key, {"fails": 0, "next_try": ""})
+        f["fails"] = int(f.get("fails", 0)) + 1
+        if f["fails"] >= SOURCE_SKIP_FAILS:
+            f["next_try"] = (date.fromisoformat(today)
+                             + timedelta(days=SOURCE_RETRY_DAYS)).isoformat()
+
+    def clear_failure(self, key: str) -> None:
+        self.failures.pop(key, None)
+
+    def should_skip_source(self, key: str, today: str) -> bool:
+        f = self.failures.get(key) or {}
+        if int(f.get("fails", 0)) < SOURCE_SKIP_FAILS:
+            return False
+        next_try = f.get("next_try", "")
+        return bool(next_try) and today < next_try
+
     def commit_vendor(self, vendor_id: str) -> None:
-        # 新条目只含 sha256，整体覆盖即同时清除旧的 ai_attempts / ai_retry_after
+        # 新条目覆盖旧条目（含 sha256/fact），同时清除 ai_attempts / ai_retry_after
         self.entries.update(self._staged.pop(vendor_id, {}))
 
     def rollback_vendor(self, vendor_id: str, bump: bool = False,
@@ -4456,7 +4502,8 @@ class SnapshotState:
             prefixes = tuple(f"{vid}|" for vid in crawled_ids)
             self.entries = {k: v for k, v in self.entries.items()
                             if k.startswith(prefixes)}
-        payload = json.dumps({"sources": self.entries, "reviews": self.reviews},
+        payload = json.dumps({"sources": self.entries, "reviews": self.reviews,
+                              "failures": self.failures},
                              ensure_ascii=False, indent=2, sort_keys=True) + "\n"
         old = self.path.read_text(encoding="utf-8") if self.path.exists() else ""
         if payload == old:
@@ -4469,11 +4516,12 @@ class SnapshotState:
 REVIEW_PACKET_DIR = ".ai-review"
 
 
-def build_review_prompt(intel: VendorIntel) -> str:
+def build_review_prompt(intel: VendorIntel, focus: list | None = None) -> str:
     """构造与 Gemini 核查完全一致的 prompt（档案 + 页面原文 + 输出格式）。
 
     它同时就是**校验语料**：证据闸门只认这份文本里的逐字原文，
     本地 AI 与远端模型走的是同一道闸，没有第二套信任标准。
+    focus 为 diff 导向区块（SnapshotState.focus），两条通道同样受益。
     """
     import ai_review
     payload = [{"url": p.final_url or p.url, "stype": p.stype,
@@ -4484,7 +4532,8 @@ def build_review_prompt(intel: VendorIntel) -> str:
         return ""
     prof = get_provider_profile(intel.vendor_id, intel.brand, intel.homepage)
     return ai_review.build_user_prompt(intel.vendor_id, intel.brand, prof,
-                                       get_guide_meta(intel.vendor_id), payload)
+                                       get_guide_meta(intel.vendor_id), payload,
+                                       focus=focus)
 
 
 def export_review_packets(root: Path, prompts: dict[str, str]) -> int:
@@ -4520,7 +4569,7 @@ def run_local_review(root: Path, changed_map: dict, intel_by_id: dict,
         try:
             if intel is None:
                 raise ai_review.AiReviewError(f"{vid} 不在本次巡检清单（厂商已移除？）")
-            prompt = build_review_prompt(intel)
+            prompt = build_review_prompt(intel, snapshots.focus.get(vid))
             if not prompt:
                 raise ai_review.AiReviewError("无可用官方页正文")
             data = ai_review.parse_json_loose(
@@ -4623,6 +4672,9 @@ def main(argv: list[str] | None = None) -> int:
                              "与 --only / --no-news 互斥")
     parser.add_argument("--no-browser", action="store_true",
                         help="禁用 Playwright 浏览器兜底（默认启用，需 pip install playwright）")
+    parser.add_argument("--force-sources", action="store_true",
+                        help=f"强制抓取已达跳过阈值的连续失败源（关闭冷却机制，"
+                             f"默认连续 {SOURCE_SKIP_FAILS} 次失败后冷却 {SOURCE_RETRY_DAYS} 天）")
     parser.add_argument("--ai-review", action="store_true",
                         help="检测到官方页面变化时调用 LLM 核查并更新 profile_overrides.json"
                              "（后端 AI_REVIEW_BACKEND=auto|gemini|anthropic，默认 auto："
@@ -4722,12 +4774,33 @@ def main(argv: list[str] | None = None) -> int:
         print(f"[2/4] 开始巡检（{'含博客/RSS 发现' if not args.no_news else '跳过博客/RSS'}；"
               f"浏览器兜底 {'开' if use_browser and HAS_PLAYWRIGHT else '关'}）...")
         with BrowserSession(enabled=use_browser) as browser:
+            today_s = date.today().isoformat()
             for idx, vendor in enumerate(vendors, 1):
                 vid = vendor.get("id", "unknown")
                 brand = vendor.get("brand", vid)
                 v_sources = grouped.get(vid, [])
                 if args.no_news:
                     v_sources = [s for s in v_sources if s.get("type") not in NEWS_TYPES]
+                # 连续失败自动降级：跳过阈值内的情报源不再拖慢每轮巡检；
+                # 到期自动放行重试一次，抓取成功即清零（--force-sources 关闭本机制）。
+                skipped_src: list[str] = []
+                if not args.force_sources and not snapshots.baseline:
+                    usable = []
+                    for src in v_sources:
+                        stype = src.get("type", "")
+                        skey = f"{vid}|{stype}|{src.get('url', '')}"
+                        if ((stype in INTEL_TYPES or stype in CONDITION_TYPES)
+                                and snapshots.should_skip_source(skey, today_s)):
+                            skipped_src.append(skey)
+                            continue
+                        usable.append(src)
+                    v_sources = usable
+                if skipped_src:
+                    print(f"    [source-skip] 跳过 {len(skipped_src)} 个连续失败源"
+                          f"（{SOURCE_SKIP_FAILS} 次失败后冷却 {SOURCE_RETRY_DAYS} 天）："
+                          + "、".join(k.split('|')[1] + ":" + k.split('|')[2]
+                                      for k in skipped_src[:3])
+                          + ("…" if len(skipped_src) > 3 else ""))
                 print(f"  [{idx}/{len(vendors)}] {brand} ({vid}) — {len(v_sources)} 个入口")
                 try:
                     intel = crawl_vendor(vendor, v_sources, session, args.delay,
@@ -4738,6 +4811,16 @@ def main(argv: list[str] | None = None) -> int:
                     intel = VendorIntel(vendor_id=vid, brand=brand,
                                         homepage=vendor.get("homepage", ""),
                                         products=vendor.get("products") or [])
+                if not snapshots.baseline:
+                    for p in intel.intel_pages:
+                        stype = p.stype or ""
+                        if stype not in INTEL_TYPES and stype not in CONDITION_TYPES:
+                            continue
+                        skey = f"{vid}|{stype}|{p.url}"
+                        if p.ok:
+                            snapshots.clear_failure(skey)
+                        else:
+                            snapshots.record_failure(skey, today_s)
                 intel_list.append(intel)
                 changed_pages = snapshots.stage_vendor(
                     vid, intel,
@@ -4788,7 +4871,7 @@ def main(argv: list[str] | None = None) -> int:
                 prompts: dict[str, str] = {}
                 for vid in changed_map:
                     intel = intel_by_id.get(vid)
-                    prompt = build_review_prompt(intel) if intel else ""
+                    prompt = build_review_prompt(intel, snapshots.focus.get(vid)) if intel else ""
                     if prompt:
                         prompts[vid] = prompt
                 n = export_review_packets(root, prompts)
@@ -4862,7 +4945,8 @@ def main(argv: list[str] | None = None) -> int:
                     try:
                         patch = ai_review.review_vendor(
                             vid, intel.brand, prof, get_guide_meta(vid),
-                            payload, api_key=api_key, model=model, backend=backend)
+                            payload, api_key=api_key, model=model, backend=backend,
+                            focus=snapshots.focus.get(vid))
                     except ai_review.AiReviewAbort as exc:
                         # 当日额度耗尽 / 持续限流 / 服务整体故障：不再调用任何厂商
                         tag = ("[ai-outage]" if isinstance(exc, ai_review.AiServiceOutage)

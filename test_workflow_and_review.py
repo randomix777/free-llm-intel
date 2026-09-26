@@ -428,6 +428,88 @@ class TestSnapshotState(unittest.TestCase):
         self.assertIn("v_err", state3.cooldown)
 
 
+class TestDiffFocusedReviewAndSourceCooldown(unittest.TestCase):
+    """diff 导向核查（快照存事实行 + prompt 聚焦变化行）与连续失败源冷却。"""
+
+    def setUp(self):
+        self.temp_dir = tempfile.TemporaryDirectory()
+        self.root = Path(self.temp_dir.name)
+
+    def tearDown(self):
+        self.temp_dir.cleanup()
+
+    def _page(self, text):
+        return crawler_llm_intel.PageResult(
+            url="https://example.com/pricing", stype="pricing",
+            ok=True, snapshot_ok=True, snapshot_text=text,
+            title="", text=text)
+
+    def _vendor(self, page):
+        v = crawler_llm_intel.VendorIntel(
+            vendor_id="fv1", brand="FocusV", homepage="https://example.com",
+            products=[])
+        v.intel_pages = [page]
+        return v
+
+    def test_stage_records_fact_and_focus_diff(self):
+        s1 = crawler_llm_intel.SnapshotState(self.root)
+        s1.stage_vendor("fv1", self._vendor(self._page(
+            "每月 100 万 tokens\n长期有效\n旧限速说明")))
+        s1.commit_vendor("fv1")
+        s1.save({"fv1"}, full_run=True)
+
+        s2 = crawler_llm_intel.SnapshotState(self.root)
+        key = crawler_llm_intel._snapshot_key("fv1", self._page(""))
+        self.assertIn("每月 100 万 tokens",
+                      s2.entries[key]["fact"], "条目应携带事实文本")
+
+        changed = s2.stage_vendor("fv1", self._vendor(
+            self._page("每月 100 万 tokens\n长期有效\n新限速说明")))
+        self.assertEqual(len(changed), 1)
+        focus = s2.focus.get("fv1")
+        self.assertTrue(focus)
+        self.assertEqual(focus[0]["removed"], ["旧限速说明"])
+        self.assertEqual(focus[0]["added"], ["新限速说明"])
+
+    def test_focus_prompt_section_and_halved_budget(self):
+        page = self._page("Free tier: 100k tokens monthly. " * 4000)
+        it = self._vendor(page)
+        focus = [{"url": page.url, "stype": "pricing",
+                  "removed": ["old rate 10 RPM"], "added": ["new rate 30 RPM"]}]
+        p_focus = crawler_llm_intel.build_review_prompt(it, focus)
+        p_plain = crawler_llm_intel.build_review_prompt(it)
+        self.assertIn("【本次页面变化行】", p_focus)
+        self.assertIn("- old rate 10 RPM", p_focus)
+        self.assertIn("+ new rate 30 RPM", p_focus)
+        self.assertNotIn("【本次页面变化行】", p_plain)
+        self.assertLess(len(p_focus), len(p_plain),
+                        "focus 时整页预算应减半（证据引文仍在原文区内即不伤闸门）")
+        self.assertIn("Free tier: 100k tokens monthly.", p_focus,
+                      "变化行证据必须仍能在语料中逐字定位")
+
+    def test_source_failure_cooldown_persist_and_reopen(self):
+        today = date.today()
+        key = "fv1|pricing|https://example.com/pricing"
+        s = crawler_llm_intel.SnapshotState(self.root)
+        for _ in range(crawler_llm_intel.SOURCE_SKIP_FAILS - 1):
+            s.record_failure(key, today.isoformat())
+        self.assertFalse(s.should_skip_source(key, today.isoformat()),
+                         "未达阈值不跳过")
+        s.record_failure(key, today.isoformat())
+        self.assertTrue(s.should_skip_source(key, today.isoformat()))
+        s.save({"fv1"}, full_run=True)
+
+        s2 = crawler_llm_intel.SnapshotState(self.root)
+        self.assertTrue(s2.should_skip_source(key, today.isoformat()),
+                        "冷却状态应随 llm-intel-state.json 持久化")
+        reopen = (today + timedelta(days=crawler_llm_intel.SOURCE_RETRY_DAYS))
+        self.assertFalse(s2.should_skip_source(key, reopen.isoformat()),
+                         "冷却到期自动放行重试")
+        s2.clear_failure(key)
+        self.assertFalse(s2.should_skip_source(key, today.isoformat()),
+                         "抓取成功清零后不再跳过")
+
+
 class TestCrawlerCleanup(unittest.TestCase):
     """爬虫启动时清理历史残留的 `.ai-changed` 标记。
 
