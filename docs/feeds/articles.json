@@ -20,7 +20,7 @@
       "https://openrouter.ai/blog/insights/seedance-2-5-open-source/",
       "openrouter",
       "2026-09-25",
-      "Is Seedance Open Source?"
+      ""
     ],
     [
       "使用 EFA 和 DeepEP 在 Amazon EKS 上扩展 MoE 强化学习，吞吐量提高 40%",
@@ -2862,7 +2862,7 @@
       "https://huggingface.co/blog/baseten",
       "huggingface",
       "2026-08-06",
-      "Baseten on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "管理 OpenRouter 上团队的 AI 支出",
@@ -4262,7 +4262,7 @@
       "https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30",
       "longcat_meituan",
       "2026-06-30",
-      ""
+      "LongCat-2.0 发布 &amp; 全新推出计费服务"
     ],
     [
       "【优化】推理监控输入输出token卡片增加影响因子数据，用户可直接查看因子维度token消耗",
@@ -6663,7 +6663,7 @@
       "https://huggingface.co/blog/inference-providers-deepinfra",
       "huggingface",
       "2026-04-29",
-      "DeepInfra on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "通过 CLI 使用 Stripe 项目创建 OpenRouter 帐户",
@@ -10611,7 +10611,7 @@
       "https://huggingface.co/blog/OVHcloud/inference-providers-ovhcloud",
       "huggingface",
       "2025-11-24",
-      "OVHcloud on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "当AI遇见数据荒，我们选择成为掘井人 | 数眼智能正式启航！",
@@ -10744,7 +10744,7 @@
       "https://x.ai/news/grok-4-1-fast",
       "xai_grok",
       "2025-11-19",
-      "Grok 4.1 Fast and Agent Tools API"
+      ""
     ],
     [
       "Grok 携手 KSA 走向全球",
@@ -11363,11 +11363,11 @@
       ""
     ],
     [
-      "Sentence Transformers 加入 Hugging Face！",
+      "Sentence Transformers加入Hugging Face！",
       "https://huggingface.co/blog/sentence-transformers-joins-hf",
       "huggingface",
       "2025-10-22",
-      ""
+      "Sentence Transformers 加入 Hugging Face！"
     ],
     [
       "大型推理模型在推理过程中无法遵循指令：一项基准研究",
@@ -12081,7 +12081,7 @@
       "https://huggingface.co/blog/inference-providers-scaleway",
       "huggingface",
       "2025-09-19",
-      "Scaleway on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "Modular：Blackwell 上的矩阵乘法：第 4 部分 - 打破 SOTA",
@@ -12137,7 +12137,7 @@
       "https://huggingface.co/blog/inference-providers-publicai",
       "huggingface",
       "2025-09-17",
-      "Public AI on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "推出 Stargate UK",
@@ -13768,7 +13768,7 @@
       "https://huggingface.co/blog/inference-providers-groq",
       "huggingface",
       "2025-06-16",
-      "Groq on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "我们如何构建多智能体研究系统",
@@ -13817,7 +13817,7 @@
       "https://huggingface.co/blog/inference-providers-featherless",
       "huggingface",
       "2025-06-12",
-      "Featherless AI on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "Mistral Compute",
@@ -14769,7 +14769,7 @@
       "https://huggingface.co/blog/inference-providers-cohere",
       "huggingface",
       "2025-04-16",
-      "Cohere on Hugging Face Inference Providers 🔥"
+      ""
     ],
     [
       "OpenAI 宣布非营利委员会顾问人选",
@@ -16708,7 +16708,7 @@
       "https://openai.com/index/sora-minne-atairu",
       "openai",
       "2024-12-09",
-      "Minne Atairu & Sora"
+      ""
     ],
     [
       "API 公开测试版",
@@ -17261,7 +17261,7 @@
       "https://huggingface.co/blog/sd3-5",
       "huggingface",
       "2024-10-22",
-      "Diffusers welcomes Stable Diffusion 3.5 Large"
+      ""
     ],
     [
       "在 Hugging Face 上部署 Speech-to-Speech",
@@ -18626,7 +18626,7 @@
       "https://huggingface.co/blog/sd3",
       "huggingface",
       "2024-06-12",
-      "Diffusers welcomes Stable Diffusion 3"
+      ""
     ],
     [
       "把 RL 放回 RLHF",
@@ -19704,7 +19704,7 @@
       "https://openai.com/index/openai-elon-musk",
       "openai",
       "2024-03-05",
-      "OpenAI and Elon Musk"
+      ""
     ],
     [
       "推出 ConTextual：你的多模态模型在文本丰富场景中联合推理文本与图像的能力如何？",
@@ -19896,11 +19896,11 @@
       ""
     ],
     [
-      "Hugging Face 中的 Patch Time Series Transformer",
+      "拥抱面中的贴片时间序列Transformer",
       "https://huggingface.co/blog/patchtst",
       "huggingface",
       "2024-02-01",
-      ""
+      "Hugging Face 中的 Patch Time Series Transformer"
     ],
     [
       "为 LLM 助长的生物威胁构建预警系统",
@@ -20208,7 +20208,7 @@
       "https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy",
       "anyscale",
       "2023-11-20",
-      "Open Source LLMs: Viable for Production or a Low-Quality Toy?"
+      ""
     ],
     [
       "OpenAI 宣布领导层变动",
@@ -20236,14 +20236,14 @@
       "https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer",
       "anyscale",
       "2023-11-09",
-      "How Spotify Built a Robust Ray Platform with a Frictionless Developer Experience"
+      ""
     ],
     [
       "LinkedIn 使用 Ray-Serve 的推理图",
       "https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve",
       "anyscale",
       "2023-11-09",
-      "Inference Graphs at LinkedIn Using Ray-Serve"
+      ""
     ],
     [
       "介绍 Prodigy-HF：与 Hugging Face 的直接集成",
@@ -20313,14 +20313,14 @@
       "https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications",
       "anyscale",
       "2023-11-03",
-      "Advances in Foundation Models — Technology, Society, and Applications"
+      ""
     ],
     [
       "使用 Airbnb 的下一代 ML 平台优化 LLM 培训",
       "https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform",
       "anyscale",
       "2023-10-30",
-      "Optimizing LLM Training with Airbnb's Next-Gen ML Platform"
+      ""
     ],
     [
       "个人 Copilot：训练你自己的编码助手",
@@ -20376,14 +20376,14 @@
       "https://anyscale.com/blog/building-production-ai-applications-with-ray-serve",
       "anyscale",
       "2023-10-24",
-      "Building Production AI Applications with Ray Serve"
+      ""
     ],
     [
       "Netflix 的 Ray 异构训练集群",
       "https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix",
       "anyscale",
       "2023-10-20",
-      "Heterogeneous Training Cluster with Ray at Netflix"
+      ""
     ],
     [
       "DALL·E 3 现已在 ChatGPT Plus 和 Enterprise 中提供",
@@ -20404,21 +20404,21 @@
       "https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications",
       "anyscale",
       "2023-10-19",
-      "Practical Data Considerations for Building Production-Ready LLM Applications"
+      ""
     ],
     [
       "使用 LangChain 和 LangSmith 构建上下文感知推理应用程序",
       "https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith",
       "anyscale",
       "2023-10-18",
-      "Building Context-Aware Reasoning Applications with LangChain and LangSmith"
+      ""
     ],
     [
       "Llama，在开放生态系统中扩大 LLM 规模",
       "https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem",
       "anyscale",
       "2023-10-16",
-      "Llama, Scaling Up LLMs in an Open Ecosystem"
+      ""
     ],
     [
       "用 AI 简化合同审查",
@@ -20628,7 +20628,7 @@
       "https://cloud.tencent.com/document/product/1729/97765#t2023-09-06-94",
       "tencent_hunyuan",
       "2023-09-06",
-      ""
+      "腾讯混元大模型（Tencent Hunyuan）是由腾讯研发的大语言模型，具备强大的中文创作能力，复杂语境下的逻辑推理能力，以及可靠的任务执行能力"
     ],
     [
       "展翅高飞：Falcon 180B 来了",
@@ -21412,7 +21412,7 @@
       "https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs",
       "anyscale",
       "2023-03-16",
-      "Ray Summit Series - Scaling Parallel Python Jobs"
+      ""
     ],
     [
       "GPT-4",
@@ -21503,7 +21503,7 @@
       "https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms",
       "anyscale",
       "2023-03-03",
-      "Ray Summit 2022 stories - ML Platforms"
+      ""
     ],
     [
       "开发 Diffusers 库的道德准则",
@@ -21566,7 +21566,7 @@
       "https://anyscale.com/blog/ray-summit-2022-stories-large-language-models",
       "anyscale",
       "2023-02-16",
-      "Ray Summit 2022 Stories - Large Language Models"
+      ""
     ],
     [
       "用 BLIP-2 实现零样本图像到文本生成",
@@ -21996,18 +21996,18 @@
       ""
     ],
     [
-      "Hugging Face Inference Endpoints 入门",
+      "Hugging Face推理端点入门",
       "https://huggingface.co/blog/inference-endpoints",
       "huggingface",
       "2022-10-14",
-      ""
+      "Hugging Face Inference Endpoints 入门"
     ],
     [
-      "🧨 JAX / Flax 中的 Stable Diffusion！",
+      "🧨 JAX / Flax 中的Stable Diffusion！",
       "https://huggingface.co/blog/stable_diffusion_jax",
       "huggingface",
       "2022-10-13",
-      ""
+      "🧨 JAX / Flax 中的 Stable Diffusion！"
     ],
     [
       "优化实战：Bloom 推理",
@@ -22024,11 +22024,11 @@
       "Introducing DOI: the Digital Object Identifier to Datasets and Models"
     ],
     [
-      "日本 Stable Diffusion 模型",
+      "日本Stable Diffusion模型",
       "https://huggingface.co/blog/japanese-stable-diffusion",
       "huggingface",
       "2022-10-05",
-      "Japanese Stable Diffusion"
+      "日本 Stable Diffusion 模型"
     ],
     [
       "超大规模语言模型及其评估方法",
@@ -22140,7 +22140,7 @@
       "https://anyscale.com/blog/announcing-ray-2-0",
       "anyscale",
       "2022-08-23",
-      "Announcing Ray 2.0"
+      ""
     ],
     [
       "使用 🧨 Diffusers 实现 Stable Diffusion",
@@ -23095,11 +23095,11 @@
       ""
     ],
     [
-      "Hugging Face Hub 中的 Sentence Transformers",
+      "Hugging Face Hub 中的Sentence Transformers",
       "https://huggingface.co/blog/sentence-transformers-in-the-hub",
       "huggingface",
       "2021-06-28",
-      ""
+      "Hugging Face Hub 中的 Sentence Transformers"
     ],
     [
       "通过在精选数据集上训练来改进语言模型行为",

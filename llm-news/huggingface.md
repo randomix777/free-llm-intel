@@ -192,7 +192,7 @@
 180. [LeRobot v0.4.0：为 OSS 机器人学习强力加速](https://huggingface.co/blog/lerobot-release-v040)（2025-10-24）
 181. [共建开放代理生态：介绍 OpenEnv](https://huggingface.co/blog/openenv)（2025-10-23）
 182. [Hugging Face 与 VirusTotal 合作强化 AI 安全](https://huggingface.co/blog/virustotal)（2025-10-22）
-183. [Sentence Transformers 加入 Hugging Face！](https://huggingface.co/blog/sentence-transformers-joins-hf)（2025-10-22）
+183. [Sentence Transformers加入Hugging Face！](https://huggingface.co/blog/sentence-transformers-joins-hf)（2025-10-22）
 184. [用开放模型为您的 OCR 流程强力提速](https://huggingface.co/blog/ocr-open-models)（2025-10-21）
 185. [用 AI Sheets 释放图像的力量](https://huggingface.co/blog/aisheets-unlock-images)（2025-10-21）
 186. [应对食物过敏的 AI](https://huggingface.co/blog/hugging-science/ai-for-food-allergies)（2025-10-16）
@@ -540,7 +540,7 @@
 528. [NPHardEval 排行榜：通过复杂度类和动态更新揭示大型语言模型的推理能力](https://huggingface.co/blog/leaderboard-nphardeval)（2024-02-02）
 529. [Hugging Face Text Generation Inference 现已支持 AWS Inferentia2](https://huggingface.co/blog/text-generation-inference-on-inferentia2)（2024-02-01）
 530. [用开源 LLM 实现 Constitutional AI](https://huggingface.co/blog/constitutional_ai)（2024-02-01）
-531. [Hugging Face 中的 Patch Time Series Transformer](https://huggingface.co/blog/patchtst)（2024-02-01）
+531. [拥抱面中的贴片时间序列Transformer](https://huggingface.co/blog/patchtst)（2024-02-01）
 532. [推出企业场景排行榜：面向真实用例的排行榜](https://huggingface.co/blog/leaderboard-patronus)（2024-01-31）
 533. [在 Xeon 上用 🤗 Optimum Intel 加速 StarCoder：Q8/Q4 与投机解码](https://huggingface.co/blog/intel-starcoder-quantization)（2024-01-30）
 534. [幻觉排行榜：测量大型语言模型幻觉的开放努力](https://huggingface.co/blog/leaderboard-hallucinations)（2024-01-29）
@@ -735,11 +735,11 @@
 723. [用 🤗 Evaluate 评估语言模型偏差](https://huggingface.co/blog/evaluating-llm-bias)（2022-10-24）
 724. [从 PyTorch DDP 到 Accelerate 再到 Trainer，轻松掌握分布式训练](https://huggingface.co/blog/pytorch-ddp-accelerate-transformers)（2022-10-21）
 725. [MTEB：大规模文本嵌入基准](https://huggingface.co/blog/mteb)（2022-10-19）
-726. [Hugging Face Inference Endpoints 入门](https://huggingface.co/blog/inference-endpoints)（2022-10-14）
-727. [🧨 JAX / Flax 中的 Stable Diffusion！](https://huggingface.co/blog/stable_diffusion_jax)（2022-10-13）
+726. [Hugging Face推理端点入门](https://huggingface.co/blog/inference-endpoints)（2022-10-14）
+727. [🧨 JAX / Flax 中的Stable Diffusion！](https://huggingface.co/blog/stable_diffusion_jax)（2022-10-13）
 728. [优化实战：Bloom 推理](https://huggingface.co/blog/bloom-inference-optimization)（2022-10-12）
 729. [介绍 DOI：数据集与模型的数字对象标识符](https://huggingface.co/blog/introducing-doi)（2022-10-07）
-730. [日本 Stable Diffusion 模型](https://huggingface.co/blog/japanese-stable-diffusion)（2022-10-05）
+730. [日本Stable Diffusion模型](https://huggingface.co/blog/japanese-stable-diffusion)（2022-10-05）
 731. [超大规模语言模型及其评估方法](https://huggingface.co/blog/zero-shot-eval-on-the-hub)（2022-10-03）
 732. [用 AutoTrain 做图像分类](https://huggingface.co/blog/autotrain-image-classification)（2022-09-28）
 733. [🤗 Accelerate 如何借助 PyTorch 运行超大模型](https://huggingface.co/blog/accelerate-large-models)（2022-09-27）
@@ -848,7 +848,7 @@
 836. [互联网上的深度学习：协作训练语言模型](https://huggingface.co/blog/collaborative-training)（2021-07-15）
 837. [欢迎 spaCy 加入 Hugging Face Hub](https://huggingface.co/blog/spacy)（2021-07-13）
 838. [用 Amazon SageMaker 轻松部署 Hugging Face 模型](https://huggingface.co/blog/deploy-hugging-face-models-easily-with-amazon-sagemaker)（2021-07-08）
-839. [Hugging Face Hub 中的 Sentence Transformers](https://huggingface.co/blog/sentence-transformers-in-the-hub)（2021-06-28）
+839. [Hugging Face Hub 中的Sentence Transformers](https://huggingface.co/blog/sentence-transformers-in-the-hub)（2021-06-28）
 840. [少样本学习实践：GPT-Neo 与 🤗 Accelerated Inference API](https://huggingface.co/blog/few-shot-learning-gpt-neo-and-inference-api)（2021-06-03）
 841. [用 Gradio 2.0 使用并混搭 Hugging Face 模型](https://huggingface.co/blog/gradio)（2021-05-25）
 842. [在 CPU 上扩展 BERT 推理（第 1 部分）](https://huggingface.co/blog/bert-cpu-scaling-part-1)（2021-04-20）

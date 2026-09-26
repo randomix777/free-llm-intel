@@ -1,4 +1,119 @@
 {
+  "anthropic": {
+    "_evidence": [
+      {
+        "quote": "Daily driver for agentic coding and enterprise work",
+        "url": "https://claude.com/pricing"
+      },
+      {
+        "quote": "Get up to 2.5x faster speeds with fast mode for Opus 5.5 at 2x standard pricing",
+        "url": "https://claude.com/pricing"
+      },
+      {
+        "quote": "Ideal for complex agentic coding and enterprise work",
+        "url": "https://claude.com/pricing"
+      },
+      {
+        "quote": "Next generation intelligence for long-running agents",
+        "url": "https://claude.com/pricing"
+      }
+    ],
+    "_summary": "官方定价页当前代际已变为 Opus 5.5（Opus 5 与 Fable 5 移入 legacy models），档案所列当前代际模型与“官方建议从 Opus 5 起步”的表述已过时",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "**API 无免费模型层**：当前代际 `Claude Fable 5.1`、`Claude Opus 5.5`、`Claude Sonnet 5`、`Claude Haiku 4.5`（上下文最高 1M，随模型而异）均按量付费，`Opus 5`/`Fable 5` 已移入 legacy models；新用户少量测试 credits 可抵扣",
+      "网页端 Claude 免费版（Free plan）—— 额度按 **5 小时滚动窗口**重置，但**不含 Claude Code**（官方原文 “Claude Code is included in all paid plans”）"
+    ],
+    "notes": "官方页将 Opus 5.5 定位为日常智能体编码与企业工作的“Daily driver”，Fable 5.1 面向复杂推理与长程智能体任务（“Next generation intelligence for long-running agents”）；另有 Opus 5.5 fast mode（2 倍标准价、最快 2.5x）与 US-only 推理（1.1x 价）等付费选项。"
+  },
+  "aws_bedrock": {
+    "_evidence": [
+      {
+        "quote": "您将立即获得 100 美元的服务抵扣金。",
+        "url": "https://aws.amazon.com/cn/free/"
+      },
+      {
+        "quote": "最多可以多获取 100 美元服务抵扣金。",
+        "url": "https://aws.amazon.com/cn/free/"
+      },
+      {
+        "quote": "在免费计划中，6 个月内最高可获得 200 美元服务抵扣金用于搭建环境、调试试错和开展实验",
+        "url": "https://aws.amazon.com/cn/free/"
+      },
+      {
+        "quote": "新客户最高可获得 200 美元的服务抵扣金",
+        "url": "https://aws.amazon.com/cn/free/"
+      }
+    ],
+    "_summary": "AWS 免费套餐抵扣金为开户立得 $100、最高再得 $100，6 个月内合计最高 $200，档案与攻略中“$100+最高 $200/合计 $300”的数字与官方页不符",
+    "_updated": "2026-09-27 07:48:50",
+    "free_quota": "新 AWS 免费套餐账户开户即得 **$100** 服务抵扣金，探索关键服务最多再得 **$100**，6 个月内合计最高 **$200**（需绑信用卡；账户在开户 6 个月后或抵扣金用完时自行关闭，以先到者为准）；**AWS Activate** 初创计划最高可申请 **$200,000** 抵扣",
+    "guide_meta": {
+      "short": "开户立得 $100，6 个月内最高合计 $200 抵扣金（需信用卡）"
+    }
+  },
+  "china_telecom_tianyi": {
+    "_evidence": [
+      {
+        "quote": "Token Plan畅享版",
+        "url": "https://www.ctyun.cn/act/AI/zhuanxiang"
+      },
+      {
+        "quote": "4000万Tokens",
+        "url": "https://www.ctyun.cn/act/AI/zhuanxiang"
+      },
+      {
+        "quote": "限时特惠·编程Token Plan订购",
+        "url": "https://www.ctyun.cn/act/AI/zhuanxiang"
+      },
+      {
+        "quote": "50万免费tokens",
+        "url": "https://www.ctyun.cn/act/AI/zhuanxiang"
+      },
+      {
+        "quote": "注册并完成实名认证，最高可得2000元试用体验金",
+        "url": "https://www.ctyun.cn/act/trial/central"
+      }
+    ],
+    "_summary": "天翼云大模型专项页当前显示 Token Plan 畅享版 29.9 元/月对应 4000 万 Tokens，档案“2500 万 tokens 对应 29.9 元畅享版”与页面数字不符，且页面新增编程 Token Plan 付费系列",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "星辰大模型专区托管 GLM、DeepSeek V4/V3.2、Qwen 系列 —— 专区设有 **50 万免费 tokens** 领取入口（以体验中心实际到账为准）",
+      "电信自研 `TeleChat3`（TeleChat3-36B-Thinking、TeleChat3-Coder-36B 等）由 Tele-AI 发布并开源在 Hugging Face，**非息壤在售清单**（可自行下载部署）",
+      "注意：**4000 万 tokens 对应的是 29.9 元/月付费套餐（畅享版），不是免费额度**；Token Plan 轻享版 9.9 元/月含 1000 万 tokens（限 DeepSeek V3.2）；另有编程 Token Plan 3000/10000/25000/50000/100000 积分套餐（29–699 元/月，均为付费限时特惠）"
+    ],
+    "notes": "旧档案“2500 万 tokens”说法有误：现行官方页畅享版 29.9 元/月对应 4000 万 tokens（2500 万已不在页面出现），均为付费套餐而非免费额度；免费入口仅 50 万 tokens 领取与试用中心体验金。",
+    "tier_caveats": [
+      "「最高 2000 元」是试用中心**多档活动的上限、不是注册即得全额**，实际到账金额与有效期以试用中心规则为准",
+      "星辰大模型专区另有 50 万 tokens 领取入口；注意 **4000 万 tokens 对应的是 29.9 元/月付费畅享版**，不是免费额度"
+    ]
+  },
+  "cloudflare_workers_ai": {
+    "_evidence": [
+      {
+        "quote": "Some models require a paid billing method. This applies to @cf/moonshotai/kimi-k2.6, @cf/moonshotai/kimi-k2.7-code, @cf/zai-org/glm-5.2, @cf/zai-org/glm-5.3, @cf/zai-org/glm-5.3-flash, @cf/deepseek-ai/deepseek-v4-flash-0731, and @cf/deepseek-ai/deepseek-v4-pro-0813.",
+        "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+      },
+      {
+        "quote": "Our free allocation allows anyone to use a total of 10,000 Neurons per day at no charge.",
+        "url": "https://developers.cloudflare.com/workers-ai/platform/pricing/"
+      },
+      {
+        "quote": "300 requests per minute, unless the model requires the Workers Paid plan",
+        "url": "https://developers.cloudflare.com/workers-ai/platform/limits/"
+      }
+    ],
+    "_summary": "官方定价页明确 kimi-k2.6/k2.7-code、glm-5.2/5.3/5.3-flash、deepseek-v4-flash-0731/v4-pro-0813 等模型需付费计费方式（Workers Paid 或预付 AI Gateway credits），不在每日 10,000 Neurons 免费层内，且这些付费模型限速仅 20/50 次每分钟，档案将其列为免费额度覆盖模型有误。",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "目录内可免费使用的模型共享 **每日 10,000 Neurons 免费额度**（官方定价页原文 “use a total of 10,000 Neurons per day at no charge”），UTC 0 点刷新；代表模型 `@cf/meta/llama-4-scout-17b`、`llama-3.3-70b-fp8`、`@cf/openai/gpt-oss-120b/20b`、`gemma-4-26b`、`qwen3-30b`、`bge-m3` 等；**`@cf/moonshotai/kimi-k2.6`、`@cf/moonshotai/kimi-k2.7-code`、`@cf/zai-org/glm-5.2`、`glm-5.3`、`glm-5.3-flash`、`@cf/deepseek-ai/deepseek-v4-flash-0731`、`deepseek-v4-pro-0813` 不享受免费额度，需 Workers Paid 或预付 AI Gateway credits 才能访问**"
+    ],
+    "tier_caveats": [
+      "免费额度是账号级 **每日 10,000 Neurons 共享总额度**（不是每模型各 1 万），所有限额每日 00:00 UTC 重置；超额按 $0.011 / 1,000 Neurons 计费，需开通 Workers Paid",
+      "kimi-k2.6/k2.7-code、glm-5.2/5.3/5.3-flash、deepseek-v4-flash-0731/v4-pro-0813 等前沿模型**要求付费计费方式，不在免费层内**；其余 Text Generation 模型默认限速 300 请求/分钟，而这些付费模型仅 20 请求/分钟（Workers Paid）或 50 请求/分钟（预付 AI Gateway credits）",
+      "免费层主要面向 Workers 平台内调用；Neurons 换算随模型不同"
+    ]
+  },
   "deepseek": {
     "_evidence": [
       {
@@ -37,5 +152,114 @@
     "_summary": "更新 Token Plan 积分包规格与档位（现为 ¥30/¥150/¥500 固定档位，替代原 1000 积分/¥7 描述），Max/Ultra 明确包含 Hailuo2.3 视频生成权益",
     "_updated": "2026-09-21 09:21:02",
     "promotions": "**Token Plan 订阅**（官方定价文档）：Plus ¥49/月、Max ¥119/月、Ultra ¥469/月，覆盖 M3/M2.7/图像/语音（Max/Ultra 支持 Hailuo2.3 视频生成，H3 视频、音色设计等特殊模型除外）；预付积分包固定为入门版 ¥30（4,489 积分）、进阶版 ¥150（22,460 积分）、高级版 ¥500（74,900 积分），有效期 365 天。"
+  },
+  "morph_labs": {
+    "_evidence": [
+      {
+        "quote": "200 req free every month",
+        "url": "https://www.morphllm.com/pricing"
+      },
+      {
+        "quote": "First top-up+$5 free",
+        "url": "https://www.morphllm.com/pricing"
+      },
+      {
+        "quote": "Top up credits, use any model From $10",
+        "url": "https://www.morphllm.com/pricing"
+      },
+      {
+        "quote": "Up to $5K in API credits for startups",
+        "url": "https://www.morphllm.com/pricing"
+      }
+    ],
+    "_summary": "官方定价页显示免费层仅为“每月 200 次请求”，$10 是付费充值起步价、新用户首次充值额外送 $5，并无随 WarpGrep/Glance 工具附带的“每月 $10 免费算力额度”。",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "OpenAI 兼容端点（api.morphllm.com/v1）：`morph-v3-fast`、`morph-v3-large` 及托管 Kimi K3、GLM-5.3、DeepSeek V4/V4.1 Flash、Qwen、MiniMax 等开源模型 —— 免费层 **每月 200 次请求**（200 req free every month，按月重置）",
+      "WarpGrep（morph-warp-grep-v2）、Compact、Reflex 等专用 API —— 按量单独计价（如 WarpGrep $0.80/100K），无独立的每月免费算力额度"
+    ],
+    "free_quota": "免费层 **每月 200 次请求**（官方定价页 “200 req free every month”），邮箱注册取 Key、按月重置；付费为按量充值 **$10 起**（From $10），新用户 **首次充值额外送 $5**（First top-up +$5 free）——并无随工具附带的每月 $10 免费算力额度",
+    "promotions": "面向 AI 编程与智能体场景优化推理延迟，兼容 OpenAI SDK；新用户首次充值送 $5（First top-up +$5 free）；另有面向初创公司的 **Startup Credits**（Up to $5K in API credits for startups）。",
+    "tier_caveats": [
+      "免费层 **每月仅 200 次请求**（按月重置），批量 / 高频使用不够",
+      "$10 是**付费充值的起步价**（From $10），仅新用户**首次充值额外送 $5**（First top-up +$5 free）；旧“随 WarpGrep/Glance 工具附带每月 $10 免费算力额度”的说法与官方定价页不符"
+    ]
+  },
+  "nebius": {
+    "_evidence": [
+      {
+        "quote": "NVIDIA HGX H200 16 200 $4.50 $5.40",
+        "url": "https://nebius.com/prices"
+      },
+      {
+        "quote": "NVIDIA HGX B300 24 346 $7.85 $9.50",
+        "url": "https://nebius.com/prices"
+      },
+      {
+        "quote": "Once you add a bank card, Nebius charges $25 and adds this amount to your account balance.",
+        "url": "https://docs.nebius.com/signup-billing/payments/promo-codes"
+      }
+    ],
+    "_summary": "档案记 H200 按需 $4.55/时与官方价目表现价 $4.50/时矛盾，且页面新增 2026-10-01 生效的调价列（B300 $9.50、B200 $8.50、H200 $5.40）；免费额度事实（$25 首付转余额、promo code 送金）不变。",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "**无免费模型层**：Nebius Token Factory（原 AI Studio，studio.nebius.ai 已 301 跳转 tokenfactory.nebius.com）模型目录以后台为准，需账户余额；GPU 云按需 B300 $7.85/h、B200 $7.15/h、H200 $4.50/h 等，官方价目表另列 2026-10-01 生效价（B300 $9.50、B200 $8.50、H200 $5.40）"
+    ]
+  },
+  "together_ai": {
+    "_evidence": [
+      {
+        "quote": "Ternary Bonsai 27B $0.00 $0.00",
+        "url": "https://www.together.ai/pricing"
+      },
+      {
+        "quote": "Together AI does not currently offer free trials. Access to the Together platform requires a minimum $5 credit purchase.",
+        "url": "https://docs.together.ai/docs/billing-credits"
+      }
+    ],
+    "_summary": "Together AI 官方价目表中 Ternary Bonsai 27B 输入/输出均为 $0.00/1M tokens，与档案“无免费模型层、均需充值后按量调用”的免费/付费属性判断矛盾（平台仍要求最低 $5 充值、无免费试用）。",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "**无免费试用，但存在 $0 定价模型**：官方价目表中 Ternary Bonsai 27B 输入/输出均为 $0.00/1M tokens（Batch API 表同列 $0.00），调用前平台访问仍需最低 $5 充值；其余代表模型 Kimi K3、DeepSeek V4 Pro 0813 / V4 Flash 0731、GLM-5.2、MiniMax M3、Qwen3.8 2.4T A95B、GPT OSS 120B，图像 GPT Image 2、Nano Banana 2、FLUX.2 均需充值后按量付费"
+    ]
+  },
+  "unisound_shanhai": {
+    "_evidence": [
+      {
+        "quote": "U2 Flash：500 万 tokens",
+        "url": "https://maas.unisound.com/docs/guide/quickstart"
+      },
+      {
+        "quote": "U1-OCR-Med：500 万 tokens",
+        "url": "https://maas.unisound.com/docs/guide/quickstart"
+      },
+      {
+        "quote": "U2-TTS-Clone：2 万字",
+        "url": "https://maas.unisound.com/docs/guide/quickstart"
+      },
+      {
+        "quote": "U2-TTS-Design：2 万字",
+        "url": "https://maas.unisound.com/docs/guide/quickstart"
+      },
+      {
+        "quote": "注册即领 1 亿 Token",
+        "url": "https://maas.unisound.com/docs/guide/quickstart"
+      }
+    ],
+    "_summary": "实名认证认证礼包在原有 U2/U2-Med/U1-OCR/ASR/TTS 之外新增 U2 Flash、U1-OCR-Med 各 500 万 tokens 与 U2-TTS-Clone、U2-TTS-Design 各 2 万字，且官方页首标注 U2 Flash 全新上线（注册即领 1 亿 Token 活动），免费模型清单需扩充。",
+    "_updated": "2026-09-27 07:48:50",
+    "free_models": [
+      "`Unisound U2`（通用）、`U2-Med`（医疗）、`U1-OCR`、`U1-OCR-Med`（医疗 OCR）、`U2 Flash`、`U2-RadiMed`（放射医疗）—— 完成实名认证即送**各 500 万 tokens**",
+      "`U2-ASR`（语音识别）—— 赠送 **5 小时**；`U2-TTS`（语音合成）—— 赠送 **5 万字**",
+      "`U2-TTS-Clone`（音色克隆）、`U2-TTS-Design`（音色设计）—— 各赠送 **2 万字**"
+    ],
+    "guide_meta": {
+      "short": "认证礼包：U2/U2-Med/U1-OCR/U1-OCR-Med/U2 Flash/RadiMed 各 500 万、ASR 5 小时、TTS 5 万字、TTS-Clone/Design 各 2 万字"
+    },
+    "promotions": "平台聚焦语音与医疗场景，提供语音识别/合成与 OCR 全栈接口；官方页首横幅标注 `U2 Flash` 全新上线，并挂「注册即领 1 亿 Token」活动（查看详情，具体以活动页为准）。",
+    "tier_caveats": [
+      "额度**按模型/服务分散发放**，不是统一 token 池：U2 / U2-Med / U1-OCR / U1-OCR-Med / U2 Flash / U2-RadiMed 各 500 万 tokens、ASR 5 小时、TTS 5 万字、TTS-Clone / TTS-Design 各 2 万字，互不通兑",
+      "有效期官方文档未标注，以账户内资源包为准"
+    ]
   }
 }

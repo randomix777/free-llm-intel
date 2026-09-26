@@ -1,5 +1,5 @@
 {
-  "count": 251,
+  "count": 252,
   "fields": [
     "date",
     "vendor",
@@ -2008,6 +2008,14 @@
       "E 3",
       "DALL·E 3 现已在 ChatGPT Plus 和 Enterprise 中提供",
       "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise"
+    ],
+    [
+      "2022-08-23",
+      "anyscale",
+      "Anyscale",
+      "Ray 2.0",
+      "发布 Ray 2.0",
+      "https://anyscale.com/blog/announcing-ray-2-0"
     ],
     [
       "2019-11-05",
