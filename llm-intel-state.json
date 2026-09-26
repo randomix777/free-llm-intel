@@ -1,5 +1,6 @@
 {
   "reviews": {
+    "dataeye": "2026-09-26",
     "openai": "2026-09-26"
   },
   "sources": {
@@ -74,6 +75,9 @@
     },
     "cursor_ide|pricing|https://cursor.com/pricing": {
       "sha256": "936aa85994c883f47bb78c6997644099ba429d49ad49d7a37b33d1f2a4055d91"
+    },
+    "dataeye|pricing|https://www.shuyanai.com/price": {
+      "sha256": "d0c9ed4e33089f4a6d4853a5935d240e5c6bf8f6aca5556f89effd93d3397352"
     },
     "deepinfra|pricing|https://deepinfra.com/pricing": {
       "sha256": "dd2405b7ef27a3e78b3acc830180be1b0dd396e68002ae8fdc19fd0c34d02d4d"

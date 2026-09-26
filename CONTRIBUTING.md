@@ -190,3 +190,16 @@ python crawler_llm_intel.py --rebuild-only --feeds-base "https://free-llm-intel.
 **新增条目的机翻标题**：巡检带 `--ai-titles`（CI 已默认开启）时，首次收录的文章标题会交给 LLM 按「信达雅」润色一次，结果写进归档后随沿用机制冻结；LLM 失败 / 缺 key 时自动回落 Google 机翻，预算内分批调用。
 
 两个已知取舍：官方日后改文章标题，我们停在旧译文（改归档那一行即可跟进）；Google 刚机翻出来的新标题同样会被冻结——不过 CI 的 `--ai-titles` 已在冻结前先润色一轮，只有 LLM 不可用的日子才需要人工补。
+
+### 本地 AI 核查（无 API Key 的正式通道）
+
+CI 的 Gemini 免费层 RPD 会耗尽、或你希望由本地 agent 亲自核查时：
+
+```bash
+python crawler_llm_intel.py --review-export          # 组卷：待核查厂商 → .ai-review/packets/<vid>.prompt.md
+# 让本地 AI 阅读核查包（与远端模型所见 prompt 完全一致），
+# 按包尾「输出格式」写 .ai-review/packets/<vid>.json；无事实变化填 {"changed": false}
+python crawler_llm_intel.py --review-apply           # 过同一道逐字证据闸门后入库并前进快照
+```
+
+要点：闸门校验的语料是 **apply 当次实抓的页面**——导出后页面又变了、证据已不在原文上的补丁会被 `[local-reject]` 拒掉并继续排队；已应用的补丁改名 `.json.applied` 防重复入库；导出本身不前进任何哈希（未被核查的厂商明早 CI 仍会重新入队）。`.ai-review/` 已 gitignore；核查产物（overlay / changelog / 快照）与远端通道完全同轨，CI 的校验步骤照跑。

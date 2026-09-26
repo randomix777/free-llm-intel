@@ -3271,3 +3271,94 @@ class TestIntelChangesFeed(unittest.TestCase):
         self.assertIn("新表", new)
         self.assertNotIn("旧表", new)
         self.assertTrue(new.endswith(tail.lstrip("\n")), "人工尾部必须原样保留")
+
+
+class TestLocalReviewChannel(unittest.TestCase):
+    """本地 AI 核查通道（--review-export / --review-apply）：与远端共用证据闸门。"""
+
+    PAGE = "免费额度政策：注册即送 每月 100 万 tokens，长期有效，仅限非商用。"
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        page = crawler_llm_intel.PageResult(
+            url="https://p.example/pricing", stype="pricing", ok=True,
+            final_url="https://p.example/pricing", text=self.PAGE,
+            title="Pricing")
+        self.intel = crawler_llm_intel.VendorIntel(
+            vendor_id="demo_vid", brand="Demo", homepage="https://p.example",
+            products=[], intel_pages=[page])
+        self.intel_by_id = {"demo_vid": self.intel}
+        self.snaps = crawler_llm_intel.SnapshotState(self.root)
+        self.snaps.changed_pages = {"demo_vid": []}
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _packet_dir(self):
+        d = self.root / crawler_llm_intel.REVIEW_PACKET_DIR / "packets"
+        d.mkdir(parents=True, exist_ok=True)
+        return d
+
+    def test_export_writes_prompt_packet(self):
+        prompt = crawler_llm_intel.build_review_prompt(self.intel)
+        self.assertIn("每月 100 万 tokens", prompt)
+        n = crawler_llm_intel.export_review_packets(self.root, {"demo_vid": prompt})
+        self.assertEqual(n, 1)
+        self.assertTrue((self._packet_dir() / "demo_vid.prompt.md").exists())
+
+    def test_apply_validates_good_and_fabricated(self):
+        import json as _json
+        d = self._packet_dir()
+        # 缺补丁：继续排队（changed_pages 保留）
+        snaps = crawler_llm_intel.SnapshotState(self.root)
+        snaps.changed_pages = {"demo_vid": []}
+        out = crawler_llm_intel.run_local_review(
+            self.root, {"demo_vid": []}, self.intel_by_id, snaps)
+        self.assertEqual(out, {})
+        self.assertEqual(snaps.changed_pages, {},
+                         "缺包：哈希不前进（排队靠下次重抓，本地不 commit 即保留旧哈希）")
+        # 臆造证据：拒绝并保持排队
+        (d / "demo_vid.json").write_text(_json.dumps({
+            "changed": True, "summary": "s",
+            "fields": {"free_quota": "每月 200 万 tokens"},
+            "evidence": [{"url": "https://p.example/pricing",
+                          "quote": "每月 200 万 tokens 永久免费"}],
+            }, ensure_ascii=False), encoding="utf-8", newline="\n")
+        snaps = crawler_llm_intel.SnapshotState(self.root)
+        snaps.changed_pages = {"demo_vid": []}
+        out = crawler_llm_intel.run_local_review(
+            self.root, {"demo_vid": []}, self.intel_by_id, snaps)
+        self.assertEqual(out, {}, "证据无法逐字命中必须被闸门拒绝")
+        # 逐字真证据：通过并改名 .applied
+        (d / "demo_vid.json").write_text(_json.dumps({
+            "changed": True, "summary": "补充限速说明",
+            "fields": {"free_quota": "每月 100 万 tokens，仅限非商用"},
+            "evidence": [{"url": "https://p.example/pricing",
+                          "quote": "长期有效，仅限非商用"}],
+            }, ensure_ascii=False), encoding="utf-8", newline="\n")
+        snaps = crawler_llm_intel.SnapshotState(self.root)
+        snaps.changed_pages = {"demo_vid": []}
+        out = crawler_llm_intel.run_local_review(
+            self.root, {"demo_vid": []}, self.intel_by_id, snaps)
+        self.assertIn("free_quota", out["demo_vid"]["fields"])
+        self.assertTrue((d / "demo_vid.json.applied").exists(),
+                        "已应用的补丁必须改名，防止重复入库")
+
+    def test_adopt_writes_overlay_and_changelog(self):
+        import ai_review
+        (self.root / "profile_overrides.json").write_text("{}", encoding="utf-8")
+        patch = ai_review.validate_patch(
+            {"changed": True, "summary": "额度调整",
+             "fields": {"free_quota": "每月 100 万 tokens"},
+             "evidence": [{"url": "https://p.example/pricing",
+                           "quote": "长期有效，仅限非商用"}]},
+            self.PAGE)
+        n = crawler_llm_intel.adopt_patches(
+            self.root, {"demo_vid": patch}, self.intel_by_id)
+        self.assertGreaterEqual(n, 1)
+        overlay = json.loads((self.root / "profile_overrides.json")
+                             .read_text(encoding="utf-8"))
+        self.assertEqual(overlay["demo_vid"]["free_quota"], "每月 100 万 tokens")
+        self.assertTrue((self.root / crawler_llm_intel.CHANGELOG_MD).exists())
+        self.assertTrue((self.root / ".ai-changed").exists())

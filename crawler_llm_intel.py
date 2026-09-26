@@ -4465,6 +4465,119 @@ class SnapshotState:
         return True
 
 
+#: 本地 AI 核查通道（无 API Key 时）：导出核查包 → 本地 agent 填补丁 → 同一证据闸门入库
+REVIEW_PACKET_DIR = ".ai-review"
+
+
+def build_review_prompt(intel: VendorIntel) -> str:
+    """构造与 Gemini 核查完全一致的 prompt（档案 + 页面原文 + 输出格式）。
+
+    它同时就是**校验语料**：证据闸门只认这份文本里的逐字原文，
+    本地 AI 与远端模型走的是同一道闸，没有第二套信任标准。
+    """
+    import ai_review
+    payload = [{"url": p.final_url or p.url, "stype": p.stype,
+                "title": p.title, "text": p.text}
+               for p in intel.intel_pages
+               if p.ok and p.text.strip() and p.stype not in NEWS_TYPES]
+    if not payload:
+        return ""
+    prof = get_provider_profile(intel.vendor_id, intel.brand, intel.homepage)
+    return ai_review.build_user_prompt(intel.vendor_id, intel.brand, prof,
+                                       get_guide_meta(intel.vendor_id), payload)
+
+
+def export_review_packets(root: Path, prompts: dict[str, str]) -> int:
+    """把待核查厂商写成 .ai-review/packets/<vid>.prompt.md，返回份数。"""
+    if not prompts:
+        return 0
+    out = root / REVIEW_PACKET_DIR / "packets"
+    out.mkdir(parents=True, exist_ok=True)
+    for vid, prompt in prompts.items():
+        (out / f"{vid}.prompt.md").write_text(prompt + "\n",
+                                              encoding="utf-8", newline="\n")
+    return len(prompts)
+
+
+def run_local_review(root: Path, changed_map: dict, intel_by_id: dict,
+                     snapshots: "SnapshotState") -> dict:
+    """应用 .ai-review/packets/<vid>.json：逐字证据闸门 + 采纳，返回补丁集。
+
+    校验语料用**本次实抓页面**重建的 prompt——导出后页面又变了、证据今天
+    已不在原文上的补丁会被拒（与 Gemini 采信标准一致）。已应用的补丁文件改名
+    .applied 防重复入库；缺 patch 的厂商保留旧快照，下次继续排队。
+    """
+    import ai_review
+    patches: dict[str, dict] = {}
+    done: set[str] = set()
+    pdir = root / REVIEW_PACKET_DIR / "packets"
+    for vid in sorted(changed_map):
+        patch_file = pdir / f"{vid}.json"
+        intel = intel_by_id.get(vid)
+        if not patch_file.exists():
+            snapshots.rollback_vendor(vid)   # 还没人（工）填：继续排队
+            continue
+        try:
+            if intel is None:
+                raise ai_review.AiReviewError(f"{vid} 不在本次巡检清单（厂商已移除？）")
+            prompt = build_review_prompt(intel)
+            if not prompt:
+                raise ai_review.AiReviewError("无可用官方页正文")
+            data = ai_review.parse_json_loose(
+                patch_file.read_text(encoding="utf-8"))
+            patch = ai_review.validate_patch(data, prompt)
+        except (ai_review.AiReviewError, OSError, ValueError) as exc:
+            print(f"      [local-reject] {vid}: {exc}", file=sys.stderr)
+            snapshots.rollback_vendor(vid)
+            continue
+        snapshots.commit_vendor(vid)
+        snapshots.mark_reviewed(vid)
+        done.add(vid)
+        patch_file.rename(patch_file.with_suffix(".json.applied"))
+        if patch.get("changed"):
+            patches[vid] = patch
+            print(f"      [local-update] {intel.brand}：{patch['summary']}")
+        else:
+            print(f"      [local-ok] {intel.brand}：页面变化不构成事实更新")
+    for vid in changed_map:
+        if not (pdir / f"{vid}.json").exists() and vid not in done:
+            print(f"      [local-pending] {vid}：核查包还没有补丁，继续排队",
+                  file=sys.stderr)
+    return patches
+
+
+def adopt_patches(root: Path, ai_patches: dict, intel_by_id: dict) -> int:
+    """把过闸补丁写入 overlay、标记变更、追加变更日志（远端与本地核查共用）。
+
+    原样从 main 的 Gemini 分支抽出——两条通道若各写一份，漂移只是时间问题。
+    """
+    import ai_review
+    overlay_path = root / "profile_overrides.json"
+    # 变更日志的「前值」必须在**应用前**取生效档案（含既有覆写）
+    changelog_entries = []
+    for vid, p in ai_patches.items():
+        intel = intel_by_id[vid]
+        base = get_provider_profile(vid, intel.brand, intel.homepage)
+        changelog_entries.append({
+            "vendor_id": vid, "brand": intel.brand,
+            "summary": p.get("summary") or "官方页面事实变化",
+            "diffs": [(f, _changelog_fmt(base.get(f)), _changelog_fmt(v))
+                      for f, v in (p.get("fields") or {}).items()],
+        })
+    ai_review.apply_patches(overlay_path, ai_patches)
+    # reload_overrides() 故意不在这里调用：adopt 是被测单元，重载由调用方
+    # （main 的两条通道）执行，测试才能放心用真实模块函数。
+    report = [f"{vid}: {p['summary']}" for vid, p in ai_patches.items()]
+    (root / ".ai-changed").write_text("\n".join(report) + "\n",
+                                      encoding="utf-8", newline="\n")
+    n_cl = append_intel_changelog(root / CHANGELOG_MD,
+                                  datetime.now().strftime("%Y-%m-%d"),
+                                  changelog_entries)
+    print(f"      已写入 profile_overrides.json（{len(ai_patches)} 个厂商），"
+          f"变更日志追加 {n_cl} 条（{CHANGELOG_MD}），README 将按新档案重渲染。")
+    return n_cl
+
+
 # ---------------------------------------------------------------------------
 # main
 # ---------------------------------------------------------------------------
@@ -4523,6 +4636,12 @@ def main(argv: list[str] | None = None) -> int:
                         help=f"页面长期不变时的例行复查周期：距上次 AI 核查超过 N 天的厂商"
                              f"即使哈希未变也进核查队列（每次最多 {STALE_REVIEW_PER_RUN} 家，"
                              f"配合免费层 RPD）。0 = 关闭，只按页面变化核查。默认 {STALE_REVIEW_DAYS}")
+    parser.add_argument("--review-export", action="store_true",
+                        help="把待核查厂商导出为 .ai-review/packets/*.prompt.md"
+                             "（无 API Key 时交给本地 AI  agent 填写补丁）")
+    parser.add_argument("--review-apply", action="store_true",
+                        help="校验并采纳 .ai-review/packets/<vid>.json"
+                             "（与远端 AI 同一道逐字证据闸门）")
     parser.add_argument("--backfill-dates", action="store_true",
                         help="维护模式（不巡检）：逐篇访问归档中**缺发布日期**的文章页，"
                              "从 JSON-LD datePublished / OG / <time> 元数据回填日期；"
@@ -4565,6 +4684,14 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.rebuild_only and (args.only or args.no_news):
         print("[fatal] --rebuild-only 与 --only / --no-news 互斥（重建本身就是全局动态产物）",
+              file=sys.stderr)
+        return 2
+    if args.review_export and args.review_apply:
+        print("[fatal] --review-export 与 --review-apply 互斥（先导出后应用）",
+              file=sys.stderr)
+        return 2
+    if args.rebuild_only and (args.review_export or args.review_apply):
+        print("[fatal] 本地核查需要实抓页面正文做证据校验，与 --rebuild-only 互斥",
               file=sys.stderr)
         return 2
 
@@ -4612,7 +4739,9 @@ def main(argv: list[str] | None = None) -> int:
                                         homepage=vendor.get("homepage", ""),
                                         products=vendor.get("products") or [])
                 intel_list.append(intel)
-                changed_pages = snapshots.stage_vendor(vid, intel, ai_enabled=args.ai_review)
+                changed_pages = snapshots.stage_vendor(
+                    vid, intel,
+                    ai_enabled=args.ai_review or args.review_export or args.review_apply)
                 if changed_pages:
                     labels = ", ".join(sorted({p.stype for p in changed_pages}))
                     print(f"    [change] {len(changed_pages)} 个官方页面文本变化（{labels}）")
@@ -4630,7 +4759,8 @@ def main(argv: list[str] | None = None) -> int:
     # 例行复查：页面文本长期不变 ≠ 事实不变（限时活动到期、赠金过期都不改版面）。
     # 超过 N 天没被 AI 真正核查过的厂商也进队列；每次巡检限量，让存量厂商分批轮完。
     forced_review: set[str] = set()
-    if (args.ai_review and not args.rebuild_only and not snapshots.baseline
+    if ((args.ai_review or args.review_export or args.review_apply)
+            and not args.rebuild_only and not snapshots.baseline
             and args.stale_review_days > 0):
         candidates = [v.vendor_id for v in intel_list
                       if v.vendor_id not in changed_map
@@ -4650,7 +4780,36 @@ def main(argv: list[str] | None = None) -> int:
         if forced_review:
             bits.append(f"{len(forced_review)} 家例行复查（超 {args.stale_review_days} 天）")
         print(f"      待 AI 核查：{'；'.join(bits)}。")
-        if not args.ai_review:
+        if args.review_export or args.review_apply:
+            # 本地 AI 核查通道：导出=组卷，apply=过同一道证据闸门后入库。
+            # 不依赖任何 API Key，代价是需要一个本地 agent 先填好补丁。
+            intel_by_id = {v.vendor_id: v for v in intel_list}
+            if args.review_export:
+                prompts: dict[str, str] = {}
+                for vid in changed_map:
+                    intel = intel_by_id.get(vid)
+                    prompt = build_review_prompt(intel) if intel else ""
+                    if prompt:
+                        prompts[vid] = prompt
+                n = export_review_packets(root, prompts)
+                # 导出 ≠ 核查：全部排队厂商保留旧快照，核查入库后哈希才前进，
+                # 否则队列会静默溜走。
+                for vid in list(changed_map):
+                    snapshots.rollback_vendor(vid)
+                if n:
+                    print(f"      [local-review] 已导出 {n} 个核查包到 "
+                          f"{REVIEW_PACKET_DIR}/packets/*.prompt.md；"
+                          "本地 AI 按包尾输出格式填 <vid>.json 后，"
+                          "运行 --review-apply 过证据闸门入库。")
+                else:
+                    print("      [local-review] 无厂商有可用页面正文，导出为空。")
+            else:
+                ai_patches = run_local_review(root, dict(changed_map),
+                                              intel_by_id, snapshots)
+                if ai_patches:
+                    adopt_patches(root, ai_patches, intel_by_id)
+                    reload_overrides()
+        elif not args.ai_review:
             print("      未启用 --ai-review：仅更新快照（AI 核查需在 CI 或本地带该参数运行）。")
             for intel in intel_list:
                 snapshots.commit_vendor(intel.vendor_id)
@@ -4734,29 +4893,8 @@ def main(argv: list[str] | None = None) -> int:
                 if ai_aborted:
                     print("      本次 AI 核查提前终止：README / 博客照常生成，事实档案未被改写。")
                 if ai_patches:
-                    overlay_path = root / "profile_overrides.json"
-                    # 变更日志的「前值」必须在**应用前**取生效档案（含既有覆写）
-                    changelog_entries = []
-                    for vid, p in ai_patches.items():
-                        intel = intel_by_id[vid]
-                        base = get_provider_profile(vid, intel.brand, intel.homepage)
-                        changelog_entries.append({
-                            "vendor_id": vid, "brand": intel.brand,
-                            "summary": p.get("summary") or "官方页面事实变化",
-                            "diffs": [(f, _changelog_fmt(base.get(f)),
-                                       _changelog_fmt(v))
-                                      for f, v in (p.get("fields") or {}).items()],
-                        })
-                    ai_review.apply_patches(overlay_path, ai_patches)
+                    adopt_patches(root, ai_patches, intel_by_id)
                     reload_overrides()
-                    report = [f"{vid}: {p['summary']}" for vid, p in ai_patches.items()]
-                    (root / ".ai-changed").write_text("\n".join(report) + "\n",
-                                                      encoding="utf-8", newline="\n")
-                    n_cl = append_intel_changelog(
-                        root / CHANGELOG_MD, datetime.now().strftime("%Y-%m-%d"),
-                        changelog_entries)
-                    print(f"      已写入 profile_overrides.json（{len(ai_patches)} 个厂商），"
-                          f"变更日志追加 {n_cl} 条（{CHANGELOG_MD}），README 将按新档案重渲染。")
         # 无变化厂商的 stage 也一并落盘（哈希相同，不产生内容差异）
         for intel in intel_list:
             snapshots.commit_vendor(intel.vendor_id)
