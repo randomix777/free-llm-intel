@@ -33,8 +33,10 @@ def _save_trans_cache() -> None:
 
 
 # Google 对不认识的品牌词会按发音逐音节汉化（`Claude` → 克劳德、`Grok` →
-# 格洛克/格罗克）。这类音译写法是封闭集合，按表复原为官方英文拼写；
-# 官方就有中文名的品牌（Qwen=千问、GLM=智谱）不在此列，绝不能碰。
+# 格洛克/格罗克），对**看得懂但当成普通词**的品牌会语义直译（`Hugging Face`
+# → 拥抱人脸、`LLM` → 法学硕士、`Modular` → 模块化）。两类都是封闭词族，
+# 按表复原为官方英文拼写；官方就有中文名的品牌（Qwen=千问、GLM=智谱）
+# 不在此列，绝不能碰。
 _BRAND_TRANSLITERATIONS: list[tuple[str, re.Pattern]] = [
     ("Claude", re.compile(r"克劳德|克洛德")),
     ("Grok", re.compile(r"格罗克|格洛克|格雷克")),
@@ -43,6 +45,21 @@ _BRAND_TRANSLITERATIONS: list[tuple[str, re.Pattern]] = [
     ("Pixtral", re.compile(r"皮克斯特拉")),
     ("MiniMax", re.compile(r"迷你最大")),
     ("DeepSeek", re.compile(r"迪普西克|迪普席克")),
+    ("Mistral", re.compile(r"米斯特拉尔")),
+    ("Hugging Face", re.compile(r"拥抱人脸|拥抱脸部|拥抱脸|抱脸")),
+    ("LLM", re.compile(r"法学硕士")),
+    # `Modular` 作普通形容词时译文同样出「模块化」，复原的充要条件是原文
+    # 写着英文 Modular（_restore_brand_names 已按 source 把关），不会误伤。
+    ("Modular", re.compile(r"模块化")),
+    ("Gemini", re.compile(r"双子座")),
+    ("Sora", re.compile(r"索拉")),
+    ("Diffusers", re.compile(r"扩散器")),
+    ("Stable Diffusion", re.compile(r"稳定扩散")),
+    ("Sentence Transformers", re.compile(r"句子?变形金刚")),
+    ("Transformer", re.compile(r"变压器")),
+    ("Antigravity", re.compile(r"反重力剂?")),
+    ("Public AI", re.compile(r"公共人工智能")),
+    ("Meta AI", re.compile(r"元人工")),
 ]
 
 
