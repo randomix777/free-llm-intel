@@ -2306,6 +2306,54 @@ class TestTranslationSkipsIdentifiers(unittest.TestCase):
         for s in ("Introducing Mistral", "Large Enough", "New models", "Cheaper, Better"):
             self.assertFalse(provider_profiles._is_proper_noun_title(s), s)
 
+    # `Grok 4.1` 实测被 Google 音译成「格罗克4.1」：型号守卫（字母紧邻数字）
+    # 被中间的空格隔开拦不住，需要「品牌 + 版本号」整标题守卫。
+    SAMPLES_BRAND_VERSION = (
+        "Grok 4.1",
+        "Grok 4 Fast",
+        "Codestral 25.01",
+    )
+
+    def test_brand_version_titles_are_returned_unchanged(self):
+        for s in self.SAMPLES_BRAND_VERSION:
+            self.assertTrue(provider_profiles._is_brand_version_title(s), s)
+            self.assertEqual(provider_profiles.translate_to_zh(s), s,
+                             f"品牌+版本号标题被音译风险拦截失败: {s}")
+        # 真句子不受该守卫影响（存在小写散文词即照常翻译）
+        for s in ("New release 1.2 for everyone", "version 2 is out"):
+            self.assertFalse(provider_profiles._is_brand_version_title(s), s)
+
+    def test_transliterated_brands_are_restored_in_translations(self):
+        r = provider_profiles._restore_brand_names
+        self.assertEqual(
+            r("介绍克劳德寓言 5.1 和克劳德神话 5.1",
+              "Introducing Claude Fable 5.1 and Claude Mythos 5.1"),
+            "介绍Claude寓言 5.1 和Claude神话 5.1")
+        self.assertEqual(r("PowerPoint 版 格洛克", "PowerPoint 版 Grok"),
+                         "PowerPoint 版 Grok")
+        # 原文里没有该英文品牌时不能乱动（官方中文名/巧合词）
+        self.assertEqual(r("克劳德是一名常见译名", "没有英文品牌的中文句子"),
+                         "克劳德是一名常见译名")
+        # 整串就是音译词：保守不动
+        self.assertEqual(r("克劳德", "Claude"), "克劳德")
+
+    def test_published_artifacts_have_no_transliterated_brands(self):
+        """已发布产物里不允许残留品牌音译（防线装好前的历史数据回归守卫）。"""
+        root = Path(__file__).resolve().parent
+        pat = re.compile(r"克劳德|格罗克|格洛克")
+        # provider_profiles.py 自身是音译对照表（守卫定义），排除
+        files = [root / "README.md", root / "llm-news-feeds.md"]
+        files += sorted((root / "llm-news").glob("*.md"))
+        files += sorted((root / "docs" / "feeds").glob("*.xml"))
+        bad = []
+        for f in files:
+            if not f.exists():
+                continue
+            for i, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+                if pat.search(line):
+                    bad.append(f"{f.name}:{i}: {line[:60]}")
+        self.assertEqual(bad, [], "产物里残留了被音译的品牌名:\n" + "\n".join(bad))
+
 
 class TestDateOnlyTitleIsNotATitle(unittest.TestCase):
     """整条标题就是日期 / 数字的（含**只写年月**的 `2026年9月`）不是标题。

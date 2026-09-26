@@ -32,9 +32,43 @@ def _save_trans_cache() -> None:
         pass
 
 
+# Google 对不认识的品牌词会按发音逐音节汉化（`Claude` → 克劳德、`Grok` →
+# 格洛克/格罗克）。这类音译写法是封闭集合，按表复原为官方英文拼写；
+# 官方就有中文名的品牌（Qwen=千问、GLM=智谱）不在此列，绝不能碰。
+_BRAND_TRANSLITERATIONS: list[tuple[str, re.Pattern]] = [
+    ("Claude", re.compile(r"克劳德|克洛德")),
+    ("Grok", re.compile(r"格罗克|格洛克|格雷克")),
+    ("Codestral", re.compile(r"共纹")),
+    ("Magistral", re.compile(r"马吉斯特尔")),
+    ("Pixtral", re.compile(r"皮克斯特拉")),
+    ("MiniMax", re.compile(r"迷你最大")),
+    ("DeepSeek", re.compile(r"迪普西克|迪普席克")),
+]
+
+
+def _restore_brand_names(text: str, source: str) -> str:
+    """译文里出现品牌音译、而原文本就写着该英文品牌时，复原为英文拼写。"""
+    for brand, pat in _BRAND_TRANSLITERATIONS:
+        if not pat.search(text):
+            continue
+        if brand.lower() not in source.lower():
+            continue
+        if re.fullmatch(pat.pattern, text.strip()):
+            continue  # 整串就是音译词（如标题「克劳德」），保守不动
+        text = pat.sub(brand, text)
+    return text
+
+
 try:
     if _CACHE_PATH.exists():
         _TRANS_CACHE = json.loads(_CACHE_PATH.read_text(encoding="utf-8"))
+        # 历史缓存自愈：装防护之前落盘的音译译文在这里一次性复原，
+        # 否则闸门式守卫（放在查缓存之后）治不了已经坏掉的缓存。
+        _healed = {k: rv for k, v in _TRANS_CACHE.items()
+                   if (rv := _restore_brand_names(v, k)) != v}
+        _TRANS_CACHE.update(_healed)
+        if _healed:
+            _save_trans_cache()
 except Exception:
     pass
 atexit.register(_save_trans_cache)
@@ -105,6 +139,24 @@ def _is_proper_noun_title(text: str) -> bool:
     return t.split()[0].lower() not in _EN_STOPWORDS
 
 
+# 专名 + 版本号这类标题（`Grok 4.1` / `Codestral 25.01`）：全部词都是品牌词、
+# 整数或版本号，没有任何散文可译。型号守卫（字母紧邻数字）拦不住 `Grok 4.1`
+# 这种带空格的写法，实测 Google 直接音译成「格罗克4.1」。宁可留英文。
+_VERSION_TOKEN = re.compile(r"^\d+(?:\.\d+)*$")
+
+
+def _is_brand_version_title(text: str) -> bool:
+    words = (text or "").strip().split()
+    if len(words) < 2:
+        return False
+    for w in words:
+        if _VERSION_TOKEN.match(w):
+            continue
+        if not re.match(r"^[A-Z][\w'’\-]*$", w):
+            return False
+    return any(_VERSION_TOKEN.match(w) for w in words)
+
+
 def translate_to_zh(text: str, timeout: float = 4.0) -> str:
     """非中文内容借助 Google 公开 translate 接口自动翻译为中文。
 
@@ -129,6 +181,10 @@ def translate_to_zh(text: str, timeout: float = 4.0) -> str:
     # 宁可留英文，也不翻坏品牌名；纯散文标题（无型号）照常翻译。
     # 同样放在缓存查询前 —— 已翻坏的译文可能已在缓存里，放后面就治不了历史数据。
     if re.search(r"[A-Za-z]\d|\d[A-Za-z]", clean_text):
+        return clean_text
+    # 「品牌 + 版本号」标题（`Grok 4.1` / `Codestral 25.01`）同样直接原样返回：
+    # 实测 Google 把 `Grok 4.1` 音译成「格罗克4.1」，上一条守卫被空格隔开拦不住。
+    if _is_brand_version_title(clean_text):
         return clean_text
     # 纯专名短标题同样不翻：实测 Google 把 `Magistral` 译成「公路」、`Pixtral Large`
     # → 「像素大号」、`Le Chat` → 「猫」、`Codestral` → 「共纹」—— 品牌名一旦被汉化，
@@ -164,6 +220,9 @@ def translate_to_zh(text: str, timeout: float = 4.0) -> str:
             data = resp.json()
             translated = "".join(part[0] for part in data[0] if part and part[0])
             if translated:
+                # 兜底复原：整句标题没法靠「不翻」拦住（如 `Introducing Claude
+                # Fable 5.1 …`），Google 会把句中品牌音译，这里按原文复原。
+                translated = _restore_brand_names(translated, clean_text)
                 with _TRANS_LOCK:
                     if clean_text not in _TRANS_CACHE:
                         _TRANS_CACHE[clean_text] = translated
