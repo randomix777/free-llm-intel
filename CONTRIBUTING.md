@@ -196,10 +196,12 @@ python crawler_llm_intel.py --rebuild-only --feeds-base "https://free-llm-intel.
 CI 的 Gemini 免费层 RPD 会耗尽、或你希望由本地 agent 亲自核查时：
 
 ```bash
-python crawler_llm_intel.py --review-export          # 组卷：待核查厂商 → .ai-review/packets/<vid>.prompt.md
+python crawler_llm_intel.py --review-export          # 组卷：待核查厂商 → .ai-review/packets/<vid>.prompt.md（指纹登记在 .ai-review/manifest.json）
 # 让本地 AI 阅读核查包（与远端模型所见 prompt 完全一致），
 # 按包尾「输出格式」写 .ai-review/packets/<vid>.json；无事实变化填 {"changed": false}
 python crawler_llm_intel.py --review-apply           # 过同一道逐字证据闸门后入库并前进快照
 ```
+
+`--review-apply` 默认重新实抓、用**当次页面**重建校验语料；但当 manifest 指纹证明页面自导包以来一字未动时，会**快进复用包内语料**（免网络、秒级完成，闸门语义不变）——导包与回填通常只隔几十分钟，日常都走这条。任一厂商页面在期间变了，命令自动回退完整巡检重验，不存在「拿过期语料放行」的中间态。给本地 agent 的标准指令一句话即可：「处理 .ai-review/packets/ 下所有 prompt.md，按包尾输出格式填同名 json」。
 
 要点：闸门校验的语料是 **apply 当次实抓的页面**——导出后页面又变了、证据已不在原文上的补丁会被 `[local-reject]` 拒掉并继续排队；已应用的补丁改名 `.json.applied` 防重复入库；导出本身不前进任何哈希（未被核查的厂商明早 CI 仍会重新入队）。`.ai-review/` 已 gitignore；核查产物（overlay / changelog / 快照）与远端通道完全同轨，CI 的校验步骤照跑。

@@ -4338,6 +4338,26 @@ def _snapshot_key(vendor_id: str, page: PageResult) -> str:
     return f"{vendor_id}|{page.stype}|{page.final_url or page.url}"
 
 
+def vendor_snapshot_digest(entries: dict, vid: str) -> str:
+    """厂商情报/条件页快照条目的指纹（核查包语料只由这些页构成）。
+
+    本地核查的「导出 ↔ 快进应用」用它证明：包内语料对应的页面状态
+    至今一字未动 —— 一致就可以跳过全量重抓直接过闸。新闻页不进指纹：
+    它们不入语料、且几乎每天变化，纳入会让快进常态失效。
+    """
+    import hashlib
+    prefix = f"{vid}|"
+    kept = {}
+    for k, v in sorted(entries.items()):
+        if not k.startswith(prefix):
+            continue
+        stype = k[len(prefix):].split("|", 1)[0]
+        if stype in INTEL_TYPES or stype in CONDITION_TYPES:
+            kept[k] = v
+    payload = json.dumps(kept, sort_keys=True, ensure_ascii=False)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
 def _snapshot_fact_text(text: str) -> str:
     kept = []
     for line in (text or "").splitlines():
@@ -4493,12 +4513,21 @@ class SnapshotState:
         stale.sort(key=lambda v: self.reviews.get(v, ""))
         return stale
 
-    def save(self, crawled_ids: set[str], full_run: bool) -> bool:
+    def save(self, crawled_ids: set[str], full_run: bool,
+             crawl_scope: set[str] | None = None) -> bool:
         # AI 未处理 / 失败的厂商保持旧哈希（未 stage 即自然保留）
         for staged in self._staged.values():
             self.entries.update(staged)
         self._staged.clear()
-        if full_run:
+        if crawl_scope is not None:
+            # 限定范围（本地核查快进：本轮只处理了 crawl_scope 里的厂商）：
+            # 只清该范围内未再出现的条目，其余厂商的哈希原样保留。
+            scope_pfx = tuple(f"{vid}|" for vid in crawl_scope)
+            keep_pfx = tuple(f"{vid}|" for vid in crawled_ids)
+            self.entries = {k: v for k, v in self.entries.items()
+                            if not k.startswith(scope_pfx)
+                            or k.startswith(keep_pfx)}
+        elif full_run:
             prefixes = tuple(f"{vid}|" for vid in crawled_ids)
             self.entries = {k: v for k, v in self.entries.items()
                             if k.startswith(prefixes)}
@@ -4514,6 +4543,8 @@ class SnapshotState:
 
 #: 本地 AI 核查通道（无 API Key 时）：导出核查包 → 本地 agent 填补丁 → 同一证据闸门入库
 REVIEW_PACKET_DIR = ".ai-review"
+#: 包清单：记录每个核查包导出时对应的页面快照指纹（快进复用的判据）
+REVIEW_MANIFEST = "manifest.json"
 
 
 def build_review_prompt(intel: VendorIntel, focus: list | None = None) -> str:
@@ -4536,25 +4567,117 @@ def build_review_prompt(intel: VendorIntel, focus: list | None = None) -> str:
                                        focus=focus)
 
 
-def export_review_packets(root: Path, prompts: dict[str, str]) -> int:
-    """把待核查厂商写成 .ai-review/packets/<vid>.prompt.md，返回份数。"""
+def export_review_packets(root: Path, prompts: dict[str, str],
+                          snapshots: "SnapshotState | None" = None) -> int:
+    """把待核查厂商写成 .ai-review/packets/<vid>.prompt.md，返回份数。
+
+    带 snapshots 时同步登记 manifest：记录每个包**导出时刻**的页面快照指纹，
+    --review-apply 据此判断能否跳过重抓、直接复用包内语料过闸。
+    """
     if not prompts:
         return 0
     out = root / REVIEW_PACKET_DIR / "packets"
     out.mkdir(parents=True, exist_ok=True)
+    manifest = read_packet_manifest(root)
     for vid, prompt in prompts.items():
         (out / f"{vid}.prompt.md").write_text(prompt + "\n",
                                               encoding="utf-8", newline="\n")
+        if snapshots is not None:
+            manifest[vid] = {
+                "digest": vendor_snapshot_digest(snapshots.entries, vid),
+                "exported": date.today().isoformat(),
+            }
+    if snapshots is not None:
+        mpath = root / REVIEW_PACKET_DIR / REVIEW_MANIFEST
+        mpath.parent.mkdir(parents=True, exist_ok=True)
+        mpath.write_text(json.dumps(manifest, ensure_ascii=False, indent=2)
+                         + "\n", encoding="utf-8", newline="\n")
     return len(prompts)
 
 
+def read_packet_manifest(root: Path) -> dict:
+    try:
+        data = json.loads(
+            (root / REVIEW_PACKET_DIR / REVIEW_MANIFEST).read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def try_packet_fast_replay(root: Path, snapshots: "SnapshotState",
+                           vendors: list, grouped: dict,
+                           news_md_path: Path, feeds_dir: Path
+                           ) -> tuple[list, bool, set[str]]:
+    """本地核查快进重放：补丁厂商的页面指纹与导包时一致 → 免重抓过闸。
+
+    返回 (磁盘重建的 intel_list, 是否完成快进, 本轮实际处理厂商集)；
+    条件不满足返回 ([], False, set())，调用方回退完整巡检。
+    「导出时构建语料、应用时按指纹复用」与原语义等价：指纹逐字节一致
+    意味着证据语料与实抓重建的完全相同，闸门不放水。
+    重建的 intel 只覆盖有动态归档的厂商（同 --rebuild-only），调用方据此
+    决定 README 是否立即重渲染；处理厂商集供快照限定清理范围——快进没有
+    全量实抓，绝不能按「本轮未出现即删除」的整跑语义清理其余厂商条目。
+    """
+    manifest = read_packet_manifest(root)
+    pdir = root / REVIEW_PACKET_DIR / "packets"
+    pending = {vid for vid in manifest if (pdir / f"{vid}.json").exists()}
+    if not pending:
+        return [], False, set()
+    # 只卡「补丁还没过闸、而页面又变了」的厂商：已应用/无补丁的陈旧登记
+    # 不该把快进永久堵死。
+    stale = [vid for vid in sorted(pending)
+             if manifest[vid].get("digest")
+             != vendor_snapshot_digest(snapshots.entries, vid)]
+    if stale:
+        print(f"      [local-fast] {len(stale)} 家页面自导包后已变化"
+              f"（{', '.join(stale[:5])}），回退完整巡检重验。")
+        return [], False, set()
+    print("[2/4] --review-apply 快进：页面快照与导包时一致，"
+          "复用包内语料过闸（不发起网络抓取）...")
+    news_text = (news_md_path.read_text(encoding="utf-8")
+                 if news_md_path.exists() else "")
+    intel_list = rebuild_intel_from_disk(
+        vendors, grouped, _parse_news_md_page_states(news_text),
+        news_md_path.parent / "llm-news",
+        load_original_titles(feeds_dir / "articles.json"))
+    intel_by_id = {v.vendor_id: v for v in intel_list}
+    # 不在磁盘重建清单里的厂商（无动态归档）造空壳：语料走包内注入，
+    # 品牌名取自 yaml，渲染计数不缺。
+    for vendor in vendors:
+        vid = vendor.get("id", "unknown")
+        if vid not in intel_by_id and vid in pending:
+            stub = VendorIntel(vendor_id=vid, brand=vendor.get("brand", vid),
+                               homepage=vendor.get("homepage", ""),
+                               products=vendor.get("products") or [])
+            intel_list.append(stub)
+            intel_by_id[vid] = stub
+    prompt_paths = {vid: pdir / f"{vid}.prompt.md" for vid in pending}
+    patches = run_local_review(
+        root, dict.fromkeys(pending), intel_by_id, snapshots,
+        corpus_provider=lambda vid: (
+            prompt_paths[vid].read_text(encoding="utf-8")
+            if vid in prompt_paths else ""))
+    if patches:
+        adopt_patches(root, patches, intel_by_id)
+        reload_overrides()
+    for vid in list(pending):
+        if not (pdir / f"{vid}.json").exists():
+            manifest.pop(vid, None)
+    (root / REVIEW_PACKET_DIR / REVIEW_MANIFEST).write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8", newline="\n")
+    return intel_list, True, set(pending)
+
+
 def run_local_review(root: Path, changed_map: dict, intel_by_id: dict,
-                     snapshots: "SnapshotState") -> dict:
+                     snapshots: "SnapshotState",
+                     corpus_provider=None) -> dict:
     """应用 .ai-review/packets/<vid>.json：逐字证据闸门 + 采纳，返回补丁集。
 
-    校验语料用**本次实抓页面**重建的 prompt——导出后页面又变了、证据今天
-    已不在原文上的补丁会被拒（与 Gemini 采信标准一致）。已应用的补丁文件改名
-    .applied 防重复入库；缺 patch 的厂商保留旧快照，下次继续排队。
+    默认校验语料用**本次实抓页面**重建的 prompt——导出后页面又变了、证据今天
+    已不在原文上的补丁会被拒（与 Gemini 采信标准一致）。corpus_provider 为
+    快进重放注入点：指纹已证明页面自导出未变，语料直接取包内原文。
+    已应用的补丁文件改名 .applied 防重复入库；缺 patch 的厂商保留旧快照，下次继续排队。
     """
     import ai_review
     patches: dict[str, dict] = {}
@@ -4567,11 +4690,16 @@ def run_local_review(root: Path, changed_map: dict, intel_by_id: dict,
             snapshots.rollback_vendor(vid)   # 还没人（工）填：继续排队
             continue
         try:
-            if intel is None:
-                raise ai_review.AiReviewError(f"{vid} 不在本次巡检清单（厂商已移除？）")
-            prompt = build_review_prompt(intel, snapshots.focus.get(vid))
-            if not prompt:
-                raise ai_review.AiReviewError("无可用官方页正文")
+            prompt = corpus_provider(vid) if corpus_provider else ""
+            if prompt:
+                if "[本地 AI 核查包]" not in prompt:
+                    raise ai_review.AiReviewError("包内语料缺少页头标记（文件被截断/改写？）")
+            else:
+                if intel is None:
+                    raise ai_review.AiReviewError(f"{vid} 不在本次巡检清单（厂商已移除？）")
+                prompt = build_review_prompt(intel, snapshots.focus.get(vid))
+                if not prompt:
+                    raise ai_review.AiReviewError("无可用官方页正文")
             data = ai_review.parse_json_loose(
                 patch_file.read_text(encoding="utf-8"))
             patch = ai_review.validate_patch(data, prompt)
@@ -4585,9 +4713,9 @@ def run_local_review(root: Path, changed_map: dict, intel_by_id: dict,
         patch_file.rename(patch_file.with_suffix(".json.applied"))
         if patch.get("changed"):
             patches[vid] = patch
-            print(f"      [local-update] {intel.brand}：{patch['summary']}")
+            print(f"      [local-update] {intel.brand if intel else vid}：{patch['summary']}")
         else:
-            print(f"      [local-ok] {intel.brand}：页面变化不构成事实更新")
+            print(f"      [local-ok] {intel.brand if intel else vid}：页面变化不构成事实更新")
     for vid in changed_map:
         if not (pdir / f"{vid}.json").exists() and vid not in done:
             print(f"      [local-pending] {vid}：核查包还没有补丁，继续排队",
@@ -4743,7 +4871,8 @@ def main(argv: list[str] | None = None) -> int:
               file=sys.stderr)
         return 2
     if args.rebuild_only and (args.review_export or args.review_apply):
-        print("[fatal] 本地核查需要实抓页面正文做证据校验，与 --rebuild-only 互斥",
+        print("[fatal] --review-export 需要实抓组卷；--review-apply 在导包页面未变时"
+              "可快进复用包内语料，与 --rebuild-only 互斥",
               file=sys.stderr)
         return 2
 
@@ -4761,7 +4890,19 @@ def main(argv: list[str] | None = None) -> int:
 
     news_md_path = (root / args.news_md) if not Path(args.news_md).is_absolute() else Path(args.news_md)
     feeds_dir = (root / args.feeds_dir) if not Path(args.feeds_dir).is_absolute() else Path(args.feeds_dir)
-    if args.rebuild_only:
+
+    # ---- 本地核查快进：补丁厂商的页面快照与导包时刻逐字节一致时，证据语料
+    # 直接取包内原文，跳过全量重抓（闸门语义不变）；任一不一致回退完整巡检。----
+    fast_applied = False
+    fast_vids: set[str] = set()
+    if (args.review_apply and not args.rebuild_only and not args.only
+            and not snapshots.baseline):
+        intel_list, fast_applied, fast_vids = try_packet_fast_replay(
+            root, snapshots, vendors, grouped, news_md_path, feeds_dir)
+
+    if fast_applied:
+        pass
+    elif args.rebuild_only:
         print("[2/4] --rebuild-only：跳过抓取，从磁盘产物重建 ...")
         news_text = news_md_path.read_text(encoding="utf-8") if news_md_path.exists() else ""
         intel_list = rebuild_intel_from_disk(
@@ -4874,7 +5015,7 @@ def main(argv: list[str] | None = None) -> int:
                     prompt = build_review_prompt(intel, snapshots.focus.get(vid)) if intel else ""
                     if prompt:
                         prompts[vid] = prompt
-                n = export_review_packets(root, prompts)
+                n = export_review_packets(root, prompts, snapshots)
                 # 导出 ≠ 核查：全部排队厂商保留旧快照，核查入库后哈希才前进，
                 # 否则队列会静默溜走。
                 for vid in list(changed_map):
@@ -4883,7 +5024,8 @@ def main(argv: list[str] | None = None) -> int:
                     print(f"      [local-review] 已导出 {n} 个核查包到 "
                           f"{REVIEW_PACKET_DIR}/packets/*.prompt.md；"
                           "本地 AI 按包尾输出格式填 <vid>.json 后，"
-                          "运行 --review-apply 过证据闸门入库。")
+                          "运行 --review-apply 过证据闸门入库"
+                          "（页面未变时自动快进复用包内语料，无需重抓）。")
                 else:
                     print("      [local-review] 无厂商有可用页面正文，导出为空。")
             else:
@@ -4892,6 +5034,18 @@ def main(argv: list[str] | None = None) -> int:
                 if ai_patches:
                     adopt_patches(root, ai_patches, intel_by_id)
                     reload_overrides()
+                # 过闸厂商的 manifest 登记随之注销
+                mpath = root / REVIEW_PACKET_DIR / REVIEW_MANIFEST
+                manifest = read_packet_manifest(root)
+                pdir = root / REVIEW_PACKET_DIR / "packets"
+                if any(vid in manifest for vid in changed_map):
+                    for vid in list(changed_map):
+                        if not (pdir / f"{vid}.json").exists():
+                            manifest.pop(vid, None)
+                    mpath.parent.mkdir(parents=True, exist_ok=True)
+                    mpath.write_text(json.dumps(manifest, ensure_ascii=False,
+                                               indent=2) + "\n",
+                                     encoding="utf-8", newline="\n")
         elif not args.ai_review:
             print("      未启用 --ai-review：仅更新快照（AI 核查需在 CI 或本地带该参数运行）。")
             for intel in intel_list:
@@ -4984,7 +5138,8 @@ def main(argv: list[str] | None = None) -> int:
             snapshots.commit_vendor(intel.vendor_id)
     if not args.rebuild_only:
         state_changed = snapshots.save({v.vendor_id for v in intel_list},
-                                       full_run=not args.only)
+                                       full_run=not args.only,
+                                       crawl_scope=fast_vids if fast_applied else None)
         if state_changed:
             print(f"      快照状态已更新：{SNAPSHOT_STATE}")
 

@@ -3494,3 +3494,104 @@ class TestLocalReviewChannel(unittest.TestCase):
         self.assertEqual(overlay["demo_vid"]["free_quota"], "每月 100 万 tokens")
         self.assertTrue((self.root / crawler_llm_intel.CHANGELOG_MD).exists())
         self.assertTrue((self.root / ".ai-changed").exists())
+
+
+class TestPacketFastReplay(unittest.TestCase):
+    """本地核查快进：指纹一致 → 免重抓复用包内语料；不一致 → 回退完整巡检。"""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        d = self.root / crawler_llm_intel.REVIEW_PACKET_DIR / "packets"
+        d.mkdir(parents=True)
+        packet = ("[本地 AI 核查包] vendor=demo_vid\n"
+                  "【官方页面原文】\n" + TestLocalReviewChannel.PAGE)
+        (d / "demo_vid.prompt.md").write_text(packet, encoding="utf-8")
+        (d / "demo_vid.json").write_text(json.dumps({
+            "changed": True, "summary": "补充限速说明",
+            "fields": {"free_quota": "每月 100 万 tokens，仅限非商用"},
+            "evidence": [{"url": "https://p.example/pricing",
+                          "quote": "长期有效，仅限非商用"}],
+        }, ensure_ascii=False), encoding="utf-8", newline="\n")
+        (self.root / "profile_overrides.json").write_text("{}", encoding="utf-8")
+        page = crawler_llm_intel.PageResult(
+            url="https://p.example/pricing", stype="pricing", ok=True,
+            final_url="https://p.example/pricing",
+            text=TestLocalReviewChannel.PAGE, title="Pricing")
+        self.snaps = crawler_llm_intel.SnapshotState(self.root)
+        intel = crawler_llm_intel.VendorIntel(
+            vendor_id="demo_vid", brand="Demo", homepage="https://p.example",
+            products=[], intel_pages=[page])
+        self.snaps.stage_vendor("demo_vid", intel)
+        self.snaps.commit_vendor("demo_vid")
+        self.digest = crawler_llm_intel.vendor_snapshot_digest(
+            self.snaps.entries, "demo_vid")
+        self.vendors = [{"id": "demo_vid", "name": "Demo",
+                         "homepage": "https://p.example"}]
+        self.grouped = {"demo_vid": [
+            {"vendor": "demo_vid", "type": "pricing",
+             "url": "https://p.example/pricing"}]}
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def _replay(self, digest):
+        (self.root / crawler_llm_intel.REVIEW_PACKET_DIR
+         / crawler_llm_intel.REVIEW_MANIFEST).write_text(
+            json.dumps({"demo_vid": {"digest": digest,
+                                     "exported": "2026-09-27"}}),
+            encoding="utf-8", newline="\n")
+        return crawler_llm_intel.try_packet_fast_replay(
+            self.root, self.snaps, self.vendors, self.grouped,
+            self.root / "llm-news-feeds.md", self.root / "docs" / "feeds")
+
+    def test_matching_digest_applies_without_crawl(self):
+        intel_list, applied, vids = self._replay(self.digest)
+        self.assertEqual(vids, {"demo_vid"})
+        self.assertTrue(applied, "指纹一致必须走快进")
+        self.assertTrue(intel_list, "快进要交回磁盘重建的 intel 供渲染")
+        overlay = json.loads((self.root / "profile_overrides.json")
+                             .read_text(encoding="utf-8"))
+        self.assertIn("demo_vid", overlay, "补丁应过闸入库")
+        d = self.root / crawler_llm_intel.REVIEW_PACKET_DIR / "packets"
+        self.assertTrue((d / "demo_vid.json.applied").exists())
+        self.assertFalse((d / "demo_vid.json").exists())
+        self.assertEqual(
+            crawler_llm_intel.read_packet_manifest(self.root), {},
+            "已过闸的登记应注销，不留陈旧条目")
+
+    def test_fast_replay_save_keeps_outside_vendors(self):
+        # 快进只处理 in-scope 厂商：清单外厂商的哈希条目一条都不能掉
+        other = crawler_llm_intel.SnapshotState(self.root)
+        key = "other_vid|pricing|https://o.example/p"
+        demo_key = "demo_vid|pricing|https://p.example/pricing"
+        other.entries[key] = {"sha256": "x" * 64, "fact": ""}
+        other.entries[demo_key] = {"sha256": "y" * 64, "fact": ""}
+        other.save({"demo_vid"}, full_run=True, crawl_scope={"demo_vid"})
+        data = json.loads(other.path.read_text(encoding="utf-8"))
+        self.assertIn(key, data["sources"],
+                      "限定范围落盘不得清理本轮没实抓的其余厂商")
+        self.assertIn(demo_key, data["sources"])
+        # 对照组：整跑语义（无范围）仍会清掉不在本轮清单里的条目
+        other.save({"demo_vid"}, full_run=True)
+        data3 = json.loads(other.path.read_text(encoding="utf-8"))
+        self.assertNotIn(key, data3["sources"])
+
+    def test_stale_digest_falls_back(self):
+        intel_list, applied, vids = self._replay("0" * 64)
+        self.assertEqual(vids, set())
+        self.assertFalse(applied, "页面变了必须回退完整巡检重验")
+        self.assertEqual(intel_list, [])
+        self.assertEqual((self.root / "profile_overrides.json")
+                         .read_text(encoding="utf-8"), "{}")
+        d = self.root / crawler_llm_intel.REVIEW_PACKET_DIR / "packets"
+        self.assertTrue((d / "demo_vid.json").exists(),
+                        "回退路径不得消费补丁——留给完整巡检")
+
+    def test_export_registers_manifest(self):
+        n = crawler_llm_intel.export_review_packets(
+            self.root, {"demo_vid": "x"}, self.snaps)
+        self.assertEqual(n, 1)
+        m = crawler_llm_intel.read_packet_manifest(self.root)
+        self.assertEqual(m["demo_vid"]["digest"], self.digest,
+                         "登记指纹必须与当前情报页快照一致（新闻页不进指纹）")
