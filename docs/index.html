@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LLM 厂商动态 · 额度变化 · 免费额度总表 · free-llm-intel</title>
+<title>LLM 厂商动态 · 最新变化 · 免费额度一览 · free-llm-intel</title>
 <meta name="description" content="汇总各 LLM 厂商官方博客 / 更新日志的新文章（标题已汉化），并展示巡检采纳的额度 / 活动变化与各厂商免费额度总表。官方没有 RSS 的厂商也在这里。">
 <link rel="alternate" type="application/rss+xml" title="LLM 厂商动态（合并流）" href="feeds/llm-news-all.xml">
 <link rel="alternate" type="application/rss+xml" title="LLM 免费额度 · 新活动与新额度变化" href="feeds/llm-intel-changes.xml">
@@ -95,7 +95,7 @@
   .segbtn[aria-pressed=true] { background: var(--chip-active-bg); color: var(--chip-active-fg); }
 
   .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
-  /* 顶层三视图：厂商动态 / 额度·活动变化 / 额度总表 */
+  /* 顶层三视图：厂商动态 / 最新变化 / 免费额度一览 */
   .tabs { display: flex; gap: 6px; margin: 16px 0 0; }
   .tab {
     appearance: none; cursor: pointer; font-size: 14px; line-height: 1;
@@ -183,7 +183,7 @@
   <nav class="tabs" role="tablist" aria-label="视图">
     <button type="button" class="tab" id="tab-news" role="tab" aria-selected="true">厂商动态</button>
     <button type="button" class="tab" id="tab-changes" role="tab" aria-selected="false">最新变化</button>
-    <button type="button" class="tab" id="tab-quotas" role="tab" aria-selected="false">额度总表</button>
+    <button type="button" class="tab" id="tab-quotas" role="tab" aria-selected="false">免费额度一览</button>
   </nav>
 
   <div class="pane" id="pane-news">
@@ -234,7 +234,7 @@
     </div>
     <p class="hint">
       全部厂商的<strong>免费额度一览</strong>（当前快照，随每日巡检刷新）。
-      想看“哪家变了”请切到「最新变化」——总表本身不做订阅，避免每天重复推送整份清单。
+      想看“哪家变了”请切到「最新变化」——一览本身不做订阅，避免每天重复推送整份清单。
     </p>
     </div>
     <div id="quotas-list"></div>
@@ -563,7 +563,7 @@
     }
   }
 
-  // ---- 顶层三视图：动态（默认）/ 变化流 / 额度总表 ------------------------
+  // ---- 顶层三视图：动态（默认）/ 最新变化 / 免费额度一览 --------------------
   // 后两个视图的数据同样是巡检产物（feeds/intel-changes.json、feeds/quotas.json），
   // 点开才拉取；页面依旧零硬编码——厂商与条目全部来自 JSON。
   var REPO = 'https://github.com/rockbenben/free-llm-intel';
