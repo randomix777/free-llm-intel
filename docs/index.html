@@ -639,13 +639,17 @@
   }
   function loadChanges() {
     if (changesState.rows) { renderChanges(); return; }
+    var hit = cacheRead('changes');
+    if (hit) { changesState.rows = hit.data.items || []; renderChanges(); }
     fetch(CHANGES, { cache: 'no-cache' }).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     }).then(function (data) {
+      cacheWrite('changes', data);
       changesState.rows = data.items || [];
       renderChanges();
     }).catch(function (e) {
+      if (hit) return;
       document.getElementById('changes-msg').style.display = 'block';
       document.getElementById('changes-msg').textContent =
         '无法读取 ' + CHANGES + '（' + e.message + '）——它随巡检生成，首次上线前可能尚不存在。';
@@ -701,13 +705,17 @@
   }
   function loadQuotas() {
     if (quotasState.rows) { renderQuotas(); return; }
+    var hit = cacheRead('quotas');
+    if (hit) { quotasState.rows = hit.data.vendors || []; renderQuotas(); }
     fetch(QUOTAS, { cache: 'no-cache' }).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
     }).then(function (data) {
+      cacheWrite('quotas', data);
       quotasState.rows = data.vendors || [];
       renderQuotas();
     }).catch(function (e) {
+      if (hit) return;
       document.getElementById('quotas-msg').style.display = 'block';
       document.getElementById('quotas-msg').textContent =
         '无法读取 ' + QUOTAS + '（' + e.message + '）——它随巡检生成，首次上线前可能尚不存在。';
@@ -746,21 +754,30 @@
     }
   });
 
-  // 厂商索引先加载：文章索引里只有 vendor_id，品牌名与单源地址都靠它映射。
-  // 它缺失时页面照常工作，只是厂商显示成 id、「按厂商订阅」退化成不完整列表。
-  var loadVendors = fetch(VENDORS, { cache: 'no-cache' })
-    .then(function (r) { return r.ok ? r.json() : null; })
-    .catch(function () { return null; });
-
-  // 文章列表读**全量索引**（不是合并流）：索引体积只有合并流一半、免去 XML 解析，
-  // 而且标题不截断、还带原文标题（feed 里截到 60 字是为了列表可读）。
-  // 做成函数而非常量 promise：常量会在链式 catch 挂上之前就 reject，浏览器报
-  // 「Uncaught (in promise)」，兜底虽仍生效但控制台是脏的。
-  function loadArticles() {
-    return fetch(ARTICLES, { cache: 'no-cache' }).then(function (r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    });
+  // ---- 本地缓存：秒开 + 后台刷新 ------------------------------------------
+  // Pages 的 cache-control 只有 600s，且三份 JSON 原本**串行**拉——每次打开都要
+  // 转圈几秒。现在把整份 JSON 落到 localStorage：12h 内的缓存先渲染（首屏零等待），
+  // 网络回来再替换；超过 14 天的缓存视同没有（政策情报过期即误导）。
+  var CACHE_TTL = 12 * 3600e3;      // 直接用缓存的时限：页脚标注数据时间
+  var CACHE_MAX = 14 * 24 * 3600e3; // 超过此年龄的缓存不再使用
+  function cacheRead(key) {
+    try {
+      var raw = localStorage.getItem('fli-index:' + key);
+      if (!raw) return null;
+      var o = JSON.parse(raw);
+      if (!o || typeof o.taken !== 'number' || Date.now() - o.taken > CACHE_MAX) return null;
+      return o;
+    } catch (e) { return null; }
+  }
+  function cacheWrite(key, data) {
+    try {
+      localStorage.setItem('fli-index:' + key,
+                           JSON.stringify({ taken: Date.now(), data: data }));
+    } catch (e) { /* 容量满 / 隐私模式：缓存只是加速器，失败不影响功能 */ }
+  }
+  function cacheAgeLabel(o) {
+    var m = Math.round((Date.now() - o.taken) / 60000);
+    return m < 60 ? m + ' 分钟' : (Math.round(m / 60 * 10) / 10) + ' 小时';
   }
 
   function fail(e) {
@@ -775,42 +792,82 @@
       'Source 选 Deploy from a branch、Branch=main、目录=/docs）。';
   }
 
-  loadVendors.then(function (index) {
+  function applyVendors(index, fromCache) {
+    state.brands = {}; state.feeds = {}; state.rank = {};
     ((index && index.vendors) || []).forEach(function (v) {
       state.brands[v.id] = v.brand || v.id;
       state.feeds[v.id] = v.feed || '';
       if (typeof v.rank === 'number') state.rank[v.id] = v.rank;
     });
     renderVendorFeeds(index);
-    if (!index) el.vendorIndexNote.style.display = '';
+    // 缓存里有索引时不算「索引缺失」——退化的只是这次网络没帮上忙
+    el.vendorIndexNote.style.display = (!index && !fromCache) ? '' : 'none';
+  }
 
-    // 优先用**全量索引**（更小、标题完整）。索引是巡检产物、与页面同批提交，
-    // 在「页面已上线、索引还没生成」的窗口里退回合并流（它现在也是全量，
-    // 只是标题截到 60 字），页面不至于整页打不开。
-    return loadArticles().then(function (data) {
-      state.all = (data.articles || []).map(mapRow);
-      state.limited = false;
-    }).catch(function () {
-      return fetch(FEED, { cache: 'no-cache' }).then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.text();
-      }).then(function (txt) {
-        state.all = parseFeed(txt);
-        state.limited = true;
-      });
-    });
-  }).then(function () {
-    if (!state.all.length) throw new Error('没有可显示的条目');
+  function applyArticles(data) {
+    state.all = (data.articles || []).map(mapRow);
+    state.limited = false;
+  }
+
+  // 三份数据并行在途：厂商索引到位即补映射并重渲染（品牌名不再等文章索引）。
+  var bootCache = cacheRead('articles');
+  var vendorsNet = fetch(VENDORS, { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .catch(function () { return null; });
+  var articlesNet = fetch(ARTICLES, { cache: 'no-cache' }).then(function (r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  });
+
+  function relabelIfStale() {
+    // 用缓存首屏时在计数后注明数据时间；网络替换时 renderItems 会重写计数
+    if (bootCache && bootCache.taken && state.all.length) {
+      el.count.textContent += '（缓存于 ' + cacheAgeLabel(bootCache) + '前）';
+    }
+  }
+
+  if (bootCache) {
+    var vc = cacheRead('vendors');
+    if (vc) applyVendors(vc.data, true);
+    applyArticles(bootCache.data);
     render();
-    if (state.limited) {
+    relabelIfStale();
+  }
+  // 厂商索引先到就刷新（无缓存时这也是第一次像样的渲染入口）
+  vendorsNet.then(function (index) {
+    if (index) {
+      cacheWrite('vendors', index);
+      applyVendors(index, false);
+      if (state.all.length) render();
+    } else if (!bootCache) {
+      el.vendorIndexNote.style.display = '';
+    }
+  });
+  articlesNet.then(function (data) {
+    cacheWrite('articles', data);
+    applyArticles(data);
+    render();
+  }).catch(function () {
+    if (bootCache) return; // 缓存画面还在，静默用旧数据
+    // 索引缺失时的兜底：退回解析合并流（以下行为与旧版一致）
+    return fetch(FEED, { cache: 'no-cache' }).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.text();
+    }).then(function (txt) {
+      state.all = parseFeed(txt);
+      state.limited = true;
+      render();
       el.msg.className = 'msg warn';
       el.msg.style.display = 'block';
       el.msg.textContent =
         '全量索引（' + ARTICLES + '）尚未生成，当前显示的是合并流里的 ' +
         state.all.length + ' 条（合并流也是全量，只是标题截到 60 字）。' +
         '下一次定时巡检生成索引后，本页会自动显示完整标题与原文标题。';
-    }
-  }).catch(fail);
+    });
+  }).catch(function () {
+    if (bootCache) return; // 缓存画面还在，不算失败
+    fail(new Error('网络不可达'));
+  });
 })();
 </script>
 </body>
