@@ -3538,10 +3538,21 @@ def load_original_titles(articles_json_path: Path) -> dict[tuple[str, str], str]
     for row in data.get("articles") or []:
         if len(row) <= oi:
             continue
-        orig = (row[oi] or "").strip() or (row[ti] or "").strip()
-        if orig:
+        # 只认**真正的原文列**。旧版在这里拿标题兜底，把冻结的中文显示标题也
+        # 当成原文回填进 Article.title，全量索引再把它们写成伪 original_title
+        # ——中文「原文」既不是原文，还每轮重建自我复制。缺原文就是空串。
+        orig = (row[oi] or "").strip()
+        if orig and orig != (row[ti] or "").strip():
             out[(row[vi], row[ui])] = orig
+    global _LAST_ORIG_INDEX
+    _LAST_ORIG_INDEX = dict(out)
     return out
+
+
+#: 本次运行内读过的上一版原文索引 —— 实抓路径上归档文章的英文原文不在任何
+#: 内存对象里（Article 只带 title/zh_title），写全量索引时靠它兜底，
+#: 否则「跑一次实抓就静默丢掉上一版有、当页没有的原文标题」。
+_LAST_ORIG_INDEX: dict[tuple[str, str], str] = {}
 
 
 def write_news_archives(out_dir: Path, intel_list: list[VendorIntel],
@@ -3954,9 +3965,17 @@ def write_rss_feeds(out_dir: Path, intel_list: list[VendorIntel], base_url: str 
     #    标题用汉化后的 `titles_zh` 且**不截断**（feed 里截到 60 字是为了列表可读，
     #    页面上可以完整显示）。
     index_rows: list[list[str]] = []
+    if not _LAST_ORIG_INDEX:
+        load_original_titles(out_dir / "articles.json")
     for _brand, vendor_id, arts, titles_zh in per_vendor:
         for art, t in zip(arts, titles_zh):
             orig = art.title.strip()
+            key = (vendor_id, art.url)
+            if orig != t.strip() and not re.search(r"[A-Za-z]{4}", orig):
+                # 内存里没有英文原文（纯归档来源的文章）：回退上一版索引的原文
+                prev = _LAST_ORIG_INDEX.get(key, "")
+                if prev and re.search(r"[A-Za-z]{4}", prev):
+                    orig = prev
             index_rows.append([t, art.url, vendor_id, art.date,
                                orig if orig != t.strip() else ""])
     # 有日期的按日期倒序在前，无日期的排后（与页面/feed 的排序约定一致）。

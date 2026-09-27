@@ -46,8 +46,11 @@ _BRAND_TRANSLITERATIONS: list[tuple[str, re.Pattern]] = [
     ("MiniMax", re.compile(r"迷你最大")),
     ("DeepSeek", re.compile(r"迪普西克|迪普席克")),
     ("Mistral", re.compile(r"米斯特拉尔")),
-    ("Hugging Face", re.compile(r"拥抱人脸|拥抱脸部|拥抱脸|抱脸")),
+    ("Hugging Face", re.compile(r"拥抱人脸|拥抱脸部|拥抱脸|拥抱面|抱脸")),
     ("LLM", re.compile(r"法学硕士")),
+    # 产品名整串直译（实测 `Patch Time Series Transformer` → 「贴片时间序列
+    # Transformer」）：键按整串复原，模式允许中途中英混排。
+    ("Patch Time Series Transformer", re.compile(r"贴片时间序列 ?Transformer")),
     # `Modular` 作普通形容词时译文同样出「模块化」，复原的充要条件是原文
     # 写着英文 Modular（_restore_brand_names 已按 source 把关），不会误伤。
     ("Modular", re.compile(r"模块化")),

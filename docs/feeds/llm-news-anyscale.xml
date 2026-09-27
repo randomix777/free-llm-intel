@@ -137,84 +137,98 @@
       <link>https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</link>
       <guid isPermaLink="true">https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</guid>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Open Source LLMs: Viable for Production or a Low-Quality Toy?</description>
     </item>
     <item>
       <title>Spotify 如何构建强大的 Ray 平台并提供顺畅的开发者体验</title>
       <link>https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer</link>
       <guid isPermaLink="true">https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer</guid>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：How Spotify Built a Robust Ray Platform with a Frictionless Developer Experience</description>
     </item>
     <item>
       <title>LinkedIn 使用 Ray-Serve 的推理图</title>
       <link>https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve</link>
       <guid isPermaLink="true">https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve</guid>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Inference Graphs at LinkedIn Using Ray-Serve</description>
     </item>
     <item>
       <title>基础模型的进展——技术、社会和应用</title>
       <link>https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications</link>
       <guid isPermaLink="true">https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications</guid>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Advances in Foundation Models — Technology, Society, and Applications</description>
     </item>
     <item>
       <title>使用 Airbnb 的下一代 ML 平台优化 LLM 培训</title>
       <link>https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform</link>
       <guid isPermaLink="true">https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform</guid>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Optimizing LLM Training with Airbnb&apos;s Next-Gen ML Platform</description>
     </item>
     <item>
       <title>使用 Ray Serve 构建生产 AI 应用程序</title>
       <link>https://anyscale.com/blog/building-production-ai-applications-with-ray-serve</link>
       <guid isPermaLink="true">https://anyscale.com/blog/building-production-ai-applications-with-ray-serve</guid>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Building Production AI Applications with Ray Serve</description>
     </item>
     <item>
       <title>Netflix 的 Ray 异构训练集群</title>
       <link>https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix</link>
       <guid isPermaLink="true">https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix</guid>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Heterogeneous Training Cluster with Ray at Netflix</description>
     </item>
     <item>
       <title>构建可投入生产的 LLM 应用程序的实际数据注意事项</title>
       <link>https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications</link>
       <guid isPermaLink="true">https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications</guid>
       <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Practical Data Considerations for Building Production-Ready LLM Applications</description>
     </item>
     <item>
       <title>使用 LangChain 和 LangSmith 构建上下文感知推理应用程序</title>
       <link>https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith</link>
       <guid isPermaLink="true">https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith</guid>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Building Context-Aware Reasoning Applications with LangChain and LangSmith</description>
     </item>
     <item>
       <title>Llama，在开放生态系统中扩大 LLM 规模</title>
       <link>https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</link>
       <guid isPermaLink="true">https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</guid>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Llama, Scaling Up LLMs in an Open Ecosystem</description>
     </item>
     <item>
       <title>Ray 峰会系列 - 扩展并行 Python 作业</title>
       <link>https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs</guid>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Ray Summit Series - Scaling Parallel Python Jobs</description>
     </item>
     <item>
       <title>Ray Summit 2022 故事 - ML Platforms</title>
       <link>https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms</guid>
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Ray Summit 2022 stories - ML Platforms</description>
     </item>
     <item>
       <title>Ray Summit 2022 故事 - 大语言模型</title>
       <link>https://anyscale.com/blog/ray-summit-2022-stories-large-language-models</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-2022-stories-large-language-models</guid>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <description>原文标题：Ray Summit 2022 Stories - Large Language Models</description>
     </item>
     <item>
       <title>发布 Ray 2.0</title>
       <link>https://anyscale.com/blog/announcing-ray-2-0</link>
       <guid isPermaLink="true">https://anyscale.com/blog/announcing-ray-2-0</guid>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      <description>原文标题：Announcing Ray 2.0</description>
     </item>
     <item>
       <title>How Anastasia accelerated their ML processes 9x with Ray and…</title>

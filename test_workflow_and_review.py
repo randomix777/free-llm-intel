@@ -2340,9 +2340,10 @@ class TestTranslationSkipsIdentifiers(unittest.TestCase):
     def test_published_artifacts_have_no_transliterated_brands(self):
         """已发布产物里不允许残留品牌音译/直译（防线装好前的历史数据回归守卫）。"""
         root = Path(__file__).resolve().parent
-        pat = re.compile(r"克劳德|格罗克|格洛克|共纹|拥抱人脸|拥抱脸部|拥抱脸|抱脸"
+        pat = re.compile(r"克劳德|格罗克|格洛克|共纹|拥抱人脸|拥抱脸部|拥抱脸|抱脸|拥抱面"
                          r"|法学硕士|双子座|稳定扩散|变压器|扩散器|米斯特拉尔|迷你最大"
-                         r"|索拉|反重力|变形金刚|活生生|拉古纳|元人工|公共人工智能")
+                         r"|索拉|反重力|变形金刚|活生生|拉古纳|元人工|公共人工智能"
+                         r"|贴片时间序列")
         # provider_profiles.py 自身是音译对照表（守卫定义），排除
         files = [root / "README.md", root / "llm-news-feeds.md"]
         files += sorted((root / "llm-news").glob("*.md"))

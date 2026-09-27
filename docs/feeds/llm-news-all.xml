@@ -24,6 +24,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <category>OpenRouter</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml">OpenRouter</source>
+      <description>原文标题：Is Seedance Open Source?</description>
     </item>
     <item>
       <title>[Amazon Bedrock] 使用 EFA 和 DeepEP 在 Amazon EKS 上扩展 MoE 强化学习，吞吐量提高 40%</title>
@@ -3437,6 +3438,7 @@
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Baseten on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenRouter] 管理 OpenRouter 上团队的 AI 支出</title>
@@ -7997,6 +7999,7 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：DeepInfra on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenRouter] 通过 CLI 使用 Stripe 项目创建 OpenRouter 帐户</title>
@@ -12671,6 +12674,7 @@
       <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：OVHcloud on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[数眼智能] 当AI遇见数据荒，我们选择成为掘井人 | 数眼智能正式启航！</title>
@@ -12826,6 +12830,7 @@
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+      <description>原文标题：Grok 4.1 Fast and Agent Tools API</description>
     </item>
     <item>
       <title>[xAI Grok] Grok 携手 KSA 走向全球</title>
@@ -14407,6 +14412,7 @@
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Scaleway on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[Modular (原 BentoCloud/BentoML)] Modular：Blackwell 上的矩阵乘法：第 4 部分 - 打破 SOTA</title>
@@ -14473,6 +14479,7 @@
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Public AI on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenAI] 推出 Stargate UK</title>
@@ -16406,6 +16413,7 @@
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Groq on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[Anthropic Claude] 我们如何构建多智能体研究系统</title>
@@ -16462,6 +16470,7 @@
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Featherless AI on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[Mistral AI] Mistral Compute</title>
@@ -17581,6 +17590,7 @@
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Cohere on Hugging Face Inference Providers 🔥</description>
     </item>
     <item>
       <title>[OpenAI] OpenAI 宣布非营利委员会顾问人选</title>
@@ -19853,6 +19863,7 @@
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
+      <description>原文标题：Minne Atairu &amp; Sora</description>
     </item>
     <item>
       <title>[xAI Grok] API 公开测试版</title>
@@ -20510,6 +20521,7 @@
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Diffusers welcomes Stable Diffusion 3.5 Large</description>
     </item>
     <item>
       <title>[Hugging Face] 在 Hugging Face 上部署 Speech-to-Speech</title>
@@ -22117,6 +22129,7 @@
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
+      <description>原文标题：Diffusers welcomes Stable Diffusion 3</description>
     </item>
     <item>
       <title>[Hugging Face] 把 RL 放回 RLHF</title>
@@ -23381,6 +23394,7 @@
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
+      <description>原文标题：OpenAI and Elon Musk</description>
     </item>
     <item>
       <title>[Hugging Face] 推出 ConTextual：你的多模态模型在文本丰富场景中联合推理文本与图像的能力如何？</title>
@@ -23605,13 +23619,12 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Hugging Face] 拥抱面中的贴片时间序列Transformer</title>
+      <title>[Hugging Face] Hugging Face 中的 Patch Time Series Transformer</title>
       <link>https://huggingface.co/blog/patchtst</link>
       <guid isPermaLink="true">https://huggingface.co/blog/patchtst</guid>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：Hugging Face 中的 Patch Time Series Transformer</description>
     </item>
     <item>
       <title>[OpenAI] 为 LLM 助长的生物威胁构建预警系统</title>
@@ -23971,6 +23984,7 @@
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Open Source LLMs: Viable for Production or a Low-Quality Toy?</description>
     </item>
     <item>
       <title>[OpenAI] OpenAI 宣布领导层变动</title>
@@ -24003,6 +24017,7 @@
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：How Spotify Built a Robust Ray Platform with a Frictionless Developer Experience</description>
     </item>
     <item>
       <title>[Anyscale] LinkedIn 使用 Ray-Serve 的推理图</title>
@@ -24011,6 +24026,7 @@
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Inference Graphs at LinkedIn Using Ray-Serve</description>
     </item>
     <item>
       <title>[Hugging Face] 介绍 Prodigy-HF：与 Hugging Face 的直接集成</title>
@@ -24095,6 +24111,7 @@
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Advances in Foundation Models — Technology, Society, and Applications</description>
     </item>
     <item>
       <title>[Anyscale] 使用 Airbnb 的下一代 ML 平台优化 LLM 培训</title>
@@ -24103,6 +24120,7 @@
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Optimizing LLM Training with Airbnb&apos;s Next-Gen ML Platform</description>
     </item>
     <item>
       <title>[Hugging Face] 个人 Copilot：训练你自己的编码助手</title>
@@ -24167,6 +24185,7 @@
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Building Production AI Applications with Ray Serve</description>
     </item>
     <item>
       <title>[Anyscale] Netflix 的 Ray 异构训练集群</title>
@@ -24175,6 +24194,7 @@
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Heterogeneous Training Cluster with Ray at Netflix</description>
     </item>
     <item>
       <title>[OpenAI] DALL·E 3 现已在 ChatGPT Plus 和 Enterprise 中提供</title>
@@ -24200,6 +24220,7 @@
       <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Practical Data Considerations for Building Production-Ready LLM Applications</description>
     </item>
     <item>
       <title>[Anyscale] 使用 LangChain 和 LangSmith 构建上下文感知推理应用程序</title>
@@ -24208,6 +24229,7 @@
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Building Context-Aware Reasoning Applications with LangChain and LangSmith</description>
     </item>
     <item>
       <title>[Anyscale] Llama，在开放生态系统中扩大 LLM 规模</title>
@@ -24216,6 +24238,7 @@
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Llama, Scaling Up LLMs in an Open Ecosystem</description>
     </item>
     <item>
       <title>[OpenAI] 用 AI 简化合同审查</title>
@@ -25375,6 +25398,7 @@
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Ray Summit Series - Scaling Parallel Python Jobs</description>
     </item>
     <item>
       <title>[OpenAI] GPT-4</title>
@@ -25479,6 +25503,7 @@
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Ray Summit 2022 stories - ML Platforms</description>
     </item>
     <item>
       <title>[Hugging Face] 开发 Diffusers 库的道德准则</title>
@@ -25551,6 +25576,7 @@
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Ray Summit 2022 Stories - Large Language Models</description>
     </item>
     <item>
       <title>[Hugging Face] 用 BLIP-2 实现零样本图像到文本生成</title>
@@ -26088,7 +26114,6 @@
       <pubDate>Wed, 05 Oct 2022 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-      <description>原文标题：日本 Stable Diffusion 模型</description>
     </item>
     <item>
       <title>[Hugging Face] 超大规模语言模型及其评估方法</title>
@@ -26220,6 +26245,7 @@
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
+      <description>原文标题：Announcing Ray 2.0</description>
     </item>
     <item>
       <title>[Hugging Face] 使用 🧨 Diffusers 实现 Stable Diffusion</title>

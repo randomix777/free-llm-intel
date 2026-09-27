@@ -540,7 +540,7 @@
 528. [NPHardEval 排行榜：通过复杂度类和动态更新揭示大型语言模型的推理能力](https://huggingface.co/blog/leaderboard-nphardeval)（2024-02-02）
 529. [Hugging Face Text Generation Inference 现已支持 AWS Inferentia2](https://huggingface.co/blog/text-generation-inference-on-inferentia2)（2024-02-01）
 530. [用开源 LLM 实现 Constitutional AI](https://huggingface.co/blog/constitutional_ai)（2024-02-01）
-531. [拥抱面中的贴片时间序列Transformer](https://huggingface.co/blog/patchtst)（2024-02-01）
+531. [Hugging Face 中的 Patch Time Series Transformer](https://huggingface.co/blog/patchtst)（2024-02-01）
 532. [推出企业场景排行榜：面向真实用例的排行榜](https://huggingface.co/blog/leaderboard-patronus)（2024-01-31）
 533. [在 Xeon 上用 🤗 Optimum Intel 加速 StarCoder：Q8/Q4 与投机解码](https://huggingface.co/blog/intel-starcoder-quantization)（2024-01-30）
 534. [幻觉排行榜：测量大型语言模型幻觉的开放努力](https://huggingface.co/blog/leaderboard-hallucinations)（2024-01-29）
