@@ -4,7 +4,7 @@
 
 ## 厂商博客 / 更新动态订阅源
 
-> 由 `crawler_llm_intel.py` 自动整理，最近更新：**2026-09-27 07:02:34**。
+> 由 `crawler_llm_intel.py` 自动整理，最近更新：**2026-09-27 09:09:30**。
 >
 > 各厂商的官方博客、工程文章、更新日志**单独维护在此**，不混入 README 的免费额度情报；
 > 每个厂商下方列出从官方 RSS / 博客页**实际抓取的最新文章**（标题自动汉化、附发布日期与原文链接）。
@@ -410,7 +410,7 @@
   3. [优化 LLM 服务效率：利用 Ray Serve LLM 超越 KV 缓存重用，实现令牌加载感知](https://anyscale.com/blog/llm-kv-token-aware-routing)（2026-08-25）
   4. [Ray 历史记录服务器简介：Kubernetes 上 Ray 的事后可观察性](https://anyscale.com/blog/ray-history-server)（2026-08-25）
   5. [学习循环：拥有智慧的途径](https://anyscale.com/blog/learning-loops)（2026-08-25）
-  - 📄 完整文章归档（共 33 篇）：[anyscale.md](llm-news/anyscale.md)
+  - 📄 完整文章归档（共 36 篇）：[anyscale.md](llm-news/anyscale.md)
 
 ### InceptionLabs (inception_labs)
 - 页面：[官方博客](https://www.inceptionlabs.ai/blog)

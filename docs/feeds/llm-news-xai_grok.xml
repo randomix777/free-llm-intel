@@ -734,10 +734,11 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Imagine API</title>
+      <title>Grok 想象 API</title>
       <link>https://x.ai/news#d-2026-02-02-56</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-02-02-56</guid>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok Imagine API</description>
     </item>
     <item>
       <title>xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。</title>
@@ -752,10 +753,11 @@
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Imagine API</title>
+      <title>Grok 想象 API</title>
       <link>https://x.ai/news/grok-imagine-api</link>
       <guid isPermaLink="true">https://x.ai/news/grok-imagine-api</guid>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok Imagine API</description>
     </item>
     <item>
       <title>Grok Business 和 Grok Enterprise 简介</title>
@@ -771,10 +773,11 @@
       <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Collections API</title>
+      <title>Grok 集合 API</title>
       <link>https://x.ai/news#d-2025-12-30-59</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-12-30-59</guid>
       <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok Collections API</description>
     </item>
     <item>
       <title>推出 Grok Business 和 Grok Enterprise</title>
@@ -797,10 +800,11 @@
       <description>原文标题：Grok Voice Agent API</description>
     </item>
     <item>
-      <title>Grok Collections API</title>
+      <title>Grok 集合 API</title>
       <link>https://x.ai/news/grok-collections-api</link>
       <guid isPermaLink="true">https://x.ai/news/grok-collections-api</guid>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <description>原文标题：Grok Collections API</description>
     </item>
     <item>
       <title>以 AI 支持 DOW 的使命</title>
@@ -852,7 +856,6 @@
       <link>https://x.ai/news/grok-4-1-fast</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-1-fast</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：Grok 4.1 Fast and Agent Tools API</description>
     </item>
     <item>
       <title>Grok 携手 KSA 走向全球</title>

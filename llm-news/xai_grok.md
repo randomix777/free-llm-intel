@@ -121,17 +121,17 @@
 110. [推出 Grok Voice Think Fast 1.0](https://x.ai/news/grok-voice-think-fast-1)（2026-04-23）
 111. [xAI 加入 SpaceX](https://x.ai/news#d-2026-04-17-55)（2026-04-17）
 112. [Grok 语音转文本与文本转语音 API](https://x.ai/news/grok-stt-and-tts-apis)（2026-04-17）
-113. [Grok Imagine API](https://x.ai/news#d-2026-02-02-56)（2026-02-02）
+113. [Grok 想象 API](https://x.ai/news#d-2026-02-02-56)（2026-02-02）
 114. [xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。](https://x.ai/news/xai-joins-spacex)（2026-02-02）
 115. [xAI Raises $20B Series E](https://x.ai/news#d-2026-01-28-57)（2026-01-28）
-116. [Grok Imagine API](https://x.ai/news/grok-imagine-api)（2026-01-28）
+116. [Grok 想象 API](https://x.ai/news/grok-imagine-api)（2026-01-28）
 117. [Grok Business 和 Grok Enterprise 简介](https://x.ai/news#d-2026-01-06-58)（2026-01-06）
 118. [xAI 募集 $20B 完成 E 轮融资](https://x.ai/news/series-e)（2026-01-06）
-119. [Grok Collections API](https://x.ai/news#d-2025-12-30-59)（2025-12-30）
+119. [Grok 集合 API](https://x.ai/news#d-2025-12-30-59)（2025-12-30）
 120. [推出 Grok Business 和 Grok Enterprise](https://x.ai/news/grok-business)（2025-12-30）
 121. [通过人工智能支持 DOW 的使命](https://x.ai/news#d-2025-12-22-60)（2025-12-22）
 122. [Grok 语音代理 API](https://x.ai/news#d-2025-12-22-61)（2025-12-22）
-123. [Grok Collections API](https://x.ai/news/grok-collections-api)（2025-12-22）
+123. [Grok 集合 API](https://x.ai/news/grok-collections-api)（2025-12-22）
 124. [以 AI 支持 DOW 的使命](https://x.ai/news/us-gov-dept-of-war)（2025-12-22）
 125. [xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划](https://x.ai/news#d-2025-12-17-62)（2025-12-17）
 126. [Grok 语音代理 API](https://x.ai/news/grok-voice-agent-api)（2025-12-17）

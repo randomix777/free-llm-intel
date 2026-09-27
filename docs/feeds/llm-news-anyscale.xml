@@ -3,7 +3,7 @@
   <channel>
     <title>Anyscale 官方动态</title>
     <link>https://github.com/rockbenben/free-llm-intel</link>
-    <description>Anyscale 官方博客 / 更新日志归档（标题汉化，共 33 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
+    <description>Anyscale 官方博客 / 更新日志归档（标题汉化，共 36 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
     <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml" rel="self" type="application/rss+xml"/>
@@ -13,7 +13,6 @@
       <link>https://anyscale.com/blog/ray-summit-2026-recap</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-2026-recap</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Ray Summit 2026: Physical AI, RL, and the infrastructure that runs them all</description>
     </item>
     <item>
       <title>Scaling Ray for AI workloads to 10k node clusters</title>
@@ -26,21 +25,18 @@
       <link>https://anyscale.com/blog/llm-kv-token-aware-routing</link>
       <guid isPermaLink="true">https://anyscale.com/blog/llm-kv-token-aware-routing</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Optimizing LLM Serving Efficiency: Moving Beyond KV Cache Reuse to Token-Load Awareness with Ray Serve LLM</description>
     </item>
     <item>
       <title>Ray 历史记录服务器简介：Kubernetes 上 Ray 的事后可观察性</title>
       <link>https://anyscale.com/blog/ray-history-server</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-history-server</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Introducing Ray History Server: Post-Mortem Observability for Ray on Kubernetes</description>
     </item>
     <item>
       <title>学习循环：拥有智慧的途径</title>
       <link>https://anyscale.com/blog/learning-loops</link>
       <guid isPermaLink="true">https://anyscale.com/blog/learning-loops</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Learning Loops: The Path to Owning Your Intelligence</description>
     </item>
     <item>
       <title>FP8 Reinforcement Learning in SkyRL: Preserving Policy Consi…</title>
@@ -54,21 +50,18 @@
       <link>https://anyscale.com/blog/gpu-native-operators-in-ray-data</link>
       <guid isPermaLink="true">https://anyscale.com/blog/gpu-native-operators-in-ray-data</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：GPU-Native Operators in Ray Data</description>
     </item>
     <item>
       <title>Anyscale GPU 运行状况可观察性简介：从应用程序到硬件</title>
       <link>https://anyscale.com/blog/anyscale-gpu-health-observability</link>
       <guid isPermaLink="true">https://anyscale.com/blog/anyscale-gpu-health-observability</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Introducing Anyscale GPU Health Observability: From app to hardware</description>
     </item>
     <item>
       <title>宣布 Ray 中的原生沙箱</title>
       <link>https://anyscale.com/blog/announcing-native-sandboxing-in-ray</link>
       <guid isPermaLink="true">https://anyscale.com/blog/announcing-native-sandboxing-in-ray</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Announcing Native Sandboxing in Ray</description>
     </item>
     <item>
       <title>Introducing KubeRay v1.6 and v1.7</title>
@@ -81,7 +74,6 @@
       <link>https://anyscale.com/blog/announcing-anyscale-connect-for-kuberay</link>
       <guid isPermaLink="true">https://anyscale.com/blog/announcing-anyscale-connect-for-kuberay</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Introducing Anyscale KubeRay Connect: Doubling down on Kubernetes</description>
     </item>
     <item>
       <title>Shuffle V2 in Ray Data: Faster, Fault-Tolerant Joins and Agg…</title>
@@ -95,21 +87,18 @@
       <link>https://anyscale.com/blog/ray-cve-2025-62593-kev-what-you-need-to-know</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-cve-2025-62593-kev-what-you-need-to-know</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：CVE-2025-62593 and the CISA KEV listing: what Ray users need to know</description>
     </item>
     <item>
       <title>异步推理实践：Ray Serve 上的视频索引服务</title>
       <link>https://anyscale.com/blog/ray-serve-async-inf-in-practice</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-serve-async-inf-in-practice</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Async inference in practice: a video-indexing service on Ray Serve</description>
     </item>
     <item>
       <title>使用 Ray Direct Transport 在强化学习中快速轻松地进行权重同步（第 2 部分）</title>
       <link>https://anyscale.com/blog/rdt-ray-direct-transport-fast-easy-weight-syncing-for-rl-reinforcement-learning</link>
       <guid isPermaLink="true">https://anyscale.com/blog/rdt-ray-direct-transport-fast-easy-weight-syncing-for-rl-reinforcement-learning</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Using Ray Direct Transport for Fast and Easy Weight Syncing in Reinforcement Learning (Part 2)</description>
     </item>
     <item>
       <title>Maximizing the Power of NVIDIA GB300 NVL72: NVLink Domain-Aw…</title>
@@ -123,112 +112,117 @@
       <link>https://anyscale.com/blog/anyscale-signs-definitive-agreement-to-join-nscale</link>
       <guid isPermaLink="true">https://anyscale.com/blog/anyscale-signs-definitive-agreement-to-join-nscale</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Anyscale signs definitive agreement to join Nscale</description>
     </item>
     <item>
       <title>介绍 Anyscale 物理 AI 技能</title>
       <link>https://anyscale.com/blog/introducing-the-anyscale-physical-ai-skill</link>
       <guid isPermaLink="true">https://anyscale.com/blog/introducing-the-anyscale-physical-ai-skill</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description>原文标题：Introducing the Anyscale Physical AI Skill</description>
+    </item>
+    <item>
+      <title>Batch LLM Inference on Anyscale slashes AWS Bedrock costs by…</title>
+      <link>https://anyscale.com/blog/batch-llm-inference-announcement</link>
+      <guid isPermaLink="true">https://anyscale.com/blog/batch-llm-inference-announcement</guid>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <description>完整标题：Batch LLM Inference on Anyscale slashes AWS Bedrock costs by up to 6x</description>
+    </item>
+    <item>
+      <title>RAG at Scale: 10x Cheaper Embedding Computations with Anysca…</title>
+      <link>https://anyscale.com/blog/rag-at-scale-10x-cheaper-embedding-computations-with-anyscale-and-pinecone</link>
+      <guid isPermaLink="true">https://anyscale.com/blog/rag-at-scale-10x-cheaper-embedding-computations-with-anyscale-and-pinecone</guid>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <description>完整标题：RAG at Scale: 10x Cheaper Embedding Computations with Anyscale and Pinecone</description>
     </item>
     <item>
       <title>开源 LLM：适合生产还是低质量的玩具？</title>
       <link>https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</link>
       <guid isPermaLink="true">https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy</guid>
       <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Open Source LLMs: Viable for Production or a Low-Quality Toy?</description>
     </item>
     <item>
       <title>Spotify 如何构建强大的 Ray 平台并提供顺畅的开发者体验</title>
       <link>https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer</link>
       <guid isPermaLink="true">https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer</guid>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：How Spotify Built a Robust Ray Platform with a Frictionless Developer Experience</description>
     </item>
     <item>
       <title>LinkedIn 使用 Ray-Serve 的推理图</title>
       <link>https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve</link>
       <guid isPermaLink="true">https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve</guid>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Inference Graphs at LinkedIn Using Ray-Serve</description>
     </item>
     <item>
       <title>基础模型的进展——技术、社会和应用</title>
       <link>https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications</link>
       <guid isPermaLink="true">https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications</guid>
       <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Advances in Foundation Models — Technology, Society, and Applications</description>
     </item>
     <item>
       <title>使用 Airbnb 的下一代 ML 平台优化 LLM 培训</title>
       <link>https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform</link>
       <guid isPermaLink="true">https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform</guid>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Optimizing LLM Training with Airbnb&apos;s Next-Gen ML Platform</description>
     </item>
     <item>
       <title>使用 Ray Serve 构建生产 AI 应用程序</title>
       <link>https://anyscale.com/blog/building-production-ai-applications-with-ray-serve</link>
       <guid isPermaLink="true">https://anyscale.com/blog/building-production-ai-applications-with-ray-serve</guid>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Building Production AI Applications with Ray Serve</description>
     </item>
     <item>
       <title>Netflix 的 Ray 异构训练集群</title>
       <link>https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix</link>
       <guid isPermaLink="true">https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix</guid>
       <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Heterogeneous Training Cluster with Ray at Netflix</description>
     </item>
     <item>
       <title>构建可投入生产的 LLM 应用程序的实际数据注意事项</title>
       <link>https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications</link>
       <guid isPermaLink="true">https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications</guid>
       <pubDate>Thu, 19 Oct 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Practical Data Considerations for Building Production-Ready LLM Applications</description>
     </item>
     <item>
       <title>使用 LangChain 和 LangSmith 构建上下文感知推理应用程序</title>
       <link>https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith</link>
       <guid isPermaLink="true">https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith</guid>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Building Context-Aware Reasoning Applications with LangChain and LangSmith</description>
     </item>
     <item>
       <title>Llama，在开放生态系统中扩大 LLM 规模</title>
       <link>https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</link>
       <guid isPermaLink="true">https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem</guid>
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Llama, Scaling Up LLMs in an Open Ecosystem</description>
+    </item>
+    <item>
+      <title>Fast, flexible, and scalable data loading for ML training wi…</title>
+      <link>https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data</link>
+      <guid isPermaLink="true">https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data</guid>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      <description>完整标题：Fast, flexible, and scalable data loading for ML training with Ray Data</description>
     </item>
     <item>
       <title>Ray 峰会系列 - 扩展并行 Python 作业</title>
       <link>https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs</guid>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Ray Summit Series - Scaling Parallel Python Jobs</description>
     </item>
     <item>
       <title>Ray Summit 2022 故事 - ML Platforms</title>
       <link>https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms</guid>
       <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Ray Summit 2022 stories - ML Platforms</description>
     </item>
     <item>
       <title>Ray Summit 2022 故事 - 大语言模型</title>
       <link>https://anyscale.com/blog/ray-summit-2022-stories-large-language-models</link>
       <guid isPermaLink="true">https://anyscale.com/blog/ray-summit-2022-stories-large-language-models</guid>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <description>原文标题：Ray Summit 2022 Stories - Large Language Models</description>
     </item>
     <item>
       <title>发布 Ray 2.0</title>
       <link>https://anyscale.com/blog/announcing-ray-2-0</link>
       <guid isPermaLink="true">https://anyscale.com/blog/announcing-ray-2-0</guid>
       <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
-      <description>原文标题：Announcing Ray 2.0</description>
     </item>
     <item>
       <title>How Anastasia accelerated their ML processes 9x with Ray and…</title>

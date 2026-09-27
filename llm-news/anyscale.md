@@ -7,7 +7,7 @@
 
 - 📡 RSS/Atom：[RSS/Atom 订阅源](https://www.anyscale.com/rss.xml)
 
-## 全部文章（共 33 篇，按日期倒序；无日期条目列于最后）
+## 全部文章（共 36 篇，按日期倒序；无日期条目列于最后）
 
 1. [Ray Summit 2026：物理 AI、RL 以及运行它们的基础设施](https://anyscale.com/blog/ray-summit-2026-recap)（2026-09-08）
 2. [Scaling Ray for AI workloads to 10k node clusters](https://anyscale.com/blog/how-we-scaled-ray-from-batch-inference-to-10000-node-training-clusters)（2026-08-25）
@@ -27,18 +27,21 @@
 16. [Maximizing the Power of NVIDIA GB300 NVL72: NVLink Domain-Aware Placement Groups in Ray](https://anyscale.com/blog/nvidia-gb300-nvlink-domain-aware-placement-groups-ray)（2026-08-13）
 17. [Anyscale 签署加入 Nscale 的最终协议](https://anyscale.com/blog/anyscale-signs-definitive-agreement-to-join-nscale)（2026-07-30）
 18. [介绍 Anyscale 物理 AI 技能](https://anyscale.com/blog/introducing-the-anyscale-physical-ai-skill)（2026-07-23）
-19. [开源 LLM：适合生产还是低质量的玩具？](https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy)（2023-11-20）
-20. [Spotify 如何构建强大的 Ray 平台并提供顺畅的开发者体验](https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer)（2023-11-09）
-21. [LinkedIn 使用 Ray-Serve 的推理图](https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve)（2023-11-09）
-22. [基础模型的进展——技术、社会和应用](https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications)（2023-11-03）
-23. [使用 Airbnb 的下一代 ML 平台优化 LLM 培训](https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform)（2023-10-30）
-24. [使用 Ray Serve 构建生产 AI 应用程序](https://anyscale.com/blog/building-production-ai-applications-with-ray-serve)（2023-10-24）
-25. [Netflix 的 Ray 异构训练集群](https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix)（2023-10-20）
-26. [构建可投入生产的 LLM 应用程序的实际数据注意事项](https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications)（2023-10-19）
-27. [使用 LangChain 和 LangSmith 构建上下文感知推理应用程序](https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith)（2023-10-18）
-28. [Llama，在开放生态系统中扩大 LLM 规模](https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem)（2023-10-16）
-29. [Ray 峰会系列 - 扩展并行 Python 作业](https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs)（2023-03-16）
-30. [Ray Summit 2022 故事 - ML Platforms](https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms)（2023-03-03）
-31. [Ray Summit 2022 故事 - 大语言模型](https://anyscale.com/blog/ray-summit-2022-stories-large-language-models)（2023-02-16）
-32. [发布 Ray 2.0](https://anyscale.com/blog/announcing-ray-2-0)（2022-08-23）
-33. [How Anastasia accelerated their ML processes 9x with Ray and Anyscale](https://anyscale.com/blog/how-anastasia-implements-ray-and-anyscale-to-speed-up-ml-processes-9x)（2021-08-31）
+19. [Batch LLM Inference on Anyscale slashes AWS Bedrock costs by up to 6x](https://anyscale.com/blog/batch-llm-inference-announcement)（2024-10-01）
+20. [RAG at Scale: 10x Cheaper Embedding Computations with Anyscale and Pinecone](https://anyscale.com/blog/rag-at-scale-10x-cheaper-embedding-computations-with-anyscale-and-pinecone)（2024-01-16）
+21. [开源 LLM：适合生产还是低质量的玩具？](https://anyscale.com/blog/open-source-llms-viable-for-production-or-a-low-quality-toy)（2023-11-20）
+22. [Spotify 如何构建强大的 Ray 平台并提供顺畅的开发者体验](https://anyscale.com/blog/how-spotify-built-a-robust-ray-platform-with-a-frictionless-developer)（2023-11-09）
+23. [LinkedIn 使用 Ray-Serve 的推理图](https://anyscale.com/blog/inference-graphs-at-linkedin-using-ray-serve)（2023-11-09）
+24. [基础模型的进展——技术、社会和应用](https://anyscale.com/blog/advances-in-foundation-models-technology-society-and-applications)（2023-11-03）
+25. [使用 Airbnb 的下一代 ML 平台优化 LLM 培训](https://anyscale.com/blog/optimizing-llm-training-with-airbnbs-next-gen-ml-platform)（2023-10-30）
+26. [使用 Ray Serve 构建生产 AI 应用程序](https://anyscale.com/blog/building-production-ai-applications-with-ray-serve)（2023-10-24）
+27. [Netflix 的 Ray 异构训练集群](https://anyscale.com/blog/heterogeneous-training-cluster-with-ray-at-netflix)（2023-10-20）
+28. [构建可投入生产的 LLM 应用程序的实际数据注意事项](https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications)（2023-10-19）
+29. [使用 LangChain 和 LangSmith 构建上下文感知推理应用程序](https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith)（2023-10-18）
+30. [Llama，在开放生态系统中扩大 LLM 规模](https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem)（2023-10-16）
+31. [Fast, flexible, and scalable data loading for ML training with Ray Data](https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data)（2023-09-15）
+32. [Ray 峰会系列 - 扩展并行 Python 作业](https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs)（2023-03-16）
+33. [Ray Summit 2022 故事 - ML Platforms](https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms)（2023-03-03）
+34. [Ray Summit 2022 故事 - 大语言模型](https://anyscale.com/blog/ray-summit-2022-stories-large-language-models)（2023-02-16）
+35. [发布 Ray 2.0](https://anyscale.com/blog/announcing-ray-2-0)（2022-08-23）
+36. [How Anastasia accelerated their ML processes 9x with Ray and Anyscale](https://anyscale.com/blog/how-anastasia-implements-ray-and-anyscale-to-speed-up-ml-processes-9x)（2021-08-31）
