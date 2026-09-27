@@ -90,7 +90,14 @@ try:
         _healed = {k: rv for k, v in _TRANS_CACHE.items()
                    if (rv := _restore_brand_names(v, k)) != v}
         _TRANS_CACHE.update(_healed)
-        if _healed:
+        # 「中文键 → 同一中文」的自映射条目：英文原文已丢，复原表无从对齐，
+        # 删掉让本轮回落到重新机翻（重翻结果会经过完整的守卫 + 复原管线）。
+        _pat = re.compile("|".join(p2.pattern for _b, p2 in _BRAND_TRANSLITERATIONS))
+        _bad_id = [k for k, v in _TRANS_CACHE.items()
+                   if k == v and _pat.search(v)]
+        for k in _bad_id:
+            del _TRANS_CACHE[k]
+        if _healed or _bad_id:
             _save_trans_cache()
 except Exception:
     pass

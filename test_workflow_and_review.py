@@ -670,6 +670,28 @@ class TestArchiveTitleRetention(unittest.TestCase):
                       "归档已有的中文标题不得被重抓的英文原标题冲掉")
         self.assertNotIn("Better prompt caching", content)
 
+    def test_frozen_calque_self_heals_on_carry_over(self):
+        """守卫装好前冻结进归档的音译/直译标题，沿用时要借英文原文自愈。
+
+        CI 侧实测：坏译文被 Actions 翻译缓存复活 → 写进归档 → 靠沿用机制永生，
+        三道各自正确的机制合谋让产物扫描天天红。沿用点复原是最后一道闸。
+        """
+        arch_path = self.news_dir / "vendor_a.md"
+        arch_path.write_text(
+            "## 全部文章（共 1 篇）\n\n"
+            "1. [Hugging Face中的贴片时间序列Transformer](https://a.com/patchtst)（2024-02-01）\n",
+            encoding="utf-8")
+        fresh = crawler_llm_intel.Article(
+            title="Patch Time Series Transformer in Hugging Face",
+            url="https://a.com/patchtst", date="2024-02-01")
+        intel = self._intel([fresh])
+        crawler_llm_intel.write_news_archives(self.news_dir, [intel],
+                                              clean_removed=False)
+        content = arch_path.read_text(encoding="utf-8")
+        self.assertIn("Hugging Face中的Patch Time Series Transformer", content,
+                      "英文产品名应复原、中文连接词保持原样")
+        self.assertNotIn("贴片时间序列", content)
+
     def test_rss_feed_uses_retained_title(self):
         fresh = crawler_llm_intel.Article(
             title="Better prompt caching for GPT-6",

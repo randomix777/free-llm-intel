@@ -2653,6 +2653,7 @@ from provider_profiles import (
     get_provider_profile,
     render_freellm_table,
     translate_to_zh,
+    _restore_brand_names,
     CATEGORY_TITLES,
     CATEGORY_DESCRIPTIONS,
     get_guide_meta,
@@ -3511,8 +3512,9 @@ def rebuild_intel_from_disk(vendors: list[dict], grouped: dict[str, list[dict]],
             # 到 art.title，与正常抓取路径的不变量一致（title=原文、zh_title=译文），
             # 于是 _rss_item 的「原文标题」与索引第 5 列都能逐字节复现。
             if _CJK_CHAR_RE.search(a.title):
-                a.zh_title = a.title
                 orig = orig_by_key.get((vid, a.url))
+                # 同沿用分支：冻结的坏译文借英文原文自愈（没有原文可对时不动）
+                a.zh_title = (orig and _restore_brand_names(a.title, orig)) or a.title
                 if orig and orig != a.title:
                     a.title = orig
         intel.news_articles = arts[:5]
@@ -3604,7 +3606,9 @@ def write_news_archives(out_dir: Path, intel_list: list[VendorIntel],
                 # Google 机翻（CI 端 .translate_cache.json 不随仓库走，实测
                 # 「GPT-6 的提示缓存全面升级」隔天变「更好的 GPT-6 提示缓存」）。
                 # 代价：官方日后改标题会停在旧文案，但这种情况极少且可人工修。
-                fresh.zh_title = old_art.title
+                # 沿用前过一次品牌复原：冻结在归档里的历史坏译文（守卫装好前
+                # 音译/直译的）借当次英文原文自愈，不然坏标题靠沿用永生。
+                fresh.zh_title = _restore_brand_names(old_art.title, fresh.title)
         # 2) 新收录且尚无中文的标题 → 交给 LLM 润色一次（结果进归档即冻结，
         #    次日走上面的沿用分支不再重翻）。polisher 内部分批与预算，异常在此兜底。
         if title_polish is not None:
