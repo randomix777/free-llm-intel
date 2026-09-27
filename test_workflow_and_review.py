@@ -2331,6 +2331,10 @@ class TestTranslationSkipsIdentifiers(unittest.TestCase):
             "介绍Claude寓言 5.1 和Claude神话 5.1")
         self.assertEqual(r("PowerPoint 版 格洛克", "PowerPoint 版 Grok"),
                          "PowerPoint 版 Grok")
+        # CI 实测音译过的新族：Laguna → 拉古纳（证据行「开始使用拉古纳」）
+        self.assertEqual(r("开始使用拉古纳。限时免费使用。",
+                           "Start using Laguna. Free to use for a limited time."),
+                         "开始使用Laguna。限时免费使用。")
         # 原文里没有该英文品牌时不能乱动（官方中文名/巧合词）
         self.assertEqual(r("克劳德是一名常见译名", "没有英文品牌的中文句子"),
                          "克劳德是一名常见译名")
@@ -2343,7 +2347,7 @@ class TestTranslationSkipsIdentifiers(unittest.TestCase):
         pat = re.compile(r"克劳德|格罗克|格洛克|共纹|拥抱人脸|拥抱脸部|拥抱脸|抱脸|拥抱面"
                          r"|法学硕士|双子座|稳定扩散|变压器|扩散器|米斯特拉尔|迷你最大"
                          r"|索拉|反重力|变形金刚|活生生|拉古纳|元人工|公共人工智能"
-                         r"|贴片时间序列")
+                         r"|贴片时间序列|双子座3")
         # provider_profiles.py 自身是音译对照表（守卫定义），排除
         files = [root / "README.md", root / "llm-news-feeds.md"]
         files += sorted((root / "llm-news").glob("*.md"))

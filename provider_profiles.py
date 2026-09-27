@@ -46,6 +46,9 @@ _BRAND_TRANSLITERATIONS: list[tuple[str, re.Pattern]] = [
     ("MiniMax", re.compile(r"迷你最大")),
     ("DeepSeek", re.compile(r"迪普西克|迪普席克")),
     ("Mistral", re.compile(r"米斯特拉尔")),
+    # Laguna（Poolside 编程模型）：CI 侧证据行实测被音译成「拉古纳」。
+    # 音译只在原文写着英文 Laguna 时才复原，普通词「潟湖」语义不受影响。
+    ("Laguna", re.compile(r"拉古纳")),
     ("Hugging Face", re.compile(r"拥抱人脸|拥抱脸部|拥抱脸|拥抱面|抱脸")),
     ("LLM", re.compile(r"法学硕士")),
     # 产品名整串直译（实测 `Patch Time Series Transformer` → 「贴片时间序列
