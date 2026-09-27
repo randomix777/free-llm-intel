@@ -92,6 +92,15 @@
       "https://github.com/rockbenben/free-llm-intel#3-阿里云百炼-model-studio-通义千问"
     ],
     [
+      "2026-09-27",
+      "quota",
+      "volcengine_doubao",
+      "豆包大模型",
+      "额度变化 · 豆包大模型：火山方舟定价页明确说明豆包大语言模型分别提供 50 万 tokens 免费推理额度",
+      "free_quota：**无新用户注册赠金 / 文本 token 免费额度表**（官方免费额度文档现行版本）；唯一可确认的免费项为下方 Managed Agents 时长包 → 豆包模型分别提供 **50 万 tokens** 免费推理额度；另提供 Managed Agents 免费运行时长包\nfree_models：**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**（官方免费额度文档）、文本/多模态大模型**无统一免费 token 额度**：当前在线旗舰 `doubao-seed-evolving`（持续进化版）、See… → **豆包系列大语言模型（Doubao-Seed 等）** —— 分别提供 **50 万 tokens** 免费推理额度、**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**",
+      "https://github.com/rockbenben/free-llm-intel#4-火山引擎-火山方舟-豆包"
+    ],
+    [
       "2026-09-25",
       "release",
       "longcat_meituan",
@@ -2250,15 +2259,6 @@
       "新模型 · Cloudflare Workers AI：Llama 3.1",
       "Workers AI - Meta Llama 3.1 现已在 Workers AI 上线",
       "https://developers.cloudflare.com/workers-ai/changelog/#meta-llama-31-now-available-on-workers-ai"
-    ],
-    [
-      "2024-05-21",
-      "release",
-      "huggingface",
-      "Hugging Face",
-      "新模型 · Hugging Face：AMD Instinct MI300",
-      "Hugging Face 登陆 AMD Instinct MI300 GPU",
-      "https://huggingface.co/blog/huggingface-amd-mi300"
     ]
   ]
 }

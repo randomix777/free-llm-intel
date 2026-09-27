@@ -159,9 +159,9 @@ python -m unittest discover
 <!-- LLM-INTEL:BEGIN  本章节由 crawler_llm_intel.py 自动生成，请勿手工修改 -->
 
 > 实时追踪国内外大语言模型（LLM）厂商官方公开的**免费 API 额度**、**永久免费模型**与**限时活动调用**情报。
-> 本区块由 `crawler_llm_intel.py` 在**每次运行时**实时巡检官方页面生成（非人工编辑、非服务端持续监控），最近一次巡检：**2026-09-27 09:08:24**；本地手动运行与 GitHub Actions 定时刷新的方法见文首「快速开始 / 更新机制」。
+> 本区块由 `crawler_llm_intel.py` 在**每次运行时**实时巡检官方页面生成（非人工编辑、非服务端持续监控），最近一次巡检：**2026-09-27 11:04:01**；本地手动运行与 GitHub Actions 定时刷新的方法见文首「快速开始 / 更新机制」。
 >
-> 💡 **核心特性**：覆盖 **72 家厂商**（深度抓取 **135 个情报页 + 45 个动态页**）；海外一手情报自动汉化（品牌与型号名保留原文）；自动过滤页面抓取状态噪点，直接展示具体额度（Tokens/代金券/免费层）、可用模型、有效期与限制条件。
+> 💡 **核心特性**：覆盖 **72 家厂商**（深度抓取 **134 个情报页 + 45 个动态页**）；海外一手情报自动汉化（品牌与型号名保留原文）；自动过滤页面抓取状态噪点，直接展示具体额度（Tokens/代金券/免费层）、可用模型、有效期与限制条件。
 > 📡 **博客动态订阅**：各厂商官方技术博客与更新日志单独维护至 [`llm-news-feeds.md`](llm-news-feeds.md)（共 35 个厂商），可导入 [`llm-news-feeds.opml`](llm-news-feeds.opml) 至 RSS 阅读器跟踪官方动态。
 > 📡 **自建 RSS**（官方没有原生订阅源的厂商也能订）：[网页浏览 / 一键订阅](https://free-llm-intel.aishort.top/) ｜ [合并流](https://free-llm-intel.aishort.top/feeds/llm-news-all.xml) ｜ 单厂商源 `https://free-llm-intel.aishort.top/feeds/llm-news-{vendor_id}.xml`。
 > 🛰 **额度变化订阅**（新活动 / 额度调整 / 新模型上架）：[llm-intel-changes.xml](https://free-llm-intel.aishort.top/feeds/llm-intel-changes.xml)
@@ -226,8 +226,8 @@ python -m unittest discover
 | 字段 | 详情 |
 |------|------|
 | **平台名称** | [火山引擎 (火山方舟 / 豆包)](https://www.volcengine.com/product/doubao) |
-| **免费模型与额度** | • **Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**（官方免费额度文档）<br>• 文本/多模态大模型**无统一免费 token 额度**：当前在线旗舰 `doubao-seed-evolving`（持续进化版）、Seed-2.1-Pro/Turbo、Seed-2.0 系列，以及托管 DeepSeek-V4-Pro/Flash 正式版、GLM-5.2/4.7 等，开通后按量付费 |
-| **注册福利 / 账户赠送** | **无新用户注册赠金 / 文本 token 免费额度表**（官方免费额度文档现行版本）；唯一可确认的免费项为下方 Managed Agents 时长包 |
+| **免费模型与额度** | • **豆包系列大语言模型（Doubao-Seed 等）** —— 分别提供 **50 万 tokens** 免费推理额度<br>• **Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年** |
+| **注册福利 / 账户赠送** | 豆包模型分别提供 **50 万 tokens** 免费推理额度；另提供 Managed Agents 免费运行时长包 |
 | **额度有效期** | Agent 免费额度有效期 **2 年**；文本模型以开通页展示为准 |
 | **前置条件 / 限制** | 注册火山引擎账号并完成实名认证 |
 | **邀请 / 特惠活动** | Coding Plan 邀请活动、高校师生扶持等传闻额度无法在当前官方页复核，不予采信，以控制台活动页为准。 |
@@ -425,6 +425,7 @@ python -m unittest discover
 | **额度有效期** | 以资源包标注为准 |
 | **前置条件 / 限制** | 360 账号注册并完成实名认证 |
 | **邀请 / 特惠活动** | 集成 360 搜索增强能力；模型与价格以 /open/models 页面实时列表为准。 |
+| **实时巡检证据** | • 输入价格：¥0 / 1K 秒 |
 | **官方直达** | [模型与定价页](https://ai.360.com/open/models) ｜ [开发者文档](https://ai.360.com/docs) |
 | **特别说明** | 自研模型与第三方托管模型同页计费，注意区分。 |
 
@@ -1256,6 +1257,7 @@ python -m unittest discover
 | **特别说明** | 「Free forever」指标题档定价长期 $0，非全部 AI 功能免费；试用条款里的 GPT-5.6 Luna 为当前托管模型名 |
 
 <!-- LLM-INTEL:END -->
+
 
 
 

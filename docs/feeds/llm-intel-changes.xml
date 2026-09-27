@@ -86,6 +86,14 @@ notes：建议在控制台开启“免费额度用完即停”避免超额扣费
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>额度变化 · 豆包大模型：火山方舟定价页明确说明豆包大语言模型分别提供 50 万 tokens 免费推理额度</title>
+      <link>https://github.com/rockbenben/free-llm-intel#4-火山引擎-火山方舟-豆包</link>
+      <description>free_quota：**无新用户注册赠金 / 文本 token 免费额度表**（官方免费额度文档现行版本）；唯一可确认的免费项为下方 Managed Agents 时长包 → 豆包模型分别提供 **50 万 tokens** 免费推理额度；另提供 Managed Agents 免费运行时长包
+free_models：**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**（官方免费额度文档）、文本/多模态大模型**无统一免费 token 额度**：当前在线旗舰 `doubao-seed-evolving`（持续进化版）、See… → **豆包系列大语言模型（Doubao-Seed 等）** —— 分别提供 **50 万 tokens** 免费推理额度、**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**</description>
+      <guid isPermaLink="false">changelog-2026-09-27-volcengine_doubao</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>新模型 · 美团 LongCat：LongCat-2.5-Preview</title>
       <link>https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-25</link>
       <description>LongCat-2.5-Preview 上线</description>
@@ -1764,13 +1772,6 @@ notes：建议在控制台开启“免费额度用完即停”避免超额扣费
       <description>Workers AI - Meta Llama 3.1 现已在 Workers AI 上线</description>
       <guid isPermaLink="false">release-cloudflare_workers_ai-llama 3.1</guid>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>新模型 · Hugging Face：AMD Instinct MI300</title>
-      <link>https://huggingface.co/blog/huggingface-amd-mi300</link>
-      <description>Hugging Face 登陆 AMD Instinct MI300 GPU</description>
-      <guid isPermaLink="false">release-huggingface-amd instinct mi300</guid>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

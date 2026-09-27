@@ -311,5 +311,24 @@
       "额度**按模型/服务分散发放**，不是统一 token 池：U2 / U2-Med / U1-OCR / U1-OCR-Med / U2 Flash / U2-RadiMed 各 500 万 tokens、ASR 5 小时、TTS 5 万字、TTS-Clone / TTS-Design 各 2 万字，互不通兑",
       "有效期官方文档未标注，以账户内资源包为准"
     ]
+  },
+  "volcengine_doubao": {
+    "_evidence": [
+      {
+        "quote": "豆包模型分别提供50万tokens免费推理额度，详见产品计费文档。",
+        "url": "https://www.volcengine.com/pricing?product=ark&tab=2"
+      }
+    ],
+    "_summary": "火山方舟定价页明确说明豆包大语言模型分别提供 50 万 tokens 免费推理额度",
+    "_updated": "2026-09-27 11:04:01",
+    "free_models": [
+      "**豆包系列大语言模型（Doubao-Seed 等）** —— 分别提供 **50 万 tokens** 免费推理额度",
+      "**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**"
+    ],
+    "free_quota": "豆包模型分别提供 **50 万 tokens** 免费推理额度；另提供 Managed Agents 免费运行时长包",
+    "guide_meta": {
+      "short": "豆包模型分别送 50 万 tokens；Managed Agents 送 30 小时",
+      "tip": "在控制台开启「安心体验模式」，超限即停，避免自动扣费。"
+    }
   }
 }

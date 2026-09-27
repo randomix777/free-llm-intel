@@ -168,11 +168,11 @@
       "signup": "",
       "tiers": [],
       "in_guide": true,
-      "free_quota": "**无新用户注册赠金 / 文本 token 免费额度表**（官方免费额度文档现行版本）；唯一可确认的免费项为下方 Managed Agents 时长包",
+      "free_quota": "豆包模型分别提供 **50 万 tokens** 免费推理额度；另提供 Managed Agents 免费运行时长包",
       "validity": "Agent 免费额度有效期 **2 年**；文本模型以开通页展示为准",
       "free_models": [
-        "**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**（官方免费额度文档）",
-        "文本/多模态大模型**无统一免费 token 额度**：当前在线旗舰 `doubao-seed-evolving`（持续进化版）、Seed-2.1-Pro/Turbo、Seed-2.0 系列，以及托管 DeepSeek-V4-Pro/Flash 正式版、GLM-5.2/4.7 等，开通后按量付费"
+        "**豆包系列大语言模型（Doubao-Seed 等）** —— 分别提供 **50 万 tokens** 免费推理额度",
+        "**Managed Agents（Agent 编排）** —— 赠送 **30 小时运行时长 + 500 次 web_search 工具调用，有效期 2 年**"
       ],
       "tier_caveats": [],
       "preconditions": "注册火山引擎账号并完成实名认证",
@@ -196,7 +196,7 @@
           "https://docs.volcengine.com/docs/82379/1099455?lang=zh"
         ]
       ],
-      "reviewed": ""
+      "reviewed": "2026-09-27"
     },
     {
       "rank": 5,
