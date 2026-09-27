@@ -38,30 +38,30 @@ def _save_trans_cache() -> None:
 # 按表复原为官方英文拼写；官方就有中文名的品牌（Qwen=千问、GLM=智谱）
 # 不在此列，绝不能碰。
 _BRAND_TRANSLITERATIONS: list[tuple[str, re.Pattern]] = [
-    ("Claude", re.compile(r"克劳德|克洛德")),
-    ("Grok", re.compile(r"格罗克|格洛克|格雷克")),
+    ("Claude", re.compile(r"克劳\s*德|克洛\s*德")),
+    ("Grok", re.compile(r"格罗\s*克|格洛\s*克|格雷\s*克")),
     ("Codestral", re.compile(r"共纹")),
     ("Magistral", re.compile(r"马吉斯特尔")),
     ("Pixtral", re.compile(r"皮克斯特拉")),
-    ("MiniMax", re.compile(r"迷你最大")),
+    ("MiniMax", re.compile(r"迷你\s*最大")),
     ("DeepSeek", re.compile(r"迪普西克|迪普席克")),
     ("Mistral", re.compile(r"米斯特拉尔")),
     # Laguna（Poolside 编程模型）：CI 侧证据行实测被音译成「拉古纳」。
     # 音译只在原文写着英文 Laguna 时才复原，普通词「潟湖」语义不受影响。
     ("Laguna", re.compile(r"拉古纳")),
-    ("Hugging Face", re.compile(r"拥抱人脸|拥抱脸部|拥抱脸|拥抱面|抱脸")),
+    ("Hugging Face", re.compile(r"拥抱\s*人脸|拥抱\s*脸部|拥抱\s*脸|拥抱\s*面|抱\s*脸")),
     ("LLM", re.compile(r"法学硕士")),
     # 产品名整串直译（实测 `Patch Time Series Transformer` → 「贴片时间序列
     # Transformer」）：键按整串复原，模式允许中途中英混排。
-    ("Patch Time Series Transformer", re.compile(r"贴片时间序列 ?Transformer")),
+    ("Patch Time Series Transformer", re.compile(r"贴片\s*时间\s*序列\s*Transformer")),
     # `Modular` 作普通形容词时译文同样出「模块化」，复原的充要条件是原文
     # 写着英文 Modular（_restore_brand_names 已按 source 把关），不会误伤。
     ("Modular", re.compile(r"模块化")),
     ("Gemini", re.compile(r"双子座")),
     ("Sora", re.compile(r"索拉")),
     ("Diffusers", re.compile(r"扩散器")),
-    ("Stable Diffusion", re.compile(r"稳定扩散")),
-    ("Sentence Transformers", re.compile(r"句子?变形金刚")),
+    ("Stable Diffusion", re.compile(r"稳定\s*扩散")),
+    ("Sentence Transformers", re.compile(r"句子?\s*变形金刚")),
     ("Transformer", re.compile(r"变压器")),
     ("Antigravity", re.compile(r"反重力剂?")),
     ("Public AI", re.compile(r"公共人工智能")),
