@@ -182,7 +182,7 @@
 
   <nav class="tabs" role="tablist" aria-label="视图">
     <button type="button" class="tab" id="tab-news" role="tab" aria-selected="true">厂商动态</button>
-    <button type="button" class="tab" id="tab-changes" role="tab" aria-selected="false">额度 / 活动变化</button>
+    <button type="button" class="tab" id="tab-changes" role="tab" aria-selected="false">最新变化</button>
     <button type="button" class="tab" id="tab-quotas" role="tab" aria-selected="false">额度总表</button>
   </nav>
 
@@ -216,7 +216,13 @@
     <div class="controls"><div class="row">
       <input type="search" id="cq" placeholder="搜索变化条目…" autocomplete="off" aria-label="搜索变化条目">
       <span class="count" id="changes-count"></span>
-    </div></div>
+    </div>
+    <p class="hint">
+      哪家的<strong>免费额度或活动变了</strong>、又<strong>发布了哪些新模型</strong>，都按时间排在这里，
+      每条可点回官方页面核对。
+      <a id="changes-sub" href="#">单独订阅这条变化流</a>（RSS，与厂商动态互不干扰）。
+    </p>
+    </div>
     <ul class="items" id="changes-list"></ul>
     <div class="msg" id="changes-msg">加载中…</div>
   </div>
@@ -225,7 +231,12 @@
     <div class="controls"><div class="row">
       <input type="search" id="qq" placeholder="搜索厂商 / 额度关键词…" autocomplete="off" aria-label="搜索厂商">
       <span class="count" id="quotas-count"></span>
-    </div></div>
+    </div>
+    <p class="hint">
+      全部厂商的<strong>免费额度一览</strong>（当前快照，随每日巡检刷新）。
+      想看“哪家变了”请切到「最新变化」——总表本身不做订阅，避免每天重复推送整份清单。
+    </p>
+    </div>
     <div id="quotas-list"></div>
     <div class="msg" id="quotas-msg">加载中…</div>
   </div>
@@ -420,7 +431,17 @@
 
   // 订阅地址跟着筛选走：选中某家就给该家的单厂商源，否则给合并流。
   // 选完厂商最想做的大概就是「订这一家」，不该逼用户再去页脚找。
+  // 「最新变化」视图打开时换成变化流——顶部按钮永远订阅「正在看的东西」。
+  var CHANGES_FEED = 'feeds/llm-intel-changes.xml';
+  var currentTab = 'news';
   function updateSubscribe() {
+    if (currentTab === 'changes') {
+      var curl = new URL(CHANGES_FEED, location.href).href;
+      el.feedUrl.textContent = curl;
+      el.sub.setAttribute('href', curl);
+      el.sub.textContent = '订阅变化流';
+      return;
+    }
     var url = new URL(FEED, location.href).href;
     var label = '订阅聚合源';
     if (state.vendor !== null) {
@@ -563,8 +584,14 @@
       panes[k].hidden = (k !== name);
       tabs[k].setAttribute('aria-selected', String(k === name));
     });
+    currentTab = name;
+    updateSubscribe();
     if (name === 'changes') loadChanges();
     if (name === 'quotas') loadQuotas();
+  }
+  var changesSubEl = document.getElementById('changes-sub');
+  if (changesSubEl) {
+    changesSubEl.href = new URL(CHANGES_FEED, location.href).href;
   }
   tabs.news.addEventListener('click', function () { showTab('news'); });
   tabs.changes.addEventListener('click', function () { showTab('changes'); });
