@@ -4,7 +4,7 @@
       "id": "anthropic",
       "brand": "Anthropic Claude",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml",
-      "articles": 80,
+      "articles": 73,
       "latest": "2026-09-25",
       "rank": 0
     },
@@ -12,7 +12,7 @@
       "id": "openai",
       "brand": "OpenAI",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml",
-      "articles": 1213,
+      "articles": 1212,
       "latest": "2026-09-22",
       "rank": 1
     },
@@ -20,7 +20,7 @@
       "id": "google_gemini",
       "brand": "Google Gemini",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml",
-      "articles": 43,
+      "articles": 41,
       "latest": "2026-09-22",
       "rank": 2
     },
@@ -28,7 +28,7 @@
       "id": "deepseek",
       "brand": "DeepSeek",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-deepseek.xml",
-      "articles": 47,
+      "articles": 46,
       "latest": "2026-09-10",
       "rank": 3
     },
@@ -60,7 +60,7 @@
       "id": "xai_grok",
       "brand": "xAI Grok",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml",
-      "articles": 164,
+      "articles": 144,
       "latest": "2026-09-22",
       "rank": 7
     },
@@ -68,7 +68,7 @@
       "id": "minimax",
       "brand": "MiniMax",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml",
-      "articles": 36,
+      "articles": 35,
       "latest": "2026-07-31",
       "rank": 8
     },
@@ -164,7 +164,7 @@
       "id": "longcat_meituan",
       "brand": "美团 LongCat",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml",
-      "articles": 15,
+      "articles": 14,
       "latest": "2026-09-25",
       "rank": 20
     },
@@ -180,7 +180,7 @@
       "id": "dataeye",
       "brand": "数眼智能",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml",
-      "articles": 20,
+      "articles": 16,
       "latest": "2026-09-21",
       "rank": 22
     },
@@ -252,7 +252,7 @@
       "id": "poolside",
       "brand": "Poolside",
       "feed": "https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml",
-      "articles": 38,
+      "articles": 19,
       "latest": "2026-07-28",
       "rank": 31
     },

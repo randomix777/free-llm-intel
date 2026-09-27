@@ -3,7 +3,7 @@
   <channel>
     <title>OpenAI 官方动态</title>
     <link>https://github.com/rockbenben/free-llm-intel</link>
-    <description>OpenAI 官方博客 / 更新日志归档（标题汉化，共 1213 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
+    <description>OpenAI 官方博客 / 更新日志归档（标题汉化，共 1212 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
     <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml" rel="self" type="application/rss+xml"/>
@@ -6001,12 +6001,6 @@
       <link>https://openai.com/index/gpts-are-gpts</link>
       <guid isPermaLink="true">https://openai.com/index/gpts-are-gpts</guid>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-4</title>
-      <link>https://openai.com/index/gpt-4-research</link>
-      <guid isPermaLink="true">https://openai.com/index/gpt-4-research</guid>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>GPT-4</title>

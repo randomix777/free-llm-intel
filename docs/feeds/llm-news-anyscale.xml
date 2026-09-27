@@ -207,11 +207,11 @@
       <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fast, flexible, and scalable data loading for ML training wi…</title>
+      <title>使用 Ray Data 进行 ML 训练的快速、灵活且可扩展的数据加载</title>
       <link>https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data</link>
       <guid isPermaLink="true">https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data</guid>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
-      <description>完整标题：Fast, flexible, and scalable data loading for ML training with Ray Data</description>
+      <description>原文标题：Fast, flexible, and scalable data loading for ML training with Ray Data</description>
     </item>
     <item>
       <title>Ray 峰会系列 - 扩展并行 Python 作业</title>

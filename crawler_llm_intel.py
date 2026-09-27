@@ -3322,6 +3322,86 @@ def write_opml(path: Path, intel_list: list[VendorIntel], feeds_base: str = "",
 _ARCHIVE_ARTICLE_RE = re.compile(r"^\d+\.\s+\[(.+)\]\((https?://[^)]+)\)(?:（([^）]+)）)?$")
 
 
+def _dedup_same_title(arts: list[Article]) -> list[Article]:
+    """折叠「同一篇文章被两个入口各收一次」的重复（同厂商内按标题归组）。
+
+    实测 68 组重复的成因：博客页既有卡片链接（`/blog#d-…` 锚点）又有详情页直链，
+    或 changelog 同一条目在页面出现两次（锚点带 `-1` 后缀）。两条规则足够覆盖，
+    且不会误伤真同名文章：
+    ① 标题+日期完全相同 → 同一篇；
+    ② 标题相同、一条是锚点卡一条是直链 → 锚点卡是详情页的索引影子。
+    双直链且日期不同（openai 跨年三篇「团队近况」）不动 —— 那是真文章重名。
+    保留优先级：直链 > 锚点，其次 URL 更短者。
+    """
+    def norm_title(s: str) -> str:
+        return re.sub(r"\s+", " ", s or "").strip().lower()
+
+    def aliases(a: Article) -> set[str]:
+        """一篇文章的标题别名：原文标题 + 显示标题。
+
+        同一篇的两种落盘形态 —— RSS 条目（title=英文、zh_title=译文）与归档条目
+        （title 就是当年冻结的中文）—— 措辞可能不同（一次 AI 润色、一次机翻），
+        只按显示标题归组会漏；原文标题是稳定锚，两个别名任一命中即同一篇。
+        """
+        out = set()
+        for s in (a.title, a.zh_title):
+            n = norm_title(s)
+            if n:
+                out.add(n)
+        return out
+
+    def is_shadow(x: Article, y: Article) -> bool:
+        """一条是锚点卡、一条是直链 → 锚点卡是详情页的索引影子。"""
+        return ("#" in x.url) != ("#" in y.url)
+
+    def same_day(x: Article, y: Article) -> bool:
+        return bool(x.date) and x.date == y.date
+
+    def better(a: Article, b: Article) -> Article:
+        af, bf = "#" in a.url, "#" in b.url
+        if af != bf:
+            return b if af else a
+        return a if len(a.url) <= len(b.url) else b
+
+    # 标准并查集：原文标题或显示标题任一相同即同一篇（措辞不同的两种落盘形态
+    # 也能合并），合并后按组折叠。
+    parent = list(range(len(arts)))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[max(ri, rj)] = min(ri, rj)
+
+    owner: dict[str, int] = {}
+    for idx, a in enumerate(arts):
+        for al in aliases(a):
+            if al in owner:
+                union(idx, owner[al])
+            else:
+                owner[al] = idx
+    buckets: dict[int, list[tuple[int, Article]]] = {}
+    for idx, a in enumerate(arts):
+        buckets.setdefault(find(idx), []).append((idx, a))
+    kept_pairs: list[tuple[int, Article]] = []
+    for group in buckets.values():
+        kept: list[list] = []           # [占位下标, 胜出 Article]
+        for pos, a in group:            # 按 idx 递增遍历，占位下标即组内最早
+            for slot in kept:
+                if same_day(a, slot[1]) or is_shadow(a, slot[1]):
+                    slot[1] = better(a, slot[1])
+                    break
+            else:
+                kept.append([pos, a])
+        kept_pairs.extend(kept)
+    return [a for _pos, a in sorted(kept_pairs, key=lambda p: p[0])]
+
+
 def parse_archived_articles(arch_path: Path) -> list[Article]:
     """从既有归档 .md 中恢复历史文章条目（供增量合并，保障历史旧文章只增不减、永久留存）。"""
     if not arch_path.exists():
@@ -3609,7 +3689,11 @@ def write_news_archives(out_dir: Path, intel_list: list[VendorIntel],
                 # 沿用前过一次品牌复原：冻结在归档里的历史坏译文（守卫装好前
                 # 音译/直译的）借当次英文原文自愈，不然坏标题靠沿用永生。
                 fresh.zh_title = _restore_brand_names(old_art.title, fresh.title)
-        # 2) 新收录且尚无中文的标题 → 交给 LLM 润色一次（结果进归档即冻结，
+        # 2) 折叠「同一篇的两个入口」（锚点卡 + 详情页直链）——必须在按日期排序
+        #    **之前**做：直链的真实日期常早于卡片列表日期，先排序再折叠会让赢家
+        #    占住卡片的靠后槽位，把日期倒序打乱（实测 anthropic / xai_grok 乱序）。
+        merged_arts = _dedup_same_title(merged_arts)
+        # 3) 新收录且尚无中文的标题 → 交给 LLM 润色一次（结果进归档即冻结，
         #    次日走上面的沿用分支不再重翻）。polisher 内部分批与预算，异常在此兜底。
         if title_polish is not None:
             new_en = [a.title for a in merged_arts

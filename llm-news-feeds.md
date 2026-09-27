@@ -4,7 +4,7 @@
 
 ## 厂商博客 / 更新动态订阅源
 
-> 由 `crawler_llm_intel.py` 自动整理，最近更新：**2026-09-27 09:09:30**。
+> 由 `crawler_llm_intel.py` 自动整理，最近更新：**2026-09-27 19:43:15**。
 >
 > 各厂商的官方博客、工程文章、更新日志**单独维护在此**，不混入 README 的免费额度情报；
 > 每个厂商下方列出从官方 RSS / 博客页**实际抓取的最新文章**（标题自动汉化、附发布日期与原文链接）。
@@ -29,7 +29,7 @@
   3. [澳大利亚青少年安全蓝图简介](https://openai.com/index/australian-youth-safety-blueprint)（2026-09-18）
   4. [推出面向法律行业的 Astra](https://openai.com/index/astra-for-law)（2026-09-17）
   5. [Cooley 如何利用 ChatGPT 加速 IPO 工作](https://openai.com/index/cooley-gopublic)（2026-09-17）
-  - 📄 完整文章归档（共 1213 篇）：[openai.md](llm-news/openai.md)
+  - 📄 完整文章归档（共 1212 篇）：[openai.md](llm-news/openai.md)
 
 ### Anthropic Claude (anthropic)
 - 页面：[官方博客](https://claude.com/blog)
@@ -40,10 +40,10 @@
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
   1. [Claude Tag 现在支持通道中的个人连接器](https://claude.com/blog#d-2026-09-25-19)（2026-09-25）
   2. [Claude Tag 现已支持频道中的个人连接器](https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels)（2026-09-24）
-  3. [Claude Marketplace：一站式发现合作伙伴的插件、代理和服务](https://claude.com/blog#d-2026-09-23-21)（2026-09-23）
-  4. [Claude Marketplace：一站式发现合作伙伴的插件、代理和服务](https://claude.com/blog/claude-marketplace)（2026-09-23）
-  5. [与埃森哲合作开展嵌入式评估的公告](https://www.anthropic.com/news/accenture-embedded-evaluation)（2026-09-18）
-  - 📄 完整文章归档（共 80 篇）：[anthropic.md](llm-news/anthropic.md)
+  3. [Claude Marketplace：一站式发现合作伙伴的插件、代理和服务](https://claude.com/blog/claude-marketplace)（2026-09-23）
+  4. [与埃森哲合作开展嵌入式评估的公告](https://www.anthropic.com/news/accenture-embedded-evaluation)（2026-09-18）
+  5. [生命科学验证计划简介](https://www.anthropic.com/news/life-sciences-verification-program)（2026-09-17）
+  - 📄 完整文章归档（共 73 篇）：[anthropic.md](llm-news/anthropic.md)
 
 ### Google Gemini (google_gemini)
 - 页面：[变更日志](https://ai.google.dev/gemini-api/docs/changelog)
@@ -55,7 +55,7 @@
   3. [Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-1)（2026-09-15）
   4. [Gemini 3.8 Live 扩展思考](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-15-2026-2)（2026-09-15）
   5. [Lyria 3.5 正式版 (GA)](https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#09-03-2026-1)（2026-09-03）
-  - 📄 完整文章归档（共 43 篇）：[google_gemini.md](llm-news/google_gemini.md)
+  - 📄 完整文章归档（共 41 篇）：[google_gemini.md](llm-news/google_gemini.md)
 
 ### xAI Grok (xai_grok)
 - 页面：[新闻 / 更新](https://x.ai/news)
@@ -64,10 +64,10 @@
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
   1. [SpaceXAI 如何使用 Grok Bot 扩大客户支持](https://x.ai/news#d-2026-09-22-1)（2026-09-22）
   2. [SpaceXAI 如何使用 Grok Bot 扩展客户支持](https://x.ai/news/grok-bot-customer-support)（2026-09-22）
-  3. [介绍 Grok 4.7](https://x.ai/news#d-2026-09-21-0)（2026-09-21）
-  4. [介绍 Grok 4.7](https://x.ai/news/grok-4-7)（2026-09-21）
-  5. [Grok 语音转录 2.0 简介](https://x.ai/news#d-2026-09-18-2)（2026-09-18）
-  - 📄 完整文章归档（共 164 篇）：[xai_grok.md](llm-news/xai_grok.md)
+  3. [介绍 Grok 4.7](https://x.ai/news/grok-4-7)（2026-09-21）
+  4. [Grok 语音转录 2.0 简介](https://x.ai/news#d-2026-09-18-2)（2026-09-18）
+  5. [介绍 Grok Voice Transcribe 2.0](https://x.ai/news/grok-voice-transcribe-2)（2026-09-18）
+  - 📄 完整文章归档（共 144 篇）：[xai_grok.md](llm-news/xai_grok.md)
 
 ### Groq Cloud (groq)
 - 页面：[变更日志](https://console.groq.com/docs/changelog.md)
@@ -88,12 +88,12 @@
   - ⚠️ 页面 HTML 中未发现 RSS/Atom 链接，已尝试直接从页面提取文章条目
 - 📡 **本仓库自建源**（官方没有原生 RSS，标题已汉化）：[`llm-news-deepseek.xml`](https://free-llm-intel.aishort.top/feeds/llm-news-deepseek.xml)
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
-  1. [DeepSeek-V4.1-Flash 发布](https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-09-10)（2026-09-10）
-  2. [DeepSeek-V4.1-Flash 发布](https://api-docs.deepseek.com/zh-cn/news/news260910)（2026-09-10）
-  3. [DeepSeek-V4-Flash-Vision-Exp 发布](https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-08-21)（2026-08-21）
-  4. [DeepSeek-V4-Flash-Vision-Exp 上线](https://api-docs.deepseek.com/zh-cn/news/news260821)（2026-08-21）
-  5. [DeepSeek-V4-Pro 更新](https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-08-13)（2026-08-13）
-  - 📄 完整文章归档（共 47 篇）：[deepseek.md](llm-news/deepseek.md)
+  1. [DeepSeek-V4.1-Flash 发布](https://api-docs.deepseek.com/zh-cn/news/news260910)（2026-09-10）
+  2. [DeepSeek-V4-Flash-Vision-Exp 发布](https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-08-21)（2026-08-21）
+  3. [DeepSeek-V4-Flash-Vision-Exp 上线](https://api-docs.deepseek.com/zh-cn/news/news260821)（2026-08-21）
+  4. [DeepSeek-V4-Pro 更新](https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-08-13)（2026-08-13）
+  5. [DeepSeek-V4-Pro 正式版上线](https://api-docs.deepseek.com/zh-cn/news/news260813)（2026-08-13）
+  - 📄 完整文章归档（共 46 篇）：[deepseek.md](llm-news/deepseek.md)
 
 ### 智谱 AI GLM (zhipu_glm)
 - 页面：[更新日志](https://docs.bigmodel.cn/cn/update/new-releases)
@@ -167,7 +167,7 @@
   3. [MiniMax M3 模型](https://platform.minimax.cn/docs/release-notes/models#2026-%E5%B9%B4-6-%E6%9C%88-1-%E6%97%A5)（2026-06-01）
   4. [Music-2.6](https://platform.minimax.cn/docs/release-notes/models#2026-%E5%B9%B4-4-%E6%9C%88)（2026-04-01）
   5. [MiniMax M2.7](https://platform.minimax.cn/docs/release-notes/models#2026-%E5%B9%B4-3-%E6%9C%88-18-%E6%97%A5)（2026-03-18）
-  - 📄 完整文章归档（共 36 篇）：[minimax.md](llm-news/minimax.md)
+  - 📄 完整文章归档（共 35 篇）：[minimax.md](llm-news/minimax.md)
 
 ### 月之暗面 Kimi (moonshot_kimi)
 - 页面：[变更日志](https://platform.kimi.com/docs/changelog/changelog/changelog)
@@ -311,11 +311,11 @@
 - 📡 **本仓库自建源**（官方没有原生 RSS，标题已汉化）：[`llm-news-longcat_meituan.xml`](https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml)
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
   1. [LongCat-2.5-Preview 上线](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-25)（2026-09-25）
-  2. [LongCat-2.5-Preview 上线](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-25-1)（2026-09-25）
-  3. [全新推出企业服务](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-10)（2026-09-10）
-  4. [全新推出企业服务](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-02)（2026-09-02）
-  5. [LongCat-2.0 发布 & 全新推出计费服务](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30)（2026-06-30）
-  - 📄 完整文章归档（共 15 篇）：[longcat_meituan.md](llm-news/longcat_meituan.md)
+  2. [全新推出企业服务](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-10)（2026-09-10）
+  3. [全新推出企业服务](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-02)（2026-09-02）
+  4. [LongCat-2.0 发布 & 全新推出计费服务](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-06-30)（2026-06-30）
+  5. [LongCat 部分模型服务下线](https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-05-29)（2026-05-29）
+  - 📄 完整文章归档（共 14 篇）：[longcat_meituan.md](llm-news/longcat_meituan.md)
 
 ### StreamLake (streamlake)
 - 页面：[更新日志](https://www.streamlake.com/document/WANQING/mdptalisb06i7ai3zdd)
@@ -334,12 +334,12 @@
   - ⚠️ 页面 HTML 中未发现 RSS/Atom 链接，已尝试直接从页面提取文章条目
 - 📡 **本仓库自建源**（官方没有原生 RSS，标题已汉化）：[`llm-news-dataeye.xml`](https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml)
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
-  1. [数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设](https://www.shuyanai.com/blogs#d-2026-09-21-3)（2026-09-21）
-  2. [数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设](https://www.shuyanai.com/blogs#d-2026-09-21-4)（2026-09-21）
-  3. [数眼智能AI漫剧教程：从脚本、AI生图到Seedance 2.5生视频](https://www.shuyanai.com/blogs#d-2026-09-17-5)（2026-09-17）
-  4. [数眼智能 AI 视频生成教程：如何用智能体生成第一条视频？](https://www.shuyanai.com/blogs#d-2026-09-16-6)（2026-09-16）
-  5. [数眼智能在海南数据谷OPC社区揭牌现场｜把 Token 级算力，送到每一个 AI 超级个体手里](https://www.shuyanai.com/blogs#d-2026-09-16-7)（2026-09-16）
-  - 📄 完整文章归档（共 20 篇）：[dataeye.md](llm-news/dataeye.md)
+  1. [数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设](https://www.shuyanai.com/blogs#d-2026-09-21-4)（2026-09-21）
+  2. [数眼智能AI漫剧教程：从脚本、AI生图到Seedance 2.5生视频](https://www.shuyanai.com/blogs#d-2026-09-17-5)（2026-09-17）
+  3. [数眼智能 AI 视频生成教程：如何用智能体生成第一条视频？](https://www.shuyanai.com/blogs#d-2026-09-16-6)（2026-09-16）
+  4. [数眼智能在海南数据谷OPC社区揭牌现场｜把 Token 级算力，送到每一个 AI 超级个体手里](https://www.shuyanai.com/blogs#d-2026-09-16-7)（2026-09-16）
+  5. [数眼智能与海南大学达成专利技术合作](https://www.shuyanai.com/blogs#d-2026-09-15-9)（2026-09-15）
+  - 📄 完整文章归档（共 16 篇）：[dataeye.md](llm-news/dataeye.md)
 
 ### AI21 Labs (ai21_labs)
 - 页面：[官方博客](https://www.ai21.com/blog)
@@ -369,12 +369,12 @@
   - ⚠️ 页面 HTML 中未发现 RSS/Atom 链接，已尝试直接从页面提取文章条目
 - 📡 **本仓库自建源**（官方没有原生 RSS，标题已汉化）：[`llm-news-poolside.xml`](https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml)
 - 📰 **最新文章**（官方源抓取于 2026-09-27，标题自动汉化）：
-  1. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-34)（2026-07-28）
-  2. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-35)（2026-07-28）
-  3. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-18)（2026-07-21）
-  4. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-19)（2026-07-21）
-  5. [长上下文更新：Laguna XS.2 和 M.1](https://poolside.ai/blog#d-2026-07-02-20)（2026-07-02）
-  - 📄 完整文章归档（共 38 篇）：[poolside.md](llm-news/poolside.md)
+  1. [Poolside on Dell：在您的边界内实现前沿人工智能的有效途径](https://poolside.ai/blog#d-2026-07-28-35)（2026-07-28）
+  2. [Laguna XS 2.1 简介](https://poolside.ai/blog#d-2026-07-21-19)（2026-07-21）
+  3. [长上下文更新：Laguna XS.2 和 M.1](https://poolside.ai/blog#d-2026-07-02-21)（2026-07-02）
+  4. [AI，你的方式：引入 Poolside 平台](https://poolside.ai/blog#d-2026-05-26-23)（2026-05-26）
+  5. [Laguna XS.2 和 M.1：深入探讨](https://poolside.ai/blog#d-2026-05-11-1)（2026-05-11）
+  - 📄 完整文章归档（共 19 篇）：[poolside.md](llm-news/poolside.md)
 
 ### Modular (原 BentoCloud/BentoML) (modular_cloud)
 - 📡 [RSS/Atom 订阅源](https://www.modular.com/blog/rss.xml)：`https://www.modular.com/blog/rss.xml`

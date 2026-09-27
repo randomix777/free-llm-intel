@@ -3622,3 +3622,49 @@ class TestPacketFastReplay(unittest.TestCase):
         m = crawler_llm_intel.read_packet_manifest(self.root)
         self.assertEqual(m["demo_vid"]["digest"], self.digest,
                          "登记指纹必须与当前情报页快照一致（新闻页不进指纹）")
+
+
+class TestArchiveDedup(unittest.TestCase):
+    """归档合并折叠「同一篇文章的两个入口」，但真同名文章必须保住。"""
+
+    A = crawler_llm_intel.Article
+    ANCHOR = "https://blog.example/post-x"
+    DIRECT = "https://blog.example/posts/grok-4-7"
+
+    def test_anchor_card_collapses_into_direct_link(self):
+        anchor = self.A(title="Introducing Grok 4.7", zh_title="介绍 Grok 4.7",
+                        url=self.ANCHOR + "#d-2026-09-21-0", date="2026-09-21")
+        direct = self.A(title="Introducing Grok 4.7",
+                        url=self.DIRECT, date="2026-09-21")
+        out = crawler_llm_intel._dedup_same_title([anchor, direct])
+        self.assertEqual(len(out), 1)
+        self.assertEqual(out[0].url, self.DIRECT, "保留的必须是详情页直链")
+
+    def test_rss_english_and_archive_chinese_group_together(self):
+        """一条带 zh_title（title 英文）、一条只有中文标题：按显示标题归组。"""
+        rss = self.A(title="Claude in Chrome is generally available",
+                     zh_title="Claude in Chrome 正式全面可用",
+                     url="https://blog.example#d-1", date="2026-09-15")
+        arch = self.A(title="Claude in Chrome 正式全面可用",
+                      url="https://blog.example/chrome-ga", date="2026-08-26")
+        out = crawler_llm_intel._dedup_same_title([rss, arch])
+        self.assertEqual(len(out), 1, "锚点卡与直链是同一篇的两个入口")
+
+    def test_same_title_same_date_duplicates_collapse(self):
+        a = self.A(title="版本更新", url="https://docs.example/changelog#v1", date="2026-09-25")
+        b = self.A(title="版本更新", url="https://docs.example/changelog#v1-1", date="2026-09-25")
+        self.assertEqual(len(crawler_llm_intel._dedup_same_title([a, b])), 1)
+
+    def test_distinct_same_title_articles_are_kept(self):
+        """openai 实测：2016/2017 三篇都叫「团队近况」，都是直链不同日期 → 全保。"""
+        arts = [self.A(title="Team update", url=f"https://openai.example/index/u{i}",
+                       date=f"201{i}-0{4-i}-10") for i in (7, 6, 5)]
+        self.assertEqual(len(crawler_llm_intel._dedup_same_title(arts)), 3)
+
+    def test_order_after_dedup_follows_input(self):
+        arts = [self.A(title="B", url="https://x/b", date="2026-09-02"),
+                self.A(title="A", url="https://x/a#card", date="2026-09-01"),
+                self.A(title="A", url="https://x/a/page", date="2026-08-01")]
+        out = crawler_llm_intel._dedup_same_title(arts)
+        self.assertEqual([a.url for a in out], ["https://x/b", "https://x/a/page"],
+                         "折叠不能打乱日期倒序")

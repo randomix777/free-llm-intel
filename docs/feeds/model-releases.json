@@ -1,5 +1,5 @@
 {
-  "count": 252,
+  "count": 251,
   "fields": [
     "date",
     "vendor",
@@ -56,14 +56,6 @@
       "Claude Opus 5.5",
       "Claude Opus 5.5 现已在 AWS 上推出",
       "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/"
-    ],
-    [
-      "2026-09-21",
-      "xai_grok",
-      "xAI Grok",
-      "IntroducingGrok 4.7",
-      "介绍 Grok 4.7",
-      "https://x.ai/news#d-2026-09-21-0"
     ],
     [
       "2026-09-21",
@@ -143,7 +135,7 @@
       "DeepSeek",
       "DeepSeek-V4.1-Flash",
       "DeepSeek-V4.1-Flash 发布",
-      "https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-09-10"
+      "https://api-docs.deepseek.com/zh-cn/news/news260910"
     ],
     [
       "2026-09-08",
@@ -463,7 +455,7 @@
       "Poolside",
       "Laguna XS 2.1",
       "Laguna XS 2.1 简介",
-      "https://poolside.ai/blog#d-2026-07-21-18"
+      "https://poolside.ai/blog#d-2026-07-21-19"
     ],
     [
       "2026-07-21",

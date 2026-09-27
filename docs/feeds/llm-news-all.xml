@@ -106,14 +106,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
     </item>
     <item>
-      <title>[美团 LongCat] LongCat-2.5-Preview 上线</title>
-      <link>https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-25-1</link>
-      <guid isPermaLink="true">https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-25-1</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <category>美团 LongCat</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-longcat_meituan.xml">美团 LongCat</source>
-    </item>
-    <item>
       <title>[Anthropic Claude] Claude Tag 现已支持频道中的个人连接器</title>
       <link>https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels</link>
       <guid isPermaLink="true">https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels</guid>
@@ -182,15 +174,6 @@
       <category>InceptionLabs</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-inception_labs.xml">InceptionLabs</source>
       <description>原文标题：Introducing Mercury 2.5|Read the blog</description>
-    </item>
-    <item>
-      <title>[Anthropic Claude] Claude Marketplace：一站式发现合作伙伴的插件、代理和服务</title>
-      <link>https://claude.com/blog#d-2026-09-23-21</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-09-23-21</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude Marketplace: one place to discover plugins, agents, and services from our partners</description>
     </item>
     <item>
       <title>[Anthropic Claude] Claude Marketplace：一站式发现合作伙伴的插件、代理和服务</title>
@@ -450,15 +433,6 @@
     </item>
     <item>
       <title>[xAI Grok] 介绍 Grok 4.7</title>
-      <link>https://x.ai/news#d-2026-09-21-0</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-09-21-0</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：IntroducingGrok 4.7</description>
-    </item>
-    <item>
-      <title>[xAI Grok] 介绍 Grok 4.7</title>
       <link>https://x.ai/news/grok-4-7</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-7</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
@@ -527,14 +501,6 @@
       <category>OpenRouter</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml">OpenRouter</source>
       <description>原文标题：What Is Jev? TypeSafe&apos;s Decision Model Explained for Developers</description>
-    </item>
-    <item>
-      <title>[数眼智能] 数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设</title>
-      <link>https://www.shuyanai.com/blogs#d-2026-09-21-3</link>
-      <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-09-21-3</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <category>数眼智能</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
     </item>
     <item>
       <title>[数眼智能] 数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设</title>
@@ -762,24 +728,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[Anthropic Claude] Claude for Small Business 发布新工作流、集成功能与培训计划</title>
-      <link>https://claude.com/blog#d-2026-09-16-0</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-09-16-0</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude for Small Business launches new workflows, integrations, and training programs</description>
-    </item>
-    <item>
-      <title>[Anthropic Claude] Claude for Small Business 发布新工作流、集成功能与培训计划</title>
-      <link>https://claude.com/blog#d-2026-09-16-10</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-09-16-10</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude for Small Business launches new workflows, integrations, and training programs</description>
-    </item>
-    <item>
       <title>[Anthropic Claude] Claude：协作与聊天现已合而为一</title>
       <link>https://claude.com/blog/cowork-is-now-claude</link>
       <guid isPermaLink="true">https://claude.com/blog/cowork-is-now-claude</guid>
@@ -889,33 +837,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
     </item>
     <item>
-      <title>[Anthropic Claude] Claude in Chrome 正式全面可用</title>
-      <link>https://claude.com/blog#d-2026-09-15-1</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-09-15-1</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude in Chrome is generally available</description>
-    </item>
-    <item>
-      <title>[Anthropic Claude] Claude in Chrome 正式全面可用</title>
-      <link>https://claude.com/blog#d-2026-09-15-11</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-09-15-11</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude in Chrome is generally available</description>
-    </item>
-    <item>
-      <title>[Anthropic Claude] Claude for Small Business 发布新工作流、集成功能与培训计划</title>
-      <link>https://claude.com/blog#d-2026-09-15-26</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-09-15-26</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude for Small Business launches new workflows, integrations, and training programs</description>
-    </item>
-    <item>
       <title>[Anthropic Claude] Claude for Small Business 发布新工作流、集成功能与培训计划</title>
       <link>https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</link>
       <guid isPermaLink="true">https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs</guid>
@@ -990,8 +911,8 @@
     </item>
     <item>
       <title>[数眼智能] 数眼智能与海南大学达成专利技术合作</title>
-      <link>https://www.shuyanai.com/blogs#d-2026-09-15-2</link>
-      <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-09-15-2</guid>
+      <link>https://www.shuyanai.com/blogs#d-2026-09-15-9</link>
+      <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-09-15-9</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <category>数眼智能</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
@@ -1000,14 +921,6 @@
       <title>[数眼智能] 大模型 Token 经济学解析：一场正在发生的 AI 成本革命</title>
       <link>https://www.shuyanai.com/blogs#d-2026-09-15-8</link>
       <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-09-15-8</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <category>数眼智能</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
-    </item>
-    <item>
-      <title>[数眼智能] 数眼智能与海南大学达成专利技术合作</title>
-      <link>https://www.shuyanai.com/blogs#d-2026-09-15-9</link>
-      <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-09-15-9</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <category>数眼智能</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
@@ -1211,14 +1124,6 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <category>Anthropic Claude</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-    </item>
-    <item>
-      <title>[DeepSeek] DeepSeek-V4.1-Flash 发布</title>
-      <link>https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-09-10</link>
-      <guid isPermaLink="true">https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-09-10</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-      <category>DeepSeek</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-deepseek.xml">DeepSeek</source>
     </item>
     <item>
       <title>[DeepSeek] DeepSeek-V4.1-Flash 发布</title>
@@ -2116,6 +2021,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[Anthropic Claude] Claude in Chrome 正式全面可用</title>
+      <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-in-chrome-generally-available</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Anthropic Claude</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
+    </item>
+    <item>
       <title>[Anthropic Claude] Claude Code 现在支持工件</title>
       <link>https://claude.com/blog#d-2026-08-26-3</link>
       <guid isPermaLink="true">https://claude.com/blog#d-2026-08-26-3</guid>
@@ -2125,26 +2038,9 @@
       <description>原文标题：Claude Code now supports artifacts</description>
     </item>
     <item>
-      <title>[Anthropic Claude] Claude Code 现在支持工件</title>
-      <link>https://claude.com/blog#d-2026-08-26-13</link>
-      <guid isPermaLink="true">https://claude.com/blog#d-2026-08-26-13</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-      <description>原文标题：Claude Code now supports artifacts</description>
-    </item>
-    <item>
       <title>[Anthropic Claude] Warp 如何在 Claude 上打造能自我改进的代理</title>
       <link>https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude</link>
       <guid isPermaLink="true">https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <category>Anthropic Claude</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
-    </item>
-    <item>
-      <title>[Anthropic Claude] Claude in Chrome 正式全面可用</title>
-      <link>https://claude.com/blog/claude-in-chrome-generally-available</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-in-chrome-generally-available</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <category>Anthropic Claude</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
@@ -2665,15 +2561,6 @@
       <description>原文标题：Grok Build on web and mobile</description>
     </item>
     <item>
-      <title>[xAI Grok] GitHub Copilot 中的 Grok 4.6</title>
-      <link>https://x.ai/news#d-2026-08-19-13</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-08-19-13</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok 4.6 in GitHub Copilot</description>
-    </item>
-    <item>
       <title>[xAI Grok] Grok 4.6 登陆 Amazon Bedrock</title>
       <link>https://x.ai/news/grok-4-6-amazon-bedrock</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-amazon-bedrock</guid>
@@ -2967,6 +2854,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anthropic.xml">Anthropic Claude</source>
     </item>
     <item>
+      <title>[xAI Grok] GitHub Copilot 中的 Grok 4.6</title>
+      <link>https://x.ai/news/grok-4-6-github-copilot</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-4-6-github-copilot</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] Grok 4.6 简介</title>
       <link>https://x.ai/news#d-2026-08-14-14</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-08-14-14</guid>
@@ -2974,14 +2869,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Introducing Grok 4.6</description>
-    </item>
-    <item>
-      <title>[xAI Grok] GitHub Copilot 中的 Grok 4.6</title>
-      <link>https://x.ai/news/grok-4-6-github-copilot</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-4-6-github-copilot</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[通义千问 Qwen] deepseek-v4-pro-0813：旗舰级 MoE 大模型，总参1.6T、激活 49B，原生支持百万级超长上下文</title>
@@ -3815,34 +3702,16 @@
     </item>
     <item>
       <title>[xAI Grok] GitHub Copilot 中的 Grok 4.5</title>
-      <link>https://x.ai/news#d-2026-07-28-20</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-07-28-20</guid>
+      <link>https://x.ai/news/grok-github-copilot</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-github-copilot</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok 4.5 in GitHub Copilot</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Google Workspace 中的 Grok</title>
-      <link>https://x.ai/news#d-2026-07-28-21</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-07-28-21</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok in Google Workspace</description>
     </item>
     <item>
       <title>[xAI Grok] 推出构建模式</title>
       <link>https://x.ai/news/grok-build-mode</link>
       <guid isPermaLink="true">https://x.ai/news/grok-build-mode</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-    </item>
-    <item>
-      <title>[xAI Grok] GitHub Copilot 中的 Grok 4.5</title>
-      <link>https://x.ai/news/grok-github-copilot</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-github-copilot</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
@@ -3863,15 +3732,6 @@
       <category>OpenRouter</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml">OpenRouter</source>
       <description>原文标题：How to Evaluate LLM Provider Performance Across Latency, Throughput, and Uptime</description>
-    </item>
-    <item>
-      <title>[Poolside] Poolside on Dell：在您的边界内实现前沿人工智能的有效途径</title>
-      <link>https://poolside.ai/blog#d-2026-07-28-34</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-07-28-34</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Poolside on Dell: an efficient path for frontier AI inside your boundary</description>
     </item>
     <item>
       <title>[Poolside] Poolside on Dell：在您的边界内实现前沿人工智能的有效途径</title>
@@ -3957,15 +3817,6 @@
       <description>完整标题：产品：推出 Claude Opus 5。Opus 5 是 Opus 层级的阶跃式升级，为长时间运行的代理提供动力，同时提升编码与专业工作表现。</description>
     </item>
     <item>
-      <title>[xAI Grok] Grok Build 中的工作流程</title>
-      <link>https://x.ai/news#d-2026-07-24-22</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-07-24-22</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Workflows in Grok Build</description>
-    </item>
-    <item>
       <title>[xAI Grok] Google Workspace 中的 Grok</title>
       <link>https://x.ai/news/introducing-google-workspace-addon</link>
       <guid isPermaLink="true">https://x.ai/news/introducing-google-workspace-addon</guid>
@@ -4016,6 +3867,14 @@
       <description>原文标题：Launching Health in ChatGPT</description>
     </item>
     <item>
+      <title>[xAI Grok] Grok Build 中的工作流程</title>
+      <link>https://x.ai/news/workflows</link>
+      <guid isPermaLink="true">https://x.ai/news/workflows</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] 将 Grok 4.5 引入 iOS、Android、Web 和 X</title>
       <link>https://x.ai/news#d-2026-07-23-23</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-23-23</guid>
@@ -4023,14 +3882,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Bringing Grok 4.5 to iOS, Android, Web, and X</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok Build 中的工作流程</title>
-      <link>https://x.ai/news/workflows</link>
-      <guid isPermaLink="true">https://x.ai/news/workflows</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[Hugging Face] 将 Nunchaku 4-bit 扩散推理引入 Diffusers</title>
@@ -4097,15 +3948,6 @@
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-    </item>
-    <item>
-      <title>[xAI Grok] 适用于 Outlook 的 Grok</title>
-      <link>https://x.ai/news#d-2026-07-22-24</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-07-22-24</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok for Outlook</description>
     </item>
     <item>
       <title>[xAI Grok] 将 Grok 4.5 带到 iOS、Android、Web 和 X</title>
@@ -4183,6 +4025,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
     </item>
     <item>
+      <title>[xAI Grok] 适用于 Outlook 的 Grok</title>
+      <link>https://x.ai/news/introducing-outlook-addin</link>
+      <guid isPermaLink="true">https://x.ai/news/introducing-outlook-addin</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] Excel 版 Grok</title>
       <link>https://x.ai/news#d-2026-07-21-25</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-21-25</guid>
@@ -4190,14 +4040,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Grok for Excel</description>
-    </item>
-    <item>
-      <title>[xAI Grok] 适用于 Outlook 的 Grok</title>
-      <link>https://x.ai/news/introducing-outlook-addin</link>
-      <guid isPermaLink="true">https://x.ai/news/introducing-outlook-addin</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[通义千问 Qwen] qwen3.7-flash：Qwen3.7原生视觉语言系列Flash模型，相较3.6-Flash全面提升多模态理解与Ag…</title>
@@ -4224,15 +4066,6 @@
       <category>OpenRouter</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml">OpenRouter</source>
       <description>原文标题：The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing</description>
-    </item>
-    <item>
-      <title>[Poolside] Laguna XS 2.1 简介</title>
-      <link>https://poolside.ai/blog#d-2026-07-21-18</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-07-21-18</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Introducing Laguna XS 2.1</description>
     </item>
     <item>
       <title>[Poolside] Laguna XS 2.1 简介</title>
@@ -4338,15 +4171,6 @@
       <description>原文标题：Automations in Grok</description>
     </item>
     <item>
-      <title>[xAI Grok] Grok Build 现已开源</title>
-      <link>https://x.ai/news#d-2026-07-16-28</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-07-16-28</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Build is Now Open Source</description>
-    </item>
-    <item>
       <title>[xAI Grok] 推出 Grok 4.5</title>
       <link>https://x.ai/news/grok-4-5</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-5</guid>
@@ -4431,6 +4255,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[xAI Grok] Grok Build 现已开源</title>
+      <link>https://x.ai/news/grok-build-open-source</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-build-open-source</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] 21 种全新旗舰 Grok 音色</title>
       <link>https://x.ai/news#d-2026-07-15-29</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-07-15-29</guid>
@@ -4438,14 +4270,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：21 New Flagship Grok Voices</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok Build 现已开源</title>
-      <link>https://x.ai/news/grok-build-open-source</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-build-open-source</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[通义千问 Qwen] qwen3.7-text-embedding：是通义实验室基于Qwen3.7训练的多语言文本统一向量模型，相较text-…</title>
@@ -4958,15 +4782,6 @@
     </item>
     <item>
       <title>[Poolside] 长上下文更新：Laguna XS.2 和 M.1</title>
-      <link>https://poolside.ai/blog#d-2026-07-02-20</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-07-02-20</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Long context update: Laguna XS.2 and M.1</description>
-    </item>
-    <item>
-      <title>[Poolside] 长上下文更新：Laguna XS.2 和 M.1</title>
       <link>https://poolside.ai/blog#d-2026-07-02-21</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2026-07-02-21</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
@@ -5409,15 +5224,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] Databricks 上的 Grok</title>
-      <link>https://x.ai/news#d-2026-06-22-32</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-06-22-32</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok on Databricks</description>
-    </item>
-    <item>
       <title>[xAI Grok] 介绍 /goal 功能</title>
       <link>https://x.ai/news/introducing-goal</link>
       <guid isPermaLink="true">https://x.ai/news/introducing-goal</guid>
@@ -5519,6 +5325,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[xAI Grok] Databricks 上的 Grok</title>
+      <link>https://x.ai/news/grok-databricks</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-databricks</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] Grok for Word</title>
       <link>https://x.ai/news#d-2026-06-18-33</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-06-18-33</guid>
@@ -5534,14 +5348,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Grok on Amazon Bedrock</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Databricks 上的 Grok</title>
-      <link>https://x.ai/news/grok-databricks</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-databricks</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[xAI Grok] Grok for Word：使用适用于 Microsoft Word 的 Grok 插件，把笔记变成文档、为作品排版，或…</title>
@@ -5732,12 +5538,11 @@
     </item>
     <item>
       <title>[xAI Grok] PowerPoint 版 Grok</title>
-      <link>https://x.ai/news#d-2026-06-16-36</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-06-16-36</guid>
+      <link>https://x.ai/news/introducing-powerpoint-addin</link>
+      <guid isPermaLink="true">https://x.ai/news/introducing-powerpoint-addin</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok for PowerPoint</description>
     </item>
     <item>
       <title>[xAI Grok] Grok Build 中的代理仪表板</title>
@@ -5752,14 +5557,6 @@
       <title>[xAI Grok] Grok Imagine Video 1.5 正式发布</title>
       <link>https://x.ai/news/grok-imagine-video-1-5</link>
       <guid isPermaLink="true">https://x.ai/news/grok-imagine-video-1-5</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-    </item>
-    <item>
-      <title>[xAI Grok] PowerPoint 版 Grok</title>
-      <link>https://x.ai/news/introducing-powerpoint-addin</link>
-      <guid isPermaLink="true">https://x.ai/news/introducing-powerpoint-addin</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
@@ -5855,22 +5652,6 @@
     </item>
     <item>
       <title>[Google Gemini] 弃用公告</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-1</link>
-      <guid isPermaLink="true">https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-1</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Google Gemini</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
-    </item>
-    <item>
-      <title>[Google Gemini] 弃用公告</title>
-      <link>https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-4</link>
-      <guid isPermaLink="true">https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-4</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Google Gemini</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
-    </item>
-    <item>
-      <title>[Google Gemini] 弃用公告</title>
       <link>https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-7</link>
       <guid isPermaLink="true">https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-7</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
@@ -5879,12 +5660,11 @@
     </item>
     <item>
       <title>[xAI Grok] 在 Warp 中使用 Grok</title>
-      <link>https://x.ai/news#d-2026-06-15-38</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-06-15-38</guid>
+      <link>https://x.ai/news/grok-warp</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-warp</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Use Grok in Warp</description>
     </item>
     <item>
       <title>[xAI Grok] Grok 构建插件市场</title>
@@ -5899,14 +5679,6 @@
       <title>[xAI Grok] Grok Build 中的智能体仪表板</title>
       <link>https://x.ai/news/agent-dashboard</link>
       <guid isPermaLink="true">https://x.ai/news/agent-dashboard</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-    </item>
-    <item>
-      <title>[xAI Grok] 在 Warp 中使用 Grok</title>
-      <link>https://x.ai/news/grok-warp</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-warp</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
@@ -6056,15 +5828,6 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok Imagine 1.5 预览版</title>
-      <link>https://x.ai/news#d-2026-06-11-40</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-06-11-40</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Imagine 1.5 Preview</description>
     </item>
     <item>
       <title>[xAI Grok] Grok Build 插件市场</title>
@@ -6408,17 +6171,17 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] Composer 2.5</title>
-      <link>https://x.ai/news#d-2026-06-03-41</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-06-03-41</guid>
+      <title>[xAI Grok] Grok Imagine 1.5 预览版</title>
+      <link>https://x.ai/news/grok-imagine-1-5</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-imagine-1-5</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok Imagine 1.5 预览版</title>
-      <link>https://x.ai/news/grok-imagine-1-5</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-imagine-1-5</guid>
+      <title>[xAI Grok] Composer 2.5</title>
+      <link>https://x.ai/news#d-2026-06-03-41</link>
+      <guid isPermaLink="true">https://x.ai/news#d-2026-06-03-41</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
@@ -6665,15 +6428,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] 在 Kilo Code 中使用 Grok</title>
-      <link>https://x.ai/news#d-2026-05-29-43</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-05-29-43</guid>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Use Grok in Kilo Code</description>
-    </item>
-    <item>
       <title>[xAI Grok] Grok Build 0.1 登陆 API</title>
       <link>https://x.ai/news/grok-build-0-1</link>
       <guid isPermaLink="true">https://x.ai/news/grok-build-0-1</guid>
@@ -6830,6 +6584,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[xAI Grok] 在 Kilo Code 中使用 Grok</title>
+      <link>https://x.ai/news/grok-kilocode</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-kilocode</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] Grok 构建简介</title>
       <link>https://x.ai/news#d-2026-05-27-44</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-05-27-44</guid>
@@ -6837,14 +6599,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Introducing Grok Build</description>
-    </item>
-    <item>
-      <title>[xAI Grok] 在 Kilo Code 中使用 Grok</title>
-      <link>https://x.ai/news/grok-kilocode</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-kilocode</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[Mistral AI] 介绍 Mistral 的物理 AI：工程加速的基石。</title>
@@ -6881,15 +6635,6 @@
     </item>
     <item>
       <title>[Poolside] AI，你的方式：引入 Poolside 平台</title>
-      <link>https://poolside.ai/blog#d-2026-05-26-22</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-05-26-22</guid>
-      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：AI, your way: introducing the Poolside Platform</description>
-    </item>
-    <item>
-      <title>[Poolside] AI，你的方式：引入 Poolside 平台</title>
       <link>https://poolside.ai/blog#d-2026-05-26-23</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2026-05-26-23</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
@@ -6912,15 +6657,6 @@
       <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-    </item>
-    <item>
-      <title>[xAI Grok] 在 OpenCode 中使用 Grok</title>
-      <link>https://x.ai/news#d-2026-05-25-45</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-05-25-45</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Use Grok in OpenCode</description>
     </item>
     <item>
       <title>[xAI Grok] 介绍 Grok Build</title>
@@ -6994,15 +6730,6 @@
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-    </item>
-    <item>
-      <title>[xAI Grok] 在 OpenClaw 中使用 Grok</title>
-      <link>https://x.ai/news#d-2026-05-21-46</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-05-21-46</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Use Grok in OpenClaw</description>
     </item>
     <item>
       <title>[xAI Grok] 在 OpenCode 中使用 Grok</title>
@@ -7119,6 +6846,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
     </item>
     <item>
+      <title>[xAI Grok] 在 OpenClaw 中使用 Grok</title>
+      <link>https://x.ai/news/grok-openclaw</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-openclaw</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] Web、iOS 和 Android 技能</title>
       <link>https://x.ai/news#d-2026-05-19-47</link>
       <guid isPermaLink="true">https://x.ai/news#d-2026-05-19-47</guid>
@@ -7126,14 +6861,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Skills in web, iOS, and Android</description>
-    </item>
-    <item>
-      <title>[xAI Grok] 在 OpenClaw 中使用 Grok</title>
-      <link>https://x.ai/news/grok-openclaw</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-openclaw</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[通义千问 Qwen] qwen3.5-livetranslate-flash-realtime：Qwen3.5-LiveTranslate-F…</title>
@@ -7502,15 +7229,6 @@
     </item>
     <item>
       <title>[Poolside] Laguna XS.2 和 M.1：深入探讨</title>
-      <link>https://poolside.ai/blog#d-2026-05-11-0</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-05-11-0</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Laguna XS.2 and M.1: A Deeper Dive</description>
-    </item>
-    <item>
-      <title>[Poolside] Laguna XS.2 和 M.1：深入探讨</title>
       <link>https://poolside.ai/blog#d-2026-05-11-1</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2026-05-11-1</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
@@ -7672,21 +7390,19 @@
     </item>
     <item>
       <title>[xAI Grok] Web、iOS 和 Android 中的连接器</title>
-      <link>https://x.ai/news#d-2026-05-06-50</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-05-06-50</guid>
+      <link>https://x.ai/news/grok-connectors</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-connectors</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Connectors in web, iOS, and Android</description>
     </item>
     <item>
       <title>[xAI Grok] Grok Imagine 质量模式 API</title>
-      <link>https://x.ai/news#d-2026-05-06-51</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-05-06-51</guid>
+      <link>https://x.ai/news/grok-imagine-quality-mode</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-imagine-quality-mode</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Imagine Quality Mode API</description>
     </item>
     <item>
       <title>[xAI Grok] Custom Voices</title>
@@ -7700,22 +7416,6 @@
       <title>[xAI Grok] 与 Anthropic 的全新算力合作</title>
       <link>https://x.ai/news/anthropic-compute-partnership</link>
       <guid isPermaLink="true">https://x.ai/news/anthropic-compute-partnership</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-    </item>
-    <item>
-      <title>[xAI Grok] Web、iOS 和 Android 中的连接器</title>
-      <link>https://x.ai/news/grok-connectors</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-connectors</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok Imagine 质量模式 API</title>
-      <link>https://x.ai/news/grok-imagine-quality-mode</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-imagine-quality-mode</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
@@ -7802,15 +7502,6 @@
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
       <category>Google Gemini</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-google_gemini.xml">Google Gemini</source>
-    </item>
-    <item>
-      <title>[Poolside] Laguna XS.2 和 Laguna M.1 简介</title>
-      <link>https://poolside.ai/blog#d-2026-05-05-24</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-05-05-24</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Introducing Laguna XS.2 and Laguna M.1</description>
     </item>
     <item>
       <title>[Poolside] Laguna XS.2 和 Laguna M.1 简介</title>
@@ -8024,14 +7715,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
     </item>
     <item>
-      <title>[数眼智能] 数眼智能 2.4 更新：钱包重构、发票开具、API 调用策略上线</title>
-      <link>https://www.shuyanai.com/blogs#d-2026-04-29-10</link>
-      <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-04-29-10</guid>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <category>数眼智能</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
-    </item>
-    <item>
       <title>[小米 MiMo] 2026-4-29 邀请有礼活动上线</title>
       <link>https://mimo.mi.com/docs/zh-CN/updates/feature/platform#2026-4-29-%E9%82%80%E8%AF%B7%E6%9C%89%E7%A4%BC%E6%B4%BB%E5%8A%A8%E4%B8%8A%E7%BA%BF</link>
       <guid isPermaLink="true">https://mimo.mi.com/docs/zh-CN/updates/feature/platform#2026-4-29-%E9%82%80%E8%AF%B7%E6%9C%89%E7%A4%BC%E6%B4%BB%E5%8A%A8%E4%B8%8A%E7%BA%BF</guid>
@@ -8092,30 +7775,12 @@
     </item>
     <item>
       <title>[Poolside] Tools of the Trade: C2C Activation Offloading on Grace Black…</title>
-      <link>https://poolside.ai/blog#d-2026-04-28-2</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-04-28-2</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>完整标题：Tools of the Trade: C2C Activation Offloading on Grace Blackwell</description>
-    </item>
-    <item>
-      <title>[Poolside] Tools of the Trade: C2C Activation Offloading on Grace Black…</title>
       <link>https://poolside.ai/blog#d-2026-04-28-3</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2026-04-28-3</guid>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
       <category>Poolside</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
       <description>完整标题：Tools of the Trade: C2C Activation Offloading on Grace Blackwell</description>
-    </item>
-    <item>
-      <title>[Poolside] 宣布收购 Fern Labs</title>
-      <link>https://poolside.ai/blog#d-2026-04-28-26</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-04-28-26</guid>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Announcing the acquisition of Fern Labs</description>
     </item>
     <item>
       <title>[Poolside] 宣布收购 Fern Labs</title>
@@ -8920,14 +8585,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
     </item>
     <item>
-      <title>[数眼智能] 千万级算力就位！数眼智能All in大模型Token服务</title>
-      <link>https://www.shuyanai.com/blogs#d-2026-04-11-11</link>
-      <guid isPermaLink="true">https://www.shuyanai.com/blogs#d-2026-04-11-11</guid>
-      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
-      <category>数眼智能</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-dataeye.xml">数眼智能</source>
-    </item>
-    <item>
       <title>[OpenAI] 营销团队的 ChatGPT</title>
       <link>https://openai.com/academy/marketing</link>
       <guid isPermaLink="true">https://openai.com/academy/marketing</guid>
@@ -9717,15 +9374,6 @@
       <category>Together AI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-together_ai.xml">Together AI</source>
       <description>原文标题：Together AI expands fine-tuning service with tool calling, reasoning, and vision support</description>
-    </item>
-    <item>
-      <title>[Poolside] 最后的润色</title>
-      <link>https://poolside.ai/blog#d-2026-03-18-4</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2026-03-18-4</guid>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：The finishing touches</description>
     </item>
     <item>
       <title>[Poolside] 最后的润色</title>
@@ -10979,15 +10627,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 想象 API</title>
-      <link>https://x.ai/news#d-2026-02-02-56</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-02-02-56</guid>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Imagine API</description>
-    </item>
-    <item>
       <title>[xAI Grok] xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。</title>
       <link>https://x.ai/news/xai-joins-spacex</link>
       <guid isPermaLink="true">https://x.ai/news/xai-joins-spacex</guid>
@@ -11160,17 +10799,17 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
-      <title>[xAI Grok] xAI Raises $20B Series E</title>
-      <link>https://x.ai/news#d-2026-01-28-57</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2026-01-28-57</guid>
+      <title>[xAI Grok] Grok 想象 API</title>
+      <link>https://x.ai/news/grok-imagine-api</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-imagine-api</guid>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 想象 API</title>
-      <link>https://x.ai/news/grok-imagine-api</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-imagine-api</guid>
+      <title>[xAI Grok] xAI Raises $20B Series E</title>
+      <link>https://x.ai/news#d-2026-01-28-57</link>
+      <guid isPermaLink="true">https://x.ai/news#d-2026-01-28-57</guid>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
@@ -11749,15 +11388,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-siliconflow.xml">SiliconFlow 硅基流动</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok 集合 API</title>
-      <link>https://x.ai/news#d-2025-12-30-59</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2025-12-30-59</guid>
-      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Collections API</description>
-    </item>
-    <item>
       <title>[xAI Grok] 推出 Grok Business 和 Grok Enterprise</title>
       <link>https://x.ai/news/grok-business</link>
       <guid isPermaLink="true">https://x.ai/news/grok-business</guid>
@@ -11807,6 +11437,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[xAI Grok] Grok 集合 API</title>
+      <link>https://x.ai/news/grok-collections-api</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-collections-api</guid>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] 通过人工智能支持 DOW 的使命</title>
       <link>https://x.ai/news#d-2025-12-22-60</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-12-22-60</guid>
@@ -11814,23 +11452,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Supporting the DOW&apos;s mission with AI</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok 语音代理 API</title>
-      <link>https://x.ai/news#d-2025-12-22-61</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2025-12-22-61</guid>
-      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok Voice Agent API</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok 集合 API</title>
-      <link>https://x.ai/news/grok-collections-api</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-collections-api</guid>
-      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[xAI Grok] 以 AI 支持 DOW 的使命</title>
@@ -11973,6 +11594,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[xAI Grok] Grok 语音代理 API</title>
+      <link>https://x.ai/news/grok-voice-agent-api</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-voice-agent-api</guid>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划</title>
       <link>https://x.ai/news#d-2025-12-17-62</link>
       <guid isPermaLink="true">https://x.ai/news#d-2025-12-17-62</guid>
@@ -11980,14 +11609,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：xAI and El Salvador Pioneer the World&apos;s First Nationwide AI Education Program</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok 语音代理 API</title>
-      <link>https://x.ai/news/grok-voice-agent-api</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-voice-agent-api</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[腾讯混元] 基于文本 TurboS 基座生成图生文快思考模型，相比上一版本在图像基础识别、图像分析推理等维度都有明显的效果提升</title>
@@ -12864,15 +12485,6 @@
     </item>
     <item>
       <title>[Poolside] 利用 Redpanda 实现代理企业</title>
-      <link>https://poolside.ai/blog#d-2025-11-18-28</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-11-18-28</guid>
-      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Enabling the Agentic Enterprise with Redpanda</description>
-    </item>
-    <item>
-      <title>[Poolside] 利用 Redpanda 实现代理企业</title>
       <link>https://poolside.ai/blog#d-2025-11-18-29</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2025-11-18-29</guid>
       <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
@@ -13320,8 +12932,8 @@
     </item>
     <item>
       <title>[MiniMax] 介绍 MiniMax-Hailuo-2.3</title>
-      <link>https://platform.minimax.cn/docs/release-notes/models#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5</link>
-      <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/models#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5</guid>
+      <link>https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</link>
+      <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       <category>MiniMax</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
@@ -13334,15 +12946,6 @@
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       <category>MiniMax</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
-    </item>
-    <item>
-      <title>[MiniMax] 介绍 MiniMax-Hailuo-2.3</title>
-      <link>https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</link>
-      <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <category>MiniMax</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml">MiniMax</source>
-      <description>原文标题：MiniMax-Hailuo-2.3</description>
     </item>
     <item>
       <title>[MiniMax] 介绍 MiniMax-Hailuo-2.3-Fast</title>
@@ -13393,15 +12996,6 @@
       <category>Together AI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-together_ai.xml">Together AI</source>
       <description>原文标题：Dynamic AI agent testing for the real world with Collinear Simulations and Together Evals</description>
-    </item>
-    <item>
-      <title>[Poolside] 揭晓 Poolside 与 AWS 的第一方合作伙伴关系</title>
-      <link>https://poolside.ai/blog#d-2025-10-28-30</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-10-28-30</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Unveiling Poolside&apos;s first-party partnership with AWS</description>
     </item>
     <item>
       <title>[Poolside] 揭晓 Poolside 与 AWS 的第一方合作伙伴关系</title>
@@ -14966,15 +14560,6 @@
     </item>
     <item>
       <title>[Poolside] 载体和信标</title>
-      <link>https://poolside.ai/blog#d-2025-08-25-6</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-25-6</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：The carrier and the beacon</description>
-    </item>
-    <item>
-      <title>[Poolside] 载体和信标</title>
       <link>https://poolside.ai/blog#d-2025-08-25-7</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-25-7</guid>
       <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
@@ -15124,15 +14709,6 @@
     </item>
     <item>
       <title>[Poolside] 设计世界一流的代码执行环境</title>
-      <link>https://poolside.ai/blog#d-2025-08-14-8</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-14-8</guid>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Designing a world-class code execution environment</description>
-    </item>
-    <item>
-      <title>[Poolside] 设计世界一流的代码执行环境</title>
       <link>https://poolside.ai/blog#d-2025-08-14-9</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-14-9</guid>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
@@ -15188,15 +14764,6 @@
       <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-    </item>
-    <item>
-      <title>[Poolside] Titan，模型工厂的熔炉</title>
-      <link>https://poolside.ai/blog#d-2025-08-12-10</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-12-10</guid>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Titan, the Model Factory&apos;s furnace</description>
     </item>
     <item>
       <title>[Poolside] Titan，模型工厂的熔炉</title>
@@ -15348,15 +14915,6 @@
       <category>OpenRouter</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openrouter.xml">OpenRouter</source>
       <description>原文标题：GPT-5 is now live</description>
-    </item>
-    <item>
-      <title>[Poolside] 为模型工厂收集和加工原材料</title>
-      <link>https://poolside.ai/blog#d-2025-08-07-12</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-08-07-12</guid>
-      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Gathering and processing raw materials for the Model Factory</description>
     </item>
     <item>
       <title>[Poolside] 为模型工厂收集和加工原材料</title>
@@ -15596,15 +15154,6 @@
     </item>
     <item>
       <title>[Poolside] 基础模型建设背后隐藏的工程</title>
-      <link>https://poolside.ai/blog#d-2025-07-29-14</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-07-29-14</guid>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：The hidden engineering behind foundation model building</description>
-    </item>
-    <item>
-      <title>[Poolside] 基础模型建设背后隐藏的工程</title>
       <link>https://poolside.ai/blog#d-2025-07-29-15</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2025-07-29-15</guid>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
@@ -15651,15 +15200,6 @@
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <category>OpenAI</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
-    </item>
-    <item>
-      <title>[Poolside] 我们的愿景：宗旨</title>
-      <link>https://poolside.ai/blog#d-2025-07-24-36</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-07-24-36</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Our vision: Purpose</description>
     </item>
     <item>
       <title>[Poolside] 我们的愿景：宗旨</title>
@@ -15872,14 +15412,6 @@
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
       <category>Hugging Face</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
-    </item>
-    <item>
-      <title>[Poolside] Announcements</title>
-      <link>https://poolside.ai/blog#d-2025-07-17-16</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2025-07-17-16</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
     </item>
     <item>
       <title>[Poolside] Announcements</title>
@@ -19966,15 +19498,6 @@
     </item>
     <item>
       <title>[Poolside] 宣布筹集 5 亿美元资金，以推动 AGI 取得进展</title>
-      <link>https://poolside.ai/blog#d-2024-12-04-32</link>
-      <guid isPermaLink="true">https://poolside.ai/blog#d-2024-12-04-32</guid>
-      <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
-      <category>Poolside</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-poolside.xml">Poolside</source>
-      <description>原文标题：Announcing our $500 million fundraise to make progress towards AGI</description>
-    </item>
-    <item>
-      <title>[Poolside] 宣布筹集 5 亿美元资金，以推动 AGI 取得进展</title>
       <link>https://poolside.ai/blog#d-2024-12-04-33</link>
       <guid isPermaLink="true">https://poolside.ai/blog#d-2024-12-04-33</guid>
       <pubDate>Wed, 04 Dec 2024 00:00:00 +0000</pubDate>
@@ -22375,15 +21898,6 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[xAI Grok] Grok-1.5 视觉预览</title>
-      <link>https://x.ai/news#d-2024-05-26-77</link>
-      <guid isPermaLink="true">https://x.ai/news#d-2024-05-26-77</guid>
-      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
-      <description>原文标题：Grok-1.5 Vision Preview</description>
-    </item>
-    <item>
       <title>[xAI Grok] B 轮融资</title>
       <link>https://x.ai/news/series-b</link>
       <guid isPermaLink="true">https://x.ai/news/series-b</guid>
@@ -22985,6 +22499,14 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
+      <title>[xAI Grok] Grok-1.5 视觉预览</title>
+      <link>https://x.ai/news/grok-1.5v</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-1.5v</guid>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <category>xAI Grok</category>
+      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
+    </item>
+    <item>
       <title>[xAI Grok] 宣布 Grok-1.5</title>
       <link>https://x.ai/news#d-2024-04-12-78</link>
       <guid isPermaLink="true">https://x.ai/news#d-2024-04-12-78</guid>
@@ -22992,14 +22514,6 @@
       <category>xAI Grok</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
       <description>原文标题：Announcing Grok-1.5</description>
-    </item>
-    <item>
-      <title>[xAI Grok] Grok-1.5 视觉预览</title>
-      <link>https://x.ai/news/grok-1.5v</link>
-      <guid isPermaLink="true">https://x.ai/news/grok-1.5v</guid>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
-      <category>xAI Grok</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-xai_grok.xml">xAI Grok</source>
     </item>
     <item>
       <title>[腾讯混元] 混元大模型高级版、混元大模型标准版中，新增流式调用开关</title>
@@ -24414,13 +23928,13 @@
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-huggingface.xml">Hugging Face</source>
     </item>
     <item>
-      <title>[Anyscale] Fast, flexible, and scalable data loading for ML training wi…</title>
+      <title>[Anyscale] 使用 Ray Data 进行 ML 训练的快速、灵活且可扩展的数据加载</title>
       <link>https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data</link>
       <guid isPermaLink="true">https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data</guid>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
-      <description>完整标题：Fast, flexible, and scalable data loading for ML training with Ray Data</description>
+      <description>原文标题：Fast, flexible, and scalable data loading for ML training with Ray Data</description>
     </item>
     <item>
       <title>[OpenAI] OpenAI Dublin 简介</title>
@@ -25402,14 +24916,6 @@
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
       <category>Anyscale</category>
       <source url="https://free-llm-intel.aishort.top/feeds/llm-news-anyscale.xml">Anyscale</source>
-    </item>
-    <item>
-      <title>[OpenAI] GPT-4</title>
-      <link>https://openai.com/index/gpt-4-research</link>
-      <guid isPermaLink="true">https://openai.com/index/gpt-4-research</guid>
-      <pubDate>Tue, 14 Mar 2023 00:00:00 +0000</pubDate>
-      <category>OpenAI</category>
-      <source url="https://free-llm-intel.aishort.top/feeds/llm-news-openai.xml">OpenAI</source>
     </item>
     <item>
       <title>[OpenAI] GPT-4</title>

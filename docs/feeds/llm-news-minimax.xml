@@ -3,7 +3,7 @@
   <channel>
     <title>MiniMax 官方动态</title>
     <link>https://github.com/rockbenben/free-llm-intel</link>
-    <description>MiniMax 官方博客 / 更新日志归档（标题汉化，共 36 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
+    <description>MiniMax 官方博客 / 更新日志归档（标题汉化，共 35 篇），由 free-llm-intel 定时巡检官方页面生成。</description>
     <language>zh-cn</language>
     <generator>crawler_llm_intel.py (free-llm-intel)</generator>
     <atom:link href="https://free-llm-intel.aishort.top/feeds/llm-news-minimax.xml" rel="self" type="application/rss+xml"/>
@@ -87,8 +87,8 @@
     </item>
     <item>
       <title>介绍 MiniMax-Hailuo-2.3</title>
-      <link>https://platform.minimax.cn/docs/release-notes/models#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5</link>
-      <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/models#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5</guid>
+      <link>https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</link>
+      <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
       <description>原文标题：MiniMax-Hailuo-2.3</description>
     </item>
@@ -97,13 +97,6 @@
       <link>https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-1</link>
       <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-1</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>介绍 MiniMax-Hailuo-2.3</title>
-      <link>https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</link>
-      <guid isPermaLink="true">https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <description>原文标题：MiniMax-Hailuo-2.3</description>
     </item>
     <item>
       <title>介绍 MiniMax-Hailuo-2.3-Fast</title>

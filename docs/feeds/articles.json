@@ -6,7 +6,7 @@
     "date",
     "original_title"
   ],
-  "count": 3613,
+  "count": 3557,
   "articles": [
     [
       "Claude Tag 现在支持通道中的个人连接器",
@@ -86,13 +86,6 @@
       ""
     ],
     [
-      "LongCat-2.5-Preview 上线",
-      "https://longcat.chat/platform/docs/zh/ChangeLog.html#%E7%89%88%E6%9C%AC-2026-09-25-1",
-      "longcat_meituan",
-      "2026-09-25",
-      ""
-    ],
-    [
       "Claude Tag 现已支持频道中的个人连接器",
       "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
       "anthropic",
@@ -147,13 +140,6 @@
       "inception_labs",
       "2026-09-24",
       "Introducing Mercury 2.5|Read the blog"
-    ],
-    [
-      "Claude Marketplace：一站式发现合作伙伴的插件、代理和服务",
-      "https://claude.com/blog#d-2026-09-23-21",
-      "anthropic",
-      "2026-09-23",
-      "Claude Marketplace: one place to discover plugins, agents, and services from our partners"
     ],
     [
       "Claude Marketplace：一站式发现合作伙伴的插件、代理和服务",
@@ -360,13 +346,6 @@
     ],
     [
       "介绍 Grok 4.7",
-      "https://x.ai/news#d-2026-09-21-0",
-      "xai_grok",
-      "2026-09-21",
-      "IntroducingGrok 4.7"
-    ],
-    [
-      "介绍 Grok 4.7",
       "https://x.ai/news/grok-4-7",
       "xai_grok",
       "2026-09-21",
@@ -420,13 +399,6 @@
       "openrouter",
       "2026-09-21",
       "What Is Jev? TypeSafe's Decision Model Explained for Developers"
-    ],
-    [
-      "数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设",
-      "https://www.shuyanai.com/blogs#d-2026-09-21-3",
-      "dataeye",
-      "2026-09-21",
-      ""
     ],
     [
       "数眼智能完成数千万元天使轮融资，加速企业级大模型部署能力建设",
@@ -618,20 +590,6 @@
       ""
     ],
     [
-      "Claude for Small Business 发布新工作流、集成功能与培训计划",
-      "https://claude.com/blog#d-2026-09-16-0",
-      "anthropic",
-      "2026-09-16",
-      "Claude for Small Business launches new workflows, integrations, and training programs"
-    ],
-    [
-      "Claude for Small Business 发布新工作流、集成功能与培训计划",
-      "https://claude.com/blog#d-2026-09-16-10",
-      "anthropic",
-      "2026-09-16",
-      "Claude for Small Business launches new workflows, integrations, and training programs"
-    ],
-    [
       "Claude：协作与聊天现已合而为一",
       "https://claude.com/blog/cowork-is-now-claude",
       "anthropic",
@@ -723,27 +681,6 @@
       ""
     ],
     [
-      "Claude in Chrome 正式全面可用",
-      "https://claude.com/blog#d-2026-09-15-1",
-      "anthropic",
-      "2026-09-15",
-      "Claude in Chrome is generally available"
-    ],
-    [
-      "Claude in Chrome 正式全面可用",
-      "https://claude.com/blog#d-2026-09-15-11",
-      "anthropic",
-      "2026-09-15",
-      "Claude in Chrome is generally available"
-    ],
-    [
-      "Claude for Small Business 发布新工作流、集成功能与培训计划",
-      "https://claude.com/blog#d-2026-09-15-26",
-      "anthropic",
-      "2026-09-15",
-      "Claude for Small Business launches new workflows, integrations, and training programs"
-    ],
-    [
       "Claude for Small Business 发布新工作流、集成功能与培训计划",
       "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
       "anthropic",
@@ -808,7 +745,7 @@
     ],
     [
       "数眼智能与海南大学达成专利技术合作",
-      "https://www.shuyanai.com/blogs#d-2026-09-15-2",
+      "https://www.shuyanai.com/blogs#d-2026-09-15-9",
       "dataeye",
       "2026-09-15",
       ""
@@ -816,13 +753,6 @@
     [
       "大模型 Token 经济学解析：一场正在发生的 AI 成本革命",
       "https://www.shuyanai.com/blogs#d-2026-09-15-8",
-      "dataeye",
-      "2026-09-15",
-      ""
-    ],
-    [
-      "数眼智能与海南大学达成专利技术合作",
-      "https://www.shuyanai.com/blogs#d-2026-09-15-9",
       "dataeye",
       "2026-09-15",
       ""
@@ -992,13 +922,6 @@
       "1,000 位小企业主教给我们的 AI 经验",
       "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
       "anthropic",
-      "2026-09-10",
-      ""
-    ],
-    [
-      "DeepSeek-V4.1-Flash 发布",
-      "https://api-docs.deepseek.com/zh-cn/updates/#%E6%97%B6%E9%97%B4-2026-09-10",
-      "deepseek",
       "2026-09-10",
       ""
     ],
@@ -1759,6 +1682,13 @@
       ""
     ],
     [
+      "Claude in Chrome 正式全面可用",
+      "https://claude.com/blog/claude-in-chrome-generally-available",
+      "anthropic",
+      "2026-08-26",
+      ""
+    ],
+    [
       "Claude Code 现在支持工件",
       "https://claude.com/blog#d-2026-08-26-3",
       "anthropic",
@@ -1766,22 +1696,8 @@
       "Claude Code now supports artifacts"
     ],
     [
-      "Claude Code 现在支持工件",
-      "https://claude.com/blog#d-2026-08-26-13",
-      "anthropic",
-      "2026-08-26",
-      "Claude Code now supports artifacts"
-    ],
-    [
       "Warp 如何在 Claude 上打造能自我改进的代理",
       "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
-      "anthropic",
-      "2026-08-26",
-      ""
-    ],
-    [
-      "Claude in Chrome 正式全面可用",
-      "https://claude.com/blog/claude-in-chrome-generally-available",
       "anthropic",
       "2026-08-26",
       ""
@@ -2214,13 +2130,6 @@
       "Grok Build on web and mobile"
     ],
     [
-      "GitHub Copilot 中的 Grok 4.6",
-      "https://x.ai/news#d-2026-08-19-13",
-      "xai_grok",
-      "2026-08-19",
-      "Grok 4.6 in GitHub Copilot"
-    ],
-    [
       "Grok 4.6 登陆 Amazon Bedrock",
       "https://x.ai/news/grok-4-6-amazon-bedrock",
       "xai_grok",
@@ -2466,18 +2375,18 @@
       ""
     ],
     [
-      "Grok 4.6 简介",
-      "https://x.ai/news#d-2026-08-14-14",
-      "xai_grok",
-      "2026-08-14",
-      "Introducing Grok 4.6"
-    ],
-    [
       "GitHub Copilot 中的 Grok 4.6",
       "https://x.ai/news/grok-4-6-github-copilot",
       "xai_grok",
       "2026-08-14",
       ""
+    ],
+    [
+      "Grok 4.6 简介",
+      "https://x.ai/news#d-2026-08-14-14",
+      "xai_grok",
+      "2026-08-14",
+      "Introducing Grok 4.6"
     ],
     [
       "deepseek-v4-pro-0813：旗舰级 MoE 大模型，总参1.6T、激活 49B，原生支持百万级超长上下文",
@@ -3181,28 +3090,14 @@
     ],
     [
       "GitHub Copilot 中的 Grok 4.5",
-      "https://x.ai/news#d-2026-07-28-20",
-      "xai_grok",
-      "2026-07-28",
-      "Grok 4.5 in GitHub Copilot"
-    ],
-    [
-      "Google Workspace 中的 Grok",
-      "https://x.ai/news#d-2026-07-28-21",
-      "xai_grok",
-      "2026-07-28",
-      "Grok in Google Workspace"
-    ],
-    [
-      "推出构建模式",
-      "https://x.ai/news/grok-build-mode",
+      "https://x.ai/news/grok-github-copilot",
       "xai_grok",
       "2026-07-28",
       ""
     ],
     [
-      "GitHub Copilot 中的 Grok 4.5",
-      "https://x.ai/news/grok-github-copilot",
+      "推出构建模式",
+      "https://x.ai/news/grok-build-mode",
       "xai_grok",
       "2026-07-28",
       ""
@@ -3220,13 +3115,6 @@
       "openrouter",
       "2026-07-28",
       "How to Evaluate LLM Provider Performance Across Latency, Throughput, and Uptime"
-    ],
-    [
-      "Poolside on Dell：在您的边界内实现前沿人工智能的有效途径",
-      "https://poolside.ai/blog#d-2026-07-28-34",
-      "poolside",
-      "2026-07-28",
-      "Poolside on Dell: an efficient path for frontier AI inside your boundary"
     ],
     [
       "Poolside on Dell：在您的边界内实现前沿人工智能的有效途径",
@@ -3299,13 +3187,6 @@
       ""
     ],
     [
-      "Grok Build 中的工作流程",
-      "https://x.ai/news#d-2026-07-24-22",
-      "xai_grok",
-      "2026-07-24",
-      "Workflows in Grok Build"
-    ],
-    [
       "Google Workspace 中的 Grok",
       "https://x.ai/news/introducing-google-workspace-addon",
       "xai_grok",
@@ -3348,18 +3229,18 @@
       "Launching Health in ChatGPT"
     ],
     [
-      "将 Grok 4.5 引入 iOS、Android、Web 和 X",
-      "https://x.ai/news#d-2026-07-23-23",
-      "xai_grok",
-      "2026-07-23",
-      "Bringing Grok 4.5 to iOS, Android, Web, and X"
-    ],
-    [
       "Grok Build 中的工作流程",
       "https://x.ai/news/workflows",
       "xai_grok",
       "2026-07-23",
       ""
+    ],
+    [
+      "将 Grok 4.5 引入 iOS、Android、Web 和 X",
+      "https://x.ai/news#d-2026-07-23-23",
+      "xai_grok",
+      "2026-07-23",
+      "Bringing Grok 4.5 to iOS, Android, Web, and X"
     ],
     [
       "将 Nunchaku 4-bit 扩散推理引入 Diffusers",
@@ -3416,13 +3297,6 @@
       "openai",
       "2026-07-22",
       ""
-    ],
-    [
-      "适用于 Outlook 的 Grok",
-      "https://x.ai/news#d-2026-07-22-24",
-      "xai_grok",
-      "2026-07-22",
-      "Grok for Outlook"
     ],
     [
       "将 Grok 4.5 带到 iOS、Android、Web 和 X",
@@ -3488,18 +3362,18 @@
       ""
     ],
     [
-      "Excel 版 Grok",
-      "https://x.ai/news#d-2026-07-21-25",
-      "xai_grok",
-      "2026-07-21",
-      "Grok for Excel"
-    ],
-    [
       "适用于 Outlook 的 Grok",
       "https://x.ai/news/introducing-outlook-addin",
       "xai_grok",
       "2026-07-21",
       ""
+    ],
+    [
+      "Excel 版 Grok",
+      "https://x.ai/news#d-2026-07-21-25",
+      "xai_grok",
+      "2026-07-21",
+      "Grok for Excel"
     ],
     [
       "qwen3.7-flash：Qwen3.7原生视觉语言系列Flash模型，相较3.6-Flash全面提升多模态理解与Agent执行能力",
@@ -3521,13 +3395,6 @@
       "openrouter",
       "2026-07-21",
       "The Cheapest Token Is a Cached One: Prompt Caching + Sticky Routing"
-    ],
-    [
-      "Laguna XS 2.1 简介",
-      "https://poolside.ai/blog#d-2026-07-21-18",
-      "poolside",
-      "2026-07-21",
-      "Introducing Laguna XS 2.1"
     ],
     [
       "Laguna XS 2.1 简介",
@@ -3614,13 +3481,6 @@
       "Automations in Grok"
     ],
     [
-      "Grok Build 现已开源",
-      "https://x.ai/news#d-2026-07-16-28",
-      "xai_grok",
-      "2026-07-16",
-      "Grok Build is Now Open Source"
-    ],
-    [
       "推出 Grok 4.5",
       "https://x.ai/news/grok-4-5",
       "xai_grok",
@@ -3691,18 +3551,18 @@
       ""
     ],
     [
-      "21 种全新旗舰 Grok 音色",
-      "https://x.ai/news#d-2026-07-15-29",
-      "xai_grok",
-      "2026-07-15",
-      "21 New Flagship Grok Voices"
-    ],
-    [
       "Grok Build 现已开源",
       "https://x.ai/news/grok-build-open-source",
       "xai_grok",
       "2026-07-15",
       ""
+    ],
+    [
+      "21 种全新旗舰 Grok 音色",
+      "https://x.ai/news#d-2026-07-15-29",
+      "xai_grok",
+      "2026-07-15",
+      "21 New Flagship Grok Voices"
     ],
     [
       "qwen3.7-text-embedding：是通义实验室基于Qwen3.7训练的多语言文本统一向量模型，相较text-embedding-v4版本在文本检索、聚类、分类性能大幅提升；在MTEB多语言、中英、Code检索等评测任务上效果提升20%；支持256~2560维用户自定义向量维度",
@@ -4126,13 +3986,6 @@
     ],
     [
       "长上下文更新：Laguna XS.2 和 M.1",
-      "https://poolside.ai/blog#d-2026-07-02-20",
-      "poolside",
-      "2026-07-02",
-      "Long context update: Laguna XS.2 and M.1"
-    ],
-    [
-      "长上下文更新：Laguna XS.2 和 M.1",
       "https://poolside.ai/blog#d-2026-07-02-21",
       "poolside",
       "2026-07-02",
@@ -4503,13 +4356,6 @@
       ""
     ],
     [
-      "Databricks 上的 Grok",
-      "https://x.ai/news#d-2026-06-22-32",
-      "xai_grok",
-      "2026-06-22",
-      "Grok on Databricks"
-    ],
-    [
       "介绍 /goal 功能",
       "https://x.ai/news/introducing-goal",
       "xai_grok",
@@ -4594,6 +4440,13 @@
       ""
     ],
     [
+      "Databricks 上的 Grok",
+      "https://x.ai/news/grok-databricks",
+      "xai_grok",
+      "2026-06-18",
+      ""
+    ],
+    [
       "Grok for Word",
       "https://x.ai/news#d-2026-06-18-33",
       "xai_grok",
@@ -4606,13 +4459,6 @@
       "xai_grok",
       "2026-06-18",
       "Grok on Amazon Bedrock"
-    ],
-    [
-      "Databricks 上的 Grok",
-      "https://x.ai/news/grok-databricks",
-      "xai_grok",
-      "2026-06-18",
-      ""
     ],
     [
       "Grok for Word：使用适用于 Microsoft Word 的 Grok 插件，把笔记变成文档、为作品排版，或将网络调研资料带入 Word。",
@@ -4770,10 +4616,10 @@
     ],
     [
       "PowerPoint 版 Grok",
-      "https://x.ai/news#d-2026-06-16-36",
+      "https://x.ai/news/introducing-powerpoint-addin",
       "xai_grok",
       "2026-06-16",
-      "Grok for PowerPoint"
+      ""
     ],
     [
       "Grok Build 中的代理仪表板",
@@ -4785,13 +4631,6 @@
     [
       "Grok Imagine Video 1.5 正式发布",
       "https://x.ai/news/grok-imagine-video-1-5",
-      "xai_grok",
-      "2026-06-16",
-      ""
-    ],
-    [
-      "PowerPoint 版 Grok",
-      "https://x.ai/news/introducing-powerpoint-addin",
       "xai_grok",
       "2026-06-16",
       ""
@@ -4868,20 +4707,6 @@
     ],
     [
       "弃用公告",
-      "https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-1",
-      "google_gemini",
-      "2026-06-15",
-      ""
-    ],
-    [
-      "弃用公告",
-      "https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-4",
-      "google_gemini",
-      "2026-06-15",
-      ""
-    ],
-    [
-      "弃用公告",
       "https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn#06-15-2026-7",
       "google_gemini",
       "2026-06-15",
@@ -4889,10 +4714,10 @@
     ],
     [
       "在 Warp 中使用 Grok",
-      "https://x.ai/news#d-2026-06-15-38",
+      "https://x.ai/news/grok-warp",
       "xai_grok",
       "2026-06-15",
-      "Use Grok in Warp"
+      ""
     ],
     [
       "Grok 构建插件市场",
@@ -4904,13 +4729,6 @@
     [
       "Grok Build 中的智能体仪表板",
       "https://x.ai/news/agent-dashboard",
-      "xai_grok",
-      "2026-06-15",
-      ""
-    ],
-    [
-      "在 Warp 中使用 Grok",
-      "https://x.ai/news/grok-warp",
       "xai_grok",
       "2026-06-15",
       ""
@@ -5033,13 +4851,6 @@
       "openai",
       "2026-06-11",
       ""
-    ],
-    [
-      "Grok Imagine 1.5 预览版",
-      "https://x.ai/news#d-2026-06-11-40",
-      "xai_grok",
-      "2026-06-11",
-      "Grok Imagine 1.5 Preview"
     ],
     [
       "Grok Build 插件市场",
@@ -5329,15 +5140,15 @@
       ""
     ],
     [
-      "Composer 2.5",
-      "https://x.ai/news#d-2026-06-03-41",
+      "Grok Imagine 1.5 预览版",
+      "https://x.ai/news/grok-imagine-1-5",
       "xai_grok",
       "2026-06-03",
       ""
     ],
     [
-      "Grok Imagine 1.5 预览版",
-      "https://x.ai/news/grok-imagine-1-5",
+      "Composer 2.5",
+      "https://x.ai/news#d-2026-06-03-41",
       "xai_grok",
       "2026-06-03",
       ""
@@ -5546,13 +5357,6 @@
       ""
     ],
     [
-      "在 Kilo Code 中使用 Grok",
-      "https://x.ai/news#d-2026-05-29-43",
-      "xai_grok",
-      "2026-05-29",
-      "Use Grok in Kilo Code"
-    ],
-    [
       "Grok Build 0.1 登陆 API",
       "https://x.ai/news/grok-build-0-1",
       "xai_grok",
@@ -5686,18 +5490,18 @@
       ""
     ],
     [
-      "Grok 构建简介",
-      "https://x.ai/news#d-2026-05-27-44",
-      "xai_grok",
-      "2026-05-27",
-      "Introducing Grok Build"
-    ],
-    [
       "在 Kilo Code 中使用 Grok",
       "https://x.ai/news/grok-kilocode",
       "xai_grok",
       "2026-05-27",
       ""
+    ],
+    [
+      "Grok 构建简介",
+      "https://x.ai/news#d-2026-05-27-44",
+      "xai_grok",
+      "2026-05-27",
+      "Introducing Grok Build"
     ],
     [
       "介绍 Mistral 的物理 AI：工程加速的基石。",
@@ -5729,13 +5533,6 @@
     ],
     [
       "AI，你的方式：引入 Poolside 平台",
-      "https://poolside.ai/blog#d-2026-05-26-22",
-      "poolside",
-      "2026-05-26",
-      "AI, your way: introducing the Poolside Platform"
-    ],
-    [
-      "AI，你的方式：引入 Poolside 平台",
       "https://poolside.ai/blog#d-2026-05-26-23",
       "poolside",
       "2026-05-26",
@@ -5754,13 +5551,6 @@
       "openai",
       "2026-05-25",
       ""
-    ],
-    [
-      "在 OpenCode 中使用 Grok",
-      "https://x.ai/news#d-2026-05-25-45",
-      "xai_grok",
-      "2026-05-25",
-      "Use Grok in OpenCode"
     ],
     [
       "介绍 Grok Build",
@@ -5824,13 +5614,6 @@
       "openai",
       "2026-05-21",
       ""
-    ],
-    [
-      "在 OpenClaw 中使用 Grok",
-      "https://x.ai/news#d-2026-05-21-46",
-      "xai_grok",
-      "2026-05-21",
-      "Use Grok in OpenClaw"
     ],
     [
       "在 OpenCode 中使用 Grok",
@@ -5931,18 +5714,18 @@
       ""
     ],
     [
-      "Web、iOS 和 Android 技能",
-      "https://x.ai/news#d-2026-05-19-47",
-      "xai_grok",
-      "2026-05-19",
-      "Skills in web, iOS, and Android"
-    ],
-    [
       "在 OpenClaw 中使用 Grok",
       "https://x.ai/news/grok-openclaw",
       "xai_grok",
       "2026-05-19",
       ""
+    ],
+    [
+      "Web、iOS 和 Android 技能",
+      "https://x.ai/news#d-2026-05-19-47",
+      "xai_grok",
+      "2026-05-19",
+      "Skills in web, iOS, and Android"
     ],
     [
       "qwen3.5-livetranslate-flash-realtime：Qwen3.5-LiveTranslate-Flash的实时版本，一款高精度、高响应、高鲁棒性的多语言实时音视频同传大模型",
@@ -6254,13 +6037,6 @@
     ],
     [
       "Laguna XS.2 和 M.1：深入探讨",
-      "https://poolside.ai/blog#d-2026-05-11-0",
-      "poolside",
-      "2026-05-11",
-      "Laguna XS.2 and M.1: A Deeper Dive"
-    ],
-    [
-      "Laguna XS.2 和 M.1：深入探讨",
       "https://poolside.ai/blog#d-2026-05-11-1",
       "poolside",
       "2026-05-11",
@@ -6394,17 +6170,17 @@
     ],
     [
       "Web、iOS 和 Android 中的连接器",
-      "https://x.ai/news#d-2026-05-06-50",
+      "https://x.ai/news/grok-connectors",
       "xai_grok",
       "2026-05-06",
-      "Connectors in web, iOS, and Android"
+      ""
     ],
     [
       "Grok Imagine 质量模式 API",
-      "https://x.ai/news#d-2026-05-06-51",
+      "https://x.ai/news/grok-imagine-quality-mode",
       "xai_grok",
       "2026-05-06",
-      "Grok Imagine Quality Mode API"
+      ""
     ],
     [
       "Custom Voices",
@@ -6416,20 +6192,6 @@
     [
       "与 Anthropic 的全新算力合作",
       "https://x.ai/news/anthropic-compute-partnership",
-      "xai_grok",
-      "2026-05-06",
-      ""
-    ],
-    [
-      "Web、iOS 和 Android 中的连接器",
-      "https://x.ai/news/grok-connectors",
-      "xai_grok",
-      "2026-05-06",
-      ""
-    ],
-    [
-      "Grok Imagine 质量模式 API",
-      "https://x.ai/news/grok-imagine-quality-mode",
       "xai_grok",
       "2026-05-06",
       ""
@@ -6503,13 +6265,6 @@
       "google_gemini",
       "2026-05-05",
       ""
-    ],
-    [
-      "Laguna XS.2 和 Laguna M.1 简介",
-      "https://poolside.ai/blog#d-2026-05-05-24",
-      "poolside",
-      "2026-05-05",
-      "Introducing Laguna XS.2 and Laguna M.1"
     ],
     [
       "Laguna XS.2 和 Laguna M.1 简介",
@@ -6687,13 +6442,6 @@
       ""
     ],
     [
-      "数眼智能 2.4 更新：钱包重构、发票开具、API 调用策略上线",
-      "https://www.shuyanai.com/blogs#d-2026-04-29-10",
-      "dataeye",
-      "2026-04-29",
-      ""
-    ],
-    [
       "2026-4-29 邀请有礼活动上线",
       "https://mimo.mi.com/docs/zh-CN/updates/feature/platform#2026-4-29-%E9%82%80%E8%AF%B7%E6%9C%89%E7%A4%BC%E6%B4%BB%E5%8A%A8%E4%B8%8A%E7%BA%BF",
       "xiaomi_mimo",
@@ -6744,24 +6492,10 @@
     ],
     [
       "Tools of the Trade: C2C Activation Offloading on Grace Blackwell",
-      "https://poolside.ai/blog#d-2026-04-28-2",
-      "poolside",
-      "2026-04-28",
-      ""
-    ],
-    [
-      "Tools of the Trade: C2C Activation Offloading on Grace Blackwell",
       "https://poolside.ai/blog#d-2026-04-28-3",
       "poolside",
       "2026-04-28",
       ""
-    ],
-    [
-      "宣布收购 Fern Labs",
-      "https://poolside.ai/blog#d-2026-04-28-26",
-      "poolside",
-      "2026-04-28",
-      "Announcing the acquisition of Fern Labs"
     ],
     [
       "宣布收购 Fern Labs",
@@ -7424,13 +7158,6 @@
     [
       "千万级算力就位！数眼智能All in大模型Token服务",
       "https://www.shuyanai.com/blogs#d-2026-04-11-0",
-      "dataeye",
-      "2026-04-11",
-      ""
-    ],
-    [
-      "千万级算力就位！数眼智能All in大模型Token服务",
-      "https://www.shuyanai.com/blogs#d-2026-04-11-11",
       "dataeye",
       "2026-04-11",
       ""
@@ -8113,13 +7840,6 @@
       "together_ai",
       "2026-03-18",
       "Together AI expands fine-tuning service with tool calling, reasoning, and vision support"
-    ],
-    [
-      "最后的润色",
-      "https://poolside.ai/blog#d-2026-03-18-4",
-      "poolside",
-      "2026-03-18",
-      "The finishing touches"
     ],
     [
       "最后的润色",
@@ -9172,13 +8892,6 @@
       ""
     ],
     [
-      "Grok 想象 API",
-      "https://x.ai/news#d-2026-02-02-56",
-      "xai_grok",
-      "2026-02-02",
-      "Grok Imagine API"
-    ],
-    [
       "xAI 加入 SpaceX：SpaceX 今天宣布收购 xAI。",
       "https://x.ai/news/xai-joins-spacex",
       "xai_grok",
@@ -9326,15 +9039,15 @@
       ""
     ],
     [
-      "xAI Raises $20B Series E",
-      "https://x.ai/news#d-2026-01-28-57",
+      "Grok 想象 API",
+      "https://x.ai/news/grok-imagine-api",
       "xai_grok",
       "2026-01-28",
       ""
     ],
     [
-      "Grok 想象 API",
-      "https://x.ai/news/grok-imagine-api",
+      "xAI Raises $20B Series E",
+      "https://x.ai/news#d-2026-01-28-57",
       "xai_grok",
       "2026-01-28",
       ""
@@ -9830,13 +9543,6 @@
       ""
     ],
     [
-      "Grok 集合 API",
-      "https://x.ai/news#d-2025-12-30-59",
-      "xai_grok",
-      "2025-12-30",
-      "Grok Collections API"
-    ],
-    [
       "推出 Grok Business 和 Grok Enterprise",
       "https://x.ai/news/grok-business",
       "xai_grok",
@@ -9879,25 +9585,18 @@
       ""
     ],
     [
-      "通过人工智能支持 DOW 的使命",
-      "https://x.ai/news#d-2025-12-22-60",
-      "xai_grok",
-      "2025-12-22",
-      "Supporting the DOW's mission with AI"
-    ],
-    [
-      "Grok 语音代理 API",
-      "https://x.ai/news#d-2025-12-22-61",
-      "xai_grok",
-      "2025-12-22",
-      "Grok Voice Agent API"
-    ],
-    [
       "Grok 集合 API",
       "https://x.ai/news/grok-collections-api",
       "xai_grok",
       "2025-12-22",
       ""
+    ],
+    [
+      "通过人工智能支持 DOW 的使命",
+      "https://x.ai/news#d-2025-12-22-60",
+      "xai_grok",
+      "2025-12-22",
+      "Supporting the DOW's mission with AI"
     ],
     [
       "以 AI 支持 DOW 的使命",
@@ -10019,18 +9718,18 @@
       ""
     ],
     [
-      "xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划",
-      "https://x.ai/news#d-2025-12-17-62",
-      "xai_grok",
-      "2025-12-17",
-      "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program"
-    ],
-    [
       "Grok 语音代理 API",
       "https://x.ai/news/grok-voice-agent-api",
       "xai_grok",
       "2025-12-17",
       ""
+    ],
+    [
+      "xAI 和萨尔瓦多开创了世界上第一个全国性人工智能教育计划",
+      "https://x.ai/news#d-2025-12-17-62",
+      "xai_grok",
+      "2025-12-17",
+      "xAI and El Salvador Pioneer the World's First Nationwide AI Education Program"
     ],
     [
       "基于文本 TurboS 基座生成图生文快思考模型，相比上一版本在图像基础识别、图像分析推理等维度都有明显的效果提升",
@@ -10776,13 +10475,6 @@
     ],
     [
       "利用 Redpanda 实现代理企业",
-      "https://poolside.ai/blog#d-2025-11-18-28",
-      "poolside",
-      "2025-11-18",
-      "Enabling the Agentic Enterprise with Redpanda"
-    ],
-    [
-      "利用 Redpanda 实现代理企业",
       "https://poolside.ai/blog#d-2025-11-18-29",
       "poolside",
       "2025-11-18",
@@ -11161,7 +10853,7 @@
     ],
     [
       "介绍 MiniMax-Hailuo-2.3",
-      "https://platform.minimax.cn/docs/release-notes/models#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5",
+      "https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2",
       "minimax",
       "2025-10-28",
       "MiniMax-Hailuo-2.3"
@@ -11172,13 +10864,6 @@
       "minimax",
       "2025-10-28",
       ""
-    ],
-    [
-      "介绍 MiniMax-Hailuo-2.3",
-      "https://platform.minimax.cn/docs/release-notes/apis#2025-%E5%B9%B4-10-%E6%9C%88-28-%E6%97%A5-2",
-      "minimax",
-      "2025-10-28",
-      "MiniMax-Hailuo-2.3"
     ],
     [
       "介绍 MiniMax-Hailuo-2.3-Fast",
@@ -11221,13 +10906,6 @@
       "together_ai",
       "2025-10-28",
       "Dynamic AI agent testing for the real world with Collinear Simulations and Together Evals"
-    ],
-    [
-      "揭晓 Poolside 与 AWS 的第一方合作伙伴关系",
-      "https://poolside.ai/blog#d-2025-10-28-30",
-      "poolside",
-      "2025-10-28",
-      "Unveiling Poolside's first-party partnership with AWS"
     ],
     [
       "揭晓 Poolside 与 AWS 的第一方合作伙伴关系",
@@ -12554,13 +12232,6 @@
     ],
     [
       "载体和信标",
-      "https://poolside.ai/blog#d-2025-08-25-6",
-      "poolside",
-      "2025-08-25",
-      "The carrier and the beacon"
-    ],
-    [
-      "载体和信标",
       "https://poolside.ai/blog#d-2025-08-25-7",
       "poolside",
       "2025-08-25",
@@ -12687,13 +12358,6 @@
     ],
     [
       "设计世界一流的代码执行环境",
-      "https://poolside.ai/blog#d-2025-08-14-8",
-      "poolside",
-      "2025-08-14",
-      "Designing a world-class code execution environment"
-    ],
-    [
-      "设计世界一流的代码执行环境",
       "https://poolside.ai/blog#d-2025-08-14-9",
       "poolside",
       "2025-08-14",
@@ -12740,13 +12404,6 @@
       "huggingface",
       "2025-08-12",
       ""
-    ],
-    [
-      "Titan，模型工厂的熔炉",
-      "https://poolside.ai/blog#d-2025-08-12-10",
-      "poolside",
-      "2025-08-12",
-      "Titan, the Model Factory's furnace"
     ],
     [
       "Titan，模型工厂的熔炉",
@@ -12873,13 +12530,6 @@
       "openrouter",
       "2025-08-07",
       "GPT-5 is now live"
-    ],
-    [
-      "为模型工厂收集和加工原材料",
-      "https://poolside.ai/blog#d-2025-08-07-12",
-      "poolside",
-      "2025-08-07",
-      "Gathering and processing raw materials for the Model Factory"
     ],
     [
       "为模型工厂收集和加工原材料",
@@ -13079,13 +12729,6 @@
     ],
     [
       "基础模型建设背后隐藏的工程",
-      "https://poolside.ai/blog#d-2025-07-29-14",
-      "poolside",
-      "2025-07-29",
-      "The hidden engineering behind foundation model building"
-    ],
-    [
-      "基础模型建设背后隐藏的工程",
       "https://poolside.ai/blog#d-2025-07-29-15",
       "poolside",
       "2025-07-29",
@@ -13125,13 +12768,6 @@
       "openai",
       "2025-07-24",
       ""
-    ],
-    [
-      "我们的愿景：宗旨",
-      "https://poolside.ai/blog#d-2025-07-24-36",
-      "poolside",
-      "2025-07-24",
-      "Our vision: Purpose"
     ],
     [
       "我们的愿景：宗旨",
@@ -13312,13 +12948,6 @@
       "Gradio MCP 服务器的五大改进",
       "https://huggingface.co/blog/gradio-mcp-updates",
       "huggingface",
-      "2025-07-17",
-      ""
-    ],
-    [
-      "Announcements",
-      "https://poolside.ai/blog#d-2025-07-17-16",
-      "poolside",
       "2025-07-17",
       ""
     ],
@@ -16803,13 +16432,6 @@
     ],
     [
       "宣布筹集 5 亿美元资金，以推动 AGI 取得进展",
-      "https://poolside.ai/blog#d-2024-12-04-32",
-      "poolside",
-      "2024-12-04",
-      "Announcing our $500 million fundraise to make progress towards AGI"
-    ],
-    [
-      "宣布筹集 5 亿美元资金，以推动 AGI 取得进展",
       "https://poolside.ai/blog#d-2024-12-04-33",
       "poolside",
       "2024-12-04",
@@ -18846,13 +18468,6 @@
       ""
     ],
     [
-      "Grok-1.5 视觉预览",
-      "https://x.ai/news#d-2024-05-26-77",
-      "xai_grok",
-      "2024-05-26",
-      "Grok-1.5 Vision Preview"
-    ],
-    [
       "B 轮融资",
       "https://x.ai/news/series-b",
       "xai_grok",
@@ -19364,18 +18979,18 @@
       ""
     ],
     [
-      "宣布 Grok-1.5",
-      "https://x.ai/news#d-2024-04-12-78",
-      "xai_grok",
-      "2024-04-12",
-      "Announcing Grok-1.5"
-    ],
-    [
       "Grok-1.5 视觉预览",
       "https://x.ai/news/grok-1.5v",
       "xai_grok",
       "2024-04-12",
       ""
+    ],
+    [
+      "宣布 Grok-1.5",
+      "https://x.ai/news#d-2024-04-12-78",
+      "xai_grok",
+      "2024-04-12",
+      "Announcing Grok-1.5"
     ],
     [
       "混元大模型高级版、混元大模型标准版中，新增流式调用开关",
@@ -20589,11 +20204,11 @@
       ""
     ],
     [
-      "Fast, flexible, and scalable data loading for ML training with Ray Data",
+      "使用 Ray Data 进行 ML 训练的快速、灵活且可扩展的数据加载",
       "https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data",
       "anyscale",
       "2023-09-15",
-      ""
+      "Fast, flexible, and scalable data loading for ML training with Ray Data"
     ],
     [
       "OpenAI Dublin 简介",
@@ -21433,13 +21048,6 @@
       "https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs",
       "anyscale",
       "2023-03-16",
-      ""
-    ],
-    [
-      "GPT-4",
-      "https://openai.com/index/gpt-4-research",
-      "openai",
-      "2023-03-14",
       ""
     ],
     [

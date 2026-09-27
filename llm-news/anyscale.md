@@ -39,7 +39,7 @@
 28. [构建可投入生产的 LLM 应用程序的实际数据注意事项](https://anyscale.com/blog/practical-data-considerations-for-building-production-ready-llm-applications)（2023-10-19）
 29. [使用 LangChain 和 LangSmith 构建上下文感知推理应用程序](https://anyscale.com/blog/building-context-aware-reasoning-applications-with-langchain-and-langsmith)（2023-10-18）
 30. [Llama，在开放生态系统中扩大 LLM 规模](https://anyscale.com/blog/llama-scaling-up-llms-in-an-open-ecosystem)（2023-10-16）
-31. [Fast, flexible, and scalable data loading for ML training with Ray Data](https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data)（2023-09-15）
+31. [使用 Ray Data 进行 ML 训练的快速、灵活且可扩展的数据加载](https://anyscale.com/blog/fast-flexible-scalable-data-loading-for-ml-training-with-ray-data)（2023-09-15）
 32. [Ray 峰会系列 - 扩展并行 Python 作业](https://anyscale.com/blog/ray-summit-series-scaling-parallel-python-jobs)（2023-03-16）
 33. [Ray Summit 2022 故事 - ML Platforms](https://anyscale.com/blog/ray-summit-2022-stories-ml-platforms)（2023-03-03）
 34. [Ray Summit 2022 故事 - 大语言模型](https://anyscale.com/blog/ray-summit-2022-stories-large-language-models)（2023-02-16）

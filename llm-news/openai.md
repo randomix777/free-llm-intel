@@ -9,7 +9,7 @@
 - 页面：[新闻 / 更新](https://openai.com/news/)
 - 📡 RSS/Atom：[RSS/Atom 订阅源](https://openai.com/news/rss.xml)
 
-## 全部文章（共 1213 篇，按日期倒序；无日期条目列于最后）
+## 全部文章（共 1212 篇，按日期倒序；无日期条目列于最后）
 
 1. [GPT-6 的提示缓存全面升级](https://openai.com/index/better-prompt-caching-for-gpt-6)（2026-09-22）
 2. [介绍 GPT-6 Sol 与 Luna](https://openai.com/index/introducing-gpt-6-sol-and-luna)（2026-09-22）
@@ -985,242 +985,241 @@
 972. [3 月 20 日 ChatGPT 故障：发生了什么](https://openai.com/index/march-20-chatgpt-outage)（2023-03-24）
 973. [ChatGPT 插件](https://openai.com/index/chatgpt-plugins)（2023-03-23）
 974. [GPT 就是 GPT：大型语言模型对劳动力市场影响潜力的初探](https://openai.com/index/gpts-are-gpts)（2023-03-17）
-975. [GPT-4](https://openai.com/index/gpt-4-research)（2023-03-14）
-976. [GPT-4](https://openai.com/index/gpt-4)（2023-03-14）
-977. [为未来守护语言](https://openai.com/index/government-of-iceland)（2023-03-14）
-978. [变革视觉无障碍](https://openai.com/index/be-my-eyes)（2023-03-14）
-979. [Stripe](https://openai.com/index/stripe)（2023-03-14）
-980. [填补关键的语言学习空白](https://openai.com/index/duolingo)（2023-03-14）
-981. [为课堂虚拟教育赋能](https://openai.com/index/khan-academy)（2023-03-14）
-982. [为 AGI 及更远的未来做规划](https://openai.com/index/planning-for-agi-and-beyond)（2023-02-24）
-983. [人工智能系统应该如何表现，由谁来决定？](https://openai.com/index/how-should-ai-systems-behave)（2023-02-16）
-984. [介绍 ChatGPT Plus](https://openai.com/index/chatgpt-plus)（2023-02-01）
-985. [识别 AI 生成文本的全新 AI 分类器](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text)（2023-01-31）
-986. [OpenAI 与 Microsoft 扩大合作伙伴关系](https://openai.com/index/openai-and-microsoft-extend-partnership)（2023-01-23）
-987. [预测语言模型被滥用于虚假信息活动的风险及如何降低风险](https://openai.com/index/forecasting-misuse)（2023-01-11）
-988. [从客户反馈中挖掘细致入微的洞察](https://openai.com/index/yabble)（2023-01-04）
-989. [微调 GPT-3 以扩展视频创作](https://openai.com/index/waymark)（2023-01-03）
-990. [打造下一代角色](https://openai.com/index/inworld-ai-DO-NOT-PUBLISH)（2023-01-01）
-991. [持续学习的力量](https://openai.com/index/the-power-of-continuous-learning)（2022-12-23）
-992. [Point-E：从复杂提示生成 3D 点云的系统](https://openai.com/index/point-e)（2022-12-16）
-993. [全新改进的嵌入模型](https://openai.com/index/new-and-improved-embedding-model)（2022-12-15）
-994. [探究后端系统的细枝末节](https://openai.com/index/discovering-the-minutiae-of-backend-systems)（2022-12-08）
-995. [介绍 ChatGPT](https://openai.com/index/chatgpt)（2022-11-30）
-996. [DALL·E API 现已开放公测](https://openai.com/index/dall-e-api-now-available-in-public-beta)（2022-11-03）
-997. [奖励模型过度优化的缩放定律](https://openai.com/index/scaling-laws-for-reward-model-overoptimization)（2022-10-19）
-998. [DALL·E 现已开放，无需排队等候](https://openai.com/index/dall-e-now-available-without-waitlist)（2022-09-28）
-999. [Whisper 简介](https://openai.com/index/whisper)（2022-09-21）
-1000. [DALL·E：推出外画功能](https://openai.com/index/dall-e-introducing-outpainting)（2022-08-31）
-1001. [我们开展对齐研究的方法](https://openai.com/index/our-approach-to-alignment-research)（2022-08-24）
-1002. [全新升级的内容审核工具](https://openai.com/index/new-and-improved-content-moderation-tooling)（2022-08-10）
-1003. [高效训练语言模型以实现中间填充](https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle)（2022-07-28）
-1004. [面向代码合成大语言模型的危害分析框架](https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models)（2022-07-25）
-1005. [DALL·E 现已推出测试版](https://openai.com/index/dall-e-now-available-in-beta)（2022-07-20）
-1006. [减少 DALL·E 2 中的偏见并提升安全性](https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2)（2022-07-18）
-1007. [DALL·E 2：拓展创造力](https://openai.com/index/dall-e-2-extending-creativity)（2022-07-14）
-1008. [DALL·E 2 预训练缓解措施](https://openai.com/index/dall-e-2-pre-training-mitigations)（2022-06-28）
-1009. [通过 Video PreTraining 学习玩 Minecraft](https://openai.com/index/vpt)（2022-06-23）
-1010. [大型模型的演进](https://openai.com/index/evolution-through-large-models)（2022-06-17）
-1011. [AI 撰写的评论帮助人类发现缺陷](https://openai.com/index/critiques)（2022-06-13）
-1012. [训练大型神经网络的技术](https://openai.com/index/techniques-for-training-large-neural-networks)（2022-06-09）
-1013. [部署语言模型的最佳实践](https://openai.com/index/best-practices-for-deploying-language-models)（2022-06-02）
-1014. [教会模型用语言表达不确定性](https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words)（2022-05-28）
-1015. [用 OpenAI Codex 为下一代应用提供动力](https://openai.com/index/codex-apps)（2022-05-24）
-1016. [DALL·E 2 研究预览更新](https://openai.com/index/dall-e-2-update)（2022-05-18）
-1017. [OpenAI 领导团队更新](https://openai.com/index/leadership-team-update)（2022-05-05）
-1018. [基于 CLIP 潜变量的分层文本条件图像生成](https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents)（2022-04-13）
-1019. [衡量 Goodhart 定律](https://openai.com/index/measuring-goodharts-law)（2022-04-13）
-1020. [GPT-3 新功能：编辑与插入](https://openai.com/index/gpt-3-edit-insert)（2022-03-15）
-1021. [评估代码生成模型经济影响的研究议程](https://openai.com/index/economic-impacts-research)（2022-03-03）
-1022. [OpenAI 的经济影响研究](https://openai.com/index/economic-impacts)（2022-03-03）
-1023. [语言模型安全与滥用的经验教训](https://openai.com/index/language-model-safety-and-misuse)（2022-03-03）
-1024. [求解（部分）形式化数学奥林匹克问题](https://openai.com/index/formal-math)（2022-02-02）
-1025. [让语言模型学会遵循指令](https://openai.com/index/instruction-following)（2022-01-27）
-1026. [推出文本和代码嵌入](https://openai.com/index/introducing-text-and-code-embeddings)（2022-01-25）
-1027. [通过对比预训练实现文本与代码嵌入](https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training)（2022-01-24）
-1028. [WebGPT：通过网页浏览提升语言模型的事实准确性](https://openai.com/index/webgpt)（2021-12-16）
-1029. [为你的应用定制 GPT-3](https://openai.com/index/customizing-gpt-3)（2021-12-14）
-1030. [OpenAI 驻留计划](https://openai.com/index/openai-residency)（2021-11-30）
-1031. [OpenAI 的 API 现已开放，无需排队](https://openai.com/index/api-no-waitlist)（2021-11-18）
-1032. [求解数学应用题](https://openai.com/index/solving-math-word-problems)（2021-10-29）
-1033. [根据人类反馈总结书籍](https://openai.com/index/summarizing-books)（2021-09-23）
-1034. [TruthfulQA：衡量模型如何模仿人类的虚假说法](https://openai.com/index/truthfulqa)（2021-09-08）
-1035. [Helen Toner 加入 OpenAI 董事会](https://openai.com/index/helen-toner-joins)（2021-09-08）
-1036. [OpenAI Codex](https://openai.com/index/openai-codex)（2021-08-10）
-1037. [Triton 简介：面向神经网络的开源 GPU 编程](https://openai.com/index/triton)（2021-07-28）
-1038. [评估在代码上训练的大语言模型](https://openai.com/index/evaluating-large-language-models-trained-on-code)（2021-07-07）
-1039. [通过在精选数据集上训练来改进语言模型行为](https://openai.com/index/improving-language-model-behavior)（2021-06-10）
-1040. [OpenAI Scholars 2021：期末项目](https://openai.com/index/openai-scholars-2021-final-projects)（2021-05-10）
-1041. [Will Hurd 加入 OpenAI 董事会](https://openai.com/index/will-hurd-joins)（2021-05-03）
-1042. [GPT-3 驱动下一代应用](https://openai.com/index/gpt-3-apps)（2021-03-25）
-1043. [人工神经网络中的多模态神经元](https://openai.com/index/multimodal-neurons)（2021-03-04）
-1044. [理解大语言模型的能力、局限与社会影响](https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models)（2021-02-04）
-1045. [将 Kubernetes 扩展到 7,500 个节点](https://openai.com/index/scaling-kubernetes-to-7500-nodes)（2021-01-25）
-1046. [CLIP：连接文本与图像](https://openai.com/index/clip)（2021-01-05）
-1047. [DALL·E：从文本创建图像](https://openai.com/index/dall-e)（2021-01-05）
-1048. [OpenAI 的组织架构更新](https://openai.com/index/organizational-update)（2020-12-29）
-1049. [OpenAI 将 GPT-3 技术授权给微软](https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft)（2020-09-22）
-1050. [面向自动定理证明的生成式语言建模](https://openai.com/index/generative-language-modeling-for-automated-theorem-proving)（2020-09-07）
-1051. [学习根据人类反馈进行总结](https://openai.com/index/learning-to-summarize-with-human-feedback)（2020-09-04）
-1052. [OpenAI Scholars 2020：期末项目](https://openai.com/index/openai-scholars-2020-final-projects)（2020-07-09）
-1053. [Procgen 与 MineRL 竞赛](https://openai.com/index/procgen-minerl-competitions)（2020-06-20）
-1054. [图像 GPT](https://openai.com/index/image-gpt)（2020-06-17）
-1055. [OpenAI 的 API](https://openai.com/index/openai-api)（2020-06-11）
-1056. [语言模型是少样本学习者](https://openai.com/index/language-models-are-few-shot-learners)（2020-05-28）
-1057. [人工智能与效率](https://openai.com/index/ai-and-efficiency)（2020-05-05）
-1058. [Jukebox 音乐生成模型](https://openai.com/index/jukebox)（2020-04-30）
-1059. [提升 AI 开发的可验证性](https://openai.com/index/improving-verifiability)（2020-04-16）
-1060. [OpenAI Microscope 可视化工具](https://openai.com/index/microscope)（2020-04-14）
-1061. [OpenAI 全面转向 PyTorch](https://openai.com/index/openai-pytorch)（2020-01-30）
-1062. [神经语言模型的缩放定律](https://openai.com/index/scaling-laws-for-neural-language-models)（2020-01-23）
-1063. [用大规模深度强化学习玩 Dota 2](https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning)（2019-12-13）
-1064. [深度双重下降](https://openai.com/index/deep-double-descent)（2019-12-05）
-1065. [Procgen 基准](https://openai.com/index/procgen-benchmark)（2019-12-03）
-1066. [Safety Gym 安全强化学习工具包](https://openai.com/index/safety-gym)（2019-11-21）
-1067. [深度强化学习中安全探索的基准测试](https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning)（2019-11-21）
-1068. [GPT-2：1.5B 版本发布](https://openai.com/index/gpt-2-1-5b-release)（2019-11-05）
-1069. [用机器人手还原魔方](https://openai.com/index/solving-rubiks-cube)（2019-10-15）
-1070. [OpenAI Scholars 2020：开放申请](https://openai.com/index/openai-scholars-2020)（2019-10-11）
-1071. [根据人类偏好微调 GPT-2](https://openai.com/index/fine-tuning-gpt-2)（2019-09-19）
-1072. [多智能体交互中涌现的工具使用](https://openai.com/index/emergent-tool-use)（2019-09-17）
-1073. [测试针对未知对手的鲁棒性](https://openai.com/index/testing-robustness)（2019-08-22）
-1074. [GPT-2：6-month 后续跟进](https://openai.com/index/gpt-2-6-month-follow-up)（2019-08-20）
-1075. [学习日](https://openai.com/index/learning-day)（2019-08-01）
-1076. [微软投资并与 OpenAI 合作，支持我们构建有益的 AGI](https://openai.com/index/microsoft-invests-in-and-partners-with-openai)（2019-07-22）
-1077. [为什么负责任的 AI 发展需要安全方面的合作](https://openai.com/index/cooperation-on-safety)（2019-07-10）
-1078. [2019 OpenAI 机器人研讨会](https://openai.com/index/symposium-2019)（2019-06-05）
-1079. [OpenAI Scholars 2019：期末项目](https://openai.com/index/openai-scholars-2019-final-projects)（2019-05-23）
-1080. [OpenAI Fellows 2018 秋季：最终项目](https://openai.com/index/openai-fellows-fall-2018)（2019-05-17）
-1081. [不同扰动类型之间对抗鲁棒性的迁移](https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types)（2019-05-03）
-1082. [MuseNet 音乐生成模型](https://openai.com/index/musenet)（2019-04-25）
-1083. [基于稀疏 transformers 的生成建模](https://openai.com/index/sparse-transformer)（2019-04-23）
-1084. [OpenAI Five 击败 Dota 2 世界冠军](https://openai.com/index/openai-five-defeats-dota-2-world-champions)（2019-04-15）
-1085. [OpenAI Five 决赛](https://openai.com/index/openai-five-finals)（2019-03-26）
-1086. [基于能量模型的隐式生成与泛化方法](https://openai.com/index/energy-based-models)（2019-03-21）
-1087. [OpenAI Scholars 2019：认识我们的学者](https://openai.com/index/openai-scholars-2019-meet-our-scholars)（2019-03-13）
-1088. [OpenAI LP 公司](https://openai.com/index/openai-lp)（2019-03-11）
-1089. [推出 Activation Atlases](https://openai.com/index/introducing-activation-atlases)（2019-03-06）
-1090. [Neural MMO：大规模多智能体游戏环境](https://openai.com/index/neural-mmo)（2019-03-04）
-1091. [Spinning Up in Deep RL：研讨会回顾](https://openai.com/index/spinning-up-in-deep-rl-workshop-review)（2019-02-26）
-1092. [AI 安全需要社会科学家](https://openai.com/index/ai-safety-needs-social-scientists)（2019-02-19）
-1093. [更好的语言模型及其影响](https://openai.com/index/better-language-models)（2019-02-14）
-1094. [鲁棒分类与双赢结果的计算局限](https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results)（2019-02-04）
-1095. [OpenAI Fellows 2018 夏季：最终项目](https://openai.com/index/openai-summer-fellows-2018)（2018-12-19）
-1096. [AI 训练如何扩展](https://openai.com/index/how-ai-training-scales)（2018-12-14）
-1097. [量化强化学习中的泛化](https://openai.com/index/quantifying-generalization-in-reinforcement-learning)（2018-12-06）
-1098. [Spinning Up in Deep RL 项目](https://openai.com/index/spinning-up-in-deep-rl)（2018-11-08）
-1099. [用能量函数学习概念](https://openai.com/index/learning-concepts-with-energy-functions)（2018-11-07）
-1100. [在线规划，离线学习：基于模型的控制实现高效学习与探索](https://openai.com/index/plan-online-learn-offline)（2018-11-05）
-1101. [基于预测奖励的强化学习](https://openai.com/index/reinforcement-learning-with-prediction-based-rewards)（2018-10-31）
-1102. [通过迭代放大学习复杂目标](https://openai.com/index/learning-complex-goals-with-iterated-amplification)（2018-10-22）
-1103. [OpenAI Scholars 2019：开放申请](https://openai.com/index/openai-scholars-2019)（2018-10-11）
-1104. [OpenAI Fellows 2019 冬季与 Interns 2019 夏季](https://openai.com/index/openai-fellows-interns-2019)（2018-10-09）
-1105. [FFJORD：面向可扩展可逆生成模型的自由形式连续动力学](https://openai.com/index/ffjord)（2018-10-02）
-1106. [OpenAI Scholars 2018：期末项目](https://openai.com/index/openai-scholars-2018-final-projects)（2018-09-10）
-1107. [The International 2018：比赛结果](https://openai.com/index/the-international-2018-results)（2018-08-23）
-1108. [好奇心驱动学习的大规模研究](https://openai.com/index/large-scale-study-of-curiosity-driven-learning)（2018-08-13）
-1109. [OpenAI Five 基准测试：结果](https://openai.com/index/openai-five-benchmark-results)（2018-08-06）
-1110. [学习灵巧操作](https://openai.com/index/learning-dexterity)（2018-07-30）
-1111. [变分选项发现算法](https://openai.com/index/variational-option-discovery-algorithms)（2018-07-26）
-1112. [OpenAI Scholars 2018：认识我们的学者](https://openai.com/index/openai-scholars-2018-meet-our-scholars)（2018-07-25）
-1113. [OpenAI Five 基准测试](https://openai.com/index/openai-five-benchmark)（2018-07-18）
-1114. [Glow：更好的可逆生成模型](https://openai.com/index/glow)（2018-07-09）
-1115. [通过一次演示学习《Montezuma's Revenge》](https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration)（2018-07-04）
-1116. [OpenAI Five 战队](https://openai.com/index/openai-five)（2018-06-25）
-1117. [Retro Contest：比赛结果](https://openai.com/index/retro-contest-results)（2018-06-22）
-1118. [学习多智能体系统中的策略表示](https://openai.com/index/learning-policy-representations-in-multiagent-systems)（2018-06-17）
-1119. [通过无监督学习提升语言理解](https://openai.com/index/language-unsupervised)（2018-06-11）
-1120. [GamePad：定理证明的学习环境](https://openai.com/index/gamepad)（2018-06-02）
-1121. [OpenAI 研究员项目 2018 年秋季](https://openai.com/index/openai-fellows)（2018-05-30）
-1122. [Gym Retro：复古游戏环境](https://openai.com/index/gym-retro)（2018-05-25）
-1123. [人工智能与算力](https://openai.com/index/ai-and-compute)（2018-05-16）
-1124. [通过辩论实现人工智能安全](https://openai.com/index/debate)（2018-05-03）
-1125. [进化的策略梯度](https://openai.com/index/evolved-policy-gradients)（2018-04-18）
-1126. [必须学得快：强化学习泛化的新基准](https://openai.com/index/gotta-learn-fast)（2018-04-10）
-1127. [Retro 竞赛](https://openai.com/index/retro-contest)（2018-04-05）
-1128. [采用与动作相关的分解基线降低策略梯度方差](https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines)（2018-03-20）
-1129. [OpenAI 黑客松报告](https://openai.com/index/hackathon-follow-up)（2018-03-15）
-1130. [利用最优传输改进 GAN](https://openai.com/index/improving-gans-using-optimal-transport)（2018-03-15）
-1131. [论一阶元学习算法](https://openai.com/index/on-first-order-meta-learning-algorithms)（2018-03-08）
-1132. [Reptile：一种可扩展的元学习算法](https://openai.com/index/reptile)（2018-03-07）
-1133. [OpenAI 学者计划](https://openai.com/index/openai-scholars)（2018-03-06）
-1134. [关于通过元强化学习学会探索的若干思考](https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning)（2018-03-03）
-1135. [机器人研究的关键要素](https://openai.com/index/ingredients-for-robotics-research)（2018-02-26）
-1136. [多目标强化学习：富有挑战性的机器人环境与研究征集](https://openai.com/index/multi-goal-reinforcement-learning)（2018-02-26）
-1137. [OpenAI 黑客松](https://openai.com/index/openai-hackathon)（2018-02-22）
-1138. [OpenAI 的支持者](https://openai.com/index/openai-supporters)（2018-02-20）
-1139. [准备应对人工智能的恶意使用](https://openai.com/index/preparing-for-malicious-uses-of-ai)（2018-02-20）
-1140. [通过教学实现可解释的机器学习](https://openai.com/index/interpretable-machine-learning-through-teaching)（2018-02-15）
-1141. [面向实体消歧的类型发现](https://openai.com/index/discovering-types-for-entity-disambiguation)（2018-02-07）
-1142. [研究征集 2.0](https://openai.com/index/requests-for-research-2)（2018-01-31）
-1143. [将 Kubernetes 扩展至 2,500 个节点](https://openai.com/index/scaling-kubernetes-to-2500-nodes)（2018-01-18）
-1144. [块稀疏的 GPU 内核](https://openai.com/index/block-sparse-gpu-kernels)（2017-12-06）
-1145. [利用 L₀ 正则化学习稀疏神经网络](https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization)（2017-12-04）
-1146. [可解释且具教学意义的示例](https://openai.com/index/interpretable-and-pedagogical-examples)（2017-11-02）
-1147. [学会建立层次结构](https://openai.com/index/learning-a-hierarchy)（2017-10-26）
-1148. [从模拟中泛化](https://openai.com/index/generalizing-from-simulation)（2017-10-19）
-1149. [基于图像的机器人学习中的非对称演员评论家方法](https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning)（2017-10-18）
-1150. [通过动力学随机化实现机器人控制的模拟到现实迁移](https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization)（2017-10-18）
-1151. [面向机器人抓取的领域随机化与生成模型](https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping)（2017-10-17）
-1152. [竞争性自我对弈](https://openai.com/index/competitive-self-play)（2017-10-11）
-1153. [摔跤中的元学习](https://openai.com/index/meta-learning-for-wrestling)（2017-10-11）
-1154. [深度线性网络中的非线性计算](https://openai.com/index/nonlinear-computation-in-deep-linear-networks)（2017-09-29）
-1155. [学会对他人的心智建模](https://openai.com/index/learning-to-model-other-minds)（2017-09-14）
-1156. [具备对手学习意识的学习](https://openai.com/index/learning-with-opponent-learning-awareness)（2017-09-13）
-1157. [OpenAI Baselines：ACKTR 与 A2C](https://openai.com/index/openai-baselines-acktr-a2c)（2017-08-18）
-1158. [Dota 2 的更多细节](https://openai.com/index/more-on-dota-2)（2017-08-16）
-1159. [Dota 2](https://openai.com/index/dota-2)（2017-08-11）
-1160. [汇集人类反馈](https://openai.com/index/gathering-human-feedback)（2017-08-03）
-1161. [借助参数噪声改进探索](https://openai.com/index/better-exploration-with-parameter-noise)（2017-07-27）
-1162. [近端策略优化（PPO）](https://openai.com/index/openai-baselines-ppo)（2017-07-20）
-1163. [鲁棒的对抗性输入](https://openai.com/index/robust-adversarial-inputs)（2017-07-17）
-1164. [事后经验回放](https://openai.com/index/hindsight-experience-replay)（2017-07-05）
-1165. [师生式课程学习](https://openai.com/index/teacher-student-curriculum-learning)（2017-07-01）
-1166. [在 Python 中实现更快的物理模拟](https://openai.com/index/faster-physics-in-python)（2017-06-28）
-1167. [基于人类偏好的学习](https://openai.com/index/learning-from-human-preferences)（2017-06-13）
-1168. [学会合作、竞争与沟通](https://openai.com/index/learning-to-cooperate-compete-and-communicate)（2017-06-08）
-1169. [借助 Q 系综实现 UCB 探索](https://openai.com/index/ucb-exploration-via-q-ensembles)（2017-06-05）
-1170. [OpenAI Baselines 中的 DQN](https://openai.com/index/openai-baselines-dqn)（2017-05-24）
-1171. [能够学习的机器人](https://openai.com/index/robots-that-learn)（2017-05-16）
-1172. [Roboschool：机器人学校](https://openai.com/index/roboschool)（2017-05-15）
-1173. [策略梯度与软 Q 学习之间的等价性](https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning)（2017-04-21）
-1174. [面向分层强化学习的随机神经网络](https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning)（2017-04-10）
-1175. [无监督的情感神经元](https://openai.com/index/unsupervised-sentiment-neuron)（2017-04-06）
-1176. [现实世界中的垃圾邮件检测](https://openai.com/index/spam-detection-in-the-physical-world)（2017-04-01）
-1177. [进化策略：强化学习的可扩展替代方案](https://openai.com/index/evolution-strategies)（2017-03-24）
-1178. [单样本模仿学习](https://openai.com/index/one-shot-imitation-learning)（2017-03-21）
-1179. [蒸馏](https://openai.com/index/distill)（2017-03-20）
-1180. [学会沟通](https://openai.com/index/learning-to-communicate)（2017-03-16）
-1181. [多智能体群体中扎根组合语言的涌现](https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations)（2017-03-15）
-1182. [使用时间片段模型进行预测与控制](https://openai.com/index/prediction-and-control-with-temporal-segment-models)（2017-03-12）
-1183. [基于第三人称视角的模仿学习](https://openai.com/index/third-person-imitation-learning)（2017-03-06）
-1184. [用对抗样本攻击机器学习系统](https://openai.com/index/attacking-machine-learning-with-adversarial-examples)（2017-02-24）
-1185. [针对神经网络策略的对抗攻击](https://openai.com/index/adversarial-attacks-on-neural-network-policies)（2017-02-08）
-1186. [团队近况](https://openai.com/index/team-update-january)（2017-01-30）
-1187. [PixelCNN++：用离散逻辑混合似然及其他改动改进 PixelCNN](https://openai.com/index/pixelcnn-plus-plus)（2017-01-19）
-1188. [现实场景中失灵的奖励函数](https://openai.com/index/faulty-reward-functions)（2016-12-21）
-1189. [Universe 平台](https://openai.com/index/universe)（2016-12-05）
-1190. [OpenAI 与微软](https://openai.com/index/openai-and-microsoft)（2016-11-15）
-1191. [#Exploration：深度强化学习中基于计数的探索研究](https://openai.com/index/exploration)（2016-11-15）
-1192. [关于基于解码器生成模型的定量分析](https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models)（2016-11-14）
-1193. [生成对抗网络、逆强化学习和基于能量模型之间的联系](https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models)（2016-11-11）
-1194. [RL²：借助慢速强化学习实现快速强化学习](https://openai.com/index/rl2)（2016-11-09）
-1195. [变分有损自编码器](https://openai.com/index/variational-lossy-autoencoder)（2016-11-08）
-1196. [神经 GPU 的扩展与局限性](https://openai.com/index/extensions-and-limitations-of-the-neural-gpu)（2016-11-02）
-1197. [针对私有训练数据的深度学习半监督知识迁移](https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data)（2016-10-18）
-1198. [来自自组织会议的报告](https://openai.com/index/report-from-the-self-organizing-conference)（2016-10-13）
-1199. [通过学习深度逆动力学模型实现从模拟到现实的迁移](https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model)（2016-10-11）
-1200. [面向深度学习的基础设施](https://openai.com/index/infrastructure-for-deep-learning)（2016-08-29）
-1201. [机器学习自由会议（Unconference）](https://openai.com/index/machine-learning-unconference)（2016-08-18）
-1202. [团队近况](https://openai.com/index/team-update-august)（2016-08-16）
-1203. [特殊项目](https://openai.com/index/special-projects)（2016-07-28）
-1204. [具体的人工智能安全难题](https://openai.com/index/concrete-ai-safety-problems)（2016-06-21）
-1205. [OpenAI 的技术目标](https://openai.com/index/openai-technical-goals)（2016-06-20）
-1206. [生成式模型](https://openai.com/index/generative-models)（2016-06-16）
-1207. [团队近况](https://openai.com/index/team-update)（2016-05-25）
-1208. [面向半监督文本分类的对抗训练方法](https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification)（2016-05-25）
-1209. [OpenAI Gym 公测版](https://openai.com/index/openai-gym-beta)（2016-04-27）
-1210. [欢迎 Pieter 和 Shivon！](https://openai.com/index/welcome-pieter-and-shivon)（2016-04-26）
-1211. [团队++](https://openai.com/index/team-plus-plus)（2016-03-31）
-1212. [权重归一化：加速深度神经网络训练的简单重参数化](https://openai.com/index/weight-normalization)（2016-02-25）
-1213. [隆重介绍 OpenAI](https://openai.com/index/introducing-openai)（2015-12-11）
+975. [GPT-4](https://openai.com/index/gpt-4)（2023-03-14）
+976. [为未来守护语言](https://openai.com/index/government-of-iceland)（2023-03-14）
+977. [变革视觉无障碍](https://openai.com/index/be-my-eyes)（2023-03-14）
+978. [Stripe](https://openai.com/index/stripe)（2023-03-14）
+979. [填补关键的语言学习空白](https://openai.com/index/duolingo)（2023-03-14）
+980. [为课堂虚拟教育赋能](https://openai.com/index/khan-academy)（2023-03-14）
+981. [为 AGI 及更远的未来做规划](https://openai.com/index/planning-for-agi-and-beyond)（2023-02-24）
+982. [人工智能系统应该如何表现，由谁来决定？](https://openai.com/index/how-should-ai-systems-behave)（2023-02-16）
+983. [介绍 ChatGPT Plus](https://openai.com/index/chatgpt-plus)（2023-02-01）
+984. [识别 AI 生成文本的全新 AI 分类器](https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text)（2023-01-31）
+985. [OpenAI 与 Microsoft 扩大合作伙伴关系](https://openai.com/index/openai-and-microsoft-extend-partnership)（2023-01-23）
+986. [预测语言模型被滥用于虚假信息活动的风险及如何降低风险](https://openai.com/index/forecasting-misuse)（2023-01-11）
+987. [从客户反馈中挖掘细致入微的洞察](https://openai.com/index/yabble)（2023-01-04）
+988. [微调 GPT-3 以扩展视频创作](https://openai.com/index/waymark)（2023-01-03）
+989. [打造下一代角色](https://openai.com/index/inworld-ai-DO-NOT-PUBLISH)（2023-01-01）
+990. [持续学习的力量](https://openai.com/index/the-power-of-continuous-learning)（2022-12-23）
+991. [Point-E：从复杂提示生成 3D 点云的系统](https://openai.com/index/point-e)（2022-12-16）
+992. [全新改进的嵌入模型](https://openai.com/index/new-and-improved-embedding-model)（2022-12-15）
+993. [探究后端系统的细枝末节](https://openai.com/index/discovering-the-minutiae-of-backend-systems)（2022-12-08）
+994. [介绍 ChatGPT](https://openai.com/index/chatgpt)（2022-11-30）
+995. [DALL·E API 现已开放公测](https://openai.com/index/dall-e-api-now-available-in-public-beta)（2022-11-03）
+996. [奖励模型过度优化的缩放定律](https://openai.com/index/scaling-laws-for-reward-model-overoptimization)（2022-10-19）
+997. [DALL·E 现已开放，无需排队等候](https://openai.com/index/dall-e-now-available-without-waitlist)（2022-09-28）
+998. [Whisper 简介](https://openai.com/index/whisper)（2022-09-21）
+999. [DALL·E：推出外画功能](https://openai.com/index/dall-e-introducing-outpainting)（2022-08-31）
+1000. [我们开展对齐研究的方法](https://openai.com/index/our-approach-to-alignment-research)（2022-08-24）
+1001. [全新升级的内容审核工具](https://openai.com/index/new-and-improved-content-moderation-tooling)（2022-08-10）
+1002. [高效训练语言模型以实现中间填充](https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle)（2022-07-28）
+1003. [面向代码合成大语言模型的危害分析框架](https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models)（2022-07-25）
+1004. [DALL·E 现已推出测试版](https://openai.com/index/dall-e-now-available-in-beta)（2022-07-20）
+1005. [减少 DALL·E 2 中的偏见并提升安全性](https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2)（2022-07-18）
+1006. [DALL·E 2：拓展创造力](https://openai.com/index/dall-e-2-extending-creativity)（2022-07-14）
+1007. [DALL·E 2 预训练缓解措施](https://openai.com/index/dall-e-2-pre-training-mitigations)（2022-06-28）
+1008. [通过 Video PreTraining 学习玩 Minecraft](https://openai.com/index/vpt)（2022-06-23）
+1009. [大型模型的演进](https://openai.com/index/evolution-through-large-models)（2022-06-17）
+1010. [AI 撰写的评论帮助人类发现缺陷](https://openai.com/index/critiques)（2022-06-13）
+1011. [训练大型神经网络的技术](https://openai.com/index/techniques-for-training-large-neural-networks)（2022-06-09）
+1012. [部署语言模型的最佳实践](https://openai.com/index/best-practices-for-deploying-language-models)（2022-06-02）
+1013. [教会模型用语言表达不确定性](https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words)（2022-05-28）
+1014. [用 OpenAI Codex 为下一代应用提供动力](https://openai.com/index/codex-apps)（2022-05-24）
+1015. [DALL·E 2 研究预览更新](https://openai.com/index/dall-e-2-update)（2022-05-18）
+1016. [OpenAI 领导团队更新](https://openai.com/index/leadership-team-update)（2022-05-05）
+1017. [基于 CLIP 潜变量的分层文本条件图像生成](https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents)（2022-04-13）
+1018. [衡量 Goodhart 定律](https://openai.com/index/measuring-goodharts-law)（2022-04-13）
+1019. [GPT-3 新功能：编辑与插入](https://openai.com/index/gpt-3-edit-insert)（2022-03-15）
+1020. [评估代码生成模型经济影响的研究议程](https://openai.com/index/economic-impacts-research)（2022-03-03）
+1021. [OpenAI 的经济影响研究](https://openai.com/index/economic-impacts)（2022-03-03）
+1022. [语言模型安全与滥用的经验教训](https://openai.com/index/language-model-safety-and-misuse)（2022-03-03）
+1023. [求解（部分）形式化数学奥林匹克问题](https://openai.com/index/formal-math)（2022-02-02）
+1024. [让语言模型学会遵循指令](https://openai.com/index/instruction-following)（2022-01-27）
+1025. [推出文本和代码嵌入](https://openai.com/index/introducing-text-and-code-embeddings)（2022-01-25）
+1026. [通过对比预训练实现文本与代码嵌入](https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training)（2022-01-24）
+1027. [WebGPT：通过网页浏览提升语言模型的事实准确性](https://openai.com/index/webgpt)（2021-12-16）
+1028. [为你的应用定制 GPT-3](https://openai.com/index/customizing-gpt-3)（2021-12-14）
+1029. [OpenAI 驻留计划](https://openai.com/index/openai-residency)（2021-11-30）
+1030. [OpenAI 的 API 现已开放，无需排队](https://openai.com/index/api-no-waitlist)（2021-11-18）
+1031. [求解数学应用题](https://openai.com/index/solving-math-word-problems)（2021-10-29）
+1032. [根据人类反馈总结书籍](https://openai.com/index/summarizing-books)（2021-09-23）
+1033. [TruthfulQA：衡量模型如何模仿人类的虚假说法](https://openai.com/index/truthfulqa)（2021-09-08）
+1034. [Helen Toner 加入 OpenAI 董事会](https://openai.com/index/helen-toner-joins)（2021-09-08）
+1035. [OpenAI Codex](https://openai.com/index/openai-codex)（2021-08-10）
+1036. [Triton 简介：面向神经网络的开源 GPU 编程](https://openai.com/index/triton)（2021-07-28）
+1037. [评估在代码上训练的大语言模型](https://openai.com/index/evaluating-large-language-models-trained-on-code)（2021-07-07）
+1038. [通过在精选数据集上训练来改进语言模型行为](https://openai.com/index/improving-language-model-behavior)（2021-06-10）
+1039. [OpenAI Scholars 2021：期末项目](https://openai.com/index/openai-scholars-2021-final-projects)（2021-05-10）
+1040. [Will Hurd 加入 OpenAI 董事会](https://openai.com/index/will-hurd-joins)（2021-05-03）
+1041. [GPT-3 驱动下一代应用](https://openai.com/index/gpt-3-apps)（2021-03-25）
+1042. [人工神经网络中的多模态神经元](https://openai.com/index/multimodal-neurons)（2021-03-04）
+1043. [理解大语言模型的能力、局限与社会影响](https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models)（2021-02-04）
+1044. [将 Kubernetes 扩展到 7,500 个节点](https://openai.com/index/scaling-kubernetes-to-7500-nodes)（2021-01-25）
+1045. [CLIP：连接文本与图像](https://openai.com/index/clip)（2021-01-05）
+1046. [DALL·E：从文本创建图像](https://openai.com/index/dall-e)（2021-01-05）
+1047. [OpenAI 的组织架构更新](https://openai.com/index/organizational-update)（2020-12-29）
+1048. [OpenAI 将 GPT-3 技术授权给微软](https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft)（2020-09-22）
+1049. [面向自动定理证明的生成式语言建模](https://openai.com/index/generative-language-modeling-for-automated-theorem-proving)（2020-09-07）
+1050. [学习根据人类反馈进行总结](https://openai.com/index/learning-to-summarize-with-human-feedback)（2020-09-04）
+1051. [OpenAI Scholars 2020：期末项目](https://openai.com/index/openai-scholars-2020-final-projects)（2020-07-09）
+1052. [Procgen 与 MineRL 竞赛](https://openai.com/index/procgen-minerl-competitions)（2020-06-20）
+1053. [图像 GPT](https://openai.com/index/image-gpt)（2020-06-17）
+1054. [OpenAI 的 API](https://openai.com/index/openai-api)（2020-06-11）
+1055. [语言模型是少样本学习者](https://openai.com/index/language-models-are-few-shot-learners)（2020-05-28）
+1056. [人工智能与效率](https://openai.com/index/ai-and-efficiency)（2020-05-05）
+1057. [Jukebox 音乐生成模型](https://openai.com/index/jukebox)（2020-04-30）
+1058. [提升 AI 开发的可验证性](https://openai.com/index/improving-verifiability)（2020-04-16）
+1059. [OpenAI Microscope 可视化工具](https://openai.com/index/microscope)（2020-04-14）
+1060. [OpenAI 全面转向 PyTorch](https://openai.com/index/openai-pytorch)（2020-01-30）
+1061. [神经语言模型的缩放定律](https://openai.com/index/scaling-laws-for-neural-language-models)（2020-01-23）
+1062. [用大规模深度强化学习玩 Dota 2](https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning)（2019-12-13）
+1063. [深度双重下降](https://openai.com/index/deep-double-descent)（2019-12-05）
+1064. [Procgen 基准](https://openai.com/index/procgen-benchmark)（2019-12-03）
+1065. [Safety Gym 安全强化学习工具包](https://openai.com/index/safety-gym)（2019-11-21）
+1066. [深度强化学习中安全探索的基准测试](https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning)（2019-11-21）
+1067. [GPT-2：1.5B 版本发布](https://openai.com/index/gpt-2-1-5b-release)（2019-11-05）
+1068. [用机器人手还原魔方](https://openai.com/index/solving-rubiks-cube)（2019-10-15）
+1069. [OpenAI Scholars 2020：开放申请](https://openai.com/index/openai-scholars-2020)（2019-10-11）
+1070. [根据人类偏好微调 GPT-2](https://openai.com/index/fine-tuning-gpt-2)（2019-09-19）
+1071. [多智能体交互中涌现的工具使用](https://openai.com/index/emergent-tool-use)（2019-09-17）
+1072. [测试针对未知对手的鲁棒性](https://openai.com/index/testing-robustness)（2019-08-22）
+1073. [GPT-2：6-month 后续跟进](https://openai.com/index/gpt-2-6-month-follow-up)（2019-08-20）
+1074. [学习日](https://openai.com/index/learning-day)（2019-08-01）
+1075. [微软投资并与 OpenAI 合作，支持我们构建有益的 AGI](https://openai.com/index/microsoft-invests-in-and-partners-with-openai)（2019-07-22）
+1076. [为什么负责任的 AI 发展需要安全方面的合作](https://openai.com/index/cooperation-on-safety)（2019-07-10）
+1077. [2019 OpenAI 机器人研讨会](https://openai.com/index/symposium-2019)（2019-06-05）
+1078. [OpenAI Scholars 2019：期末项目](https://openai.com/index/openai-scholars-2019-final-projects)（2019-05-23）
+1079. [OpenAI Fellows 2018 秋季：最终项目](https://openai.com/index/openai-fellows-fall-2018)（2019-05-17）
+1080. [不同扰动类型之间对抗鲁棒性的迁移](https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types)（2019-05-03）
+1081. [MuseNet 音乐生成模型](https://openai.com/index/musenet)（2019-04-25）
+1082. [基于稀疏 transformers 的生成建模](https://openai.com/index/sparse-transformer)（2019-04-23）
+1083. [OpenAI Five 击败 Dota 2 世界冠军](https://openai.com/index/openai-five-defeats-dota-2-world-champions)（2019-04-15）
+1084. [OpenAI Five 决赛](https://openai.com/index/openai-five-finals)（2019-03-26）
+1085. [基于能量模型的隐式生成与泛化方法](https://openai.com/index/energy-based-models)（2019-03-21）
+1086. [OpenAI Scholars 2019：认识我们的学者](https://openai.com/index/openai-scholars-2019-meet-our-scholars)（2019-03-13）
+1087. [OpenAI LP 公司](https://openai.com/index/openai-lp)（2019-03-11）
+1088. [推出 Activation Atlases](https://openai.com/index/introducing-activation-atlases)（2019-03-06）
+1089. [Neural MMO：大规模多智能体游戏环境](https://openai.com/index/neural-mmo)（2019-03-04）
+1090. [Spinning Up in Deep RL：研讨会回顾](https://openai.com/index/spinning-up-in-deep-rl-workshop-review)（2019-02-26）
+1091. [AI 安全需要社会科学家](https://openai.com/index/ai-safety-needs-social-scientists)（2019-02-19）
+1092. [更好的语言模型及其影响](https://openai.com/index/better-language-models)（2019-02-14）
+1093. [鲁棒分类与双赢结果的计算局限](https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results)（2019-02-04）
+1094. [OpenAI Fellows 2018 夏季：最终项目](https://openai.com/index/openai-summer-fellows-2018)（2018-12-19）
+1095. [AI 训练如何扩展](https://openai.com/index/how-ai-training-scales)（2018-12-14）
+1096. [量化强化学习中的泛化](https://openai.com/index/quantifying-generalization-in-reinforcement-learning)（2018-12-06）
+1097. [Spinning Up in Deep RL 项目](https://openai.com/index/spinning-up-in-deep-rl)（2018-11-08）
+1098. [用能量函数学习概念](https://openai.com/index/learning-concepts-with-energy-functions)（2018-11-07）
+1099. [在线规划，离线学习：基于模型的控制实现高效学习与探索](https://openai.com/index/plan-online-learn-offline)（2018-11-05）
+1100. [基于预测奖励的强化学习](https://openai.com/index/reinforcement-learning-with-prediction-based-rewards)（2018-10-31）
+1101. [通过迭代放大学习复杂目标](https://openai.com/index/learning-complex-goals-with-iterated-amplification)（2018-10-22）
+1102. [OpenAI Scholars 2019：开放申请](https://openai.com/index/openai-scholars-2019)（2018-10-11）
+1103. [OpenAI Fellows 2019 冬季与 Interns 2019 夏季](https://openai.com/index/openai-fellows-interns-2019)（2018-10-09）
+1104. [FFJORD：面向可扩展可逆生成模型的自由形式连续动力学](https://openai.com/index/ffjord)（2018-10-02）
+1105. [OpenAI Scholars 2018：期末项目](https://openai.com/index/openai-scholars-2018-final-projects)（2018-09-10）
+1106. [The International 2018：比赛结果](https://openai.com/index/the-international-2018-results)（2018-08-23）
+1107. [好奇心驱动学习的大规模研究](https://openai.com/index/large-scale-study-of-curiosity-driven-learning)（2018-08-13）
+1108. [OpenAI Five 基准测试：结果](https://openai.com/index/openai-five-benchmark-results)（2018-08-06）
+1109. [学习灵巧操作](https://openai.com/index/learning-dexterity)（2018-07-30）
+1110. [变分选项发现算法](https://openai.com/index/variational-option-discovery-algorithms)（2018-07-26）
+1111. [OpenAI Scholars 2018：认识我们的学者](https://openai.com/index/openai-scholars-2018-meet-our-scholars)（2018-07-25）
+1112. [OpenAI Five 基准测试](https://openai.com/index/openai-five-benchmark)（2018-07-18）
+1113. [Glow：更好的可逆生成模型](https://openai.com/index/glow)（2018-07-09）
+1114. [通过一次演示学习《Montezuma's Revenge》](https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration)（2018-07-04）
+1115. [OpenAI Five 战队](https://openai.com/index/openai-five)（2018-06-25）
+1116. [Retro Contest：比赛结果](https://openai.com/index/retro-contest-results)（2018-06-22）
+1117. [学习多智能体系统中的策略表示](https://openai.com/index/learning-policy-representations-in-multiagent-systems)（2018-06-17）
+1118. [通过无监督学习提升语言理解](https://openai.com/index/language-unsupervised)（2018-06-11）
+1119. [GamePad：定理证明的学习环境](https://openai.com/index/gamepad)（2018-06-02）
+1120. [OpenAI 研究员项目 2018 年秋季](https://openai.com/index/openai-fellows)（2018-05-30）
+1121. [Gym Retro：复古游戏环境](https://openai.com/index/gym-retro)（2018-05-25）
+1122. [人工智能与算力](https://openai.com/index/ai-and-compute)（2018-05-16）
+1123. [通过辩论实现人工智能安全](https://openai.com/index/debate)（2018-05-03）
+1124. [进化的策略梯度](https://openai.com/index/evolved-policy-gradients)（2018-04-18）
+1125. [必须学得快：强化学习泛化的新基准](https://openai.com/index/gotta-learn-fast)（2018-04-10）
+1126. [Retro 竞赛](https://openai.com/index/retro-contest)（2018-04-05）
+1127. [采用与动作相关的分解基线降低策略梯度方差](https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines)（2018-03-20）
+1128. [OpenAI 黑客松报告](https://openai.com/index/hackathon-follow-up)（2018-03-15）
+1129. [利用最优传输改进 GAN](https://openai.com/index/improving-gans-using-optimal-transport)（2018-03-15）
+1130. [论一阶元学习算法](https://openai.com/index/on-first-order-meta-learning-algorithms)（2018-03-08）
+1131. [Reptile：一种可扩展的元学习算法](https://openai.com/index/reptile)（2018-03-07）
+1132. [OpenAI 学者计划](https://openai.com/index/openai-scholars)（2018-03-06）
+1133. [关于通过元强化学习学会探索的若干思考](https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning)（2018-03-03）
+1134. [机器人研究的关键要素](https://openai.com/index/ingredients-for-robotics-research)（2018-02-26）
+1135. [多目标强化学习：富有挑战性的机器人环境与研究征集](https://openai.com/index/multi-goal-reinforcement-learning)（2018-02-26）
+1136. [OpenAI 黑客松](https://openai.com/index/openai-hackathon)（2018-02-22）
+1137. [OpenAI 的支持者](https://openai.com/index/openai-supporters)（2018-02-20）
+1138. [准备应对人工智能的恶意使用](https://openai.com/index/preparing-for-malicious-uses-of-ai)（2018-02-20）
+1139. [通过教学实现可解释的机器学习](https://openai.com/index/interpretable-machine-learning-through-teaching)（2018-02-15）
+1140. [面向实体消歧的类型发现](https://openai.com/index/discovering-types-for-entity-disambiguation)（2018-02-07）
+1141. [研究征集 2.0](https://openai.com/index/requests-for-research-2)（2018-01-31）
+1142. [将 Kubernetes 扩展至 2,500 个节点](https://openai.com/index/scaling-kubernetes-to-2500-nodes)（2018-01-18）
+1143. [块稀疏的 GPU 内核](https://openai.com/index/block-sparse-gpu-kernels)（2017-12-06）
+1144. [利用 L₀ 正则化学习稀疏神经网络](https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization)（2017-12-04）
+1145. [可解释且具教学意义的示例](https://openai.com/index/interpretable-and-pedagogical-examples)（2017-11-02）
+1146. [学会建立层次结构](https://openai.com/index/learning-a-hierarchy)（2017-10-26）
+1147. [从模拟中泛化](https://openai.com/index/generalizing-from-simulation)（2017-10-19）
+1148. [基于图像的机器人学习中的非对称演员评论家方法](https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning)（2017-10-18）
+1149. [通过动力学随机化实现机器人控制的模拟到现实迁移](https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization)（2017-10-18）
+1150. [面向机器人抓取的领域随机化与生成模型](https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping)（2017-10-17）
+1151. [竞争性自我对弈](https://openai.com/index/competitive-self-play)（2017-10-11）
+1152. [摔跤中的元学习](https://openai.com/index/meta-learning-for-wrestling)（2017-10-11）
+1153. [深度线性网络中的非线性计算](https://openai.com/index/nonlinear-computation-in-deep-linear-networks)（2017-09-29）
+1154. [学会对他人的心智建模](https://openai.com/index/learning-to-model-other-minds)（2017-09-14）
+1155. [具备对手学习意识的学习](https://openai.com/index/learning-with-opponent-learning-awareness)（2017-09-13）
+1156. [OpenAI Baselines：ACKTR 与 A2C](https://openai.com/index/openai-baselines-acktr-a2c)（2017-08-18）
+1157. [Dota 2 的更多细节](https://openai.com/index/more-on-dota-2)（2017-08-16）
+1158. [Dota 2](https://openai.com/index/dota-2)（2017-08-11）
+1159. [汇集人类反馈](https://openai.com/index/gathering-human-feedback)（2017-08-03）
+1160. [借助参数噪声改进探索](https://openai.com/index/better-exploration-with-parameter-noise)（2017-07-27）
+1161. [近端策略优化（PPO）](https://openai.com/index/openai-baselines-ppo)（2017-07-20）
+1162. [鲁棒的对抗性输入](https://openai.com/index/robust-adversarial-inputs)（2017-07-17）
+1163. [事后经验回放](https://openai.com/index/hindsight-experience-replay)（2017-07-05）
+1164. [师生式课程学习](https://openai.com/index/teacher-student-curriculum-learning)（2017-07-01）
+1165. [在 Python 中实现更快的物理模拟](https://openai.com/index/faster-physics-in-python)（2017-06-28）
+1166. [基于人类偏好的学习](https://openai.com/index/learning-from-human-preferences)（2017-06-13）
+1167. [学会合作、竞争与沟通](https://openai.com/index/learning-to-cooperate-compete-and-communicate)（2017-06-08）
+1168. [借助 Q 系综实现 UCB 探索](https://openai.com/index/ucb-exploration-via-q-ensembles)（2017-06-05）
+1169. [OpenAI Baselines 中的 DQN](https://openai.com/index/openai-baselines-dqn)（2017-05-24）
+1170. [能够学习的机器人](https://openai.com/index/robots-that-learn)（2017-05-16）
+1171. [Roboschool：机器人学校](https://openai.com/index/roboschool)（2017-05-15）
+1172. [策略梯度与软 Q 学习之间的等价性](https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning)（2017-04-21）
+1173. [面向分层强化学习的随机神经网络](https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning)（2017-04-10）
+1174. [无监督的情感神经元](https://openai.com/index/unsupervised-sentiment-neuron)（2017-04-06）
+1175. [现实世界中的垃圾邮件检测](https://openai.com/index/spam-detection-in-the-physical-world)（2017-04-01）
+1176. [进化策略：强化学习的可扩展替代方案](https://openai.com/index/evolution-strategies)（2017-03-24）
+1177. [单样本模仿学习](https://openai.com/index/one-shot-imitation-learning)（2017-03-21）
+1178. [蒸馏](https://openai.com/index/distill)（2017-03-20）
+1179. [学会沟通](https://openai.com/index/learning-to-communicate)（2017-03-16）
+1180. [多智能体群体中扎根组合语言的涌现](https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations)（2017-03-15）
+1181. [使用时间片段模型进行预测与控制](https://openai.com/index/prediction-and-control-with-temporal-segment-models)（2017-03-12）
+1182. [基于第三人称视角的模仿学习](https://openai.com/index/third-person-imitation-learning)（2017-03-06）
+1183. [用对抗样本攻击机器学习系统](https://openai.com/index/attacking-machine-learning-with-adversarial-examples)（2017-02-24）
+1184. [针对神经网络策略的对抗攻击](https://openai.com/index/adversarial-attacks-on-neural-network-policies)（2017-02-08）
+1185. [团队近况](https://openai.com/index/team-update-january)（2017-01-30）
+1186. [PixelCNN++：用离散逻辑混合似然及其他改动改进 PixelCNN](https://openai.com/index/pixelcnn-plus-plus)（2017-01-19）
+1187. [现实场景中失灵的奖励函数](https://openai.com/index/faulty-reward-functions)（2016-12-21）
+1188. [Universe 平台](https://openai.com/index/universe)（2016-12-05）
+1189. [OpenAI 与微软](https://openai.com/index/openai-and-microsoft)（2016-11-15）
+1190. [#Exploration：深度强化学习中基于计数的探索研究](https://openai.com/index/exploration)（2016-11-15）
+1191. [关于基于解码器生成模型的定量分析](https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models)（2016-11-14）
+1192. [生成对抗网络、逆强化学习和基于能量模型之间的联系](https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models)（2016-11-11）
+1193. [RL²：借助慢速强化学习实现快速强化学习](https://openai.com/index/rl2)（2016-11-09）
+1194. [变分有损自编码器](https://openai.com/index/variational-lossy-autoencoder)（2016-11-08）
+1195. [神经 GPU 的扩展与局限性](https://openai.com/index/extensions-and-limitations-of-the-neural-gpu)（2016-11-02）
+1196. [针对私有训练数据的深度学习半监督知识迁移](https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data)（2016-10-18）
+1197. [来自自组织会议的报告](https://openai.com/index/report-from-the-self-organizing-conference)（2016-10-13）
+1198. [通过学习深度逆动力学模型实现从模拟到现实的迁移](https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model)（2016-10-11）
+1199. [面向深度学习的基础设施](https://openai.com/index/infrastructure-for-deep-learning)（2016-08-29）
+1200. [机器学习自由会议（Unconference）](https://openai.com/index/machine-learning-unconference)（2016-08-18）
+1201. [团队近况](https://openai.com/index/team-update-august)（2016-08-16）
+1202. [特殊项目](https://openai.com/index/special-projects)（2016-07-28）
+1203. [具体的人工智能安全难题](https://openai.com/index/concrete-ai-safety-problems)（2016-06-21）
+1204. [OpenAI 的技术目标](https://openai.com/index/openai-technical-goals)（2016-06-20）
+1205. [生成式模型](https://openai.com/index/generative-models)（2016-06-16）
+1206. [团队近况](https://openai.com/index/team-update)（2016-05-25）
+1207. [面向半监督文本分类的对抗训练方法](https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification)（2016-05-25）
+1208. [OpenAI Gym 公测版](https://openai.com/index/openai-gym-beta)（2016-04-27）
+1209. [欢迎 Pieter 和 Shivon！](https://openai.com/index/welcome-pieter-and-shivon)（2016-04-26）
+1210. [团队++](https://openai.com/index/team-plus-plus)（2016-03-31）
+1211. [权重归一化：加速深度神经网络训练的简单重参数化](https://openai.com/index/weight-normalization)（2016-02-25）
+1212. [隆重介绍 OpenAI](https://openai.com/index/introducing-openai)（2015-12-11）
